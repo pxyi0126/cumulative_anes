@@ -1,13 +1,10 @@
-2016 ANES Time Series Study
-GENERAL SURVEY VARIABLES
 1
-version
-Version of ANES 2016 Time Series release
 2
 V160001
 2016 Case ID
 3
-V160001_orig Original (6-digit) Westat Case ID
+V160001_orig
+Original (6-digit) Westat Case ID
 Pre-election weight -full sample
 4
 V160101
