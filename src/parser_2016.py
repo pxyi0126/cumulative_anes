@@ -1,11 +1,15 @@
 # %%
 import re
 import pandas as pd
+import os
+
+os.chdir("/Users/yipho/anes/cumulative_anes/data")
 
 var_list = []
 sum_list = []
 cntr_list = []
 # %%
+
 with open("2016_vars.txt", "r") as f:
     for line in f:
         cntr_pattern= r'^(\d+)'
@@ -32,6 +36,7 @@ print(sum_list)
 print(len(sum_list)) #1964
 filter_sum = [x for x in sum_list if x != '']
 print(len(filter_sum)) #1842...??
+print(filter_sum[-3:])
 # %%
 df2016 = pd.DataFrame(list(zip(filter_cntr, filter_var, filter_sum)),
                       columns = ['index', 'variable', 'question'])
@@ -44,9 +49,3 @@ csv2016
 read_file = pd.read_csv("parsed_2016.csv")
 read_file.to_excel("parsed_2016.xlsx", index=None, header=True)
 # %%
-# I now need to check if the parsed and original lists match
-import pandas as pd
-data2 = pd.read_excel("2016_orig.xlsx")
-data1 = pd.read_excel("anes_2016_vars.xlsx")
-
-data2

@@ -9,6 +9,7 @@ df20162.to_csv("2016_var.csv", index=False)
 col1 = df2016["variable"].astype(str).tolist()
 col2 = df20162['version'].astype(str).tolist()
 
+
 diff = difflib.unified_diff(col1, col2, fromfile='parsed_2016.csv', tofile="2016_var.csv")
 for line in diff:
     print(line)
