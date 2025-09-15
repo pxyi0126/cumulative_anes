@@ -1,0 +1,48 @@
+V168514
+CAND. Other party name of Senator not running in state with Senate race
+1829
+V168515
+CAND. Type of House race
+1830
+V168516
+CAND. Name of Democratic House candidate
+1831
+V168517
+CAND. Gender of Democratic House candidate
+1832
+V168518
+CAND. Name of Republican House candidate
+1833
+V168519
+CAND. Gender of Republican House candidate
+1834
+V168520
+
+
+
+
+
+CAND. Name of other (3rd) House candidate
+1835
+V168521
+CAND. Gender of other (3rd) House candidate
+1836
+V168522
+CAND. Party of other (3rd) House candidate
+1837
+V168523
+CAND. Type of Gubernatorial race
+1838
+V168524
+CAND. Name of Democratic gubernatorial candidate
+1839
+V168525
+CAND. Gender of Democratic gubernatorial candidate
+1840
+V168526
+CAND. Name of Republican gubernatorial candidate
+1841
+V168527
+CAND. Gender of Republican gubernatorial candidate
+1842
+V168528
