@@ -47,7 +47,6 @@ V160501
 Completed Pre only or completed Pre and Post interviews
 17
 V160502
-PRE-ELECTION VARIABLES
 PRE: FTF ONLY: Audio Consent
 18
 V161001
@@ -2047,7 +2046,6 @@ V161522
 PRE WEB ONLY: RESTRICTED R comments
 668
 V161523
-POST-ELECTION VARIABLES
 POST: FTF ONLY: Audio recording consent
 669
 V162001
@@ -2574,7 +2572,7 @@ POST: Most Important Problem - Mention 1, Idea 10
 POST: Party to deal with mention 1 MIP
 POST: Mention 2 most important problems facing the country
 
-841
+841
 842
 843
 844
@@ -3506,7 +3504,6 @@ V162370
 V162371a
 1153
 V162371b
-SAMPLE VARIABLES
 1154
 V163001a
 1155
@@ -3525,7 +3522,6 @@ V163006
 V163007
 1162
 V163008
-PRE ADMIN VARIABLES
 1163
 V164001a
 1164
@@ -3628,7 +3624,6 @@ V164012
 PRE ADMIN: Internet respondent incentive paid (pre-election)
 1180
 V164013
-POST ADMIN VARIABLES
 POST ADMIN: Post Web device logins: smartTV
 1181
 V165001a
@@ -3671,7 +3666,6 @@ V165008
 POST ADMIN: Internet respondent incentive paid (post-election)
 1194
 V165009
-FTF SCREENER VARIABLES
 FTF SCREENER: Initial incentive offer [V164008 expanded for full FTF sample]
 1195
 V165500
@@ -3859,7 +3853,7 @@ FTF SCREENER: ELIG_CKAGE. Roster 6 age check
 FTF SCREENER: SCRN_CIT. Roster 6 citizenship
 FTF SCREENER: SCRN_EDUC. Roster 6 education
 
-1256
+1256
 1257
 1258
 1259
@@ -4009,7 +4003,6 @@ V165608
 FTF SCREENER: Screener R selected for Pre
 1304
 V165609
-WEB SCREENER VARIABLES
 WEB SCREENER: Screener completed
 1305
 V165700
@@ -4347,7 +4340,6 @@ V165809
 WEB SCREENER: Screener R selected for Pre
 1415
 V165810
-RANDOMIZATION VARIABLES
 RANDOM: Assignment to forward or reverse response options for selected questions
 1416
 V166001
@@ -5054,7 +5046,6 @@ V166230
 RANDOM: Order of discrimination social groups (DISCRIM) - 10th
 1646
 V166231
-DWELLING UNIT OBSERVATIONS
 FTF ONLY: Dwelling Unit (DU) completed
 1647
 V167500
@@ -5142,7 +5133,7 @@ FTF ONLY: DU8C. What security technology is present? (1st)
 FTF ONLY: DU8C. What security technology is present? (2nd)
 FTF ONLY: DU8C. What security technology is present? (3rd)
 
-FTF ONLY: DU8C. What security technology is present? (4th)
+FTF ONLY: DU8C. What security technology is present? (4th)
 FTF ONLY: DU8C. What security technology is present? (5th)
 FTF ONLY: DU8C. What security technology is present? (6th)
 FTF ONLY: DU9. What type of structure is this?
@@ -5173,11 +5164,9 @@ FTF ONLY: DU15. Which are present within sight of housing unit? (6th)
 FTF ONLY: DU15. Which are present within sight of housing unit? (7th)
 FTF ONLY: DU15. Which are present within sight of housing unit? (8th)
 FTF ONLY: DU15. Which are present within sight of housing unit? (9th)
-FTF ONLY: DU16. Relative to the other buildings on the road, is the physical condition of the building
-better, worse or the same?
+FTF ONLY: DU16. Relative to the other buildings on the road, is the physical condition of the building better, worse or the same?
 1705
 V167558
-PRE INTERVIEWER OBSERVATIONS
 FTF ONLY: Pre IWR Obs- IWR obs module completed (after Pre-election IW)
 1706
 V168000
@@ -5365,7 +5354,6 @@ V168039
 FTF ONLY: Pre IWR Obs- Did IWR enter any CASI answers
 1746
 V168040
-POST INTERVIEWER OBSERVATIONS
 FTF ONLY: Post IWR Obs- IWR obs module completed (after Post-election IW)
 1747
 V168100
@@ -5466,7 +5454,6 @@ V168131
 FTF ONLY: Post IWR Obs- Did IWR enter any CASI responses
 1779
 V168132
-PRE INTERVIEWER DESCRIPTION VARIABLES
 PRE IWR DESCR: FTF ONLY: IWR agree to description module
 1780
 V168250
@@ -5518,7 +5505,6 @@ V168265
 PRE IWR DESCR: FTF ONLY: RESTRICTED: two or more racial groups
 1796
 V168266
-POST INTERVIEWER DESCRIPTION VARIABLES
 POST IWR DESCR: FTF ONLY: IWR agree to description module
 1797
 V168300
@@ -5571,7 +5557,6 @@ V168315
 POST IWR DESCR: FTF ONLY: RESTRICTED: two or more racial groups
 1813
 V168316
-CANDIDATES AND RACES
 CAND. Type of Senate race
 1814
 V168500
