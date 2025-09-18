@@ -1,0 +1,75 @@
+THIS FILE IS:  anes_timeseries_2008_codebook_pre.txt  (pre-election variable
+documentation file)
+RELEASE VERSION:  20150519
+
+=============================================================================
+V080001    ID.1. CASE ID
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CASE ID
+-----------------------------------------------------------------
+
+VALID CODES:
+-----------
+Range: 0001-261,263-2323
+
+NOTES:
+-----
+Case 0262 was dropped from the dataset as an incomplete.
+
+TYPE:
+----
+Numeric
+
+=============================================================================
+V080101    WT.1. PRE CROSS-SECTION SAMPLE WEIGHT - POST-STRAT, centered
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION WAVE, POST-STRATIFIED:
+centered at mean 1.0
+-----------------------------------------------------------------
+
+NOTES:
+-----
+Use of sample weighting is necessary for a representative
+cross-section. For the Pre-election and Post-election waves
+of the ANES 2008 Time Series Study, either WT.1 and WT.2
+may be used (weights centered at a mean of 1.0), or else
+WT.1a and WT.2a (not centered).
+Using V080101, the integer [rounded] value of the sum of
+cases equals the pre-election unweighted number of cases,
+2,322.
+
+TYPE:
+----
+Numeric   4
+
+=============================================================================
+V080101a    WT.1. PRE CROSS-SECTION SAMPLE WEIGHT - POST-STRATIFIED
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION WAVE, POST-STRATIFIED
+-----------------------------------------------------------------
+
+NOTES:
+-----
+Use of sample weighting is necessary for a representative
+cross-section. For the Pre-election and Post-election waves
+of the ANES 2008 Time Series Study, either WT.1 and WT.2
+may be used (weights centered at a mean of 1.0), or else
+WT.1a and WT.2a (not centered).
+
+TYPE:
+----
+Numeric   4
+
+=============================================================================
