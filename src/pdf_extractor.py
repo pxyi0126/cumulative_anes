@@ -24,3 +24,9 @@ def pdf_extract(file_path):
 files = glob.glob("data/pdf_data/*.pdf", recursive=True)
 for file in files:
     pdf_extract(file)
+
+
+    #need three things in three columns
+    #1. Variable
+    #2. valid values
+    #3. missing values
