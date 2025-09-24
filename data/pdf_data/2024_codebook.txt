@@ -1,591 +1,10 @@
-ANES 2024 Time Series Study
-Full Release
-User Guide and Codebook
-August 8, 2025
-
-iii
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .7
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .8
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .17
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .19
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .19
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .20
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .24
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .327
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .597
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .599
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .602
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .602
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .651
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .655
-Contents
-Acknowledgments
-USER GUIDE
-How to Cite the Study
-Current Release
-Sample Design
-Respondent recruitment and retention
-Data Collection
-Response Rates
-Restricted Data Access
-Data Analysis, Weights, and Variance Estimation
-Orientation to the Data and Documentation
-CODEBOOK: VARIABLES
-GENERAL NON-SURVEY VARIABLES
-WEIGHTING VARIABLES
-PRE- ELECTION SURVEY VARIABLES
-POST-ELECTION SURVEY VARIABLES
-SAMPLE VARIABLES
-ADMINISTRATIVE VARIABLES
-SCREENER VARIABLES
-RANDOMIZATION VARIABLES
-INTERVIEWER DESCRIPTION VARIABLES
-APPENDIX A: RELIGION CODES
-Acknowledgments
-The National Science Foundation funded the study through a grant to the
-University of Michigan (grant no. SES-2209438).
-ANES Principal Investigators and staﬀ designed the study and supervised data
-collection with input from the ANES advisory board and user community. The
-Principal Investigators were Nicholas Valentino at the University of Michigan and
-Shanto Iyengar at Stanford University. The Associate Principal Investigators were
-Sunshine Hillygus at Duke University and Daron Shaw at the University of Texas at
-Austin.
-David Howell (University of Michigan) and Matthew DeBell (Stanford University)
-served as the study directors. The ANES staﬀ on the project included Elora
-Choudhury, Lauren Guggenheim, Sang-Jung Han, Laurie Pierson, Rachel Smilan-
-Goldstein, and Jaime Ventura. Graduate student contributors were Avery Goods,
-Francy Luna Diaz, and Clinton Willbanks, while undergraduate support was
-provided by Junjie Li, Mallory Moore, and Phoebe Yi.
-Data collection was performed by the Survey Research Operations (SRO) unit at
-the University of Michigan’s Survey Research Center (SRC), with support from
-SRC faculty. SRO developed the sampling plan and collaborated with ANES
-personnel on other aspects of the study’s technical design. Lead personnel on the
-project at SRO included Andrew Hupp, Grant Benson, Paul Burton, Theresa
-Camelo, Wen Chang, Stephanie Chardoul, Karl Dinkelmann, Raphael Nishimura,
-and Lisa Van Havermaet.
-Marketing Systems Group provided the sampling frame.
-5
-USER GUIDE
-This document is a brief guide and codebook for the American National Election
-Studies (ANES) 2024 Time Series Study, to accompany the full release of its pre-
-election and post-election data on August 8, 2025.
-The ANES 2024 Time Series is a continuation of the series of election studies
-conducted since 1948 to support analysis of public opinion and voting behavior in
-U.S. presidential elections. The 2024 study features a mixed-mode design
-including in-person, internet, video, phone, and paper-and-pencil interviewing.
-Two separate fresh cross-sectional samples were drawn, one for use with in-
-person interviewing as the primary mode and the second for web interviewing as
-the primary mode. In addition, the 2024 study features a panel of respondents
-previously completed the ANES in 2016 and 2020, as well as interviews with
-individuals who previously participated in the 2024 General Social Survey (GSS).
-How to Cite the Study
-American National Election Studies. 2025. ANES 2024 Time Series 
-Study Full Release [dataset and documentation]. August 8, 2025 
-version. www.electionstudies.org
-Current Release
-This is the full release of the 2024 Time Series Study dataset and the third release
-overall. The previous two releases were preliminary and did not contain all the
-variables, processing, cleaning, and documentation that are included in this
-release. Users are advised to compare their preliminary release results with the
-current release to determine if the changes have any impact on their analyses.
-Although data from the General Social Survey (GSS) sample were collected
-alongside the ANES survey, they are not included in this release and will be
-released at a later date.
-This full release may also include error corrections and edits to improve accuracy
-and usability. If you ﬁnd errors or have comments or questions about the data,
-please communicate with ANES staﬀ by writing to anes@electionstudies.org
-Sample Design
-The study has four independently drawn sample components:
-6 USER GUIDE
-1. Fresh sample for in-person interviews
-2. Fresh sample for web interviews
-3. Panel re-interviews
-4. GSS re-interviews (not included in this release)
-Another component of the study involved a brief interview with the spouses or
-partners of respondents in the fresh sample groups who were in spousal or
-cohabiting relationships.
-Population. The two fresh samples for in-person and web interviews describe
-approximately the same population. The target population for the in-person
-sample was 232.5 million U.S. citizens age 18 or older living in the 48 contiguous
-states of the U.S. or Washington, D.C., and the target population for the web
-sample was 234.1 million U.S. citizens age 18 or older living in the 50 states or
-Washington, D.C. Both populations exclude those living in institutional or group
-quarters. In both modes, the sampling frame consisted of lists of residential
-addresses where mail is delivered. To be eligible to participate, a respondent had
-to reside at the sampled address and be a U.S. citizen aged 18 or older at the time
-of recruitment.
-The ANES 2016-2020-2024 panel’s target population consisted of U.S. citizens
-who were 18 or older and living in the 50 states or Washington, D.C., immediately
-before the 2016 presidential election.
-The General Social Survey’s target population was adult residents of the U.S. See
-GSS documentation for more information about GSS sampling. GSS re-interview
-data are not included in this data release and will be made available as a
-supplemental ﬁle.
-Sample Design
-Fresh in-person sample. The fresh in-person sample was a multi-stage stratiﬁed
-cluster sample. This is similar in general design, but diﬀerent in details, from past
-designs of ANES Time Series studies. Sixty primary sampling units (PSUs) were
-selected from across the 48 contiguous states and Washington, D.C. The PSUs
-were metropolitan statistical areas (MSAs) or non-MSA counties, or combinations
-of counties, to achieve a minimum population of 50,000 adult citizens. PSUs were
-explicitly stratiﬁed by quintiles of county-level Republican vote share in 2020 and
-terciles of county-level turnout in 2020, and implicitly stratiﬁed by region, and then
-selected at random with probability proportional to the number of occupied
-housing units as indicated by the 2020 U.S. Census, except that Los Angeles
-County, CA, Cook County, IL, Harris County, TX, and Maricopa County, AZ, were
-selected with certainty.
-Within each PSU, four smaller areas were drawn (secondary sampling units, which
-were Census Block Groups or groups of contiguous CBGs to form a minimum size
-of 100 occupied housing units), and households were selected at random from
-within these areas from the U.S. Postal Service’s computerized delivery sequence
-7
-file (DSF).
-These secondary sampling units were explicitly stratiﬁed by the proportion of
-owner-occupied housing units (above-median or below-median within the PSU)
-and implicitly by the proportion of college graduates. Finally, the in-person sample
-addresses were explicitly stratiﬁed by the predicted average turnout (four
-categories, including no voter ﬁle match) and implicitly stratiﬁed by the predicted
-probability of voting for Trump in 2020. Probability of a Trump vote was calculated
-by (1) estimating a LASSO logistic regression model using ANES 2020 data
-(regressing ANES 2020 self-reported 2020 Trump vote over multiple variables from
-the voter ﬁle at the respondent level, (2) using the estimated model with the
-retained variables to estimate the probability of 2020 Trump vote for each voter
-matched to addresses selected in the sample, and (3) computing the average of
-these estimated probabilities over voters at the same address.
-Fresh web sample. The fresh web sample was selected from the DSF in two
-phases from among residential addresses in all 50 states and Washington, D.C. In
-the ﬁrst phase, the frame was explicitly stratiﬁed by quintiles of county-level
-Republican vote share in 2020, terciles of county-level turnout in 2020, and four
-census regions. A total of 40,000 addresses were selected in this phase. Then, in
-the second phase, 6,800 addresses were selected, explicitly stratiﬁed by the
-phase 1 strata above and also by predicted address average turnout in 2020 and
-2022, and implicitly stratiﬁed by the address’ average probability of a 2020 Trump
-vote.
-Mode sample diﬀerences. The fresh in-person sample component of the study
-does not include respondents from Alaska or Hawaii, whereas the fresh web
-sample component does. This is the main substantive design diﬀerence in
-eligibility and coverage for the two fresh samples, and for most analytic purposes,
-it is probably ignorable because the combined population of Alaska and Hawaii is
-less than one percent of the study population.
-Panel sample. Respondents who completed both the ANES 2016 and ANES 2020
-studies were invited to participate again in the ANES 2024 study, except for a very
-small number of past respondents who opted out and asked not to be contacted
-again.
-Respondent recruitment and retention
-Pre-election study
-Fresh in-person sample. An advance letter, including a study brochure and $5 in
-cash, was sent to each selected address. Following this, an interviewer visited the
-address to conduct a screening interview, which was used to randomly select one
-person from among the adult U.S. citizens living there to be invited for the 2024
-interview. Those interviewed were given $25 or $50 during the initial phase of the
-ﬁeld period, with the amount increasing to $100 after an initial non-response.
-8 USER GUIDE
-Interviewers were authorized to oﬀer $150 if necessary.
-Fresh web sample. Selected addresses were sent a series of letters to recruit one
-household member to complete a screening survey. The initial invitation letter
-included $10 in cash and promised $40 for completing the online survey. The
-incentive was later escalated to $100 for initial non-respondents. The screening
-survey was used to randomly select one person from among the adult U.S.
-citizens living at the address to complete the 2024 questionnaire online.
-In cases where the person who completed the screener was not selected to
-complete the 2024 questionnaire, they received either $40 or $100, as did the
-selected respondent after they completed the 2024 questionnaire. If the person
-who completed the screener was selected for the 2024 survey, they received one
-payment of $40 or $100 after completing both the screener and the 2024
-questionnaire.
-Panel sample. Panelists were invited by mail, email (when available), or both, and
-asked to complete the 2024 questionnaire online. Invitations included a prepaid
-$10 cash incentive with a promise of $40 for completing the survey, which later
-escalated to $100 after an initial non-response.
-Spouse and partner survey. If a respondent in either of the fresh sample groups
-had a spouse or cohabiting partner, the spouse or partner was invited to complete
-a brief questionnaire, either by paper or online. Spouses/partners received
-immediate invitations to participate as soon as the respondent ﬁnished their
-survey. The in-person spouse/partner request was also accompanied by a $5 cash
-payment. If they were not immediately available, partners from both groups
-received written invitations. The web sample received an email invitation, and the
-in-person sample received a paper invitation left behind with the survey and $5 in
-cash enclosed. Both groups received an initial oﬀer of $20 to complete the survey,
-which then escalated to $40. Reminders were sent to non-responding
-spouses/partners, accompanied by paper copies of the questionnaire. In-person
-non-responding partners were eventually sent web links to complete the survey.
-The spouse/partner survey was only administered during the pre-election study.
-Post-election study
-Respondents who completed a survey or a suﬃcient partial survey in the pre-
-election study were approached after the election and asked to complete a post-
-election survey. Potential post-election respondents were initially oﬀered the same
-incentive amount they received for their pre-election survey. On January 1, 2025,
-incentive oﬀers of $25 or $50 were increased to $100 for non-ﬁnalized in-person
-cases. On January 13, 2025, incentive oﬀers of $40 were increased to $100 for
-non-ﬁnalized web cases. On January 16, 2025, incentive oﬀers were updated to
-$200 for resistant non-ﬁnalized in-person cases.
-9
-Data Collection
-Field dates. The ANES 2024 Time Series study conducted a pre-election survey
-between August 3, 2024, and November 5, 2024. Election Day was November 5,
-2024. The study attempted to re-interview the same respondents using a post-
-election survey between November 7, 2024, and February 17, 2025.
-Locations. Interviews in the face-to-face mode were usually conducted in
-respondents’ homes, but could also be conducted at any location convenient for
-the respondent. Video interviews and web surveys could be completed anywhere
-the respondent had internet access, whether on a computer or a mobile device.
-Phone surveys could be completed on any device that had phone service.
-Table. The 2024 ANES Pre-Election and Post-Election Survey
-Sample Wave
-Mode of Interview
-NFace-to-
-face PhoneVideo Web Paper-and-
-pencil
-* Not included in the full release, but will be available as a supplemental ﬁle.
-Fresh in-
-person
-Pre-
-election 966 76 1,042
-Post-
-election 354 227 344 925
-Fresh
-web
-Pre-
-election 2,063 245 2,308
-Post-
-election 1,769 200 1,969
-Panel
-Pre-
-election 2,171 2,171
-Post-
-election 2,070 2,070
-GSS *
-Pre-
-election 987 * 987 *
-Post-
-election 807 * 807 *
-Modes of pre-election interview administration. Interviews in the face-to-face
-mode were conducted by trained interviewers using computer-assisted personal
-10 USER GUIDE
-interviewing (CAPI) software on laptop computers. During a portion of the face-to-
-face interview, the respondent answered certain sensitive questions directly on the
-laptop computer, without the interviewer’s participation (known as computer-
-assisted self-interviewing or CASI). In the fresh web sample, panel sample, and
-GSS sample, respondents were eligible to complete the survey in the web mode.
-Toward the end of the ﬁeld period, non-respondents in the fresh web sample
-received a highly abbreviated four-page paper-and-pencil (PAPI) questionnaire,
-and were able to complete the survey in either the web or paper-and-pencil mode.
-With the exception of n = 245 paper-and-pencil cases, all other respondents in the
-fresh web group completed the survey in the web mode. All panel and GSS
-respondents completed the survey via the web mode. All cases in the fresh in-
-person sample were initially invited to a face-to-face interview; however, in some
-cases, the interview was conducted partly or entirely by phone (n = 76) rather than
-face-to-face (n = 966).
-Modes of post-election interview administration. All fresh web, panel, and GSS
-sample respondents from the pre-election survey were invited to complete the
-post-election survey using the same mode in which they completed the pre-
-election survey.
-Most in-person sample respondents were oﬀered the opportunity to complete the
-post-election survey by video. To be eligible to participate in the post-election
-study using the video mode, respondents had to both 1) have access to the
-internet at home, and 2) score lower than four on variable IW_RATE, indicating that
-they liked the pre-election interview. In-person sample respondents who were
-eligible to participate via video were asked to schedule an appointment during the
-post-election data collection period.
-Respondents who were either not eligible for video, did not set a video
-appointment, or missed their video appointment received a face-to-face visit for
-the post-election study. In some cases, respondents in the in-person sample who
-could not be reached by video or face-to-face were subsequently interviewed by
-phone. Respondents completing the survey by video or phone had the questions
-from the CASI portion of the questionnaire read out loud to them by the
-interviewer.
-Interview length. The median administration times for the pre-election interviews,
-not counting screening procedures, were approximately 93 minutes for the in-
-person sample, 63 minutes for the fresh web sample, and 72 minutes for the panel
-sample. The median administration times for the post-election interviews were
-approximately 99 minutes for the in-person sample, 68 minutes for the fresh web
-sample, and 71 minutes for the panel sample.
-Languages. Interviews were conducted in English or Spanish.
-Response Rates
-Pre-election interviews were considered suﬃcient to be counted as completions
-11
-for weighting and calculation of the response rate when the survey was
-administered at least to the self-reported gender question (SELFGEND_GENDTYP)
-at the beginning of the CASI section of the questionnaire (and following other
-demographic items). Post-election interviews were considered suﬃcient to be
-complete if the respondent completed the VOTE section of the instrument. In both
-the pre- and post-election studies, respondents completing the associated
-abbreviated paper-and-pencil questionnaire are also counted as suﬃcient
-completions.
-The following response rates are calculated using the American Association for
-Public Opinion Research (AAPOR) formula for the minimum response rate, AAPOR
-Response Rate 1.
-The pre-election response rate was 33.4 percent for the fresh in-person sample
-and 37.7 percent for the fresh web sample. The pre-election re-interview rate for
-the panel sample (conditional on previously completing the ANES 2016 and 2020
-studies and being invited to the 2024 study) was 82.0 percent.
-The overall post-election re-interview rate was 89.9 percent of pre-election
-respondents. The post-election re-interview rate for the fresh in-person sample
-was 88.8 percent and 85.3 percent for the fresh web sample. The post-election re-
-interview rate for the panel sample was 95.3 percent.
-The pre-election response rates and post-election re-interview rates for the GSS
-sample will be reported in the supplemental release of those data.
-Restricted Data Access
-Some variables, including date of birth, the respondent’s ZIP code, and verbatim
-answers to open-ended questions, are coded “-3. Restricted access” on this
-public use dataset. Data for many of these variables can be obtained through a
-Restricted Data Access agreement. Please see the ANES website for more
-information.
-Responses to a selection of open-ended questions are made available to the
-public after the responses have been redacted for conﬁdentiality.
-Data Analysis, Weights, and Variance Estimation
-Analyses should be weighted to represent the U.S. adult citizen population
-accurately. Sampling error calculations should account for the complex sample
-design and the eﬀects of weighting on variance.
-The data can be analyzed using the combined fresh sample, the fresh in-person
-sample alone, or the fresh web sample alone.
-12 USER GUIDE
-Weight variable selection
-The list below indicates which weight variable to use for diﬀerent types of analyses
-with the full release data. In general, if any post-election data are used for an
-estimate (alone or in combination with pre-election data), a post-election weight
-variable should be used, while analyses using solely pre-election data should use
-a pre-election weight.
-Weight Use for analysis from the …
-V240101aPre-election fresh in-person sample alone
-V240101bPost-election fresh in-person sample alone
-V240102aPre-election fresh web sample alone
-V240102bPost-election fresh web sample alone
-V240103aPre-election fresh samples (fresh in-person + fresh web)
-V240103bPost-election fresh samples (fresh in-person + fresh web)
-V240104aPre-election fresh web sample + PAPI
-V240104bPost-election fresh web sample + PAPI
-V240105aPre-election fresh sample (fresh in-person + fresh web + PAPI)
-V240105bPost-election fresh sample (fresh in-person + fresh web + PAPI)
-V240106aPre-election panel alone
-V240106bPost-election panel alone
-V240107aPre-election full sample (fresh in-person + fresh web + panel) + PAPI
-V240107bPost-election full sample (fresh in-person + fresh web + panel) +
-PAPI
-V240108aPre-election full sample (fresh in-person + fresh web + panel)
-V240108bPost-election full sample (fresh in-person + fresh web + panel)
-Sampling errors and signiﬁcance testing
-The study is not a simple random sample, so statistical procedures for complex
-13
-sample designs must be used to obtain correct estimates of sampling errors and
-correct indications of statistical signiﬁcance. Statistical software such as Stata, R
-with a survey analysis package, or SPSS with the Complex Samples package can
-perform a Taylor Series estimation of sampling errors when provided with the
-appropriate strata and cluster variables. In Stata, the command to set up this type
-of analysis is as follows:
-svyset [pweight=WEIGHT], psu(CLUSTER) strata(STRATA)
-In the code example above, WEIGHT would be replaced with the correct weight
-for the type of analysis being performed (as indicated in the previous section on
-weighting). STRATA and CLUSTER would be replaced with the variables for the
-corresponding analysis, as shown below.
-For weight use variance PSU and use variance stratum
-V240101a V240101c V240101d
-V240101b V240101c V240101d
-V240102a V240102c V240102d
-V240102b V240102c V240102d
-V240103a V240103c V240103d
-V240103b V240103c V240103d
-V240104a V240104c V240104d
-V240104b V240104c V240104d
-V240105a V240105c V240105d
-V240105b V240105c V240105d
-V240106a V240106c V240106d
-V240106b V240106c V240106d
-V240107a V240107c V240107d
-V240107b V240107c V240107d
-V240108a V240108c V240108d
-V240108b V240108c V240108d
-For example, the code to set up Stata for an analysis of the full sample is as
-follows:
-14 USER GUIDE
-svyset [pweight=V240107a], psu(V240107c) strata(V240107d)
-For more information about weighted analysis of ANES data, see DeBell, How to
-Analyze ANES Survey Data: http://www.electionstudies.org/Library/papers
-/nes012492.pdf
-A note on subpopulation analysis or analysis with missing data
-When conducting design-consistent variance estimation, cases should be
-selected by designating a subpopulation for the analysis procedure, not by
-dropping cases from the analysis or excluding missing data listwise. For some
-analyses the estimated standard errors from these two methods may be the same,
-or nearly so, but in other circumstances, failing to designate a subpopulation
-makes the standard error estimates incorrect. Also, in some cases, failing to
-designate a subpopulation may prevent the calculation of standard errors
-altogether by reducing the number of cases in a stratum to one. If, for example,
-Stata’s output omits standard errors and includes the note, “Missing standard
-errors because of stratum with single sampling unit,” this is usually because the
-user has dropped cases (explicitly or through extensive listwise deletion) instead
-of designating a subpopulation. Designating a subpopulation will solve the
-problem. In brief, this means using code of the following general form (for
-proportions from a single variable, in Stata):
-svy, subpop(INCLUDE):prop VAR
-In this example, INCLUDE is the name of a variable you generate to identify the
-subpopulation (with included cases coded 1 and excluded case coded 0) and VAR
-is the name of the variable for which proportions are generated. Similarly, you may
-use:
-svy, subpop(if VAR >=1 & VAR <=5): prop VAR
-This example selects cases conditional on VAR having values from 1 through 5.
-Other statistical software, such as R and SPSS, have comparable procedures. For
-more information about this kind of procedure, see the How To Analyze ANES
-Survey Data document linked above or the documentation for the statistical
-software you use.
-A note on weights and modes
-The weights are organized by sample group, which is distinct from the mode of
-interview. As detailed above in the Data Collection section, the fresh in-person
-15
-sample includes interviews conducted in-person, by telephone, and over live two-
-way video. Weighting using the “in-person weight” selects the in-person sample,
-not only face-to-face interviews. Sample and mode can be identiﬁed (variables
-V240002a, V240002b and V240003), but within sample groups, the mode of
-interview was not randomly assigned, so analysts should be cautious about
-making mode comparisons or attributing diﬀerences among modes of interview to
-the interview mode itself; apparent mode diﬀerences may also be due to selection
-eﬀects.
-Reporting weighted sample sizes
-When reporting the sample size (n) for an analysis, the actual, unweighted sample
-sizes should be reported, and analysts should take care not to confuse weighted
-sample sizes with unweighted sample sizes. Some statistical software applications
-make this distinction more readily than others. Generally, software designed for
-design-consistent survey estimation will report actual sample sizes, but software
-using non-survey procedures (such as frequency weights) will not. When
-frequency weights are used, the weighted sample size usually does not reﬂect the
-actual number of cases used in an analysis procedure (because weights vary,
-most analyses will exclude one or more cases due to selection criteria, listwise
-deletion or both, and the sums of subgroup weights are not constrained to sum to
-the actual sample size). In this case, in addition to running a weighted analysis, it
-is necessary to also run an unweighted analysis (taking care to select the same
-cases) in order to obtain correct sample sizes.
-Weighting methods
-The weights were computed in multiple steps to account for sample design
-features and to reduce various non-sampling error sources. The in-person and
-web pre-election surveys used a similar approach, as follows. Design weights
-were calculated to account for address sampling probabilities and the within-
-household selection of a single eligible adult. An adjustment was also performed
-to handle addresses whose eligibility was not able to be determined, redistributing
-their design weights to the remaining addresses with a known eligibility from their
-same corresponding stratum. To address both screening and main survey non-
-response, a propensity stratiﬁcation approach was used for each component. In
-this approach, the probability of each eligible address to complete the survey was
-estimated using a logistic regression model of survey response over a set of
-covariates observed for both respondents and non-respondents. The eligible
-addresses were then divided into deciles of their estimated response propensities
-and the inverse of the average of these propensities for each decile was used as a
-non-response adjustment factor. Finally, a calibration adjustment was applied to
-ensure that the weighted sample distribution matched the population distribution
-with respect to various characteristics.
-Upon some modelling of 2024 turnout and vote choice using ANES data, the
-16 USER GUIDE
-following dimensions were ultimately selected to be used in the calibration:
-Race by sex;
-Marital status by sex;
-Educational attainment by age,
-Educational attainment by region;
-Income by race/ethnicity;
-Home tenure;
-Nation of birth;
-Population density;
-Education attainment by metropolitan status.
-The following variables (and categories) were used for the calibration:
-Sex (male, female)
-Age (18-29, 30-44, 45-59, 60 years or older)
-Educational attainment (less than high school graduate, high school
-graduate, some college, college degree, graduate degree)
-Race/ethnicity (non-Hispanic White, non-Hispanic Black, Hispanic, non-
-Hispanic other)
-Home tenure (home owner, other)
-Nation of birth (U.S. born, foreign born)
-Marital status (married, widowed, divorced or separated, never married)
-Household income (less than $40,000, $40,000-$74,999, $75,000-
-$124,999, $125,000 or more)
-Population density (less than 471 people/square mile, 471-2,377
-people/square mile, 2,377-5,505 people/square mile, more than 5,505
-people/square mile)
-Metropolitan status (non-metropolitan, metropolitan)
-Missing values in calibration variables were imputed for the purposes of weighting.
-Population benchmarks (control totals) were based on the 2023 American
-Community Survey 1-year estimates, except for population density, which was
-from the 2020 census, and metropolitan status, which was from the March
-supplement of the 2024 Current Population Survey.
-To reduce weighting variability, the ﬁnal weights were bounded at 5 times the
-average of their corresponding unbounded calibrated weights.
-The panel survey used a similar approach, except that it started with the 2020
-ANES ﬁnal weights as an input weighting variable and only the main survey non-
-response adjustment and calibration procedure were applied, as the other
-adjustments were already embedded in the input weight.
-Weights for various combinations of the samples (such as weights for the entire
-sample, or for the in-person and web combined) received two additional
-adjustments. First, the samples were integrated using a Hartley estimator
-composite factor. In this process, each sample received a composite factor θ (with
-17
-0 < θ < 1) proportional to the mean square error of their corresponding estimate for
-the proportion of Trump voters in the 2024 election. The mean square error was
-estimated using an estimate of bias and sampling variance. The bias was
-estimated as the diﬀerence between the sample estimate of Trump voter
-proportions and the true value according to the election results. The sampling
-variance estimate used respondent data accounting for all the design features,
-including weights, stratiﬁcation, and clustering. Second, an additional calibration
-adjustment, following the same speciﬁcations as the initial calibration, was applied
-over the combined sample.
-Orientation to the Data and Documentation
-Dataset
-The ANES 2024 Time Series Study Full Release is available in multiple ﬁle formats:
-SPSS (.sav), Stata (.dta), Comma Separated Values (.csv), and a ﬁxed-width raw
-data ﬁle that can be read into SAS, SPSS, and Stata using syntax statements that
-have been provided.
-Variables are stored using formats optimized for their data type. Missing data are
-coded as negative numbers, for instance, “-8. Don’t know”.
-Along with the dataset, users should also download and make use of the two
-following pieces of documentation:
-Questionnaire
-The ﬁrst piece of documentation is the Questionnaire, a document that provides
-information about each of the questions that were asked in the main survey. The
-questions in the Questionnaire are presented in the order they were asked. The
-Questionnaire includes the following information, where applicable, for each
-question: the section in which the question appears, question name, question
-wording, universe (where only a subset of respondents was to receive the
-question, which respondents those should be), and response options.
-In addition to the Questionnaire, ANES separately provides the PAPI (paper-and-
-pencil) and SPS (Spouse and Partner Survey) survey questionnaires in PDF format.
-Both documents are available for download from the 2024 Time Series study page
-of the ANES website.
-User Guide and Codebook
-The second piece of documentation is the User Guide and Codebook. You are
-currently reading the User Guide, which provides a brief overview of the study and
-how to use its data and documentation.
-18 USER GUIDE
-The remainder of this ﬁle, after the User Guide, consists of the Codebook.
-Whereas the Questionnaire provides information about the questions asked in the
-survey, the Codebook provides information about the variables that appear in the
-dataset.
-Questions and variables do not always have a one-to-one relationship. For
-instance, multiple questions may be combined into a single summary variable. Or
-various variables may be derived from a single question. Furthermore, not all
-variables have associated questions — for example, administrative variables.
-The Codebook includes the following information, where applicable, for each
-variable: the variable name (all variable names start with a “V”, and summary
-variables end with the suﬃx “x”), variable label (with “PRE:” indicating that it is
-from the pre-election study), simpliﬁed question wording, response/code values
-and meanings, associated survey question(s), universe (where only a subset of
-respondents appear in a variable, which respondents those should be; note that
-universes are not included for most summary variables), information about
-whether randomization was used, and interviewer instructions.
-19
-CODEBOOK: VARIABLES
-GENERAL NON-SURVEY VARIABLES
-version VERSION OF ANES 2024 TIME SERIES RELEASE
-Value Labels ANES2024TimeSeries_20250808
-V2400012024 TIME SERIES CASE ID
-V2000012020 TIME SERIES CASE ID
-Value Labels -1. Inapplicable, did not participate in 2000 Time Series study
-V160001_orig2016 TIME SERIES CASE ID
-Value Labels -1. Inapplicable, R did not participate in 2016 Time Series Study
+V240001 2024 TIME SERIES CASE ID
+V200001 2020 TIME SERIES CASE ID
+Value Labels
+-1. Inapplicable, did not participate in 2000 Time Series study
+V160001_orig 2016 TIME SERIES CASE ID
+Value Labels
+-1. Inapplicable, R did not participate in 2016 Time Series Study
 V240002aMODE OF INTERVIEW: PRE-ELECTION INTERVIEW
 Value Labels
 1. Face-to-face (FTF)
@@ -608,7 +27,8 @@ This variable captures the mode in which the respondent completed the majority o
 the post-election survey. Some respondents did use multiple modes to complete
 the post-election survey.
 V240002cPRE/POST INTERVIEW COMPLETION STATUS
-Value Labels 1. Completed pre-election interview only
+Value Labels
+1. Completed pre-election interview only
 2. Completed pre and post-election interviews
 V240003SAMPLE TYPE
 Value Labels
@@ -619,18 +39,18 @@ Value Labels
 WEIGHTING VARIABLES
 V240101aPRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
 (FTF) SAMPLE [FINAL]
-V240101bPOST-ELECTION RAKED WEIGHT: FACE-TO-FACE
+V240101b POST-ELECTION RAKED WEIGHT: FACE-TO-FACE
 (FTF) SAMPLE [FINAL]
 V240101cPSU: FACE-TO-FACE (FTF) SAMPLE [FINAL]
 WEIGHTING VARIABLES 21
-V240101dSTRATUM: FACE-TO-FACE (FTF) SAMPLE [FINAL]
-V240102aPRE-ELECTION RAKED WEIGHT: WEB SAMPLE
+V240101d STRATUM: FACE-TO-FACE (FTF) SAMPLE [FINAL]
+V240102a PRE-ELECTION RAKED WEIGHT: WEB SAMPLE
 [FINAL]
-V240102bPOST-ELECTION RAKED WEIGHT: WEB SAMPLE
+V240102b POST-ELECTION RAKED WEIGHT: WEB SAMPLE
 [FINAL]
 V240102cPSU: WEB SAMPLE [FINAL]
-V240102dSTRATUM: WEB SAMPLE [FINAL]
-V240103aPRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
+V240102d STRATUM: WEB SAMPLE [FINAL]
+V240103a PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
 (FTF) & WEB SAMPLES COMBINED [FINAL]
 V240103bPOST-ELECTION RAKED WEIGHT: FACE-TO-FACE
 (FTF) & WEB SAMPLES COMBINED [FINAL]
@@ -656,7 +76,7 @@ COMBINED W/PAPI [FINAL]
 V240106aPRE-ELECTION RAKED WEIGHT: 2016-2024 PANEL
 SAMPLE [FINAL]
 WEIGHTING VARIABLES 23
-V240106bPOST-ELECTION RAKED WEIGHT: 2016-2024
+V240106b POST-ELECTION RAKED WEIGHT: 2016-2024
 PANEL SAMPLE [FINAL]
 V240106cPSU: 2016-2024 PANEL SAMPLE [FINAL]
 V240106dSTRATUM: 2016-2024 PANEL SAMPLE [FINAL]
@@ -664,8 +84,7 @@ V240107a
 PRE-ELECTION RAKED WEIGHT: 2016-2024 PANEL,
 FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED
 W/PAPI [FINAL]
-V240107b
-POST-ELECTION RAKED WEIGHT: 2016-2024
+V240107bPOST-ELECTION RAKED WEIGHT: 2016-2024
 PANEL, FACE-TO-FACE (FTF) & WEB SAMPLES
 COMBINED W/PAPI [FINAL]
 V240107cPSU: 2016-2024 PANEL, FACE-TO-FACE (FTF) &
@@ -677,8 +96,7 @@ PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
 (FTF), WEB, & 2016-2024 PANEL SAMPLES
 COMBINED [FINAL]
 24 CODEBOOK: VARIABLES
-V240108b
-POST-ELECTION RAKED WEIGHT: FACE-TO-FACE
+V240108bPOST-ELECTION RAKED WEIGHT: FACE-TO-FACE
 (FTF), WEB, & 2016-2024 PANEL SAMPLES
 COMBINED [FINAL]
 V240108cPSU: FACE-TO-FACE (FTF), WEB, & 2016-2024
@@ -706,8 +124,7 @@ Value Labels
 Survey Question(s)CONSENT_AUDCONS
 Universe IF INTERVIEW TYPE IS FACE-TO-FACE:
 PRE- ELECTION SURVEY VARIABLES 25
-V241003PRE: INTERVIEWER: IS R MAN OR WOMAN
-(OBSERVATION)
+V241003PRE: INTERVIEWER: IS R MAN OR WOMAN (OBSERVATION)
 Question IS THE RESPONDENT A MAN OR A WOMAN? IF UNSURE, CODE
 DK.
 Value Labels
@@ -717,8 +134,7 @@ Value Labels
 2. Woman
 Survey Question(s)GEND_GENDOBS
 Universe IF INTERVIEW TYPE IS FACE-TO-FACE OR VIDEO:
-V241004PRE: HOW OFTEN DOES R PAY ATTENTION TO
-POLITICS AND ELECTIONS
+V241004PRE: HOW OFTEN DOES R PAY ATTENTION TO POLITICS AND ELECTIONS
 Question
 How often do you pay attention to what’s going on in government
 and politics? [Always, most of the time, about half the time, some of
@@ -736,8 +152,7 @@ CAMPINT_POLATTREV, Q4
 Note: The following speciﬁcations were implemented exclusively in the
 computerized survey instrument and are not applicable to the paper questionnaire.
 Response OrderForward/Reverse order
-V241005PRE: HOW INTERESTED IN FOLLOWING
-CAMPAIGNS
+V241005PRE: HOW INTERESTED IN FOLLOWING CAMPAIGNS
 Question
 Some people don’t pay much attention to political campaigns. How
 about you? Would you say that you have been [very much interested,
@@ -898,8 +313,7 @@ Value Labels
 0. State not included with registration address
 1. State included with registration address
 Survey Question(s)PREVOTE_NEWADDR
-V241020
-PRE: CITY INCLUDED IN ADDRESS OF
+V241020PRE: CITY INCLUDED IN ADDRESS OF
 REGISTRATION (NOT REGISTERED AT SAMP
 ADDR)
 Value Labels -1. Inapplicable
@@ -913,8 +327,7 @@ Value Labels -3. RESTRICTED
 Survey Question(s)PREVOTE_REGYRS
 Universe IF R IS REGISTERED:
 IF R’S NEW STATE OF RESIDENCE IS NOT NORTH DAKOTA:
-V241022PRE: REGISTRATION STATE SAME AS SAMPLE
-ADDRESS STATE (ALL REGISTRATIONS)
+V241022PRE: REGISTRATION STATE SAME AS SAMPLE ADDRESS STATE (ALL REGISTRATIONS)
 Value Labels
 -1. Inapplicable
 0. State of registration not the same as sample state
@@ -941,8 +354,7 @@ Value Labels
 47. Tennessee   48. Texas   49. Utah
 50. Vermont   51. Virginia   53. Washington
 54. West Virginia   55. Wisconsin   56. Wyoming
-V241024RESTRICTED: PRE: NAME UNDER WHICH R
-REGISTERED TO VOTE
+V241024RESTRICTED: PRE: NAME UNDER WHICH R REGISTERED TO VOTE
 Question
 Some people register to vote under their full name and others use
 diﬀerent versions of their name. Others might have changed their
@@ -974,8 +386,7 @@ Value Labels
 -1. Inapplicable
 0. No Senate race in state of registration
 1. Senate race in state of registration
-V241028PRE: GOVERNOR RACE IN STATE OF
-REGISTRATION (ALL REGISTRATIONS)
+V241028PRE: GOVERNOR RACE IN STATE OF REGISTRATION (ALL REGISTRATIONS)
 Value Labels
 -1. Inapplicable
 0. No Governor race in state of registration
@@ -24313,7 +23724,7 @@ summary.
 124. Missionary Baptist; Baptist Missionary Association of America
 125. Conservative Baptist Association of America
 126. General Association of Regular Baptist Churches; GARB
-127. National Association of Free Will Baptists; United Free Will Baptist 
+127. National Association of Free Will Baptists; United Free Will Baptist
 Church
 128. Primitive Baptist
 129. National Baptist Convention in the USA
@@ -24325,7 +23736,7 @@ Church
 135. Southern Baptist Convention
 136. Full Gospel Baptist Church Fellowship
 149. Baptist (NFS or other Baptist group not in codes 120-135)
-150. United Church of Christ; UCC; Congregational; Congregationalist; 
+150. United Church of Christ; UCC; Congregational; Congregationalist;
 Evangelical and Reformed Church
 155. Congregational Christian
 160. Church of the Brethren
@@ -24348,12 +23759,12 @@ Evangelical and Reformed Church
 656 APPENDIX A: RELIGION CODES
 185. Wesleyan Church
 186. Church of God of Findlay, OH
-199. Pentecostal (NFS); Church of God (NFS); Holiness (NFS); not ascertained 
+199. Pentecostal (NFS); Church of God (NFS); Holiness (NFS); not ascertained
 whether R Pentecostal or Charismatic (Holin
 200. Plymouth Brethren
 201. Independent Fundamental Churches of America; IFCA
 219. Independent-Fundamentalist (NFS)
-220. Evangelical Lutheran Church in America (formerly Lutheran Church in 
+220. Evangelical Lutheran Church in America (formerly Lutheran Church in
 America and The American Lutheran Church); ELCA
 221. Lutheran Church, Missouri Synod; LC-MS
 222. Wisconsin Evangelical Lutheran Synod; WELS
@@ -24436,9 +23847,9 @@ America and The American Lutheran Church); ELCA
 727. Pagan
 730. Sikh
 732. Konko Church
-735. Spiritualists (not 'spiritual; must refer specifically to 
+735. Spiritualists (not 'spiritual; must refer specifically to
 'Spiritualism' or 'Spiritualists')
-736. Religious Science; Science of Mind (not Scientology; not Christian 
+736. Religious Science; Science of Mind (not Scientology; not Christian
 Scientists); Centers for Spiritual Living
 740. Other non-Christian /non-Jewish
 750. Scientology
