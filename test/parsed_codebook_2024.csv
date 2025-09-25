@@ -1,0 +1,12 @@
+var_name,summary,question,missing_labels,valid_labels
+V241002,PRE: PRE-ELECTION INTERVIEW AUDIO CONSENT Survey Question(s)CONSENT_AUDCONS Universe IF INTERVIEW TYPE IS FACE-TO-FACE: PRE- ELECTION SURVEY VARIABLES 25,This interview may be monitored for training and data quality purposes.,-1. Inapplicable,"1. Continue with audio recording
+2. Continue do not record"
+V241003,PRE: INTERVIEWER: IS R MAN OR WOMAN (OBSERVATION) Survey Question(s)GEND_GENDOBS Universe IF INTERVIEW TYPE IS FACE-TO-FACE OR VIDEO:,"IS THE RESPONDENT A MAN OR A WOMAN? IF UNSURE, CODE DK.","-8. Don’t know
+-1. Inapplicable","1. Man
+2. Woman"
+V241004,"PRE: HOW OFTEN DOES R PAY ATTENTION TO POLITICS AND ELECTIONS Survey Question(s) CAMPINT_POLATTREV, Q4 Note: The following speciﬁcations were implemented exclusively in the computerized survey instrument and are not applicable to the paper questionnaire. Response OrderForward/Reverse order","How often do you pay attention to what’s going on in government and politics? [Always, most of the time, about half the time, some of the time, or never / Never, some of the time, about half the time, most of the time, or always]?",-9. Refused,"1. Always
+2. Most of the time
+3. About half the time
+4. Some of the time
+5. Never"
+V241005,PRE: HOW INTERESTED IN FOLLOWING CAMPAIGNS,"Some people don’t pay much attention to political campaigns. How about you? Would you say that you have been [very much interested, somewhat interested or not much interested/ not much interested, somewhat interested or very much interested] in the political campaigns so far this year?",,

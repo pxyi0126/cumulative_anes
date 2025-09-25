@@ -1,119 +1,3 @@
-V240001 2024 TIME SERIES CASE ID
-V200001 2020 TIME SERIES CASE ID
-Value Labels
--1. Inapplicable, did not participate in 2000 Time Series study
-V160001_orig 2016 TIME SERIES CASE ID
-Value Labels
--1. Inapplicable, R did not participate in 2016 Time Series Study
-V240002aMODE OF INTERVIEW: PRE-ELECTION INTERVIEW
-Value Labels
-1. Face-to-face (FTF)
-2. Internet (WEB)
-3. Paper (PAPI)
-4. Phone
-V240002bMODE OF INTERVIEW: POST-ELECTION
-INTERVIEW
-20 CODEBOOK: VARIABLES
-Value Labels
--7. Insuﬃcient parital, interview deleted
--6. No post interview
-1. Face-to-face (FTF)
-2. Internet (WEB)
-3. Paper (PAPI)
-4. Phone
-5. Video
-Variable Note
-This variable captures the mode in which the respondent completed the majority of
-the post-election survey. Some respondents did use multiple modes to complete
-the post-election survey.
-V240002cPRE/POST INTERVIEW COMPLETION STATUS
-Value Labels
-1. Completed pre-election interview only
-2. Completed pre and post-election interviews
-V240003SAMPLE TYPE
-Value Labels
-1. Panel (2016-20-24)
-2. Fresh sample (WEB)
-3. Fresh sample (FTF)
-4. GSS
-WEIGHTING VARIABLES
-V240101aPRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF) SAMPLE [FINAL]
-V240101b POST-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF) SAMPLE [FINAL]
-V240101cPSU: FACE-TO-FACE (FTF) SAMPLE [FINAL]
-WEIGHTING VARIABLES 21
-V240101d STRATUM: FACE-TO-FACE (FTF) SAMPLE [FINAL]
-V240102a PRE-ELECTION RAKED WEIGHT: WEB SAMPLE
-[FINAL]
-V240102b POST-ELECTION RAKED WEIGHT: WEB SAMPLE
-[FINAL]
-V240102cPSU: WEB SAMPLE [FINAL]
-V240102d STRATUM: WEB SAMPLE [FINAL]
-V240103a PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF) & WEB SAMPLES COMBINED [FINAL]
-V240103bPOST-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF) & WEB SAMPLES COMBINED [FINAL]
-V240103cPSU: FACE-TO-FACE (FTF) & WEB SAMPLE
-COMBINED [FINAL]
-V240103dSTRATUM: FACE-TO-FACE (FTF) & WEB SAMPLE
-COMBINED [FINAL]
-22 CODEBOOK: VARIABLES
-V240104aPRE-ELECTION RAKED WEIGHT: WEB SAMPLE
-WITH PAPI [FINAL]
-V240104bPOST-ELECTION RAKED WEIGHT: WEB SAMPLE
-WITH PAPI [FINAL]
-V240104cPSU: WEB SAMPLE WITH PAPI [FINAL]
-V240104dSTRATUM: WEB SAMPLE WITH PAPI [FINAL]
-V240105aPRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL]
-V240105bPOST-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL]
-V240105cPSU: FACE-TO-FACE (FTF) & WEB SAMPLES
-COMBINED W/PAPI [FINAL]
-V240105dSTRATUM: FACE-TO-FACE (FTF) & WEB SAMPLES
-COMBINED W/PAPI [FINAL]
-V240106aPRE-ELECTION RAKED WEIGHT: 2016-2024 PANEL
-SAMPLE [FINAL]
-WEIGHTING VARIABLES 23
-V240106b POST-ELECTION RAKED WEIGHT: 2016-2024
-PANEL SAMPLE [FINAL]
-V240106cPSU: 2016-2024 PANEL SAMPLE [FINAL]
-V240106dSTRATUM: 2016-2024 PANEL SAMPLE [FINAL]
-V240107a
-PRE-ELECTION RAKED WEIGHT: 2016-2024 PANEL,
-FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED
-W/PAPI [FINAL]
-V240107bPOST-ELECTION RAKED WEIGHT: 2016-2024
-PANEL, FACE-TO-FACE (FTF) & WEB SAMPLES
-COMBINED W/PAPI [FINAL]
-V240107cPSU: 2016-2024 PANEL, FACE-TO-FACE (FTF) &
-WEB SAMPLES COMBINED W/PAPI [FINAL]
-V240107dSTRATUM: 2016-2024 PANEL, FACE-TO-FACE (FTF)
-& WEB SAMPLES COMBINED W/PAPI [FINAL]
-V240108a
-PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF), WEB, & 2016-2024 PANEL SAMPLES
-COMBINED [FINAL]
-24 CODEBOOK: VARIABLES
-V240108bPOST-ELECTION RAKED WEIGHT: FACE-TO-FACE
-(FTF), WEB, & 2016-2024 PANEL SAMPLES
-COMBINED [FINAL]
-V240108cPSU: FACE-TO-FACE (FTF), WEB, & 2016-2024
-PANEL SAMPLES COMBINED [FINAL]
-V240108dSTRATUM: FACE-TO-FACE (FTF), WEB, & 2016-2024
-PANEL SAMPLES COMBINED [FINAL]
-PRE- ELECTION SURVEY VARIABLES
-V241001PRE: SELECT LANGUAGE
-Question
-Would you like to complete this survey in English or Spanish?
-¿Quisiera completar esta encuesta en inglés o español?
-Value Labels
--9. Refused
--1. Inapplicable
-1. English / Ingles
-2. Spanish / Espanol
-Survey Question(s)START_LANGUAGESELECT
 V241002PRE: PRE-ELECTION INTERVIEW AUDIO CONSENT
 Question This interview may be monitored for training and data quality
 purposes.
@@ -124,7 +8,8 @@ Value Labels
 Survey Question(s)CONSENT_AUDCONS
 Universe IF INTERVIEW TYPE IS FACE-TO-FACE:
 PRE- ELECTION SURVEY VARIABLES 25
-V241003PRE: INTERVIEWER: IS R MAN OR WOMAN (OBSERVATION)
+V241003PRE: INTERVIEWER: IS R MAN OR WOMAN
+(OBSERVATION)
 Question IS THE RESPONDENT A MAN OR A WOMAN? IF UNSURE, CODE
 DK.
 Value Labels
@@ -134,7 +19,8 @@ Value Labels
 2. Woman
 Survey Question(s)GEND_GENDOBS
 Universe IF INTERVIEW TYPE IS FACE-TO-FACE OR VIDEO:
-V241004PRE: HOW OFTEN DOES R PAY ATTENTION TO POLITICS AND ELECTIONS
+V241004PRE: HOW OFTEN DOES R PAY ATTENTION TO
+POLITICS AND ELECTIONS
 Question
 How often do you pay attention to what’s going on in government
 and politics? [Always, most of the time, about half the time, some of
@@ -152,69 +38,11 @@ CAMPINT_POLATTREV, Q4
 Note: The following speciﬁcations were implemented exclusively in the
 computerized survey instrument and are not applicable to the paper questionnaire.
 Response OrderForward/Reverse order
-V241005PRE: HOW INTERESTED IN FOLLOWING CAMPAIGNS
+V241005PRE: HOW INTERESTED IN FOLLOWING
+CAMPAIGNS
 Question
 Some people don’t pay much attention to political campaigns. How
 about you? Would you say that you have been [very much interested,
 somewhat interested or not much interested/ not much interested,
 somewhat interested or very much interested] in the political
 campaigns so far this year?
-26 CODEBOOK: VARIABLES
-Value Labels
--9. Refused
--1. Inapplicable
-1. Very much interested
-2. Somewhat interested
-3. Not much interested
-Survey Question(s)CAMPINT_CAMPINTSTD
-Response OrderForward/Reverse order
-V241006PRE: APPROVE OR DISAPPROVE DEMOCRATIC
-PARTY CHOOSING NEW CANDIDATE
-Question Do you approve or disapprove of the way the Democratic party
-handled choosing a new presidential candidate?
-Value Labels
--9. Refused
--8. Don’t know
--1. Inapplicable
-1. Approve
-2. Disapprove
-Survey Question(s)PRESREPL_PTYAPPR
-V241007PRE: HOW STRONGLY APPROVE OR DISAPPROVE
-DEMOCRATIC PARTY CHOOSING NEW CANDIDATE
-Question Do you approve strongly or not strongly? / Do you disapprove
-strongly or not strongly?
-Value Labels
--9. Refused
--8. Don’t know
--1. Inapplicable
-1. Strongly
-2. Not strongly
-Survey Question(s)PRESREPL_PTYAPPRSTR
-Universe
-IF R APPROVES OF HOW DEM PARTY HANDLED CHOOSING NEW CANDIDATE /
-IF R DISAPPROVES OF HOW DEM PARTY HANDLED CHOPSING NEW
-CANDIDATE:
-V241008xPRE: SUMMARY: APPROVE/DISAPPROVE
-DEMOCRATIC PARTY CHOOSING NEW CANDIDATE
-PRE- ELECTION SURVEY VARIABLES 27
-Value Labels
--2. DK/RF in V241006 or V241007
--1. Inapplicable
-1. Approve strongly
-2. Approve not strongly
-3. Disapprove not strongly
-4. Disapprove strongly
-Survey Question(s)PRESREPL_PTYAPPR, PRESREPL_PTYAPPRSTR
-NOTES:
------
-Use of sample weighting is necessary for a representative
-cross-section. For the Pre-election and Post-election waves
-of the ANES 2008 Time Series Study, either WT.1 and WT.2
-may be used (weights centered at a mean of 1.0), or else
-WT.1a and WT.2a (not centered).
-
-TYPE:
-----
-Numeric   4
-
-=============================================================================

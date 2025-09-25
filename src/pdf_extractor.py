@@ -30,7 +30,9 @@ for file in files:
 # Parsing through 2024 codebook txt
 import re
 import pandas as pd
-var_pattern = re.compile(r"(V24\d+[a-d,z]*)(.*)$")
+import os
+os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
+var_pattern = re.compile(r"(V\d+[a-d,x,z,_orig]*)(.*)$")
 rows = []
 
 def parse_24(lines, start_idx):
@@ -41,52 +43,63 @@ def parse_24(lines, start_idx):
     var_name = match.group(1).strip()
     summary = match.group(2).strip()
 
-    question, survey_q, universe, note = "", "", "", ""
+    question = ""
     missing_label, valid_label = "", ""
     i = start_idx + 1
     while i < len(lines):
         line = lines[i].strip()
-        if var_pattern.match(line) or line.startswith("WEIGHTING VARIABLES"):
+        if var_pattern.match(line):
             break
         if line.startswith("Value Labels"):
+            rest = line.replace("Value Labels", "").strip()
+            if rest and re.match(r"^-?\d+\..*", rest):
+                if re.match(r"^\-\d+\..*$", rest):
+                    missing_label += rest + "\n"
+                else:
+                    valid_label += rest + "\n"
+
             i += 1
-            while line < len(lines) and re.match(r"^-?\d+\..*", line.strip()):
+            while i < len(lines) and re.match(r"^-?\d+\..*", lines[i].strip()):
                 label_line = lines[i].strip()
                 if re.match(r"^\-\d+\..*$", label_line):
                     missing_label += label_line + "\n"
-                else:
+                    #must fix this here
+                elif re.match(r"^\d+\..*$", label_line):
                     valid_label += label_line + "\n"
                 i+=1
             continue
-
         if line.startswith("Question"):
-            question += " " + line.replace("Question", "").strip()
-        elif line.startswith("Survey Question"):
-            survey_qs += " " + line.replace("Survey Question(s)", "").strip()
-        elif line.startswith("Universe"):
-            universe += " " + line.replace("Universe", "").strip()
-        elif line.startswith("Note"):
-            note += " " + line.replace("Note", "").strip()
-        else:
-            summary += " " + line.strip()
+            q_block = line.replace("Question", "").strip()
+            if q_block:
+                question += " " + q_block
+            j = i+1
+            while j < len(lines):
+                nxt = lines[j].strip()
+                if (nxt.startswith("Value Labels") or
+                    var_pattern.match(nxt) or
+                    nxt.startswith("CODEBOOK") or
+                    nxt.startswith("Universe") or
+                    nxt.startswith("Survey Question(s)") or
+                    nxt.startswith("Randomization Order") or
+                    nxt.startswith("Response Order")):
+                    break
+                question += " " + nxt
+                j += 1
+            i = j
+            continue
 
+        summary += " " + line.strip()
         i += 1
-
     rows.append((
         var_name,
         summary.strip(),
         question.strip(),
-        survey_qs.strip(),
-        universe.strip(),
-        note.strip(),
         missing_label.strip(),
         valid_label.strip()
     ))
     return i
 
-
-
-with open("data/pdf_data/2024_codebook.txt", "r", encoding="utf-8") as f:
+with open("2024_codebook.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 # weighting variables
 weighting_vars = []
@@ -94,7 +107,24 @@ weighting_vars = []
 i = 0
 while i < len(lines):
     line = lines[i].strip()
-    if line.startswith("WEIGHTING VARIABLES"):
+    # if line.startswith("WEIGHTING VARIABLES"):
+    #     i += 1
+    #     while line.startswith("PRE- ELECTION"):
+    #         line = lines[i].strip()
+    #         if var_pattern.match(line):
+    #             match = var_pattern.match(line)
+    #             weighting_vars.append(match.group(1).strip())
+    #         i += 1
+    #     continue
+    if var_pattern.match(line):
+        i = parse_24(lines, i)
+    else:
         i += 1
+
+df_24 = pd.DataFrame(rows, columns=[
+    "var_name", "summary", "question", "missing_labels", "valid_labels"
+])
+
+df_24.to_csv("parsed_codebook_2024.csv", index=False)
 
 # %%
