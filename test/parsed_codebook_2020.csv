@@ -1,0 +1,67 @@
+var_name,summary,question,missing_labels,valid_labels
+V200001,2020 CASE ID,,,
+V160001_orig,2016 CASE ID,,"-1. Inapplicable, not a re-interview case",
+V200002,MODE OF INTERVIEW: PRE-ELECTION INTERVIEW,,,"1. Video
+2. Telephone
+3. Web"
+V200003,SAMPLE TYPE,,,"2. ANES 2016-2020 Panel
+3. 3Ar1 Fresh sample: web only, replicate 1
+4. 3Ar2 Fresh sample: web only, replicate 2
+5. 3B Fresh sample: web or phone
+6. 3C Fresh sample: video, web, or phone"
+V200004,"COMPLETED PRE ONLY, POST ONLY, OR COMPLETED PRE AND POST INTERVIEWS",,,"1. pre-election interview (only) complete
+2. post-election interview (only) complete
+3. pre and post-election interviews (both) complete"
+V200005,CASE VALIDATION: ELIGIBILITY CONCERNS,,,"0. No special concern
+1. Some concern (possible substitution)
+2. High concern (likely substitution)
+3. Highest concern (evident substitution)"
+V200006,CASE VALIDATION: ELIGIBILITY OUTCOME,,-2. Not included in validation study,"1. Respondent definitely was selected person
+2. Respondent definitely was not selected person
+3. Uncertain
+4. Not determined due to validation non-response"
+V200007,CASE VALIDATION: PRE- AND POST-ELECTION SELECTION STATUS WEIGHTING VARIABLES 17,,,
+V200008,CASE VALIDATION: VALIDATION STUDY OUTCOME,,-2. Not included in validation study,"1. Right person interviewed no corrections needed
+2. Refusal
+3. Non-response to validation
+4. Contact with inconclusive result
+5. Right person interviewed, data correction needed
+6. Wrong person interviewed"
+V200009,CORRECTIONS MADE TO PRELIMINARY DATA,,,"0. No changes to data
+1. Change to age variable
+2. Change to gender variable
+3. Change to other variable
+4. Change to age and gender variables
+5. Change to age, gender and other variables"
+V200010a,FULL SAMPLE PRE-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200010b,FULL SAMPLE POST-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200010c,FULL SAMPLE VARIANCE UNIT,,,
+V200010d,FULL SAMPLE VARIANCE STRATUM,,,
+V200011a,2016-2020 PANEL PRE-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200011b,2016-2020 PANEL POST-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200011c,2016-2020 PANEL VARIANCE UNIT,,,
+V200011d,2016-2020 PANEL VARIANCE STRATUM WEIGHTING VARIABLES 19,,,
+V200012a,WEB-ONLY SAMPLE PRE-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200012b,WEB-ONLY SAMPLE POST-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200012c,WEB-ONLY SAMPLE VARIANCE UNIT,,,
+V200012d,WEB-ONLY SAMPLE VARIANCE STRATUM,,,
+V200013a,MIXED-WEB SAMPLE PRE-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200013b,MIXED-WEB SAMPLE POST-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200013c,MIXED-WEB SAMPLE VARIANCE UNIT,,,
+V200013d,MIXED-WEB SAMPLE VARIANCE STRATUM,,,
+V200014a,MIXED-VIDEO SAMPLE PRE-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200014b,MIXED-VIDEO SAMPLE POST-ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200014c,MIXED-VIDEO SAMPLE VARIANCE UNIT,,,
+V200014d,MIXED-VIDEO SAMPLE VARIANCE STRATUM,,,
+V200015a,ALL FRESH SAMPLE (EXCLUDES 2016) PRE- ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced. WEIGHTING VARIABLES 21,,,
+V200015b,ALL FRESH SAMPLE (EXCLUDES 2016) POST- ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200015c,ALL FRESH SAMPLE (EXCLUDES 2016) VARIANCE UNIT,,,
+V200015d,ALL FRESH SAMPLE (EXCLUDES 2016) VARIANCE STRATUM,,,
+V200016a,ALL SAMPLE EXCLUDING MIXED VIDEO PRE- ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200016b,ALL SAMPLE EXCLUDING MIXED VIDEO POST- ELECTION WEIGHT Variable Note Draft weights from the preliminary release have been updated and replaced.,,,
+V200016c,ALL SAMPLE EXCLUDING MIXED-VIDEO VARIANCE UNIT,,,
+V200016d,ALL SAMPLE EXCLUDING MIXED-VIDEO VARIANCE STRATUM PRE- ELECTION SURVEY VARIABLES,,,
+V201001,PRE: SELECT LANGUAGE,Would you like to complete this survey in English or Spanish? ¿Quisiera completar esta encuesta en inglés o español?,,"1. English / Ingles
+2. Spanish / Espanol"
+V201002a,PRE: DOES R HAVE PARTICIPANT BOOKLET FOR PHONE INTERVIEW,We mailed you a booklet. It was enclosed with the letter inviting you to participate. It says “ANES Participant Booklet” on the cover. We need to use that booklet during the interview. Do you have it now?,-1. Inapplicable,"1. R has booklet (paper or emailed)
+2. R does not have paper or email booklet"
