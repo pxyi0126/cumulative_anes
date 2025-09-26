@@ -33,7 +33,7 @@ pdf_extract("2024_codebook.pdf")
 import re
 import pandas as pd
 import os
-os.chdir("/Users/yipho/anes/cumulative_anes/test")
+os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
 var_pattern = re.compile(r"(V\d+[a-d,x,z,_orig]*)(.*)$")
 rows = []
 
@@ -102,7 +102,7 @@ def parse_24(lines, start_idx):
     ))
     return i
 
-with open("2024small.txt", "r", encoding="utf-8") as f:
+with open("2024_codebook.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 i = 0
