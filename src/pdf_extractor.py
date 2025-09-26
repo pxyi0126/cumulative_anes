@@ -114,15 +114,13 @@ df_24 = pd.DataFrame(rows, columns=[
     "var_name", "summary", "question", "missing_labels", "valid_labels"
 ])
 
-df_24.to_csv("parsed_codebook_2024.csv", index=False)
-
+df_24.to_csv("2024_pcodebook.csv", index=False)
 # %%
-# %%
-# Parsing through 2024 codebook txt
+# Parsing through 2020 codebook txt
 import re
 import pandas as pd
 import os
-os.chdir("/Users/yipho/anes/cumulative_anes/test")
+os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
 var_pattern = re.compile(r"(V\d+[a-d,x,z,_orig]*)(.*)$")
 rows = []
 
@@ -191,7 +189,7 @@ def parse_24(lines, start_idx):
     ))
     return i
 
-with open("2020small.txt", "r", encoding="utf-8") as f:
+with open("2020_codebook.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 i = 0
@@ -202,9 +200,9 @@ while i < len(lines):
     else:
         i += 1
 
-df_24 = pd.DataFrame(rows, columns=[
+df_20 = pd.DataFrame(rows, columns=[
     "var_name", "summary", "question", "missing_labels", "valid_labels"
 ])
 
-df_24.to_csv("parsed_codebook_2020.csv", index=False)
+df_20.to_csv("2020_pcodebook.csv", index=False)
 # %%
