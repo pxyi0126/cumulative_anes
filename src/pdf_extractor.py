@@ -206,3 +206,47 @@ df_20 = pd.DataFrame(rows, columns=[
 
 df_20.to_csv("2020_pcodebook.csv", index=False)
 # %%
+# Parsing through 2016 codebook txt
+import re
+import pandas as pd
+import os
+os.chdir("/Users/yipho/anes/cumulative_anes/test")
+var_pattern = re.compile(r"(V\d+[a-d,x,z,_orig]*)(.*)$")
+def parse_16(lines, start_idx, rows):
+    line = lines[start_idx].strip()
+    match = var_pattern.match(line)
+    if not match:
+        return start_idx + 1, rows
+    varname = match.group(1).strip()
+    summary = ""
+    i = start_idx + 1
+    while i < len(lines):
+        line = lines[i].strip()
+        if line.startswith("Label:"):
+            summary = line.replace("Label:", "").strip()
+        if line.startswith("Item name:") or var_pattern.match(line):
+            break
+        i += 1
+    rows.append((varname, summary))
+    return i, rows
+
+rows = []
+with open("2016small.txt", "r", encoding="utf-8") as f:
+    lines = f.readlines()
+i = 0
+while i < len(lines):
+    line = lines[i].strip()
+    if var_pattern.match(line):
+        i, rows = parse_16(lines, i, rows)
+    else:
+        i += 1
+# %%
+# # Parsing through 2012 codebook txt
+# import re
+# import pandas as pd
+# import os
+# os.chdir("/Users/yipho/anes/cumulative_anes/")
+# var2012 = pd.read_csv("codebook_var/2012_vars.csv")
+# df_12 = var2012[["varname", "summary"]]
+# df_12.columns = ["var_name", "description"]
+# print(df_12.head())

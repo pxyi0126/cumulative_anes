@@ -1,0 +1,215 @@
+V160001
+Label: 2016 Case ID
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unique to each respondent.
+F rom: 1
+T o: 5090
+ANES 2016 Codebook - V ersion 20190904 - page 10
+V160001_orig
+Label: Original (6-digit) W estat Case ID
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unique to each respondent.
+F rom: 300001
+T o: 407800
+ANES 2016 Codebook - V ersion 20190904 - page 11
+V160101
+Label: Pre-election weight -full sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted Summary
+FTF W eb T otal
+Min. 0.0895 0.2464 0.0895
+1st Qu. 0.4738 0.6151 0.5717
+Median 0.7691 0.8407 0.8240
+Mean 0.9323 1.0256 0.9998
+3rd Qu. 1.1590 1.2769 1.2425
+Max. 6.8139 6.0624 6.8139
+Std Dev 0.6803 0.6638 0.6696
+ANES 2016 Codebook - V ersion 20190904 - page 12
+V160101f
+Label: Pre-election weight -FTF sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted Summary
+FTF W eb T otal
+Min. 0.0962 0.0000 0.0000
+1st Qu. 0.5081 0.0000 0.0000
+Median 0.8252 0.0000 0.0000
+Mean 0.9992 0.0000 0.2761
+3rd Qu. 1.2441 0.0000 0.3340
+Max. 7.3088 0.0000 7.3088
+Std Dev 0.7283 0.0000 0.5884
+ANES 2016 Codebook - V ersion 20190904 - page 13
+V160101w
+Label: Pre-election weight -W eb sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted Summary
+FTF W eb T otal
+Min. 0.0000 0.2407 0.0000
+1st Qu. 0.0000 0.6012 0.0000
+Median 0.0000 0.8214 0.6600
+Mean 0.0000 1.0000 0.7237
+3rd Qu. 0.0000 1.2464 0.9813
+Max. 0.0000 5.9279 5.9279
+Std Dev 0.0000 0.6472 0.7093
+ANES 2016 Codebook - V ersion 20190904 - page 14
+V160102
+Label: Post-election weight -full sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted Summary
+FTF W eb T otal
+Min. 0.0000 0.0000 0.0000
+1st Qu. 0.3769 0.3989 0.3934
+Median 0.7016 0.7540 0.7481
+Mean 0.8481 0.8564 0.8541
+3rd Qu. 1.1158 1.1343 1.1294
+Max. 6.4445 6.1986 6.4445
+Std Dev 0.7212 0.7184 0.7191
+ANES 2016 Codebook - V ersion 20190904 - page 15
+V160102f
+Label: Post-election weight -FTF sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted Summary
+FTF W eb T otal
+Min. 0.0000 0.0000 0.0000
+1st Qu. 0.4014 0.0000 0.0000
+Median 0.7449 0.0000 0.0000
+Mean 0.8958 0.0000 0.2476
+3rd Qu. 1.1775 0.0000 0.0000
+Max. 6.6748 0.0000 6.6748
+Std Dev 0.7594 0.0000 0.5655
+ANES 2016 Codebook - V ersion 20190904 - page 16
+V160102w
+Label: Post-election weight -W eb sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted Summary
+FTF W eb T otal
+Min. 0.0000 0.0000 0.0000
+1st Qu. 0.0000 0.3903 0.0000
+Median 0.0000 0.7357 0.4690
+Mean 0.0000 0.8382 0.6066
+3rd Qu. 0.0000 1.1254 0.8761
+Max. 0.0000 6.1132 6.1132
+Std Dev 0.0000 0.7043 0.7067
+ANES 2016 Codebook - V ersion 20190904 - page 17
+V160201
+Label: Stratum -full sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+132 unique outcomes. 20 most frequently appearing outcomes:
+Unweighted F requencies
+FTF W eb T otal
+123 57 0 57
+121 55 0 55
+126 55 0 55
+118 52 0 52
+108 50 0 50
+107 46 0 46
+106 45 0 45
+112 44 0 44
+125 44 0 44
+101 43 0 43
+119 43 0 43
+53 0 42 42
+110 42 0 42
+116 42 0 42
+30 0 41 41
+129 41 0 41
+132 41 0 41
+87 0 40 40
+117 40 0 40
+131 40 0 40
+ANES 2016 Codebook - V ersion 20190904 - page 18
+V160201f
+Label: Stratum -FTF sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+33 unique outcomes. 20 most frequently appearing outcomes:
+Unweighted F requencies
+FTF W eb T otal
+0 0 3090 3090
+23 57 0 57
+21 55 0 55
+26 55 0 55
+18 52 0 52
+8 50 0 50
+7 46 0 46
+6 45 0 45
+12 44 0 44
+25 44 0 44
+1 43 0 43
+19 43 0 43
+10 42 0 42
+16 42 0 42
+29 41 0 41
+32 41 0 41
+17 40 0 40
+31 40 0 40
+13 39 0 39
+9 38 0 38
+ANES 2016 Codebook - V ersion 20190904 - page 19
+V160201w
+Label: Stratum -W eb sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+101 unique outcomes. 20 most frequently appearing outcomes:
+Unweighted F requencies
+FTF W eb T otal
+0 1180 0 1180
+53 0 42 42
+30 0 41 41
+87 0 40 40
+94 0 40 40
+80 0 39 39
+21 0 38 38
+43 0 38 38
+79 0 38 38
+15 0 37 37
+18 0 37 37
+36 0 37 37
+12 0 36 36
+29 0 36 36
+41 0 36 36
+74 0 36 36
+77 0 36 36
+90 0 36 36
+91 0 36 36
+97 0 36 36
+ANES 2016 Codebook - V ersion 20190904 - page 20
+V160202
+Label: V ariance PSU -F ull sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted F requencies
+FTF W eb T otal
+1 605 1530 2135
+2 555 1560 2115
+3 20 0 20
+ANES 2016 Codebook - V ersion 20190904 - page 21
+V160202f
+Label: V ariance PSU -FTF sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted F requencies
+FTF W eb T otal
+0 0 3090 3090
+1 605 0 605
+2 555 0 555
+3 20 0 20
+ANES 2016 Codebook - V ersion 20190904 - page 22
+V160202w
+Label: V ariance PSU -W eb sample
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted F requencies
+FTF W eb T otal
+0 1180 0 1180
+1 0 1530 1530
+2 0 1560 1560
+ANES 2016 Codebook - V ersion 20190904 - page 23
