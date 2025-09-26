@@ -31,7 +31,7 @@ for file in files:
 import re
 import pandas as pd
 import os
-os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
+os.chdir("/Users/yipho/anes/cumulative_anes/test")
 var_pattern = re.compile(r"(V\d+[a-d,x,z,_orig]*)(.*)$")
 rows = []
 
@@ -42,6 +42,10 @@ def parse_24(lines, start_idx):
         return start_idx + 1
     var_name = match.group(1).strip()
     summary = match.group(2).strip()
+    j = start_idx + 1
+    while j < len(lines) and not lines[j].strip().startswith("Question"):
+        summary += " " + lines[j].strip()
+        j += 1
 
     question = ""
     missing_label, valid_label = "", ""
@@ -50,6 +54,21 @@ def parse_24(lines, start_idx):
         line = lines[i].strip()
         if var_pattern.match(line):
             break
+
+        if line.startswith("Question"):
+            q_block = line.replace("Question", "").strip()
+            if q_block:
+                question += " " + q_block
+            j = i+1
+            while j < len(lines):
+                nxt = lines[j].strip()
+                print(f"Next line: {nxt}")
+                if nxt.startswith("Value Labels") or var_pattern.match(nxt):
+                    break
+                question += " " + nxt
+                j += 1
+            i = j
+            continue
         if line.startswith("Value Labels"):
             rest = line.replace("Value Labels", "").strip()
             if rest and re.match(r"^-?\d+\..*", rest):
@@ -68,27 +87,8 @@ def parse_24(lines, start_idx):
                     valid_label += label_line + "\n"
                 i+=1
             continue
-        if line.startswith("Question"):
-            q_block = line.replace("Question", "").strip()
-            if q_block:
-                question += " " + q_block
-            j = i+1
-            while j < len(lines):
-                nxt = lines[j].strip()
-                if (nxt.startswith("Value Labels") or
-                    var_pattern.match(nxt) or
-                    nxt.startswith("CODEBOOK") or
-                    nxt.startswith("Universe") or
-                    nxt.startswith("Survey Question(s)") or
-                    nxt.startswith("Randomization Order") or
-                    nxt.startswith("Response Order")):
-                    break
-                question += " " + nxt
-                j += 1
-            i = j
-            continue
 
-        summary += " " + line.strip()
+        # summary += " " + line.strip()
         i += 1
     rows.append((
         var_name,
@@ -99,7 +99,7 @@ def parse_24(lines, start_idx):
     ))
     return i
 
-with open("2024_codebook.txt", "r", encoding="utf-8") as f:
+with open("2024small.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 # weighting variables
 weighting_vars = []
