@@ -1,8 +1,10 @@
 V240001 2024 TIME SERIES CASE ID
 V200001 2020 TIME SERIES CASE ID
-Value Labels -1. Inapplicable, did not participate in 2000 Time Series study
-V160001_orig2016 TIME SERIES CASE ID
-Value Labels -1. Inapplicable, R did not participate in 2016 Time Series Study
+Value Labels
+-1. Inapplicable, did not participate in 2000 Time Series study
+V160001_orig 2016 TIME SERIES CASE ID
+Value Labels
+-1. Inapplicable, R did not participate in 2016 Time Series Study
 V240002aMODE OF INTERVIEW: PRE-ELECTION INTERVIEW
 Value Labels
 1. Face-to-face (FTF)
@@ -280,63 +282,29 @@ Question It appears that the state name is missing from the address you
 provided. In what state is your address for voting?
 Value Labels
 -1. Inapplicable
-1. Alabama  
-2. Alaska  
-4. Arizona
-5. Arkansas  
-6. California  
-8. Colorado
-9. Connecticut  
-10. Delaware
+1. Alabama  2. Alaska  4. Arizona
+5. Arkansas  6. California  8. Colorado
+9. Connecticut  10. Delaware
 11. District of Columbia (Washington DC)
-12. Florida  
-13. Georgia   
-15. Hawaii
-16. Idaho   
-17. Illinois   
-18. Indiana
-19. Iowa   
-20. Kansas   
-21. Kentucky
-22. Louisiana   
-23. Maine   
-24. Maryland
-25. Massachusetts   
-26. Michigan   
-27. Minnesota
-28. Mississippi   
-29. Missouri   
-30. Montana
-31. Nebraska   
-32. Nevada   
-33. New Hampshire
-34. New Jersey   
-35. New Mexico   
-36. New York
-37. North Carolina   
-38. North Dakota   
-39. Ohio
-40. Oklahoma   
-41. Oregon   
-42. Pennsylvania
-44. Rhode Island   
-45. South Carolina   
-46. South Dakota
-47. Tennessee   
-48. Texas   
-49. Utah
-50. Vermont   
-51. Virginia   
-53. Washington
-54. West Virginia   
-55. Wisconsin   
-56. Wyoming
+12. Florida  13. Georgia   15. Hawaii
+16. Idaho   17. Illinois   18. Indiana
+19. Iowa   20. Kansas   21. Kentucky
+22. Louisiana   23. Maine   24. Maryland
+25. Massachusetts   26. Michigan   27. Minnesota
+28. Mississippi   29. Missouri   30. Montana
+31. Nebraska   32. Nevada   33. New Hampshire
+34. New Jersey   35. New Mexico   36. New York
+37. North Carolina   38. North Dakota   39. Ohio
+40. Oklahoma   41. Oregon   42. Pennsylvania
+44. Rhode Island   45. South Carolina   46. South Dakota
+47. Tennessee   48. Texas   49. Utah
+50. Vermont   51. Virginia   53. Washington
+54. West Virginia   55. Wisconsin   56. Wyoming
 Survey Question(s)PREVOTE_NEWWHST
 Universe IF R DID NOT PROVIDE STATE NAME WHEN ASKED FOR NEW ADDRESS:
 V241018PRE: ADDRESS OF REGISTRATION GIVEN (NOT
 REGISTERED AT SAMPLE ADDRESS)
-Value Labels
--1. Inapplicable
+Value Labels -1. Inapplicable
 1. Registration address given
 Survey Question(s)PREVOTE_NEWADDR
 30 CODEBOOK: VARIABLES
@@ -349,7 +317,8 @@ Value Labels
 0. State not included with registration address
 1. State included with registration address
 Survey Question(s)PREVOTE_NEWADDR
-V241020PRE: CITY INCLUDED IN ADDRESS OF
+V241020
+PRE: CITY INCLUDED IN ADDRESS OF
 REGISTRATION (NOT REGISTERED AT SAMP
 ADDR)
 Value Labels -1. Inapplicable
@@ -391,7 +360,8 @@ Value Labels
 47. Tennessee   48. Texas   49. Utah
 50. Vermont   51. Virginia   53. Washington
 54. West Virginia   55. Wisconsin   56. Wyoming
-V241024RESTRICTED: PRE: NAME UNDER WHICH R REGISTERED TO VOTE
+V241024RESTRICTED: PRE: NAME UNDER WHICH R
+REGISTERED TO VOTE
 Question
 Some people register to vote under their full name and others use
 diﬀerent versions of their name. Others might have changed their
@@ -423,12 +393,14 @@ Value Labels
 -1. Inapplicable
 0. No Senate race in state of registration
 1. Senate race in state of registration
-V241028PRE: GOVERNOR RACE IN STATE OF REGISTRATION (ALL REGISTRATIONS)
+V241028PRE: GOVERNOR RACE IN STATE OF
+REGISTRATION (ALL REGISTRATIONS)
 Value Labels
 -1. Inapplicable
 0. No Governor race in state of registration
 1. Governor race in state of registration
-V241029PRE: PARTY REGISTRATION IN STATE OF REGISTRATION (ALL REGISTRATIONS)
+V241029PRE: PARTY REGISTRATION IN STATE OF
+REGISTRATION (ALL REGISTRATIONS)
 Value Labels
 -1. Inapplicable
 0. No party registration in s tate of registration
@@ -446,7 +418,8 @@ Value Labels
 Survey Question(s)PREVOTE_REGINT
 Universe IF R SAID NOT REGISTERED OR DK IF REGISTERED TO VOTE:
 IF R’S NEW STATE OF RESIDENCE IS NOT NORTH DAKOTA:
-V241031PRE: DID R VOTE IN A PRESIDENTIAL PRIMARY OR CAUCUS
+V241031PRE: DID R VOTE IN A PRESIDENTIAL PRIMARY OR
+CAUCUS
 Question Did you vote in a Presidential primary election or caucus this year?
 Value Labels
 -9. Refused
@@ -456,7 +429,8 @@ Value Labels
 2. Yes, voted in Republican primary or caucus
 3. No, didn’t vote in a primary or caucus
 Survey Question(s)PREVOTE_PRIMV
-V241032PRE: FOR WHICH CANDIDATE DID R VOTE IN THE DEMOCRATIC PRESIDENTIAL PRIMARY
+V241032PRE: FOR WHICH CANDIDATE DID R VOTE IN THE
+DEMOCRATIC PRESIDENTIAL PRIMARY
 Question In the Democratic Presidential primary or caucus, who did you vote
 for?
 Value Labels
@@ -469,7 +443,8 @@ Value Labels
 9. None of these candidates/uncommitted/left blank
 Survey Question(s)PREVOTE_PRIMVWHOD
 Universe IF R VOTED IN A DEMOCRATIC PRESIDENTIAL PRIMARY OR CAUCUS:
-V241033PRE: FOR WHICH CANDIDATE DID R VOTE IN THE REPUBLICAN PRESIDENTIAL PRIMARY
+V241033PRE: FOR WHICH CANDIDATE DID R VOTE IN THE
+REPUBLICAN PRESIDENTIAL PRIMARY
 34 CODEBOOK: VARIABLES
 Question In the Republican Presidential primary or caucus, who did you vote
 for?
@@ -485,7 +460,8 @@ Value Labels
 9. None of these candidates/uncommitted/left blank
 Survey Question(s)PREVOTE_PRIMVWHOR
 Universe IF R VOTED IN REPUBLICAN PRESIDENTIAL PRIMARY OR CAUCUS:
-V241034PRE: PAPER: FOR WHICH CANDIDATE DID R VOTE IN THE PRESIDENTIAL PRIMARY/CAUCUS
+V241034PRE: PAPER: FOR WHICH CANDIDATE DID R VOTE
+IN THE PRESIDENTIAL PRIMARY/CAUCUS
 Question In the presidential primary or caucus, who did you vote for, or did you
 not vote?
 Value Labels
@@ -516,7 +492,8 @@ Value Labels
 2. Have not voted
 Survey Question(s)PREVOTE_VOTED
 Randomization Order of names in question text
-V241036PRE: CONFIRMATION VOTED (EARLY) IN NOVEMBER 5 ELECTION
+V241036PRE: CONFIRMATION VOTED (EARLY) IN
+NOVEMBER 5 ELECTION
 Question Just to be clear, I’m recording that you already voted in the election
 that is scheduled to take place on November 5. Is that right?
 Value Labels
@@ -535,7 +512,8 @@ Which one of the following best describes how you voted?
 - Not completely sure whether I voted or not
 Value Labels
 -1. Inapplicable
-1. Deﬁnitely voted in person at a polling place before election day
+1. Deﬁnitely voted in person at a polling place before election
+day
 2. Deﬁnitely voted by mailing a ballot before election day
 3. Deﬁnitely voted in some other way
 4. Not completely sure whether I voted or not
@@ -571,7 +549,8 @@ Universe IF R VOTED FOR PRESIDENT:
 Randomization Order of names in question text according to value in var candidateorder.
 Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241039zPRE: FOR WHOM DID R VOTE FOR PRESIDENT - OTHER {SPECIFY}
+V241039zPRE: FOR WHOM DID R VOTE FOR PRESIDENT -
+OTHER {SPECIFY}
 Question
 Who did you vote for? [ Kamala Harris (Democrat), Donald Trump
 (Republican) / Donald Trump (Republican), Kamala Harris
@@ -584,7 +563,8 @@ Universe IF R VOTED FOR PRESIDENT:
 Randomization Order of names in question text according to value in var candidateorder.
 Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241040PRE: PREFERENCE STRONG FOR PRES CAND FOR WHOM R VOTED
+V241040PRE: PREFERENCE STRONG FOR PRES CAND FOR
+WHOM R VOTED
 Question Would you say your preference for this candidate was strong or not
 strong?
 Value Labels
@@ -593,7 +573,8 @@ Value Labels
 2. Not strong
 Survey Question(s)PREVOTE_PRESSTR
 Universe IF R ANSWERED WHICH PRESIDENTIAL CANDIDATE THEY VOTED FOR:
-V241041PRE: HOW LONG BEFORE ELECTION R MADE DECISION PRES VOTE
+V241041PRE: HOW LONG BEFORE ELECTION R MADE
+DECISION PRES VOTE
 Question How long before Election day did you decide that you were going to
 vote the way you did?
 Value Labels
@@ -619,7 +600,8 @@ Value Labels
 2. No
 Survey Question(s)PREVOTE_INTPRES
 Universe IF R DID NOT VOTE EARLY IN THE 2024 GENERAL ELECTIONS:
-V241043PRE: FOR WHOM DOES R INTEND TO VOTE FOR PRESIDENT
+V241043PRE: FOR WHOM DOES R INTEND TO VOTE FOR
+PRESIDENT
 Question
 Who do you think you will vote for? [ Kamala Harris (Democrat),
 Donald Trump (Republican) / Donald Trump (Republican), Kamala
@@ -640,21 +622,22 @@ Universe IF R DID NOT VOTE BUT INTENDS TO VOTE IN THE ELECTION FOR PRESIDENT:
 Randomization Order of names in question text according to value in var candidateorder.
 Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241043zPRE: FOR WHOM DOES R INTEND TO VOTE FOR PRESIDENT - OTHER {SPECIFY}
+V241043zPRE: FOR WHOM DOES R INTEND TO VOTE FOR
+PRESIDENT - OTHER {SPECIFY}
 Question
 Who do you think you will vote for? [ Kamala Harris (Democrat),
 Donald Trump (Republican) / Donald Trump (Republican), Kamala
 Harris (Democrat)], Robert F . Kennedy Jr. (Independent), Cornel West
 (Independent), Jill Stein (Green), or someone else?
-Value Labels
--2. Open-end responses available in separate ﬁle
+Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_INTPRESWHO
 Universe IF R DID NOT VOTE BUT INTENDS TO VOTE IN THE ELECTION FOR PRESIDENT:
 PRE- ELECTION SURVEY VARIABLES 39
 Randomization Order of names in question text according to value in var candidateorder.
 Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241044PRE: PREFERENCE STRONG FOR PRESIDENTIAL CANDIDATE FOR WHOM R INTENDS TO VOTE
+V241044PRE: PREFERENCE STRONG FOR PRESIDENTIAL
+CANDIDATE FOR WHOM R INTENDS TO VOTE
 Question Would you say your preference for this candidate is strong or not
 strong?
 Value Labels
@@ -677,7 +660,8 @@ Value Labels
 2. No
 Survey Question(s)PREVOTE_PREFPRES
 Universe IF R DID NOT SAY THEY INTENDED TO VOTE FOR PRESIDENT:
-V241046PRE: PREFERENCE FOR PRESIDENTIAL CANDIDATE
+V241046PRE: PREFERENCE FOR PRESIDENTIAL
+CANDIDATE
 Question
 Who do you prefer? [ Kamala Harris (Democrat), Donald Trump
 (Republican) / Donald Trump (Republican), Kamala Harris
@@ -699,21 +683,22 @@ PRESIDENTIAL CANDIDATE:
 Randomization Order of names in question text according to value in var candidateorder.
 Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241046zPRE: PREFERENCE FOR PRESIDENTIAL CANDIDATE - OTHER {SPECIFY}
+V241046zPRE: PREFERENCE FOR PRESIDENTIAL
+CANDIDATE - OTHER {SPECIFY}
 Question
 Who do you prefer? [ Kamala Harris (Democrat), Donald Trump
 (Republican) / Donald Trump (Republican), Kamala Harris
 (Democrat)], Robert F . Kennedy Jr. (Independent), Cornel West
 (Independent), Jill Stein (Green), or someone else?
-Value Labels
--2. Open-end responses available in separate ﬁle
+Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_PREFPRWHO
 Universe IF R DID NOT INTEND TO VOTE FOR PRESIDENT BUT PREFERS A
 PRESIDENTIAL CANDIDATE:
 Randomization Order of names in question text according to value in var candidateorder.
 Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241047PRE: PAPER: PREFERENCE FOR PRESIDENTIAL CANDIDATE
+V241047PRE: PAPER: PREFERENCE FOR PRESIDENTIAL
+CANDIDATE
 PRE- ELECTION SURVEY VARIABLES 41
 Value Labels
 -9. Refused
@@ -727,7 +712,8 @@ Value Labels
 6. Another candidate
 7. No preference
 Survey Question(s)PAPI PRE Q7
-V241048PRE: PREFERENCE STRONG FOR PRESIDENTIAL CANDIDATE
+V241048PRE: PREFERENCE STRONG FOR PRESIDENTIAL
+CANDIDATE
 Question Would you say your preference for this candidate is strong or not
 strong?
 Value Labels
@@ -741,7 +727,8 @@ PREVOTE_PREFPRSTR, PAPI PRE Q8
 Note: The following speciﬁcations were implemented exclusively in the
 computerized survey instrument and are not applicable to the paper questionnaire.
 Universe IF R ANSWERED WHICH PRESIDENTIAL CANDIDATE THEY PREFERRED:
-V241049PRE: IF ELECTION JUST BETWEEN HARRIS AND TRUMP , WHO WOULD R VOTE FOR
+V241049PRE: IF ELECTION JUST BETWEEN HARRIS AND
+TRUMP , WHO WOULD R VOTE FOR
 Question
 If the election were just between Kamala Harris (Democrat) and
 Donald Trump (Republican) / Donald Trump (Republican) and Kamala
@@ -761,7 +748,8 @@ computerized survey instrument and are not applicable to the paper questionnaire
 Randomization Order of names in question text according to value in var candidateorder.
 Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241050PRE: DID R VOTE FOR US HOUSE OF REPRESENTATIVES
+V241050PRE: DID R VOTE FOR US HOUSE OF
+REPRESENTATIVES
 Question
 How about the election for the House of Representatives in
 Washington D.C.? Did you vote for a candidate for the U.S. House of
@@ -786,11 +774,11 @@ Survey Question(s)PREVOTE_HSVTWHO
 Universe IF R VOTED FOR U.S. HOUSE OF REPRESENTATIVES:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241051zPRE: FOR WHOM DID R VOTE FOR US HOUSE - OTHER {SPECIFY}
+V241051zPRE: FOR WHOM DID R VOTE FOR US HOUSE -
+OTHER {SPECIFY}
 PRE- ELECTION SURVEY VARIABLES 43
 Question What is the party of the House candidate you voted for?
-Value Labels
--2. Open-end responses available in separate ﬁle
+Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_HSVTWHO
 Universe IF R VOTED FOR U.S. HOUSE OF REPRESENTATIVES:
 Randomization Order of response options 1-2 according to value in var candidateorder.
@@ -808,7 +796,8 @@ Value Labels
 2. No
 Survey Question(s)PREVOTE_INTHS
 Universe IF R DID NOT VOTE EARLY IN THE CURRENT YEAR GENERAL ELECTIONS:
-V241053PRE: PARTY OF HOUSE CANDIDATE R INTENDS TO VOTE FOR
+V241053PRE: PARTY OF HOUSE CANDIDATE R INTENDS TO
+VOTE FOR
 Question What is the party of the House candidate you think you will vote for?
 Value Labels
 -9. Refused
@@ -823,10 +812,10 @@ U.S. HOUSE:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 44 CODEBOOK: VARIABLES
-V241053zPRE: PARTY OF HOUSE CANDIDATE R INTENDS TO VOTE FOR - OTHER {SPECIFY}
+V241053zPRE: PARTY OF HOUSE CANDIDATE R INTENDS TO
+VOTE FOR - OTHER {SPECIFY}
 Question What is the party of the House candidate you think you will vote for?
-Value Labels
--2. Open-end responses available in separate ﬁle
+Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_INTHSWHO
 Universe IF R DID NOT VOTE YET BUT INTENDS TO VOTE IN THE ELECTION FOR THE
 U.S. HOUSE:
@@ -857,10 +846,10 @@ HOUSE:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 PRE- ELECTION SURVEY VARIABLES 45
-V241055zPRE: PARTY OF HOUSE CANDIDATE R PREFERS - OTHER {SPECIFY}
+V241055zPRE: PARTY OF HOUSE CANDIDATE R PREFERS -
+OTHER {SPECIFY}
 Question What is the party of the House candidate you prefer?
-Value Labels
--2. Open-end responses available in separate ﬁle
+Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_HSPREFWHO
 Universe IF R DOES NOT INTEND TO VOTE BUT PREFERS A CANDIDATE FOR U.S.
 HOUSE:
@@ -892,10 +881,10 @@ Universe IF R VOTED FOR U.S. SENATE:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 46 CODEBOOK: VARIABLES
-V241058zPRE: R’S VOTE FOR US SENATE - OTHER {SPECIFY}
+V241058zPRE: R’S VOTE FOR US SENATE - OTHER
+{SPECIFY}
 Question Who did you vote for?
-Value Labels
--2. Open-end responses available in separate ﬁle
+Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_VTSENWHO
 Universe IF R VOTED FOR U.S. SENATE:
 Randomization Order of response options 1-2 according to value in var candidateorder.
@@ -912,7 +901,8 @@ Value Labels
 Survey Question(s)PREVOTE_INTSEN
 Universe IF R DID NOT VOTE EARLY IN THE CURRENT YEAR GENERAL ELECTIONS:
 IF A SENATE RACE WAS HELD IN REGISTRATION STATE:
-V241060PRE: FOR WHOM DOES R INTEND TO VOTE FOR US SENATE
+V241060PRE: FOR WHOM DOES R INTEND TO VOTE FOR
+US SENATE
 Question Who do you think you will vote for?
 Value Labels
 -9. Refused
@@ -927,10 +917,10 @@ Universe IF R DID NOT VOTE YET BUT INTENDS TO VOTE FOR U.S. SENATE:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 PRE- ELECTION SURVEY VARIABLES 47
-V241060zPRE: FOR WHOM DOES R INTEND TO VOTE FOR US SENATE - OTHER {SPECIFY}
+V241060zPRE: FOR WHOM DOES R INTEND TO VOTE FOR
+US SENATE - OTHER {SPECIFY}
 Question Who do you think you will vote for?
-Value Labels
--2. Open-end responses available in separate ﬁle
+Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_INTSENWHO
 Universe IF R DID NOT VOTE YET BUT INTENDS TO VOTE FOR U.S. SENATE:
 Randomization Order of response options 1-2 according to value in var candidateorder.
@@ -963,7 +953,8 @@ IF PRELOAD CANDIDATE NAMES FOR R’S STATE CAN BE USED:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 48 CODEBOOK: VARIABLES
-V241062zPRE: WHOM DOES R PREFER US SENATE CANDIDATE - OTHER {SPECIFY}
+V241062zPRE: WHOM DOES R PREFER US SENATE
+CANDIDATE - OTHER {SPECIFY}
 Question Who do you prefer?
 Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_SENPREFWHO
@@ -1000,7 +991,8 @@ Universe IF R VOTED IN U.S. SPECIAL SENATE ELECTION:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 PRE- ELECTION SURVEY VARIABLES 49
-V241064zPRE: R’S VOTE FOR US SENATE [SPECIAL ELECTION] - OTHER {SPECIFY}
+V241064zPRE: R’S VOTE FOR US SENATE [SPECIAL
+ELECTION] - OTHER {SPECIFY}
 Question Who did you vote for?
 Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_VTSEN2WHO
@@ -1035,7 +1027,8 @@ ELECTION:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 50 CODEBOOK: VARIABLES
-V241066zPRE: FOR WHOM DOES R INTEND TO VOTE US SENATE [SPECIAL ELECTION] - OTHER {SPECIFY}
+V241066zPRE: FOR WHOM DOES R INTEND TO VOTE US
+SENATE [SPECIAL ELECTION] - OTHER {SPECIFY}
 Question Who do you think you will vote for?
 Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_INTSEN2WHO
@@ -1043,7 +1036,8 @@ Universe IF R DID NOT VOTE YET BUT INTENDS TO VOTE IN U.S. SPECIAL SENATE
 ELECTION:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241067PRE: DOES R PREFER US SENATE CANDIDATE [SPECIAL ELECTION]
+V241067PRE: DOES R PREFER US SENATE CANDIDATE
+[SPECIAL ELECTION]
 Question Do you prefer one of the candidates for the U.S. Senate?
 Value Labels
 -1. Inapplicable
@@ -1052,7 +1046,8 @@ Value Labels
 Survey Question(s)PREVOTE_SENPREF2
 Universe IF R DID NOT SAY THEY INTENDED TO VOTE IN U.S. SPECIAL SENATE
 ELECTION:
-V241068PRE: WHOM DOES R PREFER US SENATE CANDIDATE [SPECIAL ELECTION]
+V241068PRE: WHOM DOES R PREFER US SENATE
+CANDIDATE [SPECIAL ELECTION]
 Question Who do you prefer?
 Value Labels
 -1. Inapplicable
@@ -1067,7 +1062,9 @@ Randomization Order of response options 1-2 according to value in var candidateo
 Response OrderRandomize 2 major parties
 PRE- ELECTION SURVEY VARIABLES 51
 V241068z
-PRE: WHOM DOES R PREFER US SENATE CANDIDATE [SPECIAL ELECTION] - OTHER {SPECIFY}
+PRE: WHOM DOES R PREFER US SENATE
+CANDIDATE [SPECIAL ELECTION] - OTHER
+{SPECIFY}
 Question Who do you prefer?
 Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_SENPREF2WHO
@@ -1099,7 +1096,8 @@ Universe IF R VOTED FOR GOVERNOR:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 52 CODEBOOK: VARIABLES
-V241070zPRE: R’S VOTE FOR GOVERNOR - OTHER {SPECIFY}
+V241070zPRE: R’S VOTE FOR GOVERNOR - OTHER
+{SPECIFY}
 Question Who did you vote for?
 Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_VTGOVWHO
@@ -1118,7 +1116,8 @@ Value Labels
 Survey Question(s)PREVOTE_INTGOV
 Universe IF R DID NOT VOTE EARLY IN THE CURRENT YEAR GENERAL ELECTIONS:
 IF A GUBERNATORIAL RACE WAS HELD IN STATE OF REGISTRATION:
-V241072PRE: FOR WHOM DOES R INTEND TO VOTE FOR GOVERNOR
+V241072PRE: FOR WHOM DOES R INTEND TO VOTE FOR
+GOVERNOR
 Question Who do you think you will vote for?
 Value Labels
 -9. Refused
@@ -1133,14 +1132,16 @@ Universe IF R DID NOT VOTE YET BUT INTENDS TO VOTE FOR GOVERNOR:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
 PRE- ELECTION SURVEY VARIABLES 53
-V241072zPRE: FOR WHOM DOES R INTEND TO VOTE FOR GOVERNOR - OTHER {SPECIFY}
+V241072zPRE: FOR WHOM DOES R INTEND TO VOTE FOR
+GOVERNOR - OTHER {SPECIFY}
 Question Who do you think you will vote for?
 Value Labels -2. Open-end responses available in separate ﬁle
 Survey Question(s)PREVOTE_INTGOVWHO
 Universe IF R DID NOT VOTE YET BUT INTENDS TO VOTE FOR GOVERNOR:
 Randomization Order of response options 1-2 according to value in var candidateorder.
 Response OrderRandomize 2 major parties
-V241073PRE: DOES R PREFER GUBERNATORIAL CANDIDATE
+V241073PRE: DOES R PREFER GUBERNATORIAL
+CANDIDATE
 Question Do you prefer one of the candidates for Governor?
 Value Labels
 -1. Inapplicable
@@ -23699,12 +23700,14 @@ Value Labels
 -1. Inapplicable
 0. Not bilingual certiﬁed
 1. Bilingual certiﬁed
-V245017POST: IWR DESCR: PERMISSION TO USE SELF- REPORTED CHARACTERISTICS
+V245017POST: IWR DESCR: PERMISSION TO USE SELF-
+REPORTED CHARACTERISTICS
 Value Labels
 -1. Inapplicable
 0. No
 1. Yes
-V245018POST: IWR DESCR: YEARS WITH SRO IN 5-YEAR BINS
+V245018POST: IWR DESCR: YEARS WITH SRO IN 5-YEAR
+BINS
 Value Labels
 -1. Inapplicable
 0. 0-4 years
@@ -23714,8 +23717,8 @@ Value Labels
 655
 APPENDIX A: RELIGION
 CODES
-These are numeric codes used in
-V241444x - PRE: SUMMARY: Full religion summary.
+These are numeric codes used in V241444x - PRE: SUMMARY: Full religion
+summary.
 010. Protestant, NFS, other, unknown, inter-, or non-denominational
 099. Christian, NFS, unknown, inter-, or non-denominational
 100. 7th Day Adventist
@@ -23764,7 +23767,8 @@ Evangelical and Reformed Church
 656 APPENDIX A: RELIGION CODES
 185. Wesleyan Church
 186. Church of God of Findlay, OH
-199. Pentecostal (NFS); Church of God (NFS); Holiness (NFS); not ascertained whether R Pentecostal or Charismatic (Holin
+199. Pentecostal (NFS); Church of God (NFS); Holiness (NFS); not ascertained
+whether R Pentecostal or Charismatic (Holin
 200. Plymouth Brethren
 201. Independent Fundamental Churches of America; IFCA
 219. Independent-Fundamentalist (NFS)

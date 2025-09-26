@@ -25,7 +25,9 @@ def pdf_extract(file_path):
 files = glob.glob("data/pdf_data/*.pdf", recursive=True)
 for file in files:
     pdf_extract(file)
-
+# %%
+os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
+pdf_extract("2024_codebook.pdf")
 # %%
 # Parsing through 2024 codebook txt
 import re
@@ -43,7 +45,10 @@ def parse_24(lines, start_idx):
     var_name = match.group(1).strip()
     summary = match.group(2).strip()
     j = start_idx + 1
-    while j < len(lines) and not lines[j].strip().startswith("Question"):
+    while j < len(lines) and not lines[j].strip().startswith("Question") \
+        and not lines[j].strip().startswith("Value Labels") \
+        and not var_pattern.match(lines[j].strip()) \
+        and not re.match(r"^\d*\s*CODEBOOK:.*", lines[j].strip()):
         summary += " " + lines[j].strip()
         j += 1
 
@@ -52,7 +57,7 @@ def parse_24(lines, start_idx):
     i = start_idx + 1
     while i < len(lines):
         line = lines[i].strip()
-        if var_pattern.match(line):
+        if var_pattern.match(line) or line.startswith("WEIGHTING VARIABLES"):
             break
 
         if line.startswith("Question"):
@@ -62,8 +67,8 @@ def parse_24(lines, start_idx):
             j = i+1
             while j < len(lines):
                 nxt = lines[j].strip()
-                print(f"Next line: {nxt}")
-                if nxt.startswith("Value Labels") or var_pattern.match(nxt):
+                if (nxt.startswith("Value Labels") or
+                    var_pattern.match(nxt)):
                     break
                 question += " " + nxt
                 j += 1
@@ -82,13 +87,11 @@ def parse_24(lines, start_idx):
                 label_line = lines[i].strip()
                 if re.match(r"^\-\d+\..*$", label_line):
                     missing_label += label_line + "\n"
-                    #must fix this here
                 elif re.match(r"^\d+\..*$", label_line):
                     valid_label += label_line + "\n"
                 i+=1
             continue
 
-        # summary += " " + line.strip()
         i += 1
     rows.append((
         var_name,
@@ -101,21 +104,10 @@ def parse_24(lines, start_idx):
 
 with open("2024small.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
-# weighting variables
-weighting_vars = []
 
 i = 0
 while i < len(lines):
     line = lines[i].strip()
-    # if line.startswith("WEIGHTING VARIABLES"):
-    #     i += 1
-    #     while line.startswith("PRE- ELECTION"):
-    #         line = lines[i].strip()
-    #         if var_pattern.match(line):
-    #             match = var_pattern.match(line)
-    #             weighting_vars.append(match.group(1).strip())
-    #         i += 1
-    #     continue
     if var_pattern.match(line):
         i = parse_24(lines, i)
     else:

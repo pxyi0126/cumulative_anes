@@ -1,4 +1,58 @@
 var_name,summary,question,missing_labels,valid_labels
+V240001,2024 TIME SERIES CASE ID,,,
+V200001,2020 TIME SERIES CASE ID,,"-1. Inapplicable, did not participate in 2000 Time Series study",
+V160001_orig,2016 TIME SERIES CASE ID,,"-1. Inapplicable, R did not participate in 2016 Time Series Study",
+V240002a,MODE OF INTERVIEW: PRE-ELECTION INTERVIEW,,,"1. Face-to-face (FTF)
+2. Internet (WEB)
+3. Paper (PAPI)
+4. Phone"
+V240002b,MODE OF INTERVIEW: POST-ELECTION INTERVIEW,,"-7. Insuﬃcient parital, interview deleted
+-6. No post interview","1. Face-to-face (FTF)
+2. Internet (WEB)
+3. Paper (PAPI)
+4. Phone
+5. Video"
+V240002c,PRE/POST INTERVIEW COMPLETION STATUS,,,"1. Completed pre-election interview only
+2. Completed pre and post-election interviews"
+V240003,SAMPLE TYPE,,,"1. Panel (2016-20-24)
+2. Fresh sample (WEB)
+3. Fresh sample (FTF)
+4. GSS"
+V240101a,PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF) SAMPLE [FINAL],,,
+V240101b,POST-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF) SAMPLE [FINAL],,,
+V240101c,PSU: FACE-TO-FACE (FTF) SAMPLE [FINAL] WEIGHTING VARIABLES 21,,,
+V240101d,STRATUM: FACE-TO-FACE (FTF) SAMPLE [FINAL],,,
+V240102a,PRE-ELECTION RAKED WEIGHT: WEB SAMPLE [FINAL],,,
+V240102b,POST-ELECTION RAKED WEIGHT: WEB SAMPLE [FINAL],,,
+V240102c,PSU: WEB SAMPLE [FINAL],,,
+V240102d,STRATUM: WEB SAMPLE [FINAL],,,
+V240103a,PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED [FINAL],,,
+V240103b,POST-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED [FINAL],,,
+V240103c,PSU: FACE-TO-FACE (FTF) & WEB SAMPLE COMBINED [FINAL],,,
+V240103d,STRATUM: FACE-TO-FACE (FTF) & WEB SAMPLE COMBINED [FINAL],,,
+V240104a,PRE-ELECTION RAKED WEIGHT: WEB SAMPLE WITH PAPI [FINAL],,,
+V240104b,POST-ELECTION RAKED WEIGHT: WEB SAMPLE WITH PAPI [FINAL],,,
+V240104c,PSU: WEB SAMPLE WITH PAPI [FINAL],,,
+V240104d,STRATUM: WEB SAMPLE WITH PAPI [FINAL],,,
+V240105a,PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL],,,
+V240105b,POST-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL],,,
+V240105c,PSU: FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL],,,
+V240105d,STRATUM: FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL],,,
+V240106a,PRE-ELECTION RAKED WEIGHT: 2016-2024 PANEL SAMPLE [FINAL] WEIGHTING VARIABLES 23,,,
+V240106b,POST-ELECTION RAKED WEIGHT: 2016-2024 PANEL SAMPLE [FINAL],,,
+V240106c,PSU: 2016-2024 PANEL SAMPLE [FINAL],,,
+V240106d,STRATUM: 2016-2024 PANEL SAMPLE [FINAL],,,
+V240107a,"PRE-ELECTION RAKED WEIGHT: 2016-2024 PANEL, FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL]",,,
+V240107b,"POST-ELECTION RAKED WEIGHT: 2016-2024 PANEL, FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL]",,,
+V240107c,"PSU: 2016-2024 PANEL, FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL]",,,
+V240107d,"STRATUM: 2016-2024 PANEL, FACE-TO-FACE (FTF) & WEB SAMPLES COMBINED W/PAPI [FINAL]",,,
+V240108a,"PRE-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF), WEB, & 2016-2024 PANEL SAMPLES COMBINED [FINAL]",,,
+V240108b,"POST-ELECTION RAKED WEIGHT: FACE-TO-FACE (FTF), WEB, & 2016-2024 PANEL SAMPLES COMBINED [FINAL]",,,
+V240108c,"PSU: FACE-TO-FACE (FTF), WEB, & 2016-2024 PANEL SAMPLES COMBINED [FINAL]",,,
+V240108d,"STRATUM: FACE-TO-FACE (FTF), WEB, & 2016-2024 PANEL SAMPLES COMBINED [FINAL] PRE- ELECTION SURVEY VARIABLES",,,
+V241001,PRE: SELECT LANGUAGE,Would you like to complete this survey in English or Spanish? ¿Quisiera completar esta encuesta en inglés o español?,"-9. Refused
+-1. Inapplicable","1. English / Ingles
+2. Spanish / Espanol"
 V241002,PRE: PRE-ELECTION INTERVIEW AUDIO CONSENT,This interview may be monitored for training and data quality purposes.,-1. Inapplicable,"1. Continue with audio recording
 2. Continue do not record"
 V241003,PRE: INTERVIEWER: IS R MAN OR WOMAN (OBSERVATION),"IS THE RESPONDENT A MAN OR A WOMAN? IF UNSURE, CODE DK.","-8. Don’t know
@@ -9,4 +63,125 @@ V241004,PRE: HOW OFTEN DOES R PAY ATTENTION TO POLITICS AND ELECTIONS,"How often
 3. About half the time
 4. Some of the time
 5. Never"
-V241005,PRE: HOW INTERESTED IN FOLLOWING CAMPAIGNS,"Some people don’t pay much attention to political campaigns. How about you? Would you say that you have been [very much interested, somewhat interested or not much interested/ not much interested, somewhat interested or very much interested] in the political campaigns so far this year?",,
+V241005,PRE: HOW INTERESTED IN FOLLOWING CAMPAIGNS,"Some people don’t pay much attention to political campaigns. How about you? Would you say that you have been [very much interested, somewhat interested or not much interested/ not much interested, somewhat interested or very much interested] in the political campaigns so far this year? 26 CODEBOOK: VARIABLES","-9. Refused
+-1. Inapplicable","1. Very much interested
+2. Somewhat interested
+3. Not much interested"
+V241006,PRE: APPROVE OR DISAPPROVE DEMOCRATIC PARTY CHOOSING NEW CANDIDATE,Do you approve or disapprove of the way the Democratic party handled choosing a new presidential candidate?,"-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Approve
+2. Disapprove"
+V241007,PRE: HOW STRONGLY APPROVE OR DISAPPROVE DEMOCRATIC PARTY CHOOSING NEW CANDIDATE,Do you approve strongly or not strongly? / Do you disapprove strongly or not strongly?,"-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Strongly
+2. Not strongly"
+V241008x,PRE: SUMMARY: APPROVE/DISAPPROVE DEMOCRATIC PARTY CHOOSING NEW CANDIDATE PRE- ELECTION SURVEY VARIABLES 27,,"-2. DK/RF in V241006 or V241007
+-1. Inapplicable","1. Approve strongly
+2. Approve not strongly
+3. Disapprove not strongly
+4. Disapprove strongly"
+V241009,PRE: VOTE SECTION - ORDER OF MAJOR PARTY CANDIDATE NAMES,,-1. Inapplicable,"1. Harris / Trump
+2. Trump / Harris"
+V241010,PRE: VOTE SECTION - HOUSEHOLD ADDRESS PRELOADED (SAMPLE ADDRESS),,-1. Inapplicable,"0. Sample address not preloaded
+1. Sample address preloaded"
+V241012,PRE: IS R REGISTERED TO VOTE,Now on a diﬀerent topic. Are you registered to vote?,"-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Yes
+2. No"
+V241013,PRE: PAPER: IS R REGISTERED TO VOTE,Are you registered to vote? Mark one answer that best describes you. 28 CODEBOOK: VARIABLES,"-9. Refused
+-4. Error
+-1. Inapplicable","1. Not registered and do not intend to register
+2. Not registered but intend to register
+3. Registered as a Democrat
+4. Registered as a Republican
+5. Registered with another party
+6. Registered with no party, or unsure which party"
+V241014,PRE: CONFIRM R’S PRELOAD ADDRESS IS ADDRESS USED FOR VOTING,I’d like to ensure that our records are accurate for election-related questions. The following is the address we currently have on ﬁle for you: [Respondent’s preloaded address] Is the following location the one you use for voting?,"-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Yes, this is the correct address
+2. No, this is not the correct address"
+V241015,PRE: PAPER: DOES R LIVE AT SAMPLE ADDRESS OR SOMEWHERE ELSE,Do you live at [Address on File] or somewhere else?,"-9. Refused
+-1. Inapplicable","1. I live here
+2. I live somewhere else"
+V241016,RESTRICTED: PRE: R’S ACTUAL ADDRESS USED FOR VOTING PURPOSES,What is the address you use for voting?,-3. RESTRICTED [STAFF ONLY],
+V241017,PRE: CONFIRM R’S STATE,It appears that the state name is missing from the address you provided. In what state is your address for voting?,-1. Inapplicable,"1. Alabama  2. Alaska  4. Arizona
+5. Arkansas  6. California  8. Colorado
+9. Connecticut  10. Delaware
+11. District of Columbia (Washington DC)
+12. Florida  13. Georgia   15. Hawaii
+16. Idaho   17. Illinois   18. Indiana
+19. Iowa   20. Kansas   21. Kentucky
+22. Louisiana   23. Maine   24. Maryland
+25. Massachusetts   26. Michigan   27. Minnesota
+28. Mississippi   29. Missouri   30. Montana
+31. Nebraska   32. Nevada   33. New Hampshire
+34. New Jersey   35. New Mexico   36. New York
+37. North Carolina   38. North Dakota   39. Ohio
+40. Oklahoma   41. Oregon   42. Pennsylvania
+44. Rhode Island   45. South Carolina   46. South Dakota
+47. Tennessee   48. Texas   49. Utah
+50. Vermont   51. Virginia   53. Washington
+54. West Virginia   55. Wisconsin   56. Wyoming"
+V241018,PRE: ADDRESS OF REGISTRATION GIVEN (NOT REGISTERED AT SAMPLE ADDRESS),,-1. Inapplicable,1. Registration address given
+V241019,PRE: STATE INCLUDED IN ADDRESS OF REGISTRATION (NOT REGISTERED AT SAMP ADDR),,-1. Inapplicable,"0. State not included with registration address
+1. State included with registration address"
+V241020,PRE: CITY INCLUDED IN ADDRESS OF REGISTRATION (NOT REGISTERED AT SAMP ADDR),,-1. Inapplicable,1. City included with registration address
+V241021,PRE: RESTRICTED: HOW LONG HAS R BEEN REGISTERED AT LOCATION (YEARS),"How many years have you been registered to vote at [this/that] address? If you are not sure, please use your best guess.",-3. RESTRICTED,
+V241022,PRE: REGISTRATION STATE SAME AS SAMPLE ADDRESS STATE (ALL REGISTRATIONS),,-1. Inapplicable,"0. State of registration not the same as sample state
+1. State of registration the same as sample state"
+V241023,PRE: REGISTRATION STATE (ALL REGISTRATIONS) PRE- ELECTION SURVEY VARIABLES 31,,-1. Inapplicable,"1. Alabama  2. Alaska  4. Arizona
+5. Arkansas  6. California  8. Colorado
+9. Connecticut  10. Delaware
+11. District of Columbia (Washington DC)
+12. Florida  13. Georgia   15. Hawaii
+16. Idaho   17. Illinois   18. Indiana
+19. Iowa   20. Kansas   21. Kentucky
+22. Louisiana   23. Maine   24. Maryland
+25. Massachusetts   26. Michigan   27. Minnesota
+28. Mississippi   29. Missouri   30. Montana
+31. Nebraska   32. Nevada   33. New Hampshire
+34. New Jersey   35. New Mexico   36. New York
+37. North Carolina   38. North Dakota   39. Ohio
+40. Oklahoma   41. Oregon   42. Pennsylvania
+44. Rhode Island   45. South Carolina   46. South Dakota
+47. Tennessee   48. Texas   49. Utah
+50. Vermont   51. Virginia   53. Washington
+54. West Virginia   55. Wisconsin   56. Wyoming"
+V241024,RESTRICTED: PRE: NAME UNDER WHICH R REGISTERED TO VOTE,Some people register to vote under their full name and others use diﬀerent versions of their name. Others might have changed their name since they registered. What about you? Under what name are you registered to vote?,-3. RESTRICTED [STAFF ONLY],
+V241025,PRE: PARTY OF REGISTRATION,"What political party are you registered with, if any?","-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Democratic party
+2. Republican party
+4. None or independent
+5. Another party {SPECIFY}"
+V241025z,RESTRICTED: PRE: PARTY OF REGISTRATION - OTHER {SPECIFY},,-3. RESTRICTED,
+V241027,PRE: SENATE RACE IN STATE OF REGISTRATION (ALL REGISTRATIONS),,-1. Inapplicable,"0. No Senate race in state of registration
+1. Senate race in state of registration"
+V241028,PRE: GOVERNOR RACE IN STATE OF REGISTRATION (ALL REGISTRATIONS),,-1. Inapplicable,"0. No Governor race in state of registration
+1. Governor race in state of registration"
+V241029,PRE: PARTY REGISTRATION IN STATE OF REGISTRATION (ALL REGISTRATIONS),,-1. Inapplicable,"0. No party registration in s tate of registration
+1. Party registration in state of registration"
+V241030,PRE: DOES R INTEND TO REGISTER TO VOTE,"Do you intend to register to vote before the November 5 elections, or do you not intend to register? PRE- ELECTION SURVEY VARIABLES 33","-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Yes, intend to register
+2. No, do not intend to register"
+V241031,PRE: DID R VOTE IN A PRESIDENTIAL PRIMARY OR CAUCUS,Did you vote in a Presidential primary election or caucus this year?,"-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Yes, voted in Democratic primary or caucus
+2. Yes, voted in Republican primary or caucus
+3. No, didn’t vote in a primary or caucus"
+V241032,PRE: FOR WHICH CANDIDATE DID R VOTE IN THE DEMOCRATIC PRESIDENTIAL PRIMARY,"In the Democratic Presidential primary or caucus, who did you vote for?","-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Joe Biden
+2. Dean Phillips
+3. Another Democrat
+9. None of these candidates/uncommitted/left blank"
+V241033,PRE: FOR WHICH CANDIDATE DID R VOTE IN THE REPUBLICAN PRESIDENTIAL PRIMARY,"In the Republican Presidential primary or caucus, who did you vote for?","-9. Refused
+-8. Don’t know
+-1. Inapplicable","1. Donald Trump
+2. Ron DeSantis
+3. Nikki Haley
+4. Vivek Ramaswamy
+5. Another Republican
+9. None of these candidates/uncommitted/left blank"
+V241034,PRE: PAPER: FOR WHICH CANDIDATE DID R VOTE IN THE PRESIDENTIAL PRIMARY/CAUCUS,,,
