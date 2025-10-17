@@ -1,0 +1,52 @@
+var_name,description,valid_labels,missing_labels
+V160001,2016 Case ID,,
+V160001_orig,Original (6-digit) W estat Case ID,,
+V160101,Pre-election weight -full sample,,
+V160101f,Pre-election weight -FTF sample,,
+V160101w,Pre-election weight -W eb sample,,
+V160102,Post-election weight -full sample,,
+V160102f,Post-election weight -FTF sample,,
+V160102w,Post-election weight -W eb sample,,
+V160201,Stratum -full sample,,
+V160201f,Stratum -FTF sample,,
+V160201w,Stratum -W eb sample,,
+V160202,V ariance PSU -F ull sample,,
+V160202f,V ariance PSU -FTF sample,,
+V160202w,V ariance PSU -W eb sample,,
+V160501,Mode of interview,"1. FTF/CASI
+2. W eb
+",
+V160502,Completed Pre only or completed Pre and Post interviews,"0. Pre interview completed-
+1. Pre and Post interviews
+",
+V161001,PRE: FTF ONLY: Audio Consent,"1. Continue
+7. Refuse to allow audio
+","-1. Inap, W eb mode
+"
+V161002,PRE: FTF ONLY: INTERVIEWER : Is R male or female (Observation),"1. Male
+2. F emale
+","-1. Inap, W eb mode
+"
+V161003,PRE: How often does R pay attn to politics and elections,"1. Always
+2. Most of the time
+3. About half the time
+4. Some of the time
+5. Never
+",
+V161004,PRE: How interested in following campaigns,"1. V ery much interested
+2. Somewhat interested
+3. Not much interested
+",
+V161005,PRE: Did R vote for President in 2012,"1. Y es, voted
+2. No, didn’t vote
+","-8. Don’t know (FTF only)
+-9. Refused
+"
+V161006,PRE: Recall of last (2012) Presidential vote choice,"1. Barack Obama
+2. Mitt Romney
+5. Other SPECIFY
+6. Other specify - specified
+","-1. Inap,
+-8. Don’t know (FTF only)
+-9. Refused
+"

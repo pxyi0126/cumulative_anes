@@ -213,3 +213,166 @@ FTF W eb T otal
 1 0 1530 1530
 2 0 1560 1560
 ANES 2016 Codebook - V ersion 20190904 - page 23
+V160501
+Label: Mode of interview
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted F requencies
+FTF W eb T otal
+1. FTF/CASI 1180 0 1180
+2. W eb 0 3090 3090
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+1. FTF/CASI 100.0 100.0 0.0 0.0 27.6 25.8
+2. W eb 0.0 0.0 100.0 100.0 72.4 74.2
+ANES 2016 Codebook - V ersion 20190904 - page 24
+V160502
+Label: Completed Pre only or completed Pre and Post interviews
+Item name: Not applicable; administrative or derived variable
+Question: Not applicable
+Unweighted F requencies
+FTF W eb T otal
+0. Pre interview completed-
+no completed Post interview 122 500 622
+1. Pre and Post interviews
+completed 1058 2590 3648
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+0. Pre interview completed-
+no completed Post interview 10.3 9.3 16.2 16.6 14.6 14.7
+1. Pre and Post interviews
+completed 89.7 90.7 83.8 83.4 85.4 85.3
+ANES 2016 Codebook - V ersion 20190904 - page 25
+V161001
+Label: PRE: FTF ONLY: Audio Consent
+Item name: CONSENT_AUDCONS
+Question: IF MODE OF IW IS F ACE-TO-F ACE: During this interview, we would
+like to make an audio recording of some of the questions and answers for
+training, and so my supervisors can make sure I do the interview correctly .
+The computer will do that. I’d like to continue now, unless you have any
+questions. Audio recording was shut off if respondent did not consent.
+Unweighted F requencies
+FTF W eb T otal
+1. Continue 1137 0 1137
+7. Refuse to allow audio
+recording 43 0 43
+-1. Inap, W eb mode 0 3090 3090
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+1. Continue 96.4 96.9 0.0 0.0 26.6 25.0
+7. Refuse to allow audio
+recording 3.6 3.1 0.0 0.0 1.0 0.8
+-1. Inap, W eb mode 0.0 0.0 100.0 100.0 72.4 74.2
+ANES 2016 Codebook - V ersion 20190904 - page 26
+V161002
+Label: PRE: FTF ONLY: INTERVIEWER : Is R male or female (Observation)
+Item name: GEND_GENDOBS
+Question: IF MODE OF IW IS FACE-TO-FACE: IS THE RESPONDENT MALE OR
+FEMALE? IF UNSURE, CODE DK.
+Unweighted F requencies
+FTF W eb T otal
+1. Male 560 0 560
+2. F emale 620 0 620
+-1. Inap, W eb mode 0 3090 3090
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+1. Male 47.5 47.8 0.0 0.0 13.1 12.3
+2. F emale 52.5 52.2 0.0 0.0 14.5 13.5
+-1. Inap, W eb mode 0.0 0.0 100.0 100.0 72.4 74.2
+ANES 2016 Codebook - V ersion 20190904 - page 27
+V161003
+Label: PRE: How often does R pay attn to politics and elections
+Item name: CAMPINT_POLA TTREV
+Question: How often do you pay attention to what’s going on in government and pol-
+itics? [Always, most of the time, about half the time, some of the time, or
+never / Never, some of the time, about half the time, most of the time, or
+always]?
+F orward/reverse response option order
+Unweighted F requencies
+FTF W eb T otal
+1. Always 282 581 863
+2. Most of the time 333 1163 1496
+3. About half the time 214 671 885
+4. Some of the time 324 618 942
+5. Never 27 57 84
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+1. Always 23.9 23.1 18.8 17.0 20.2 18.6
+2. Most of the time 28.2 29.5 37.6 35.7 35.0 34.1
+3. About half the time 18.1 17.4 21.7 22.2 20.7 21.0
+4. Some of the time 27.5 27.4 20.0 22.3 22.1 23.7
+5. Never 2.3 2.5 1.8 2.7 2.0 2.7
+ANES 2016 Codebook - V ersion 20190904 - page 28
+V161004
+Label: PRE: How interested in following campaigns
+Item name: CAMPINT_CAMPINTSTD
+Question: Some people don’t pay much attention to political campaigns. How about
+you? W ould you say that you have been [very much interested, somewhat
+interested or not much interested/ not much interested, somewhat interested
+or very much interested] in the political campaigns so far this year?
+F orward/reverse response option order
+Unweighted F requencies
+FTF W eb T otal
+1. V ery much interested 614 1616 2230
+2. Somewhat interested 412 1107 1519
+3. Not much interested 154 367 521
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+1. V ery much interested 52.0 50.5 52.3 48.7 52.2 49.1
+2. Somewhat interested 34.9 34.2 35.8 37.4 35.6 36.6
+3. Not much interested 13.1 15.3 11.9 13.9 12.2 14.3
+ANES 2016 Codebook - V ersion 20190904 - page 29
+V161005
+Label: PRE: Did R vote for President in 2012
+Item name: CAMPINT_PRESVTLAST
+Question: In 2012 Barack Obama ran on the Democratic ticket against Mitt Romney
+for the Republicans. Do you remember for sure whether or not you voted in
+that election? DO NOT PROBE ‘DON’T KNOW’ RESPONSES
+Unweighted F requencies
+FTF W eb T otal
+1. Y es, voted 851 2266 3117
+2. No, didn’t vote 315 822 1137
+-8. Don’t know (FTF only) 14 0 14
+-9. Refused 0 2 2
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+1. Y es, voted 72.1 70.3 73.3 68.4 73.0 68.9
+2. No, didn’t vote 26.7 28.4 26.6 31.6 26.6 30.8
+-8. Don’t know (FTF only) 1.2 1.2 0.0 0.0 0.3 0.3
+-9. Refused 0.0 0.0 0.1 0.0 0.0 0.0
+ANES 2016 Codebook - V ersion 20190904 - page 30
+V161006
+Label: PRE: Recall of last (2012) Presidential vote choice
+Item name: CAMPINT_PREVVTWHO
+Question: IF R SA YS VOTED FOR PRESIDENT IN 2012: Which one did you vote
+for? DO NOT PROBE ‘DK’ RESPONSE
+Unweighted F requencies
+FTF W eb T otal
+1. Barack Obama 459 1269 1728
+2. Mitt Romney 350 918 1268
+5. Other SPECIFY 16 42 58
+6. Other specify - specified
+as: Did not vote/did not vote
+for President in 2012 2 1 3
+-1. Inap, 2,-8,-9 in V161005 329 824 1153
+-8. Don’t know (FTF only) 13 0 13
+-9. Refused 11 36 47
+Percentages
+FTF W eb T otal
+No wgt W eight No wgt W eight No wgt W eight
+1. Barack Obama 38.9 39.0 41.1 39.2 40.5 39.1
+2. Mitt Romney 29.7 28.1 29.7 26.8 29.7 27.1
+5. Other SPECIFY 1.4 1.2 1.4 1.3 1.4 1.3
+6. Other specify - specified
+as: Did not vote/did not vote
+for President in 2012 0.2 0.2 0.0 0.0 0.1 0.0
+-1. Inap, 2,-8,-9 in V161005 27.9 29.7 26.7 31.6 27.0 31.1
+-8. Don’t know (FTF only) 1.1 1.2 0.0 0.0 0.3 0.3
+-9. Refused 0.9 0.8 1.2 1.1 1.1 1.0
