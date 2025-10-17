@@ -756,9 +756,6 @@ FTF W eb T otal
 39. Ohio 1 0 1
 48. T exas 1 0 1
 -1. Inap, 1 in V161013a/1,3
-in V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 1175 3090 4265
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
@@ -768,9 +765,6 @@ No wgt W eight No wgt W eight No wgt W eight
 39. Ohio 0.1 0.2 0.0 0.0 0.0 0.0
 48. T exas 0.1 0.0 0.0 0.0 0.0 0.0
 -1. Inap, 1 in V161013a/1,3
-in V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 99.6 99.4 100.0 100.0 99.9 99.8
 ANES 2016 Codebook - V ersion 20190904 - page 46
 V161015a
 Label: PRE: Registration state same as sample address state (all registrations)
@@ -789,7 +783,6 @@ address 28 57 85
 as state of sample address 976 2597 3573
 -1. Inap, 3 in V161011/FTF:
 -8,-9 in V161011/WEB: 2,-9
-in V161011a 176 436 612
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
@@ -809,9 +802,7 @@ Question: Not applicable
 52 unique outcomes. 20 most frequently appearing outcomes:
 Unweighted F requencies
 FTF W eb T otal
--1. Inap, 3 in V161011/FTF:
--8,-9 in V161011/WEB: 2,-9
-in V161011a 176 436 612
+-1. Inap
 6. California 86 271 357
 48. T exas 81 175 256
 12. Florida 28 164 192
@@ -844,7 +835,6 @@ registration 329 703 1032
 registration 675 1951 2626
 -1. Inap, 3 in V161011/FTF:
 -8,-9 in V161011/WEB: 2,-9
-in V161011a 176 436 612
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
@@ -854,7 +844,6 @@ registration 27.9 26.5 22.8 22.1 24.2 23.2
 registration 57.2 58.8 63.1 61.5 61.5 60.8
 -1. Inap, 3 in V161011/FTF:
 -8,-9 in V161011/WEB: 2,-9
-in V161011a 14.9 14.7 14.1 16.4 14.3 16.0
 ANES 2016 Codebook - V ersion 20190904 - page 49
 V161015d
 Label: PRE: Governor race in state of registration (all registrations)
@@ -867,8 +856,6 @@ of registration 895 2244 3139
 1. Governor race in state of
 registration 109 410 519
 -1. Inap, 3 in V161011/FTF:
--8,-9 in V161011/WEB: 2,-9
-in V161011a 176 436 612
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
@@ -878,7 +865,6 @@ of registration 75.8 76.6 72.6 71.0 73.5 72.4
 registration 9.2 8.7 13.3 12.6 12.2 11.6
 -1. Inap, 3 in V161011/FTF:
 -8,-9 in V161011/WEB: 2,-9
-in V161011a 14.9 14.7 14.1 16.4 14.3 16.0
 ANES 2016 Codebook - V ersion 20190904 - page 50
 V161015e
 Label: PRE: Party registration in state of registration (all registrations)
@@ -892,7 +878,6 @@ state of registration 415 1124 1539
 of registration 589 1530 2119
 -1. Inap, 3 in V161011/FTF:
 -8,-9 in V161011/WEB: 2,-9
-in V161011a 176 436 612
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
@@ -902,7 +887,6 @@ state of registration 35.2 33.3 36.4 34.8 36.0 34.4
 of registration 49.9 51.9 49.5 48.8 49.6 49.6
 -1. Inap, 3 in V161011/FTF:
 -8,-9 in V161011/WEB: 2,-9
-in V161011a 14.9 14.7 14.1 16.4 14.3 16.0
 ANES 2016 Codebook - V ersion 20190904 - page 51
 V161016
 Label: PRE: Is R registered to vote in preload county (resid)
@@ -919,11 +903,6 @@ of sample address> 76 156 232
 2. No, registered in other
 county 31 58 89
 -1. Inap, 2 in V161011 and 0
-in V161015a/2 in
-V161013b/1,3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 1073 2875 3948
 -9. Refused 0 1 1
 Percentages
 FTF W eb T otal
@@ -933,11 +912,6 @@ of sample address> 6.4 6.2 5.0 5.0 5.4 5.3
 2. No, registered in other
 county 2.6 2.3 1.9 1.8 2.1 1.9
 -1. Inap, 2 in V161011 and 0
-in V161015a/2 in
-V161013b/1,3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 90.9 91.5 93.0 93.2 92.5 92.7
 -9. Refused 0.0 0.0 0.0 0.0 0.0 0.0
 ANES 2016 Codebook - V ersion 20190904 - page 52
 V161017
@@ -952,11 +926,7 @@ FTF W eb T otal
 1. 0-1 years 200 603 803
 2. 2-5 years 230 601 831
 3. 5 years or more 563 1448 2011
--1. Inap, 2 in V161011 and
-0,2 in V161013b/3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 181 437 618
+-1. Inap
 -8. Don’t know (FTF only) 6 0 6
 -9. Refused 0 1 1
 Percentages
@@ -965,11 +935,7 @@ No wgt W eight No wgt W eight No wgt W eight
 1. 0-1 years 16.9 16.4 19.5 19.8 18.8 18.9
 2. 2-5 years 19.5 19.9 19.4 18.4 19.5 18.8
 3. 5 years or more 47.7 47.7 46.9 45.3 47.1 45.9
--1. Inap, 2 in V161011 and
-0,2 in V161013b/3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 15.3 15.4 14.1 16.5 14.5 16.2
+-1. Inap
 -8. Don’t know (FTF only) 0.5 0.6 0.0 0.0 0.1 0.1
 -9. Refused 0.0 0.0 0.0 0.0 0.0 0.0
 ANES 2016 Codebook - V ersion 20190904 - page 53
@@ -994,9 +960,7 @@ first/last names 886 2497 3383
 2. RESTRICTED: Partially
 recorded: one word as name,
 or initial(s) only 49 73 122
--1. Inap, 3 in V161011/FTF:
--8,-9 in V161011/WEB: 2,-9
-in V161011a 176 436 612
+-1. Inap
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
@@ -1008,10 +972,7 @@ first/last names 75.1 76.2 80.8 78.7 79.2 78.0
 2. RESTRICTED: Partially
 recorded: one word as name,
 or initial(s) only 4.2 3.4 2.4 2.5 2.9 2.7
--1. Inap, 3 in V161011/FTF:
--8,-9 in V161011/WEB: 2,-9
-in V161011a 14.9 14.7 14.1 16.4 14.3 16.0
-ANES 2016 Codebook - V ersion 20190904 - page 54
+-1. Inap
 V161019
 Label: PRE: Party of registration
 Item name: PREVOTE_REGPTY
@@ -1024,10 +985,7 @@ FTF W eb T otal
 2. Republican party 178 504 682
 4. None or ‘independent’ 131 340 471
 5. Other SPECIFY 6 16 22
--1. Inap, 0 in V161015e/3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 591 1560 2151
+-1. Inap
 -8. Don’t know (FTF
 only)/WEB: other specify -
 specified as: Don’t know 8 3 11
@@ -1039,10 +997,7 @@ No wgt W eight No wgt W eight No wgt W eight
 2. Republican party 15.1 15.4 16.3 15.1 16.0 15.2
 4. None or ‘independent’ 11.1 10.7 11.0 10.8 11.0 10.8
 5. Other SPECIFY 0.5 0.4 0.5 0.5 0.5 0.5
--1. Inap, 0 in V161015e/3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 50.1 48.1 50.5 51.2 50.4 50.4
+-1. Inap
 -8. Don’t know (FTF
 only)/WEB: other specify -
 specified as: Don’t know 0.7 1.1 0.1 0.1 0.3 0.4
@@ -1059,9 +1014,7 @@ FTF W eb T otal
 1. Y es, intend to register 60 171 231
 2. No, do not intend to
 register 110 264 374
--1. Inap, 1,2 in
-V161011/WEB: 1,-9 in
-V161011a 1004 2655 3659
+-1. Inap
 -8. Don’t know (FTF only) 6 0 6
 Percentages
 FTF W eb T otal
@@ -1069,9 +1022,7 @@ No wgt W eight No wgt W eight No wgt W eight
 1. Y es, intend to register 5.1 4.8 5.5 5.5 5.4 5.3
 2. No, do not intend to
 register 9.3 9.5 8.5 10.9 8.8 10.5
--1. Inap, 1,2 in
-V161011/WEB: 1,-9 in
-V161011a 85.1 85.3 85.9 83.6 85.7 84.0
+-1. Inap
 -8. Don’t know (FTF only) 0.5 0.4 0.0 0.0 0.1 0.1
 ANES 2016 Codebook - V ersion 20190904 - page 56
 V161021
@@ -1150,18 +1101,14 @@ Unweighted F requencies
 FTF W eb T otal
 1. Have voted 55 134 189
 2. Have not voted 949 2518 3467
--1. Inap, 3 in V161011/FTF:
--8,-9 in V161011/WEB: 2,-9
-in V161011a 176 436 612
+-1. Inap
 -9. Refused 0 2 2
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
 1. Have voted 4.7 5.2 4.3 4.3 4.4 4.6
 2. Have not voted 80.4 80.1 81.5 79.2 81.2 79.4
--1. Inap, 3 in V161011/FTF:
--8,-9 in V161011/WEB: 2,-9
-in V161011a 14.9 14.7 14.1 16.4 14.3 16.0
+-1. Inap
 -9. Refused 0.0 0.0 0.1 0.0 0.0 0.0
 ANES 2016 Codebook - V ersion 20190904 - page 60
 V161022a
@@ -1175,19 +1122,13 @@ Unweighted F requencies
 FTF W eb T otal
 1. Y es, voted 50 106 156
 2. No, have not voted 5 28 33
--1. Inap, 2,-8,-9 in V161022/3
-in V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 1125 2956 4081
+-1. Inap
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
 1. Y es, voted 4.2 4.9 3.4 3.4 3.7 3.8
 2. No, have not voted 0.4 0.3 0.9 1.0 0.8 0.8
--1. Inap, 2,-8,-9 in V161022/3
-in V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 95.3 94.8 95.7 95.7 95.6 95.4
+-1. Inap
 ANES 2016 Codebook - V ersion 20190904 - page 61
 V161023
 Label: PRE: In what manner did R vote
@@ -1210,11 +1151,7 @@ a ballot to elections officials
 before election day 28 55 83
 3. Definitely voted in some
 other way 0 3 3
--1. Inap, 2,-8,-9 in V161022/2
-in V161022a/3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 1130 2984 4114
+-1. Inap
 ANES 2016 Codebook - V ersion 20190904 - page 62
 Percentages
 FTF W eb T otal
@@ -1227,11 +1164,7 @@ a ballot to elections officials
 before election day 2.4 2.1 1.8 1.8 1.9 1.9
 3. Definitely voted in some
 other way 0.0 0.0 0.1 0.1 0.1 0.1
--1. Inap, 2,-8,-9 in V161022/2
-in V161022a/3 in
-V161011/FTF: -8,-9 in
-V161011/WEB: 2,-9 in
-V161011a 95.8 95.1 96.6 96.6 96.3 96.2
+-1. Inap
 ANES 2016 Codebook - V ersion 20190904 - page 63
 V161024x
 Label: PRE: SUMMAR Y - Registration and early vote status
@@ -1680,17 +1613,13 @@ Unweighted F requencies
 FTF W eb T otal
 1. Y es 50 100 150
 2. No 66 164 230
--1. Inap, 2,3,4 in
-V161024x/WEB: 1 in
-V161011a and 1 in V161024x 1064 2826 3890
+-1. Inap
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
 1. Y es 4.2 4.3 3.2 3.8 3.5 3.9
 2. No 5.6 5.7 5.3 7.1 5.4 6.7
--1. Inap, 2,3,4 in
-V161024x/WEB: 1 in
-V161011a and 1 in V161024x 90.2 90.0 91.5 89.1 91.1 89.3
+-1. Inap
 ANES 2016 Codebook - V ersion 20190904 - page 80
 V161034
 Label: PRE: Preference for Pres cand (no intent to register)
@@ -1709,10 +1638,7 @@ FTF W eb T otal
 (SPECIFY) 0 7 7
 6. Other specify - specified
 as: DK 1 0 1
--1. Inap, 2,-8,-9 in
-V161033/2,3,4 in
-V161024x/WEB: 1 in
-V161011a and 1 in V161024x 1130 2990 4120
+-1. Inap
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
@@ -1724,10 +1650,7 @@ No wgt W eight No wgt W eight No wgt W eight
 (SPECIFY) 0.0 0.0 0.2 0.3 0.2 0.2
 6. Other specify - specified
 as: DK 0.1 0.1 0.0 0.0 0.0 0.0
--1. Inap, 2,-8,-9 in
-V161033/2,3,4 in
-V161024x/WEB: 1 in
-V161011a and 1 in V161024x 95.8 95.7 96.8 96.2 96.5 96.1
+-1. Inap
 ANES 2016 Codebook - V ersion 20190904 - page 81
 V161035
 Label: PRE: Preference strong for Pres cand (no intent to reg)
@@ -1741,22 +1664,14 @@ Unweighted F requencies
 FTF W eb T otal
 1. Strong 26 66 92
 2. Not strong 22 34 56
--1. Inap, -8,-9 in
-V161034/2,-8,-9 in
-V161033/2,3,4 in
-V161024x/WEB: 1 in
-V161011a and 1 in V161024x 1130 2990 4120
+-1. Inap
 -8. Don’t know (FTF only) 2 0 2
 Percentages
 FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
 1. Strong 2.2 2.4 2.1 2.7 2.2 2.6
 2. Not strong 1.9 1.8 1.1 1.1 1.3 1.3
--1. Inap, -8,-9 in
-V161034/2,-8,-9 in
-V161033/2,3,4 in
-V161024x/WEB: 1 in
-V161011a and 1 in V161024x 95.8 95.7 96.8 96.2 96.5 96.1
+-1. Inap
 -8. Don’t know (FTF only) 0.2 0.1 0.0 0.0 0.0 0.0
 ANES 2016 Codebook - V ersion 20190904 - page 82
 V161036
@@ -2032,8 +1947,7 @@ FTF W eb T otal
 No wgt W eight No wgt W eight No wgt W eight
 1. Y es 2.0 2.0 0.8 1.3 1.1 1.5
 2. No 7.4 7.6 7.7 9.6 7.6 9.1
--1. Inap, 1,2,4,5,7 in
-V161025x/3 in V161025x and
+-1. Inap
 -9 in V161011a (WEB 1 case) 90.2 90.0 91.5 89.1 91.1 89.3
 -8. Don’t know (FTF only) 0.4 0.4 0.0 0.0 0.1 0.1
 ANES 2016 Codebook - V ersion 20190904 - page 92

@@ -1,3 +1,4 @@
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 79
 version
 Label: ANES 2012TimeSeries Release Version
 Unweighted Frequencies
@@ -6,7 +7,7 @@ ANES2012TimeSeries_version20150528 2054 3860 5914
 Percentages
 FTF Web Total
 Raw Weights Raw Weights Raw Weights
-ANES2012TimeSeries_version20150528 100.0 100.0 100.0 100.0 100.0 100.0
+ANES 2012TimeSeries_version20150528 100.0 100.0 100.0 100.0 100.0 100.0
 ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 80
 caseid
 Label: ANES 2012TimeSeries Case ID

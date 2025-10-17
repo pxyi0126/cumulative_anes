@@ -210,7 +210,7 @@ df_20.to_csv("2020_pcodebook.csv", index=False)
 import re
 import pandas as pd
 import os
-os.chdir("/Users/yipho/anes/cumulative_anes/test")
+os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
 var_pattern = re.compile(r"(V\d+[a-z,_orig]*)(.*)$")
 val_pattern = re.compile(r"^(\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
 missing_pattern = re.compile(r"(\-\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
@@ -239,7 +239,7 @@ def parse_16(lines, start_idx, rows):
                     i += 1
                     continue
 
-                if var_pattern.match(block) or block.startswith("ANES") or \
+                if block.startswith("ANES") or \
                     block.startswith("Label:") or block.startswith("Item name:"):
                     break
                 if block.startswith("FTF") or block.startswith("No wgt"):
@@ -262,7 +262,7 @@ def parse_16(lines, start_idx, rows):
     return i, rows
 
 rows = []
-with open("2016small.txt", "r", encoding="utf-8") as f:
+with open("2016_codebook.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 i = 0
 while i < len(lines):
@@ -273,13 +273,72 @@ df_16 = pd.DataFrame(rows, columns=["var_name", "description", "valid_labels", "
 print(df_16.head())
 df_16.to_csv("2016_pcodebook.csv", index=False)
 
+# need to edit it so that if the variable already exists in the list, that if it is found again
+# we add it to the existing entry of it
+
 # %%
-# # Parsing through 2012 codebook txt
-# import re
-# import pandas as pd
-# import os
-# os.chdir("/Users/yipho/anes/cumulative_anes/")
-# var2012 = pd.read_csv("codebook_var/2012_vars.csv")
-# df_12 = var2012[["varname", "summary"]]
-# df_12.columns = ["var_name", "description"]
-# print(df_12.head())
+import re
+import pandas as pd
+import os
+os.chdir("/Users/yipho/anes/cumulative_anes/test")
+page_pattern = re.compile(r"^ANES.*?-page\b.*")
+val_pattern = re.compile(r"^(\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
+missing_pattern = re.compile(r"(\-\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
+
+def parse_12(lines, start_idx, rows):
+    line = lines[start_idx].strip()
+    print(f"Processing line {start_idx}: {line}")
+    varname = ""
+    summary = ""
+    valid_label = ""
+    missing_label = ""
+    i = start_idx + 1
+    while i < len(lines):
+        line = lines[i].strip()
+        if line.startswith("Label:"):
+            summary = line.replace("Label:", "").strip()
+        if page_pattern.match(line):
+            varname = lines[i+1].strip()
+            break
+        if "Percentages" in line:
+            i += 3
+            while i < len(lines):
+                block = re.sub(r"\s+", " ", lines[i]).strip()
+                if not block:
+                    i += 1
+                    continue
+
+                if block.startswith("Label:") or block.startswith("Item name:") \
+                    or page_pattern.match(block):
+                    break
+                if block.startswith("FTF") or block.startswith("No wgt"):
+                    i += 1
+                    continue
+
+                val_match = val_pattern.match(block)
+                missing_match = missing_pattern.match(block)
+
+                if val_match:
+                    valid_label += f"{val_match.group(1)}. {val_match.group(2).strip()}\n"
+                elif missing_match:
+                    missing_label += f"{missing_match.group(1)}. {missing_match.group(2).strip()}\n"
+                i += 1
+            continue
+        i += 1
+
+    rows.append((varname, summary, valid_label, missing_label))
+    return i, rows
+
+rows = []
+with open("2012small.txt", "r", encoding="utf-8") as f:
+    lines = f.readlines()
+i = 0
+while i < len(lines):
+    i, rows = parse_12(lines, i, rows)
+
+
+df_12 = pd.DataFrame(rows, columns=["var_name", "description", "valid_labels", "missing_labels"])
+print(df_12.head())
+df_12.to_csv("2012_pcodebook.csv", index=False)
+
+# %%

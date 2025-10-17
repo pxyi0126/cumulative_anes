@@ -1,0 +1,17 @@
+var_name,description,valid_labels,missing_labels
+caseid,ANES 2012TimeSeries Release Version,,
+weight_ftf,ANES 2012TimeSeries Case ID,,
+weight_web,ANES 2012TimeSeries Post-stratified weight forface-to-face cases,,
+weight_full,ANES 2012TimeSeries Post-stratified weight forweb cases,,
+psu_full,ANES 2012TimeSeries Post-stratified weight forfull sample,,
+psu_ftf,ANES 2012TimeSeries sample PSU forfull sample,,
+strata_full,ANES 2012TimeSeries sample PSU forFTF sample component,,
+strata_ftf,ANES 2012TimeSeries sample strata forfull sample,,
+ftf_oversample,ANES 2012TimeSeries sample strata forFTF sample component,,
+wave_completions,ANES 2012TimeSeries FTF Oversample Case,"0. No oversample
+1. Hispanicoversample
+2. AA oversample
+3. Both Hispanicand AA oversample
+","-1. Inapplicable
+"
+,,,
