@@ -210,21 +210,25 @@ df_20.to_csv("2020_pcodebook.csv", index=False)
 import re
 import pandas as pd
 import os
+
 os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
+
 var_pattern = re.compile(r"(V\d+[a-z,_orig]*)(.*)$")
 val_pattern = re.compile(r"^(\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
 missing_pattern = re.compile(r"(\-\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
 
-def parse_16(lines, start_idx, rows):
+def parse_16(lines, start_idx, rows_dict):
     line = lines[start_idx].strip()
     match = var_pattern.match(line)
     if not match:
-        return start_idx + 1, rows
+        return start_idx + 1, rows_dict
+
     varname = match.group(1).strip()
     summary = ""
     valid_label = ""
     missing_label = ""
     i = start_idx + 1
+
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith("Label:"):
@@ -239,16 +243,14 @@ def parse_16(lines, start_idx, rows):
                     i += 1
                     continue
 
-                if block.startswith("ANES") or \
-                    block.startswith("Label:") or block.startswith("Item name:"):
+                if block.startswith(("ANES", "Label:", "Item name:")):
                     break
-                if block.startswith("FTF") or block.startswith("No wgt"):
+                if block.startswith(("FTF", "No wgt")):
                     i += 1
                     continue
 
                 val_match = val_pattern.match(block)
                 missing_match = missing_pattern.match(block)
-
 
                 if val_match:
                     valid_label += f"{val_match.group(1)}. {val_match.group(2).strip()}\n"
@@ -258,23 +260,34 @@ def parse_16(lines, start_idx, rows):
             continue
         i += 1
 
-    rows.append((varname, summary, valid_label, missing_label))
-    return i, rows
+    # If variable already exists, append new info
+    if varname in rows_dict:
+        prev_summary, prev_valid, prev_missing = rows_dict[varname]
+        summary = (prev_summary + "\n" + summary).strip()
+        valid_label = (prev_valid + valid_label).strip()
+        missing_label = (prev_missing + missing_label).strip()
+        rows_dict[varname] = (summary, valid_label, missing_label)
+    else:
+        rows_dict[varname] = (summary, valid_label, missing_label)
 
-rows = []
+    return i, rows_dict
+
+rows_dict = {}
 with open("2016_codebook.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
+
 i = 0
 while i < len(lines):
-    i, rows = parse_16(lines, i, rows)
+    i, rows_dict = parse_16(lines, i, rows_dict)
 
+# Convert dict to DataFrame
+df_16 = pd.DataFrame(
+    [(k, v[0], v[1], v[2]) for k, v in rows_dict.items()],
+    columns=["var_name", "description", "valid_labels", "missing_labels"]
+)
 
-df_16 = pd.DataFrame(rows, columns=["var_name", "description", "valid_labels", "missing_labels"])
 print(df_16.head())
 df_16.to_csv("2016_pcodebook.csv", index=False)
-
-# need to edit it so that if the variable already exists in the list, that if it is found again
-# we add it to the existing entry of it
 
 # %%
 import re
@@ -340,5 +353,4 @@ while i < len(lines):
 df_12 = pd.DataFrame(rows, columns=["var_name", "description", "valid_labels", "missing_labels"])
 print(df_12.head())
 df_12.to_csv("2012_pcodebook.csv", index=False)
-
 # %%

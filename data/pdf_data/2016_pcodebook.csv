@@ -87,38 +87,32 @@ V161010e,PRE: V ote section- 2-char state Postal abbreviation for sample address
 V161010f,PRE: V ote section- U.S. House District number (115th Congress) for sample,,
 V161011,PRE: Is R registered to vote (pre-election),"1. Registered at this address
 2. Registered at a different
-3. Not currently registered
-","-8. Don’t know (FTF only)
--9. Refused
-"
+3. Not currently registered","-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to"
 V161011a,PRE WEB: Is R registered (registration address not answered),"1. Y es
 2. No
-","-1. INAP , FTF mode/WEB:
--9. Refused
-"
-V161012,PRE: Address of registration given (not registered at sample address),,
-V161011,,,
-V161011,,,
-V161011a,,"0. Registration address not
+0. Registration address not
 1. Registration address given
-2. Partial address given for
-","-1. Inap,
-"
-V161013a,PRE: State included in address of registration (not registered at samp addr),,
-V161011,,,
-V161011,,,
-V161011a,,"0. State not included for
-1. State included for
-","-1. Inap,
-"
-V161013b,PRE: City included in address of registration (not registered at samp addr),,
-V161011,,,
-V161011,,,
-V161011a,,"0. City not included for
+2. Partial address given for0. State not included for
+1. State included for0. City not included for
 1. City included for
-2. City included in incorrect
-","-1. Inap,
-"
+2. City included in incorrect1. Registered at this address
+2. Registered at a different
+3. Not currently registered","-1. INAP , FTF mode/WEB:
+-9. Refused
+-1. Inap,-1. Inap,-1. Inap,-1. INAP , registered in Pre
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF only)
+-9. Refused-1. INAP , FTF mode/WEB:
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-9. Refused"
+V161012,PRE: Address of registration given (not registered at sample address),,
+V161013a,PRE: State included in address of registration (not registered at samp addr),,
+V161013b,PRE: City included in address of registration (not registered at samp addr),,
 V161014,PRE: State of registration - reg state not given (not registered at samp addr),"5. Arkansas
 8. Colorado
 36. New Y ork
@@ -128,8 +122,12 @@ V161014,PRE: State of registration - reg state not given (not registered at samp
 "
 V161015a,PRE: Registration state same as sample address state (all registrations),"0. State of registration is not
 1. State of registration same
-","-1. Inap,
-"
+1. Y es, have <yellow/green>
+2. Have Ballot Card in wrong
+3. Only have card(s) for0. Ballot card not used as
+1. Ballot card used, names
+2. Ballot card not used,","-1. Inap,
+-1. Inap,-1. Inap,"
 V161015b,PRE: Registration state (all registrations),,
 V161015c,PRE: Senate race in state of registration (all registrations),"0. No Senate race in state of
 1. Senate race in state of
@@ -205,19 +203,30 @@ V161024x,PRE: SUMMAR Y - Registration and early vote status,"1. Not (or DK/RF if
 2. Not (or DK/RF if)
 3. Registered but did not
 4. Registered and voted early
-",
+1. Extremely likely
+2. V ery likely
+3. Moderately likely
+4. Slightly likely
+5. Not likely at all1. Y es
+2. No1. Hillary Clinton
+2. Donald T rump
+3. Gary Johnson
+4. Jill Stein
+5. Other candidate SPECIFY
+9. Other specify given as: RF1. Y es
+2. No","-1. INAP , R voted (4 in
+-9. Refused-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF only)
+-9. Refused-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF only)"
 V161025,PRE: FTF ONL Y: IWR CHECKPOINT: have correct Pre ballot card,,
-V161015a,,"1. Y es, have <yellow/green>
-2. Have Ballot Card in wrong
-3. Only have card(s) for
-","-1. Inap,
-"
 V161025a,PRE: FTF ONL Y: IWR error at Ballot Card checkpoint,,
-V161015a,,"0. Ballot card not used as
-1. Ballot card used, names
-2. Ballot card not used,
-","-1. Inap,
-"
 V161025x,PRE: SUMMAR Y - administration of Pre vote module,"1. Used Ballot Card/preload
 2. Use Ballot Card/preload
 3. Used Ballot Card/preload
@@ -225,26 +234,64 @@ V161025x,PRE: SUMMAR Y - administration of Pre vote module,"1. Used Ballot Card/
 5. Not used (open-end
 6. Not used (open-end
 7. Program err: names
-",
+1. Y es, voted for House of
+2. No, didn’t vote for House1. Candidate/party
+2. Candidate/party
+3. Other mention, party not1. Y es
+2. No1. Democratic Senate
+2. Republican Senate
+3. Other Senate candidate1. Candidate/party
+2. Candidate/party
+3. Other mention, party not1. Y es
+2. No1. Democratic Senate
+2. Republican Senate
+3. Other Senate candidate
+5. Other SPECIFY (name1. Candidate/party
+2. Candidate/party
+3. Other mention, party not1. Democratic Governor
+2. Republican Governor2. Candidate/party1. Y es
+2. No1. Democratic Governor
+2. Republican Governor
+5. Other SPECIFY (name1. Candidate/party
+2. Candidate/party
+3. Other mention, party not
+8. Other mention given as:1. Democratic Senate
+2. Republican Senate","-1. Inap,
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap
+-9. Refused-1. Inap
+-8. Don’t know (FTF only)-1. Inap,
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-9. Refused-1. Inap V161025x in(2,5)
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-4. Error: missing due to
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-4. Error: missing due to
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-4. Error: missing due to-1. Inap,-1. Inap,-1. Inap,
+-8. Don’t know (FTF only)-1. Inap,
+-4. Error: missing due to
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-4. Error: missing due to-1. Inap,"
 V161026,PRE: Did R vote for President in 2016,"1. Y es, voted for President
 2. No, didn’t vote for President
-","-1. Inap,
-"
-V161027,PRE: F or whom did R vote for President,,
-V161026,,"1. Hillary Clinton
+1. Hillary Clinton
 2. Donald T rump
 3. Gary Johnson
 4. Jill Stein
-5. Other candidate
-","-1. Inap,
--9. Refused
-"
+5. Other candidate1. Strong
+2. Not strong","-1. Inap,
+-1. Inap,
+-9. Refused-1. Inap, -8,-9 in"
+V161027,PRE: F or whom did R vote for President,,
 V161028,PRE: Preference strong for Pres cand for whom R voted,,
-V161027,,,
-V161026,,"1. Strong
-2. Not strong
-","-1. Inap, -8,-9 in
-"
 V161029a,PRE: Placehold T ext- How long before election R made decision Pres vote,,"-2. Redacted text, separate file
 "
 V161029b,PRE: Placeholder Code- How long before election R made decision Pres vote,"1. That day; when I walked
@@ -264,31 +311,24 @@ V161029b,PRE: Placeholder Code- How long before election R made decision Pres vo
 "
 V161030,PRE: Does R intend to vote for President,"1. Y es
 2. No
-","-1. Inap,
--8. Don’t know (FTF only)
--9. Refused
-"
-V161031,PRE: F or whom does R intend to vote for President,,
-V161030,,"1. Hillary Clinton
+1. Hillary Clinton
 2. Donald T rump
 3. Gary Johnson
 4. Jill Stein
 5. Other candidate
 6. Other specify - specified
 7. Other specify - specified
-8. Other specify - specified
-","-1. Inap,
+8. Other specify - specified1. Strong
+2. Not strong","-1. Inap,
 -8. Don’t know (FTF only)
 -9. Refused
-"
+-1. Inap,
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap, -8,-9 in
+-8. Don’t know (FTF only)
+-9. Refused"
+V161031,PRE: F or whom does R intend to vote for President,,
 V161032,PRE: Pref strng for Pres cand for whom R intends to vote,,
-V161031,,,
-V161030,,"1. Strong
-2. Not strong
-","-1. Inap, -8,-9 in
--8. Don’t know (FTF only)
--9. Refused
-"
 V161033,PRE: Does R prefer Pres cand (no intent to register),"1. Y es
 2. No
 ","-1. Inap
@@ -307,12 +347,6 @@ V161035,PRE: Preference strong for Pres cand (no intent to reg),"1. Strong
 -8. Don’t know (FTF only)
 "
 V161036,PRE: Did R vote for U.S. House of Representatives,,
-V161025x,,"1. Y es, voted for House of
-2. No, didn’t vote for House
-","-1. Inap,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161037,PRE: F or whom did R vote for U.S. House (ballot card),"1. Democratic House
 2. Republican House
 3. Other House candidate
@@ -321,46 +355,24 @@ V161037,PRE: F or whom did R vote for U.S. House (ballot card),"1. Democratic Ho
 -9. Refused
 "
 V161038,PRE: F or whom did R vote for U.S. House (no ballot card),,
-V161025x,,,
-V161036,,,
-V161025x,,"1. Candidate/party
-2. Candidate/party
-3. Other mention, party not
-","-1. Inap
--9. Refused
-"
 V161039,PRE: Does R intend to vote for U.S. House,"1. Y es
-2. No
-","-1. Inap,
+2. No1. Candidate/party
+2. Candidate/party
+3. Other mention, party not","-1. Inap,
 -8. Don’t know (FTF only)
--9. Refused
-"
+-9. Refused-1. Inap
+-8. Don’t know (FTF only)
+-9. Refused"
 V161040,PRE: F or whom does R intend to vote for U.S. House (ballot card),"1. Democratic House
 2. Republican House
 3. Other House candidate
 4. R VOL: names on ballot
 5. Other SPECIFY (name
-9. Other specify - specified as
-","-1. Inap,
+9. Other specify - specified as","-1. Inap,
 -8. Don’t know (FTF only)
--9. Refused
-"
+-9. Refused"
 V161041,PRE: F or whom does R intend to vote for U.S. House (no ballot cd),,
-V161039,,,
-V161040,,,
-V161039,,"1. Candidate/party
-2. Candidate/party
-3. Other mention, party not
-","-1. Inap
--8. Don’t know (FTF only)
--9. Refused
-"
 V161042,PRE: Does R prefer U.S. House candidate,,
-V161025x,,"1. Y es
-2. No
-","-1. Inap
--8. Don’t know (FTF only)
-"
 V161043,PRE: Whom does R prefer for U.S. House (ballot card),"1. Democratic House
 2. Republican House
 3. Other House candidate
@@ -377,58 +389,16 @@ V161045x,PRE SUMMAR Y: Senate and Governor races,"00. No Senate/Governor race-
 20. Governor race- samp
 21. Governor race-
 30. Senate and Governor
-31. Senate and Governor
-",
+31. Senate and Governor",
 V161046,PRE: Did R vote for U.S. Senate,"1. Y es, voted for Senate
 2. No, didn’t vote for Senate
 ","-1. Inap,1,4 in V161025x and
 "
 V161047,PRE: R’s vote for U.S. Senate (ballot card),,
-V161045x,,,
-V161025x,,"1. Democratic Senate
-2. Republican Senate
-3. Other Senate candidate
-","-1. Inap,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161048,PRE: R’s vote for U.S. Senate (no ballot card),,
-V161045x,,,
-V161025x,,"1. Candidate/party
-2. Candidate/party
-3. Other mention, party not
-","-1. Inap,
--9. Refused
-"
 V161049,PRE: Does R intend to vote for U.S. Senate,,
-V161045x,,,
-V161025x,,"1. Y es
-2. No
-","-1. Inap V161025x in(2,5)
--8. Don’t know (FTF only)
--9. Refused
-"
 V161050,PRE: F or whom does R intend to vote for U.S. Senate (ballot card),,
-V161040,,,
-V161025x,,"1. Democratic Senate
-2. Republican Senate
-3. Other Senate candidate
-5. Other SPECIFY (name
-","-1. Inap,
--4. Error: missing due to
--8. Don’t know (FTF only)
--9. Refused
-"
 V161051,PRE: F or whom does R intend to vote for US. Senate (no ballot card),,
-V161040,,,
-V161025x,,"1. Candidate/party
-2. Candidate/party
-3. Other mention, party not
-","-1. Inap,
--4. Error: missing due to
--8. Don’t know (FTF only)
--9. Refused
-"
 V161052,PRE: Does R prefer U.S. Senate candidate,"1. Y es
 2. No
 ","-1. Inapplicable
@@ -442,65 +412,21 @@ V161053,PRE: Whom does R prefer for U.S. Senate (ballot card),"1. Democratic Sen
 -8. Don’t know (FTF only)
 "
 V161054,PRE: Whom does R prefer for U.S. Senate (no ballot card),,
-V161045x,,,
-V161025x,,,"-1. Inap,
--4. Error: missing due to
-"
 V161055,PRE: Did R vote for governor,"1. Y es, voted for Governor
 2. No, didn’t vote for
 ","-1. Inap,
 "
 V161056,PRE: R’s vote for governor(ballot card),,
-V161045x,,,
-V161025x,,"1. Democratic Governor
-2. Republican Governor
-","-1. Inap,
-"
 V161057,PRE: R’s vote for governor (no ballot card),,
-V161045x,,,
-V161025x,,"2. Candidate/party
-","-1. Inap,
-"
 V161058,PRE: Does R intend to vote for governor,,
-V161045x,,,
-V161025x,,"1. Y es
-2. No
-","-1. Inap,
--8. Don’t know (FTF only)
-"
 V161059,PRE: F or whom does R intend to vote for governor (ballot card),,
-V161025x,,"1. Democratic Governor
-2. Republican Governor
-5. Other SPECIFY (name
-","-1. Inap,
--4. Error: missing due to
--8. Don’t know (FTF only)
--9. Refused
-"
 V161060,PRE: F or whom does R intend to vote for governor (no ballot card),,
-V161025x,,"1. Candidate/party
-2. Candidate/party
-3. Other mention, party not
-8. Other mention given as:
-","-1. Inap,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161061,PRE: Does R prefer gubernatorial candidate,"1. Y es
 2. No
 ","-1. Inap,
 "
 V161062,PRE: Whom does R prefer for governor (ballot card),,
-V161045x,,,
-V161025x,,"1. Democratic Senate
-2. Republican Senate
-","-1. Inap,
--4. Error: missing due to
-"
 V161063,PRE: Whom does R prefer for governor (no ballot card),,
-V161045x,,,
-V161025x,,,"-1. Inap,
-"
 V161064x,PRE: SUMMAR Y - party of Pre-election Presidential vote/intent/preference,"10. Democratic Presidential
 11. Republican Presidential
 12. Other Presidential
@@ -581,9 +507,12 @@ V161079a,PRE: Code- What is it that R dislikes about Republican Pres cand,,"-2. 
 "
 V161080,PRE: Approval of Congress handling its job,"1. Approve
 2. Disapprove
-","-8. Don’t know (FTF only)
+1. Approve strongly
+2. Approve not strongly
+3. Disapprove not strongly
+4. Disapprove strongly","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161080a,PRE: Strength appr disapprove Congress handling its job,"1. Strongly
 2. Not strongly
 ","-1. INAP , -8,-9 in V161080
@@ -591,12 +520,6 @@ V161080a,PRE: Strength appr disapprove Congress handling its job,"1. Strongly
 -9. Refused
 "
 V161080x,PRE: SUMMAR Y - Approval/disapproval Congress handling job,,
-V161080,,"1. Approve strongly
-2. Approve not strongly
-3. Disapprove not strongly
-4. Disapprove strongly
-","-2. Missing: -8,-9 in
-"
 V161081,PRE: Are things in the country on right track,"1. Right direction
 2. W rong track
 ","-8. Don’t know (FTF only)
@@ -604,9 +527,12 @@ V161081,PRE: Are things in the country on right track,"1. Right direction
 "
 V161082,PRE: Approve or disapprove President handling job as Pres,"1. Approve
 2. Disapprove
-","-8. Don’t know (FTF only)
+1. Approve strongly
+2. Approve not strongly
+3. Disapprove not strongly
+4. Disapprove strongly","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161082a,PRE: How much approve or disapp Pres handling job,"1. Strongly
 2. Not strongly
 ","-1. INAP , -8,-9 in V161082
@@ -614,17 +540,14 @@ V161082a,PRE: How much approve or disapp Pres handling job,"1. Strongly
 -9. Refused
 "
 V161082x,PRE: SUMMAR Y - Approval/disapproval President handling job,,
-V161082,,"1. Approve strongly
-2. Approve not strongly
-3. Disapprove not strongly
-4. Disapprove strongly
-","-2. Missing: -8,-9 in
-"
 V161083,PRE: Approve or disapprove President handling economy,"1. Approve
 2. Disapprove
-","-8. Don’t know (FTF only)
+1. Approve strongly
+2. Approve not strongly
+3. Disapprove not strongly
+4. Disapprove strongly","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161083a,PRE: How much approve or disapprove Pres handling economy,"1. Strongly
 2. Not strongly
 ","-1. INAP , -8,-9 in V161083
@@ -632,17 +555,14 @@ V161083a,PRE: How much approve or disapprove Pres handling economy,"1. Strongly
 -9. Refused
 "
 V161083x,PRE: SUMMAR Y - Approval/disapproval President handling economy,,
-V161083,,"1. Approve strongly
-2. Approve not strongly
-3. Disapprove not strongly
-4. Disapprove strongly
-","-2. Missing: -8,-9 in
-"
 V161084,PRE: Approve or disapprove President handling foreign rel,"1. Approve
 2. Disapprove
-","-8. Don’t know (FTF only)
+1. Approve strongly
+2. Approve not strongly
+3. Disapprove not strongly
+4. Disapprove strongly","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161084a,PRE: How much approve or disapprove Pres handling foreign rel,"1. Strongly
 2. Not strongly
 ","-1. INAP , -8,-9 in V161084
@@ -650,17 +570,14 @@ V161084a,PRE: How much approve or disapprove Pres handling foreign rel,"1. Stron
 -9. Refused
 "
 V161084x,PRE: SUMMAR Y - Approval/disapproval President handling foreign rel,,
-V161084,,"1. Approve strongly
-2. Approve not strongly
-3. Disapprove not strongly
-4. Disapprove strongly
-","-2. Missing: -8,-9 in
-"
 V161085,PRE: Approve or disapprove President handling health care,"1. Approve
 2. Disapprove
-","-8. Don’t know (FTF only)
+1. Approve strongly
+2. Approve not strongly
+3. Disapprove not strongly
+4. Disapprove strongly","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161085a,PRE: How much approve or disapprove Pres handling health care,"1. Strongly
 2. Not strongly
 ","-1. INAP , -8,-9 in V161085
@@ -668,12 +585,6 @@ V161085a,PRE: How much approve or disapprove Pres handling health care,"1. Stron
 -9. Refused
 "
 V161085x,PRE: SUMMAR Y - Approval/disapproval President handling health care,,
-V161085,,"1. Approve strongly
-2. Approve not strongly
-3. Disapprove not strongly
-4. Disapprove strongly
-","-2. Missing: -8,-9 in
-"
 V161086,PRE: F eeling Thermometer: Democratic Presidential cand,,
 V161087,PRE: F eeling Thermometer: Republican Presidential cand,,
 V161088,PRE: F eeling Thermometer: Libertarian Presidential cand,,
@@ -752,26 +663,20 @@ V161113,PRE: F avor or oppose 2010 health care law,"1. F avor
 V161114a,PRE: Strength favor 2010 health care law,"1. A great deal
 2. Moderately
 3. A little
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
-V161114b,PRE: Strength oppose 2010 health care law,"1. A great deal
-2. Moderately
-3. A little
-","-1. INAP ,
-"
-V161114x,PRE: Summary: favor/oppose 2010 health care law,,
-V161114b,,,
-V161114a,,"1. F avor a great deal
+1. F avor a great deal
 2. F avor moderately
 3. F avor a little
 4. Neither favor nor oppose
 5. Oppose a little
 6. Oppose moderately
-7. Oppose a great deal
-","-1. INAP , -8,-9 in
-"
+7. Oppose a great deal","-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused
+-1. INAP , -8,-9 in"
+V161114b,PRE: Strength oppose 2010 health care law,"1. A great deal
+2. Moderately
+3. A little","-1. INAP ,"
+V161114x,PRE: Summary: favor/oppose 2010 health care law,,
 V161115,PRE: Self-evaluation of R health,"1. Excellent
 2. V ery good
 3. Good
@@ -921,24 +826,17 @@ V161132,PRE: SUMMAR Y - PLACEMENT 1 or PLACEMENT 2,"10. Assigned to early
 11. Assigned to early
 20. Assigned to late
 21. Assigned to late
-",
-V161133,PRE: PLACEMENT 1: How likely is it R will vote in Nov,,
-V161132,,"1. Extremely likely
+1. Extremely likely
 2. V ery likely
 3. Moderately likely
 4. Slightly likely
-5. Not likely at all
-","-1. INAP , voter (11 in
--9. Refused
-"
+5. Not likely at all","-1. INAP , voter (11 in
+-9. Refused"
+V161133,PRE: PLACEMENT 1: How likely is it R will vote in Nov,,
 V161134a,PRE: PLACEMENT1: Percent for Democratic Pres candidate,,
-V161132,,,
 V161134b,PRE: PLACEMENT1: Percent for Republican Pres candidate,,
-V161132,,,
 V161135a,PRE: PLACEMENT1: State percent for Democratic Pres candidate,,
-V161132,,,
 V161135b,PRE: PLACEMENT1: State percent for Republican Pres candidate,,
-V161132,,,
 V161136,PRE: Party Control or split government,"1. Better when one party
 2. Better when control is split
 3. It doesnt matter
@@ -948,9 +846,13 @@ V161136,PRE: Party Control or split government,"1. Better when one party
 V161137,PRE: Income gap today more or less than 20 years ago,"1. Larger
 2. Smaller
 3. About the same
-","-8. Don’t know (FTF only)
+1. Much larger
+2. Somewhat larger
+3. About the same
+4. Somewhat smaller
+5. Much smaller","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161138a,PRE: How much larger is income gap today,"1. Much
 2. Somewhat
 ","-1. INAP ,
@@ -962,21 +864,18 @@ V161138b,PRE: How much smaller is income gap today,"1. Much
 ","-1. INAP ,
 "
 V161138x,PRE: SUMMAR Y - larger/smaller income gap today,,
-V161137,,"1. Much larger
-2. Somewhat larger
-3. About the same
-4. Somewhat smaller
-5. Much smaller
-","-2. Missing: -8,-9 in
-"
 V161139,PRE: Current economy good or bad,"1. V ery good
 2. Good
 3. Neither good nor bad
 4. Bad
 5. V ery bad
-","-8. Don’t know (FTF only)
+1. Much better
+2. Somewhat better
+3. About the same
+4. Somewhat worse
+5. Much worse","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161140,PRE: National economy better worse in last year,"1. Gotten better
 2. Stayed about the same
 3. Gotten worse
@@ -989,19 +888,16 @@ V161140a,PRE: How much national economy better worse in last year,"1. Much
 -9. Refused
 "
 V161140x,PRE: SUMMAR Y - economy better/worse in last year,,
-V161139,,"1. Much better
-2. Somewhat better
-3. About the same
-4. Somewhat worse
-5. Much worse
-","-2. Missing: -8,-9 in
-"
 V161141,PRE: Economy better or worse in next 12 months,"1. Get better
 2. Stay about the same
 3. Get worse
-","-8. Don’t know (FTF only)
+1. Get much better
+2. Get somewhat better
+3. About the same
+4. Get somewhat worse
+5. Get much worse","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161141a,PRE: How much econ better worse next 12 months,"1. Much
 2. Somewhat
 ","-1. INAP ,
@@ -1009,32 +905,22 @@ V161141a,PRE: How much econ better worse next 12 months,"1. Much
 -9. Refused
 "
 V161141x,PRE: SUMMAR Y - economy better/worse in next year,,
-V161141,,"1. Get much better
-2. Get somewhat better
-3. About the same
-4. Get somewhat worse
-5. Get much worse
-","-2. Missing: -8,-9 in
-"
 V161142,PRE: Unemployment better or worse in last year,"1. Better
 2. About the same
 3. W orse
-","-8. Don’t know (FTF only)
+1. Much better
+2. Somewhat better
+3. About the same
+4. Somewhat worse
+5. Much worse","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161142a,PRE: How much unemployment better or worse in last year,"1. Much
 2. Somewhat
 ","-8. Don’t know (FTF only)
 -9. Refused
 "
 V161142x,PRE: SUMMAR Y: more/less unemployment in last year,,
-V161142,,"1. Much better
-2. Somewhat better
-3. About the same
-4. Somewhat worse
-5. Much worse
-","-2. Missing: -8,-9 in
-"
 V161143,PRE: More or less unemployment in next year,"1. More
 2. About the same
 3. Less
@@ -1093,11 +979,15 @@ V161149,PRE: Will Pres race be close in state,"1. Will be close
 "
 V161150a,PRE: VERSION 1A placement- Does R consider voting a duty or choice,"1. Mainly a duty
 2. Mainly a choice
-3. Neither a duty nor a choice
-","-1. INAP , selected for version
+3. Neither a duty nor a choice1. V ery strongly feel that
+2. Moderately strongly feel
+3. A little strongly feel that
+4. F eel that voting is neither
+5. A little strongly feel that
+6. Moderately strongly feel
+7. V ery strongly feel that","-1. INAP , selected for version
 -8. Don’t know (FTF only)
--9. Refused
-"
+-9. Refused-2. Missing: -8,-9 in"
 V161150b,PRE: VERSION 1B placement- Does R consider voting a choice or duty,"1. Mainly a choice
 2. Mainly a duty
 3. Neither a duty nor a choice
@@ -1105,33 +995,19 @@ V161150b,PRE: VERSION 1B placement- Does R consider voting a choice or duty,"1. 
 -9. Refused
 "
 V161151a,PRE: How strongly does R feel that voting is a duty,,
-V161150a,,,
 V161050b,,"1. V ery strongly
 2. Moderately strongly
 3. A little strongly
-","-1. INAP ,
+1. V ery strongly
+2. Moderately strongly
+3. A little strongly","-1. INAP ,
 -8. Don’t know (FTF only)
 -9. Refused
-"
+-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused"
 V161151b,PRE: How strongly does R feel that voting is a choice,,
-V161150a,,,
-V161050b,,"1. V ery strongly
-2. Moderately strongly
-3. A little strongly
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161151x,PRE: SUMMAR Y - V oting as duty or choice,,
-V161150a,,"1. V ery strongly feel that
-2. Moderately strongly feel
-3. A little strongly feel that
-4. F eel that voting is neither
-5. A little strongly feel that
-6. Moderately strongly feel
-7. V ery strongly feel that
-","-2. Missing: -8,-9 in
-"
 V161152,"PRE: During last year, U.S. position in world weaker str","1. W eaker
 2. Stayed about the same
 3. Stronger
@@ -1156,17 +1032,14 @@ V161155,"PRE: Party ID: Does R think of self as Dem, Rep, Ind or what","0. No pr
 2. Republican
 3. Independent
 5. Other party SPECIFY
-","-8. Don’t know (FTF only)
--9. Refused
-"
-V161155a,PRE: Party ID other specifys,,
-V161155,,"4. Other specify given as:
+4. Other specify given as:
 5. Other party SPECIFY
 6. Other specify given as: no
 7. Other specify given as: DK
-8. Other Specify- no
-","-1. INAP ,
-"
+8. Other Specify- no","-8. Don’t know (FTF only)
+-9. Refused
+-1. INAP ,"
+V161155a,PRE: Party ID other specifys,,
 V161156,PRE: Party Identification strong - Democrat Republican,"1. Strong
 2. Not very strong
 ","-1. INAP ,
@@ -1175,23 +1048,17 @@ V161156,PRE: Party Identification strong - Democrat Republican,"1. Strong
 "
 V161157,PRE: No Party Identification - closer to Dems or Reps,"1. Closer to Republican
 2. Neither
-3. Closer to Democratic
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
-V161158x,PRE: SUMMAR Y - Party ID,,
-V161157,,,
-V161157,,"1. Strong Democrat
+3. Closer to Democratic1. Strong Democrat
 2. Not very strong Democract
 3. Independent-Democrat
 4. Independent
 5. Independent-Republican
 6. Not very strong
-7. Strong Republican
-","-8. DK (-8) in V161156 or
--9. RF (-9) in V161155 (FTF
-"
+7. Strong Republican","-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-8. DK (-8) in V161156 or
+-9. RF (-9) in V161155 (FTF"
+V161158x,PRE: SUMMAR Y - Party ID,,
 V161159,PRE: Pres Dem cand trait strong leadership,"1. Extremely well
 2. V ery well
 3. Moderately well
@@ -1428,23 +1295,23 @@ V161193,PRE: F avor or oppose ending birthright citizenship,"1. F avor
 "
 V161193a,PRE: Strength R favors or opposes ending birthright citizenship,"1. A great deal
 2. A moderate amount
-3. A little
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
-V161194x,PRE: SUMMAR Y - birthright citizenship,,
-V161193a,,,
-V161193a,,"1. F avor a great deal
+3. A little1. F avor a great deal
 2. F avor a moderate amount
 3. F avor a little
 4. Neither favor nor oppose
 5. Oppose a little
 6. Oppose a moderate
-7. Oppose a great deal
-","-8. DK (-8) in V161193 or
--9. RF (-9) in V161193 or
-"
+7. Oppose a great deal1. Should send back - favor a
+2. Should send back - favor a
+3. Should send back - favor a
+4. Should allow to stay -
+5. Should allow to stay -
+6. Should allow to stay -","-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-8. DK (-8) in V161193 or
+-9. RF (-9) in V161193 or-8. DK (-8) in V161193 or
+-9. RF (-9) in V161193 or"
+V161194x,PRE: SUMMAR Y - birthright citizenship,,
 V161195,PRE: Children brought illegally sent back,"1. Should be sent back where
 2. Should be allowed to live
 ","-8. Don’t know (FTF only)
@@ -1458,16 +1325,6 @@ V161195a,PRE: Children brought illegally strength follow-up,"1. A great deal
 -9. Refused
 "
 V161195x,PRE: SUMMAR Y - Children brought illegally,,
-V161193a,,,
-V161193a,,"1. Should send back - favor a
-2. Should send back - favor a
-3. Should send back - favor a
-4. Should allow to stay -
-5. Should allow to stay -
-6. Should allow to stay -
-","-8. DK (-8) in V161193 or
--9. RF (-9) in V161193 or
-"
 V161196,PRE: Build a wall with Mexico,"1. F avor
 2. Oppose
 3. Neither favor nor oppose
@@ -1476,23 +1333,17 @@ V161196,PRE: Build a wall with Mexico,"1. F avor
 "
 V161196a,PRE: Build a wall with Mexico strength follow-up,"1. A great deal
 2. A moderate amount
-3. A little
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
-V161196x,PRE: SUMMAR Y - Build wall with Mexico,,
-V161196a,,,
-V161196a,,"1. F avor a great deal
+3. A little1. F avor a great deal
 2. F avor a moderate amount
 3. F avor a little
 4. Neither favor nor oppose
 5. Oppose a little
 6. Oppose a moderate
-7. Oppose a great deal
-","-8. DK (-8) in V161196 or
--9. RF (-9) in V161196 or
-"
+7. Oppose a great deal","-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-8. DK (-8) in V161196 or
+-9. RF (-9) in V161196 or"
+V161196x,PRE: SUMMAR Y - Build wall with Mexico,,
 V161197,PRE: How important to speak English in US,"1. V ery important
 2. Somewhat important
 3. Not very important
@@ -1539,28 +1390,22 @@ V161204,PRE: Does R favor or oppose affirmative action in universities,"1. F avo
 "
 V161204a,PRE: How much does R favor affirmative action in universities,"1. A great deal
 2. A moderate amount
-3. A little
-","-1. INAP ,
+3. A little1. F avor a great deal
+2. F avor a moderate amount
+3. F avor a little
+4. Neither favor nor oppose
+5. Oppose a little
+6. Oppose a moderate
+7. Oppose a great deal","-1. INAP ,
 -8. Don’t know (FTF only)
--9. Refused
-"
+-9. Refused-8. DK (-8) in V161204,
+-9. RF (-9) in V161204,"
 V161204b,PRE: How much does R oppose affirmative action in universities,"1. A great deal
 2. A moderate amount
 3. A little
 ","-1. INAP ,
 "
 V161204x,PRE: SUMMAR Y - F avor or oppose affirmative action in universities,,
-V161204a,,,
-V161204a,,"1. F avor a great deal
-2. F avor a moderate amount
-3. F avor a little
-4. Neither favor nor oppose
-5. Oppose a little
-6. Oppose a moderate
-7. Oppose a great deal
-","-8. DK (-8) in V161204,
--9. RF (-9) in V161204,
-"
 V161205,PRE: F ederal Budget Spending: Social Security,"1. Increased
 2. Decreased
 3. Kept the same
@@ -1617,22 +1462,16 @@ V161213,PRE: Sending troops to fight ISIS,"1. F avor
 "
 V161213a,PRE: Sending troops to fight ISIS follow-up,"1. A great deal
 2. A moderate amount
-3. A little
-","-1. INAP ,
--9. Refused
-"
-V161213x,PRE: SUMMAR Y - send troops to fight ISIS,,
-V161213a,,,
-V161213a,,"1. F avor a great deal
+3. A little1. F avor a great deal
 2. F avor a moderate amount
 3. F avor a little
 4. Neither favor nor oppose
 5. Oppose a little
 6. Oppose a moderate
-7. Oppose a great deal
-","-8. DK (-8) in V161213 or
--9. RF (-9) in V161213 or
-"
+7. Oppose a great deal","-1. INAP ,
+-9. Refused-8. DK (-8) in V161213 or
+-9. RF (-9) in V161213 or"
+V161213x,PRE: SUMMAR Y - send troops to fight ISIS,,
 V161214,PRE: Should Syrian refugees be allowed to come to the U.S.,"1. F avor
 2. Oppose
 3. Neither favor nor oppose
@@ -1641,21 +1480,15 @@ V161214,PRE: Should Syrian refugees be allowed to come to the U.S.,"1. F avor
 "
 V161214a,PRE: Allow Syrian refugees strength,"1. A great deal
 2. A moderate amount
-3. A little
-","-1. INAP ,
-"
-V161214x,PRE: SUMMAR Y - Allow Syrian refugees,,
-V161214a,,,
-V161214a,,"1. F avor a great deal
+3. A little1. F avor a great deal
 2. F avor a moderate amount
 3. F avor a little
 4. Neither favor nor oppose
 5. Oppose a little
 6. Oppose a moderate
-7. Oppose a great deal
-","-8. DK (-8) in V161214 or
--9. RF (-9) in V161214 or
-"
+7. Oppose a great deal","-1. INAP ,-8. DK (-8) in V161214 or
+-9. RF (-9) in V161214 or"
+V161214x,PRE: SUMMAR Y - Allow Syrian refugees,,
 V161215,PRE: REV How often trust govt in W ash to do what is right,"1. Always
 2. Most of the time
 3. About half the time
@@ -1722,22 +1555,16 @@ V161224,PRE: Govt action about rising temperatures,"1. Should be doing more
 "
 V161224a,PRE: Strength of position on govt action about rising temperatures,"1. Great deal
 2. A moderate amount
-3. A little
-","-1. INAP ,
--9. Refused
-"
-V161225x,PRE: SUMMAR Y - Govt action about rising temperatures,,
-V161224a,,,
-V161224a,,"1. Should be doing a great
+3. A little1. Should be doing a great
 2. Should be doing a
 3. Should be doing a little
 4. Currently doing the right
 5. Should be doing a little less
 6. Should be doing a
-7. Should be doing a great
-","-8. DK (-8) in V161224 or
--9. RF (-9) in V161224 or
-"
+7. Should be doing a great","-1. INAP ,
+-9. Refused-8. DK (-8) in V161224 or
+-9. RF (-9) in V161224 or"
+V161225x,PRE: SUMMAR Y - Govt action about rising temperatures,,
 V161226,PRE: Require employers to offer paid leave to parents of new children,"1. F avor
 2. Oppose
 3. Neither favor nor oppose
@@ -1746,22 +1573,16 @@ V161226,PRE: Require employers to offer paid leave to parents of new children,"1
 "
 V161226a,PRE: Strength require employers to offer paid leave to parents of new chil-,"1. A great deal
 2. A moderate amount
-3. A little
-","-1. INAP ,
--9. Refused
-"
-V161226x,PRE: SUMMAR Y - require employers to offer paid leave to new parents,,
-V161226a,,,
-V161226a,,"1. F avor a great deal
+3. A little1. F avor a great deal
 2. F avor a moderate amount
 3. F avor a little
 4. Neither favor nor oppose
 5. Oppose a little
 6. Oppose a moderate
-7. Oppose a great deal
-","-8. DK (-8) in V161226 or
--9. RF (-9) in V161226 or
-"
+7. Oppose a great deal","-1. INAP ,
+-9. Refused-8. DK (-8) in V161226 or
+-9. RF (-9) in V161226 or"
+V161226x,PRE: SUMMAR Y - require employers to offer paid leave to new parents,,
 V161227,PRE: Services to same sex couples,"1. Should be allowed to refuse
 2. Should be required to
 ","-8. Don’t know (FTF only)
@@ -1769,20 +1590,14 @@ V161227,PRE: Services to same sex couples,"1. Should be allowed to refuse
 "
 V161227a,PRE: Services to same sex couples strength,"1. V ery strongly
 2. Moderately
-3. A little
-","-1. INAP , -8,-9 in V161227
-"
-V161227x,PRE: SUMMAR Y - Services to same sex couples,,
-V161227a,,,
-V161227a,,"1. F eel very strongly- should
+3. A little1. F eel very strongly- should
 2. F eel moderately strongly-
 3. F eel a little strongly-
 4. F eel a little strongly -
 5. F eel moderately strongly -
-6. F eel very strongly - should
-","-8. DK (-8) in V161227 or
--9. RF (-9) in V161227 or
-"
+6. F eel very strongly - should","-1. INAP , -8,-9 in V161227-8. DK (-8) in V161227 or
+-9. RF (-9) in V161227 or"
+V161227x,PRE: SUMMAR Y - Services to same sex couples,,
 V161228,PRE: T ransgender bathroom policy,"1. Have to use the bathrooms
 2. Be allowed to use the
 ","-8. Don’t know (FTF only)
@@ -1790,27 +1605,24 @@ V161228,PRE: T ransgender bathroom policy,"1. Have to use the bathrooms
 "
 V161228a,PRE: T ransgender policy strength,"1. V ery strongly
 2. Moderately
-3. Slightly
-","-1. INAP , -8,-9 in V161228
--8. Don’t know (FTF only)
--9. Refused
-"
-V161228x,PRE: SUMMAR Y - T ransgender policy,,
-V161228a,,,
-V161228a,,"1. F eel very strongly-
+3. Slightly1. F eel very strongly-
 2. F eel moderately strongly-
 3. F eel a little strongly-
 4. F eel a little strongly -
 5. F eel moderately strongly -
-6. F eel very strongly -
-","-8. DK (-8) in V161228 or
--9. RF (-9) in V161228 or
-"
+6. F eel very strongly -","-1. INAP , -8,-9 in V161228
+-8. Don’t know (FTF only)
+-9. Refused-8. DK (-8) in V161228 or
+-9. RF (-9) in V161228 or"
+V161228x,PRE: SUMMAR Y - T ransgender policy,,
 V161229,PRE: Should laws protect gays lesbians against job discrim,"1. F avor
 2. Oppose
-","-8. Don’t know (FTF only)
+1. F avor strongly
+2. F avor not strongly
+3. Oppose not strongly
+4. Oppose strongly","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161229a,PRE: How much fav opp laws protect gays lesbians job discrim,"1. Strongly
 2. Not strongly
 ","-1. INAP , -8,-9 in V161229
@@ -1818,12 +1630,6 @@ V161229a,PRE: How much fav opp laws protect gays lesbians job discrim,"1. Strong
 -9. Refused
 "
 V161229x,PRE: SUMMAR Y - Laws to protect gays and lesbians against job discrim,,
-V161229,,"1. F avor strongly
-2. F avor not strongly
-3. Oppose not strongly
-4. Oppose strongly
-","-2. Missing: -8,-9 in
-"
 V161230,PRE: Should gay and lesbian couples be allowed to adopt,"1. Y es
 2. No
 ","-8. Don’t know (FTF only)
@@ -1845,21 +1651,18 @@ V161232,PRE: STD Abortion: self-placement,"1. By law, abortion should
 "
 V161233,PRE: R favor oppose death penalty,"1. F avor
 2. Oppose
-","-8. Don’t know (FTF only)
+1. F avor strongly
+2. F avor not strongly
+3. Oppose not strongly
+4. Oppose strongly","-8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing: -8,-9 in"
 V161233a,PRE: Strength R favors opposes death penalty,"1. Strongly
 2. Not strongly
 ","-1. INAP , -8,-9 in V161233
 -8. Don’t know (FTF only)
 "
 V161233x,PRE: SUMMAR Y - F avor or oppose death penalty,,
-V161233,,"1. F avor strongly
-2. F avor not strongly
-3. Oppose not strongly
-4. Oppose strongly
-","-2. Missing: -8,-9 in
-"
 V161234,PRE: U.S. more or less secure than when Pres took office,"1. More secure
 2. Less secure
 3. No change
@@ -1873,19 +1676,13 @@ V161235,PRE: Economy better since 2008,"1. Better
 -9. Refused
 "
 V161235a,PRE: Economy better/worse since 2008 strength,"1. Much
-2. Somewhat
-","-1. INAP ,
-"
-V161235x,PRE: SUMMAR Y - Economy since 2008,,
-V161235a,,,
-V161235a,,"1. Much better
+2. Somewhat1. Much better
 2. Somewhat better
 3. About the same
 4. Somewhat worse
-5. Much worse
-","-8. DK (-8) in V161235 or
--9. RF (-9) in V161235 or
-"
+5. Much worse","-1. INAP ,-8. DK (-8) in V161235 or
+-9. RF (-9) in V161235 or"
+V161235x,PRE: SUMMAR Y - Economy since 2008,,
 V161236,PRE: Affect for Obama - angry,"1. Never
 2. Some of the time
 3. About half the time
@@ -1903,22 +1700,10 @@ V161237,PRE: Affect for Obama - proud,"1. Never
 -9. Refused
 "
 V161238,PRE: PLACEMENT 2: How likely is it that R will vote in Nov,,
-V161024x,,"1. Extremely likely
-2. V ery likely
-3. Moderately likely
-4. Slightly likely
-5. Not likely at all
-","-1. INAP , R voted (4 in
--9. Refused
-"
 V161239a,PRE: PLACEMENT 2: Percent for Democratic Pres candidate,,
-V161132,,,
 V161239b,PRE: PLACEMENT 2: Percent for Republican Pres candidate,,
-V161132,,,
 V161240a,PRE: PLACEMENT 2: State percent for Democratic Pres candidate,,
-V161132,,,
 V161240b,PRE: PLACEMENT 2: State percent for Republican Pres candidate,,
-V161132,,,
 V161241,PRE: Is religion important part of R life,"1. Important
 2. Not important
 ","-8. Don’t know (FTF only)
@@ -1940,175 +1725,101 @@ V161243,PRE: Is Bible word of God or men,"1. The Bible is the actual
 "
 V161244,PRE: Ever attend church or religious services,"1. Y es
 2. No
-","-8. Don’t know (FTF only)
+1. Protestant
+2. Catholic
+3. Jewish
+4. Other1. Orthodox
+2. Conservative
+3. Reform
+5. Other SPECIFY","-8. Don’t know (FTF only)
 -9. Refused
-"
+-1. INAP ,
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF ONL Y)
+-9. Refused"
 V161245,PRE: Attend religious services how often,"1. Every week
 2. Almost every week
 3. Once or twice a month
 4. A few times a year
 5. Never
-","-1. INAP ,
+1. Once a week
+2. More often than once a1. Protestant
+2. Catholic
+3. Jewish
+4. Other","-1. INAP ,
 -9. Refused
-"
+-1. INAP ,
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused"
 V161245a,PRE: Attend church more often than once a week,,
-V161245,,"1. Once a week
-2. More often than once a
-","-1. INAP ,
--9. Refused
-"
 V161246,PRE: Ever think of self as part of church or denomination,"1. Y es
 2. No
-","-1. INAP ,
+2. Conservative
+3. Reform
+5. Other SPECIFY","-1. INAP ,
 -8. Don’t know (FTF only)
 -9. Refused
-"
-V161247a,PRE: (Attends church) R subjective description own major religious group,,
-V161244,,"1. Protestant
-2. Catholic
-3. Jewish
-4. Other
-","-1. INAP ,
--9. Refused
-"
-V161247b,PRE: (Nonattendance) R subjective description of own major religious group,,
-V161244,,,
-V161245,,"1. Protestant
-2. Catholic
-3. Jewish
-4. Other
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
-V161248,PRE: R subjective description of own major relig denomination,,
-V161247b,,,
-V161247a,,,
-V161249,PRE: R description of specific Baptist denomination,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. Southern Baptist
+-1. INAP ,"
+V161247a,PRE: (Attends church) R subjective description own major religious group,"1. Southern Baptist
 2. American Baptist
 3. American Baptist
 4. National Baptist
 5. Independent Baptist
-95. Other SPECIFY
-","-1. INAP ,
+95. Other SPECIFY1. Evangelical Lutheran
+2. Missouri Synod
+5. Other SPECIFY1. United Methodist Church
+2. African Methodist
+3. African Methodist
+5. Other SPECIFY1. Presbyterian Church USA
+5. Other SPECIFY1. Christian Reformed
+2. The Reformed Church in1. Church of the Brethren
+2. The Plymouth Brethren
+5. Other SPECIFY1. Disciples of Christ
+2. I am just a Christian
+5. Other SPECIFY1. Church of Christ
+2. United Church of Christ1. Anderson, Indiana
+2. Cleveland, T ennessee
+3. Church of God in Christ
+5. Other SPECIFY1. Y es
+2. No1. Y es
+2. No","-1. INAP ,
 -8. Don’t know (FTF only)
--9. Refused
-"
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-1. INAP ,-1. INAP ,-1. INAP ,-1. INAP ,
+-9. Refused-1. INAP ,-1. INAP ,
+-8. Don’t know (FTF only)-1. INAP ,
+-9. Refused-1. INAP ,
+-4. Error: programming error,
+-8. Don’t know (FTF ONL Y)
+-9. Refused"
+V161247b,PRE: (Nonattendance) R subjective description of own major religious group,,
+V161248,PRE: R subjective description of own major relig denomination,,
+V161249,PRE: R description of specific Baptist denomination,,
 V161250,PRE: R description of specific indep. Baptist denomination,"1. Larger Baptist group (SPECIFY)
 2. Local
 ","-1. Inapplicable
 -9. Refused
 "
 V161251,PRE: R description of specific Lutheran denomination,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. Evangelical Lutheran
-2. Missouri Synod
-5. Other SPECIFY
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161252,PRE: R description of specific Methodist denomination,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. United Methodist Church
-2. African Methodist
-3. African Methodist
-5. Other SPECIFY
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161253,PRE: R description of specific Presbyterian denomination,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. Presbyterian Church USA
-5. Other SPECIFY
-","-1. INAP ,
-"
 V161254,PRE: R description of specific Reformed denomination,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. Christian Reformed
-2. The Reformed Church in
-","-1. INAP ,
-"
 V161255,PRE: R description of specific Brethren denomination,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. Church of the Brethren
-2. The Plymouth Brethren
-5. Other SPECIFY
-","-1. INAP ,
-"
 V161256,PRE: R description of specific Disciples denomination,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. Disciples of Christ
-2. I am just a Christian
-5. Other SPECIFY
-","-1. INAP ,
--9. Refused
-"
 V161257,PRE: R description of specific Church of Christ denomination,,
-V161247b,,,
-V161247a,,"1. Church of Christ
-2. United Church of Christ
-","-1. INAP ,
-"
 V161258,PRE: R description of specific Church of God denomination,,
-V161247b,,,
-V161247a,,"1. Anderson, Indiana
-2. Cleveland, T ennessee
-3. Church of God in Christ
-5. Other SPECIFY
-","-1. INAP ,
--8. Don’t know (FTF only)
-"
 V161259,PRE: R description of specific Holiness Pentecostal denomination (open-end),,"-3. Restricted access, not
 "
 V161260,PRE: R description of specific other denomination (open-end),,"-3. Restricted access, not
 "
 V161261,PRE: Specific other denomination Christian,,
-V161248,,,
-V161247b,,,
-V161247a,,"1. Y es
-2. No
-","-1. INAP ,
--9. Refused
-"
 V161262a,PRE: (Attends) Specific Jewish denomination,,
-V161247a,,,
-V161244,,"1. Orthodox
-2. Conservative
-3. Reform
-5. Other SPECIFY
-","-1. INAP ,
--8. Don’t know (FTF ONL Y)
--9. Refused
-"
 V161262b,PRE: (Nonattendance) Specific Jewish denomination,,
-V161247b,,,
-V161246,,"2. Conservative
-3. Reform
-5. Other SPECIFY
-","-1. INAP ,
-"
 V161263,PRE: Does Christian R consider self born again,,
-V161261,,,
-V161248,,,
-V161247a,,,
-V161247a,,"1. Y es
-2. No
-","-1. INAP ,
--4. Error: programming error,
--8. Don’t know (FTF ONL Y)
--9. Refused
-"
 V161264x,PRE: SUMMAR Y - F ull religion summary,,
 V161265x,PRE: SUMMAR Y - Major group religion summary,"1. Mainline Protestant
 2. Evangelical Protestant
@@ -2212,14 +1923,11 @@ V161268,PRE: R marital status,"1. Married: spouse present
 4. Divorced
 5. Separated
 6. Never married
-","-9. Refused
-"
+1. Y es, living with a partner
+2. No, not living with a","-9. Refused
+-1. INAP ,
+-9. Refused"
 V161269,PRE: Domestic partnership status,,
-V161268,,"1. Y es, living with a partner
-2. No, not living with a
-","-1. INAP ,
--9. Refused
-"
 V161270,PRE: Highest level of Education,"1. Less than
 9. High school graduate- high
 10. Some college but no
@@ -2231,14 +1939,11 @@ V161270,PRE: Highest level of Education,"1. Less than
 16. Doctorate degree (for
 90. Other specify given as:
 95. Other SPECIFY
-","-9. Refused
-"
+1. Graduation from high
+2. Ged or other equivalent","-9. Refused
+-1. INAP ,
+-9. Refused"
 V161271,PRE: R high school completion- diploma or GED,,
-V161270,,"1. Graduation from high
-2. Ged or other equivalent
-","-1. INAP ,
--9. Refused
-"
 V161272,PRE: Spouse partner: Highest Level of Education,,
 V161273,PRE: Spouse high school completion- diploma or GED,"1. Graduation from high school
 2. Ged or other equivalent
@@ -2283,27 +1988,54 @@ V161277,"PRE: Initial R employment status, start of occupation module","1. Initi
 6. Initial employment status:
 7. Initial employment status:
 8. Initial employment status:
-","-9. Refused employment
-"
+1. Y es
+2. No","-9. Refused employment
+-1. INAP ,
+-9. Refused"
 V161278,PRE: Initial status Homemaker student: working now,"1. Y es
 2. No
-","-1. INAP ,
-"
+1. Y es
+2. No1. Someone else
+2. Both self and someone else
+3. Self-employed1. Y es
+2. No1. Y es
+2. No1. Not at all
+2. A little
+3. Moderately
+4. V ery
+5. Extremely1. Someone else
+2. Both self and someone else
+3. Self-employed1. Y es
+2. No1. More
+2. F ewer
+3. About right1. Not at all
+2. A little
+3. Moderately
+4. V ery
+5. Extremely1. Y es
+2. No1. Y es
+2. No","-1. INAP ,
+-1. INAP-1. INAP ,
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-1. INAP ,
+-9. Refused-1. INAP ,-1. INAP ,
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-1. INAP , -8,-9 in-1. INAP ,
+-9. Refused-1. INAP ,
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused"
 V161279,PRE: Initial status Homemaker student: job in last 6 mon,,
-V161278,,"1. Y es
-2. No
-","-1. INAP
-"
 V161280a,PRE: RESTRICTED: Initial status retiree - month when retired,,"-3. Restricted access, not
 "
 V161280b,PRE: RESTRICTED: Initial status retiree - day when retired,,"-3. Restricted access, not
 "
 V161280c,PRE: Initial status retiree - year when retired,,
 V161281,PRE: Initial status unemployed disabled: R ever work for pay,"1. Y es
-2. No
-","-1. INAP ,
--9. Refused
-"
+2. No","-1. INAP ,
+-9. Refused"
 V161282a,PRE: T ext- Past occupation (R ret dis unemp hmkr stud),,"-2. Redacted text, separate file
 "
 V161282b,PRE: Code- Past occupation (R ret dis unemp hmkr stud),,
@@ -2311,57 +2043,14 @@ V161283a,PRE: T ext- Past industry (R ret dis unemp hmkr stud),,"-2. Redacted te
 "
 V161283b,PRE: Code- Past industry (R ret dis unemp hmkr stud),,
 V161284,PRE: Past self-empl status (R ret dis unemp hmkr stud),,
-V161281,,,
-V161279,,,
-V161278,,"1. Someone else
-2. Both self and someone else
-3. Self-employed
-","-1. INAP ,
--9. Refused
-"
 V161285,PRE: Past occupation: govt work (R ret dis unemp hmkr stud),,
-V161284,,,
-V161281,,,
-V161279,,,
-V161278,,"1. Y es
-2. No
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161286,PRE: Initial status unempl ret disabled: job in last 6 mo,,
-V161281,,,
-V161277,,"1. Y es
-2. No
-","-1. INAP ,
--9. Refused
-"
 V161287,PRE: Recent occupation: how many hours worked avg week,,
-V161286,,,
-V161281,,,
 V161288,PRE: Initial status retired disabled: working now,"1. Y es
-2. No
-","-1. Inapplicable
--9. Refused
-"
+2. No","-1. Inapplicable
+-9. Refused"
 V161289,PRE: Init status nonworkg ret dis unemp hmkr st: look for work,,
-V161281,,,
-V161278,,"1. Y es
-2. No
-","-1. INAP ,
--9. Refused
-"
 V161290,PRE: Init status nonworkg ret dis unemp hmkr st: worry find job,,
-V161289,,,
-V161288,,,
-V161281,,,
-V161278,,"1. Not at all
-2. A little
-3. Moderately
-4. V ery
-5. Extremely
-","-1. INAP ,
-"
 V161291a,PRE: W orking TLO now - occupation,,"-2. Redacted text, separate file
 "
 V161291b,PRE: Code- W orking TLO now - occupation,,
@@ -2369,65 +2058,12 @@ V161292a,PRE: T ext- working or TLO industry of occupation,,"-2. Redacted text, 
 "
 V161292b,PRE: Code- working or TLO industry of occupation,,
 V161293,PRE: W orking TLO now - work for self,,
-V161288,,,
-V161281,,,
-V161278,,"1. Someone else
-2. Both self and someone else
-3. Self-employed
-","-1. INAP ,
--9. Refused
-"
 V161294,PRE: W orking TLO now - work for govt,,
-V161293,,,
-V161288,,,
-V161281,,,
-V161278,,"1. Y es
-2. No
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161295,PRE: W orking TLO now - how many hours R works,,
-V161288,,,
-V161281,,,
-V161278,,,
 V161296,PRE: W orking TLO now - hours works OK,,
-V161295,,,
-V161288,,,
-V161281,,,
-V161278,,"1. More
-2. F ewer
-3. About right
-","-1. INAP , -8,-9 in
-"
 V161297,PRE: W orking TLO now: worry about losing job in near future,,
-V161288,,,
-V161281,,,
-V161278,,"1. Not at all
-2. A little
-3. Moderately
-4. V ery
-5. Extremely
-","-1. INAP ,
--9. Refused
-"
 V161298,PRE: W orking now: out of work or laid off in last 6 mos,,
-V161288,,,
-V161281,,,
-V161278,,"1. Y es
-2. No
-","-1. INAP ,
--9. Refused
-"
 V161299,PRE: W orking now: had reduction in work hrs or pay cut,,
-V161288,,,
-V161281,,,
-V161278,,"1. Y es
-2. No
-","-1. INAP ,
--8. Don’t know (FTF only)
--9. Refused
-"
 V161300a,PRE: W orking now - spouse/partner employment status,"0. Not selected
 1. Selected
 ","-1. INAP , -9 in V161268/2,-9
@@ -2480,66 +2116,101 @@ V161303,PRE: Who in HH belongs to labor union,"1. Respondent only
 "
 V161304,PRE: Think of self as belonging to class,"1. Y es
 2. No
-","-1. INAP , selected for
--8. Don’t know (FTF only)
--9. Refused
-"
-V161305a,PRE: Social Class: working or middle,,
-V161304,,"0. Lower class or poor
+0. Lower class or poor
 1. Middle class
 2. W orking class
 3. Both <volunteered>
 4. Upper class <volunteered>
-7. Other specify given as:
-","-1. INAP ,
--9. Refused
-"
-V161305b,PRE: Social Class: had to choose working middle,,
-V161304,,"0. Upper class <volunteered>
+7. Other specify given as:0. Upper class <volunteered>
 1. Middle class
 2. W orking class
 3. Neither <volunteered>
 4. Lower class or poor
 5. Other SPECIFY (FTF
-7. Other specify given as:
-","-1. INAP ,
+7. Other specify given as:","-1. INAP , selected for
 -8. Don’t know (FTF only)
 -9. Refused
-"
-V161306,PRE: Social class: average or upper working middle class,,
-V161305b,,,
-V161305a,,"0. Lower class or poor
+-1. INAP ,
+-9. Refused-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused"
+V161305a,PRE: Social Class: working or middle,"0. Lower class or poor
 1. A verage middle/working
 2. Upper middle/working
 3. Lower middle/working
 4. Upper class <volunteered>
-5. Other SPECIFY
-","-1. INAP ,
+5. Other SPECIFY","-1. INAP ,
 -8. Don’t know (FTF only)
--9. Refused
-"
+-9. Refused"
+V161305b,PRE: Social Class: had to choose working middle,,
+V161306,PRE: Social class: average or upper working middle class,,
 V161307,PRE: Social class (2-question version),"1. Lower class
 2. W orking class
 3. Middle class
 4. Upper class
-","-1. INAP , selected for
+1. Lower middle class
+2. Middle class
+3. Upper middle class","-1. INAP , selected for
 -8. Don’t know (FTF only)
 -9. Refused
-"
+-1. INAP ,
+-8. Don’t know (FTF only)"
 V161307a,PRE: EGSS social class if middle class,,
-V161307,,"1. Lower middle class
-2. Middle class
-3. Upper middle class
-","-1. INAP ,
--8. Don’t know (FTF only)
-"
 V161308x,PRE: SUMMAR Y - R self-identified social class,,"-2. Coded summary will be
 "
 V161309,"PRE: R: Are you Spanish, Hispanic, or Latino","1. Y es
 2. No
-","-8. Don’t know (FTF only)
+0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected","-8. Don’t know (FTF only)
 -9. Refused
-"
+-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question"
 V161310a,PRE: R self-identified race - White mentioned,"0. Not selected
 1. Selected
 ","-8. Don’t know race (FTF only)
@@ -2616,9 +2287,15 @@ V161316,"PRE: Rs: born U.S., Puerto Rico, or some other country","1. A U.S. stat
 3. Another U.S. territory
 4. Another country
 7. Other specify as: U.S.
-","-8. Don’t know (FTF only)
+1. Became citizen before
+2. Became citizen
+3. Became citizen
+4. Became citizen
+7. FTF: Born outside the","-8. Don’t know (FTF only)
 -9. Refused
-"
+-1. INAP ,
+-8. Don’t know
+-9. Refused"
 V161317,PRE: How many grandparents born outside the U.S.,"0. None
 1. One
 2. T wo
@@ -2658,15 +2335,6 @@ V161321a,PRE: NON-US BORN Rs: Time period when R arrived in U.S.,"1. Arrived bef
 V161322,PRE: RESTRICTED- NON-US BORN Rs: In what year did R become a,,"-3. Restricted access for
 "
 V161322a,PRE: NON-US BORN Rs: Time period when R became U.S. citizen,,
-V161316,,"1. Became citizen before
-2. Became citizen
-3. Became citizen
-4. Became citizen
-7. FTF: Born outside the
-","-1. INAP ,
--8. Don’t know
--9. Refused
-"
 V161323,PRE: LA TINO Rs: language at home,"1. Only English
 2. Mostly English
 3. Both languages equally
@@ -2724,15 +2392,12 @@ V161327,PRE: Cell or Landline service,"1. Only landline service
 "
 V161328,PRE: Does R personally have a cell phone,"1. Y es, have a cell phone
 2. No, do not have a cell phone
-","-1. INAP ,1,-8,-9 in V161327
+1. Y es, have a smartphone
+2. No smartphone","-1. INAP ,1,-8,-9 in V161327
 -9. Refused
-"
+-1. INAP/2,-8,-9 in
+-9. Refused"
 V161329,PRE: Is R’s cell phone a smartphone,,
-V161328,,"1. Y es, have a smartphone
-2. No smartphone
-","-1. INAP/2,-8,-9 in
--9. Refused
-"
 V161330,PRE: Where R grew up,,
 V161331a,PRE: How long lived in this community YRS,,
 V161331b,PRE: How long lived in this community MONTHS,,"-9. Refused
@@ -2846,59 +2511,38 @@ V161350,PRE FTF CASI/WEB: Money invested in Stock Market,"1. Y es
 ","-5. Interview breakoff
 -9. Refused
 "
-V161351,PRE FTF CASI/WEB: RESTRICTED- T otal income amount,,"-3. Restricted access, not
+V161351,PRE FTF CASI/WEB: RESTRICTED- T otal income amount,2. Less than,"-3. Restricted access, not
 -5. Interview breakoff
-"
+-1. INAP ,
+-5. Interview breakoff
+-9. Refused-1. INAP ,
+-5. Interview breakoff
+-9. Refused-1. INAP ,
+-5. Interview breakoff
+-9. Refused"
 V161352,PRE FTF CASI/WEB: Income amt missing - ge or lt 40K,"2. Less than
-","-1. INAP , not -9 in V161351
+2. Less than2. Less than","-1. INAP , not -9 in V161351
 -5. Interview breakoff
 -9. Refused
-"
-V161353,PRE FTF CASI/WEB: Income amt missing - ge or lt 20K,,
-V161352,,"2. Less than
-","-1. INAP ,
+-1. INAP ,
 -5. Interview breakoff
--9. Refused
-"
+-9. Refused-1. INAP ,
+-5. Interview breakoff
+-9. Refused-1. INAP ,2,-9 in V161358/2,-9
+-5. Interview breakoff
+-9. Refused"
+V161353,PRE FTF CASI/WEB: Income amt missing - ge or lt 20K,1. Under,"-1. INAP ,
+-5. Interview breakoff
+-9. Refused-1. INAP ,
+-5. Interview breakoff
+-9. Refused"
 V161354,PRE FTF CASI/WEB: Income amt missing - categories lt 20K,,
-V161353,,"1. Under
-","-1. INAP ,
--5. Interview breakoff
--9. Refused
-"
 V161355,PRE FTF CASI/WEB: Income amt missing - categories 20-40K,,
-V161353,,,"-1. INAP ,
--5. Interview breakoff
--9. Refused
-"
 V161356,PRE FTF CASI/WEB: Income amt missing - ge or lt 70K,,
-V161352,,"2. Less than
-","-1. INAP ,
--5. Interview breakoff
--9. Refused
-"
 V161357,PRE FTF CASI/WEB: Income amt missing - categories 40-70K,,
-V161351,,,"-1. INAP ,
--5. Interview breakoff
--9. Refused
-"
 V161358,PRE FTF CASI/WEB: Income amt missing - ge or lt 100K,,
-V161351,,"2. Less than
-","-1. INAP ,
--5. Interview breakoff
--9. Refused
-"
 V161359,PRE FTF CASI/WEB: Income amt missing - categories 70-100K,,
-V161358,,,
-V161351,,,"-1. INAP ,
--5. Interview breakoff
--9. Refused
-"
 V161360,PRE FTF CASI/WEB: Income amt missing - categories 100+K,,
-V161352,,,"-1. INAP ,2,-9 in V161358/2,-9
--5. Interview breakoff
--9. Refused
-"
 V161361x,PRE FTF CASI/WEB: Pre income summary,,
 V161362,PRE FTF CASI/WEB: Need to be more sensitive talking or people too,"1. The way people talk needs
 2. The way people talk needs
@@ -2914,9 +2558,20 @@ V161363a,PRE FTF CASI/WEB: Mention: T elevision news programs (morning or,"0. No
 "
 V161363b,PRE FTF CASI/WEB: Mention: Newspapers,"0. Not selected
 1. Selected
-","-5. Interview breakoff
+0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected0. Not selected
+1. Selected","-5. Interview breakoff
 -9. Refused question
-"
+-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-5. Interview breakoff
+-9. Refused question-1. INAP ,
+-9. Refused question-1. INAP ,-1. INAP ,-1. INAP ,"
 V161363c,"PRE FTF CASI/WEB: Mention: T elevision talk shows, public affairs, or","0. Not selected
 1. Selected
 ","-5. Interview breakoff
@@ -3226,117 +2881,21 @@ V161411,PRE FTF CASI/WEB: Mention: TV PROG Alpha House,"0. Not selected
 -9. Refused question
 "
 V161412,PRE FTF CASI/WEB: Mention: TV PROG Al Punto,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161413,PRE FTF CASI/WEB: Mention: TV PROG Al Rojo Vivo,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161414,PRE FTF CASI/WEB: Mention: TV PROG Aqui y Ahora,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161415,PRE FTF CASI/WEB: Mention: TV PROG CNN en Espanol,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161416,PRE FTF CASI/WEB: Mention: TV PROG Despierta America,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161417,PRE FTF CASI/WEB: Mention: TV PROG El Gordo y La Flaca,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161418,PRE FTF CASI/WEB: Mention: TV PROG Enfoque,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161419,PRE FTF CASI/WEB: Mention: TV PROG Hoy,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161420,PRE FTF CASI/WEB: Mention: TV PROG Lo Mejor de Caso Cerrado,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161421,PRE FTF CASI/WEB: Mention: TV PROG Noticiero Enrique Gratas,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161422,PRE FTF CASI/WEB: Mention: TV PROG Noticiero T elemundo,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161423,PRE FTF CASI/WEB: Mention: TV PROG Noticiero Univision,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161424,PRE FTF CASI/WEB: Mention: TV PROG El Senor de los Cielos,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161425,PRE FTF CASI/WEB: Mention: TV PROG Que Noche! con Angelica y,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161426,PRE FTF CASI/WEB: Mention: TV PROG Primer Impacto,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161427,PRE FTF CASI/WEB: Mention: TV PROG Cronicas de Sabado,,
-V161309,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161428,PRE FTF CASI/WEB: Mention: Radio PROG Rush Limbaugh,"0. Not selected
 1. Selected
 ","-1. INAP ,
@@ -3659,41 +3218,12 @@ V161485,PRE FTF CASI/WEB: Mention: www.washingtonpost.com (W ashington,"0. Not s
 -9. Refused question
 "
 V161486,PRE FTF CASI/WEB: Mention: Online newspaper inews[5],,
-V161363b,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161487,PRE FTF CASI/WEB: Mention: Online newspaper inews[6],,
-V161363b,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161488,PRE FTF CASI/WEB: Mention: Online newspaper inews[7],,
-V161363b,,"0. Not selected
-1. Selected
-","-1. INAP ,
--5. Interview breakoff
--9. Refused question
-"
 V161489,PRE FTF CASI/WEB: Mention: Online newspaper inews[8],,
-V161363b,,"0. Not selected
-1. Selected
-","-1. INAP ,
--9. Refused question
-"
 V161490,PRE FTF CASI/WEB: Mention: Online newspaper inews[9],,
-V161363b,,,"-1. INAP ,
-"
 V161491,PRE FTF CASI/WEB: Mention: Online newspaper inews[10],,
-V161363b,,,"-1. INAP ,
-"
 V161492,PRE FTF CASI/WEB: Mention: Online newspaper inews[11],,
-V161363b,,,"-1. INAP ,
-"
 V161493,PRE FTF CASI/WEB: Mention: Other online newspaper,"0. Not selected
 1. Selected
 ","-1. INAP ,
@@ -3841,28 +3371,22 @@ V161517,PRE WEB ONL Y: ease of online access,"1. Not at all easy
 V161518,PRE FTF CASI ONL Y: R rating of interviewer,"1. Good
 2. Bad
 3. Neither good nor bad
-","-1. INAP , W eb mode
--9. Refused
-"
-V161519,PRE FTF CASI ONL Y: R rating of interviewer degree,,
-V161518,,"1. Extremely
+1. Extremely
 2. Moderately
-3. A little
-","-1. INAP ,
-"
+3. A little","-1. INAP , W eb mode
+-9. Refused
+-1. INAP ,"
+V161519,PRE FTF CASI ONL Y: R rating of interviewer degree,,
 V161520,PRE FTF CASI ONL Y: R rating of interview,"1. Liked
 2. Disliked
 3. Neither liked nor disliked
-","-1. INAP , W eb mode
--9. Refused
-"
-V161521,PRE FTF CASI ONL Y: R rating of interview degree,,
-V161520,,"1. A little
+1. A little
 2. A moderate amount
-3. A great deal
-","-1. INAP ,
+3. A great deal","-1. INAP , W eb mode
 -9. Refused
-"
+-1. INAP ,
+-9. Refused"
+V161521,PRE FTF CASI ONL Y: R rating of interview degree,,
 V161522,PRE: How satisfied is R with life,"1. Extremely satisfied
 2. V ery satisfied
 3. Moderately satisfied
@@ -4096,22 +3620,30 @@ V162021c,POST: V ote section- candidate names preloaded for sample address,"0. N
 ","-6. Unit nonresponse, no
 -7. No Post, deleted due to
 "
-V162022,POST: R registered to vote (Post-election),,
-V161011a,,"1. Registered at this address
-2. Registered at a different
-3. Not currently registered
-","-1. INAP , registered in Pre
+V162022,POST: R registered to vote (Post-election),"0. State of registration is not
+1. State of registration same0. No Senate race in state of
+1. Senate race in state of0. No Governor race in state
+1. Governor race in state of0. No party registration in
+1. Party registration in state","-1. INAP , WEB:
+-6. Unit nonresponse, no
+-7. No Post, deleted due to-1. INAP , WEB:
+-6. Unit nonresponse, no
+-7. No Post, deleted due to-1. INAP , WEB:
+-6. Unit nonresponse, no
+-7. No Post, deleted due to-1. INAP , WEB:
+-6. Unit nonresponse, no"
+V162022a,POST WEB: Is R registered (registration address not answered),"0. Did not vote in
+1. V oted in1. Y es, voted for President
+2. No, didn’t vote for1. Y es
+2. No","-2. Missing,
+-8. Don’t know (in V162031)-1. INAP ,
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
--8. Don’t know (FTF only)
--9. Refused
-"
-V162022a,POST WEB: Is R registered (registration address not answered),,
-V161011a,,,"-1. INAP , FTF mode/WEB:
+-9. Refused-1. INAP ,
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
--9. Refused
-"
+-8. Don’t know (FTF or
+-9. Refused"
 V162023,POST: Address of registration given (not registered at sample address),"0. Registration address not
 1. Registration address given
 2. Partial address given for
@@ -4140,44 +3672,14 @@ V162025,POST: State of registration - reg state not given (not registered at sam
 -7. No Post, deleted due to
 "
 V162026a,POST: State of regist for Post vote section (Pre nonvoter; reg state given,,
-V162022a,,,
-V162022,,,
-V162022,,,
-V162026b,POST: State of regist for Post vote section same as sample address state,,
-V162022a,,,
-V162022,,,
-V162022,,"0. State of registration is not
-1. State of registration same
-","-1. INAP , WEB:
+V162026b,POST: State of regist for Post vote section same as sample address state,"1. Y es, have <yellow/green>
+2. Have Ballot Card in wrong
+3. Only have card(s) for","-1. Inap,
 -6. Unit nonresponse, no
--7. No Post, deleted due to
-"
+-7. No Post, deleted due to"
 V162026c,POST: Senate race in state of registration (all registrations),,
-V162022a,,,
-V162022,,,
-V162022,,"0. No Senate race in state of
-1. Senate race in state of
-","-1. INAP , WEB:
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
 V162026d,POST: Governor race in state of registration (all registrations),,
-V162022a,,,
-V162022,,,
-V162022,,"0. No Governor race in state
-1. Governor race in state of
-","-1. INAP , WEB:
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
 V162026e,POST: Party registration in state of registration (all registrations),,
-V162022a,,,
-V162022,,,
-V162022,,"0. No party registration in
-1. Party registration in state
-","-1. INAP , WEB:
--6. Unit nonresponse, no
-"
 V162027,POST: Is R registered to vote in preload county (not reg at sample address),"1. Y es, registered in <county
 2. No, registered in other
 ","-1. Inapplicable
@@ -4185,10 +3687,6 @@ V162027,POST: Is R registered to vote in preload county (not reg at sample addre
 -7. No Post, deleted due to
 "
 V162028,POST: How many years has R been registered at registration location,,
-V161011,,,"-1. Inap,
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
 V162028x,PRE-POST: SUMMAR Y- years has R been registered at registration loca-,,"-2. Missing, reg address (incl
 -8. Don’t know (FTF only)
 -9. Refused
@@ -4224,20 +3722,18 @@ V162030x,PRE-POST: SUMMAR Y - Party of registration,"1. Democratic Party
 V162031,POST: Did R vote in the November 2016 elections,"1. I did not vote (in the
 2. I thought about voting this
 3. I usually vote, but didn’t
-4. I am sure I voted
-","-1. INAP ,
+4. I am sure I voted1. Y es
+2. No1. Y es
+2. No","-1. INAP ,
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
--8. Don’t know (FTF ONL Y)
-"
+-8. Don’t know (FTF ONL Y)-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF only)-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to"
 V162031x,PRE-POST: SUMMAR Y -Did R vote in 2016,,
-V162022,,,
-V162022,,,
-V162022a,,"0. Did not vote in
-1. V oted in
-","-2. Missing,
--8. Don’t know (in V162031)
-"
 V162032x,POST: SUMMAR Y - Post vote status for registered respondents,"1. Post status not (or DK/RF
 2. Post status registered, did
 3. Post status registered and
@@ -4246,13 +3742,6 @@ V162032x,POST: SUMMAR Y - Post vote status for registered respondents,"1. Post s
 -7. No Post, deleted due to
 "
 V162033,POST: FTF ONL Y: IWR CHECKPOINT: have correct Post ballot card,,
-V162026b,,"1. Y es, have <yellow/green>
-2. Have Ballot Card in wrong
-3. Only have card(s) for
-","-1. Inap,
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
 V162033a,POST: FTF ONL Y: IWR error at Ballot Card checkpoint,"0. Ballot card not used as
 1. Ballot card used, names
 2. Ballot card not used,
@@ -4269,14 +3758,6 @@ V162033x,POST: SUMMAR Y - administration of Post vote module,"1. Used Ballot Car
 -7. No Post, deleted due to
 "
 V162034,POST: Did R vote for President,,
-V162031,,,
-V162022a,,"1. Y es, voted for President
-2. No, didn’t vote for
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--9. Refused
-"
 V162034a,POST: F or whom did R vote for President,"1. Hillary Clinton
 2. Donald T rump
 3. Gary Johnson
@@ -4324,34 +3805,10 @@ V162036a,POST: Code- How long before election R made decision Pres vote,"1. That
 -7. No Post, deleted due to
 "
 V162037,POST: Does R prefer Pres cand (did not vote),,
-V161024x,,"1. Y es
-2. No
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF only)
--9. Refused
-"
 V162037a,POST: Preference for Pres cand (did not vote),,
-V162037,,,
-V161024x,,"1. Hillary Clinton
-2. Donald T rump
-3. Gary Johnson
-4. Jill Stein
-5. Other candidate SPECIFY
-9. Other specify given as: RF
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
 V162038,POST: Preference strong for Pres cand (did not vote),"1. Strong
 2. Not strong
-","-1. INAP , -8,-9 in V162037a/4
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
-V162038x,POST: SUMMAR Y- Preference for Pres cand (did not vote),,
-V162038,,"10. Prefer Hillary Clinton -
+10. Prefer Hillary Clinton -
 11. Prefer Hillary Clinton -
 20. Prefer Donald T rump -
 21. Prefer Donald T rump -
@@ -4360,75 +3817,65 @@ V162038,,"10. Prefer Hillary Clinton -
 40. Prefer Jill Stein - not
 41. Prefer Jill Stein - strong
 50. Prefer other candidate -
-51. Prefer other candidate -
-","-2. Missing, -8,-9 in
+51. Prefer other candidate -","-1. INAP , -8,-9 in V162037a/4
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
-"
-V162039,POST: Did R vote for U.S. House of Representatives,,
-V162031,,,
-V162022,,,
-V162022,,,
-V162022a,,"1. Y es
-2. No
-","-1. INAP ,
+-2. Missing, -8,-9 in
 -6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF or
--9. Refused
-"
-V162040,POST: F or whom did R vote for U.S. House (ballot card),,
-V162039,,"1. Democratic House
+-7. No Post, deleted due to"
+V162038x,POST: SUMMAR Y- Preference for Pres cand (did not vote),,
+V162039,POST: Did R vote for U.S. House of Representatives,"1. Democratic House
 2. Republican House
 3. Independent House
 4. R VOL: names on ballot
-5. Other candidate
-","-1. INAP ,
+5. Other candidate","-1. INAP ,
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
 -8. Don’t know (FTF or
--9. Refused
-"
+-9. Refused"
+V162040,POST: F or whom did R vote for U.S. House (ballot card),"1. Candidate/party
+2. Candidate/party
+3. Other mention, party not1. Candidate/party
+2. Candidate/party
+3. Other mention, party not1. Candidate/party
+2. Candidate/party","-1. Inap,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF only)
+-9. Refused-1. Inap,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to"
 V162041,POST: F or whom did R vote for U.S. House (no ballot card),,
-V162039,,,
-V162040,,"1. Candidate/party
-2. Candidate/party
-3. Other mention, party not
-","-1. Inap,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF only)
--9. Refused
-"
-V162042,POST: Does R prefer U.S. House candidate,,
-V161024x,,"1. Y es
-2. No
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF only)
-"
-V162043,POST: Whom does R prefer for U.S. House (ballot card),,
-V162042,,"1. Democratic House
+V162042,POST: Does R prefer U.S. House candidate,"1. Democratic House
 2. Republican House
 3. Independent House
 4. R VOL: names on ballot
-5. Other candidate
-","-1. INAP ,
+5. Other candidate","-1. INAP ,
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
 -8. Don’t know (FTF or
--9. Refused
-"
-V162044,POST: Whom does R prefer for U.S. House (no ballot card),,
-V162042,,,
-V162043,,"1. Candidate/party
+-9. Refused"
+V162043,POST: Whom does R prefer for U.S. House (ballot card),"1. Candidate/party
 2. Candidate/party
-3. Other mention, party not
-","-1. Inap,
+3. Other mention, party not1. Democratic Senate
+2. Republican Senate
+3. Independent Senate
+5. Other candidate1. Democratic gubernatorial
+2. Republican gubernatorial","-1. Inap,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to-1. INAP ,
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
-"
+-8. Don’t know (FTF or
+-9. Refused-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF or"
+V162044,POST: Whom does R prefer for U.S. House (no ballot card),,
 V162045x,POST SUMMAR Y: Senate and Governor races,"00. No Senate/Governor race-
 01. No Senate/Governor race-
 10. Senate race- sample
@@ -4437,64 +3884,33 @@ V162045x,POST SUMMAR Y: Senate and Governor races,"00. No Senate/Governor race-
 21. Governor race-
 30. Senate and Governor
 31. Senate and Governor
-","-2. Missing,
+1. Democratic Senate
+2. Republican Senate
+3. Independent Senate
+5. Other candidate1. Democratic gubernatorial
+2. Republican gubernatorial
+5. Other candidate","-2. Missing,
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
-"
+-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF or
+-9. Refused-1. INAP ,
+-6. Unit nonresponse, no
+-7. No Post, deleted due to
+-8. Don’t know (FTF or
+-9. Refused"
 V162046,POST: Did R vote for U.S. Senate,"1. Y es
-2. No
-","-1. Inapplicable
+2. No","-1. Inapplicable
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
 -8. Don’t know (FTF only)
--9. Refused
-"
+-9. Refused"
 V162047,POST: R’s vote for U.S. Senate (ballot card),,
-V162046,,,
-V162045x,,"1. Democratic Senate
-2. Republican Senate
-3. Independent Senate
-5. Other candidate
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF or
--9. Refused
-"
 V162048,POST: R’s vote for U.S. Senate (no ballot card),,
-V162046,,,
-V162045x,,,
-V162040,,"1. Candidate/party
-2. Candidate/party
-3. Other mention, party not
-","-1. Inap,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF only)
--9. Refused
-"
 V162049,POST: Does R prefer U.S. Senate candidate,,
-V162045x,,,
-V162045x,,,
-V162031,,"1. Y es
-2. No
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF only)
-"
 V162050,POST: Whom does R prefer for U.S. Senate (ballot card),,
-V162049,,,
-V162043,,"1. Democratic Senate
-2. Republican Senate
-3. Independent Senate
-5. Other candidate
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF or
--9. Refused
-"
 V162051,POST: Whom does R prefer for U.S. Senate (no ballot card),"1. Candidate/party
 2. Candidate/party
 ","-1. Inapplicable
@@ -4502,50 +3918,14 @@ V162051,POST: Whom does R prefer for U.S. Senate (no ballot card),"1. Candidate/
 -7. No Post, deleted due to
 "
 V162052,POST: Did R vote for governor,"1. Y es
-2. No
-","-1. Inapplicable
+2. No","-1. Inapplicable
 -6. Unit nonresponse, no
 -7. No Post, deleted due to
--8. Don’t know (FTF only)
-"
+-8. Don’t know (FTF only)"
 V162053,POST: R’s vote for governor(ballot card),,
-V162052,,,
-V162045x,,"1. Democratic gubernatorial
-2. Republican gubernatorial
-5. Other candidate
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF or
--9. Refused
-"
 V162054,POST: R’s vote for governor (no ballot card),,
-V162052,,,
-V162045x,,,
-V162040,,"1. Candidate/party
-2. Candidate/party
-","-1. Inap,
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
 V162055,POST: Does R prefer gubernatorial candidate,,
-V162045x,,,
-V162045x,,,
-V162031,,"1. Y es
-2. No
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
-"
 V162056,POST: Whom does R prefer for governor (ballot card),,
-V162055,,,
-V162043,,"1. Democratic gubernatorial
-2. Republican gubernatorial
-","-1. INAP ,
--6. Unit nonresponse, no
--7. No Post, deleted due to
--8. Don’t know (FTF or
-"
 V162057,POST: Whom does R prefer for governor (no ballot card),"1. Candidate/party
 ","-1. Inapplicable
 -6. Unit nonresponse, no
@@ -4595,10 +3975,19 @@ V162062x,2016 PRE-POST VOTE SUMMAR Y: 2016 Presidential vote,"1. Hillary Clinton
 3. Gary Johnson
 4. Jill Stein
 5. Other candidate SPECIFY
-","-2. Missing, no vote for Pres
+10. V oted for Hillary Clinton
+11. V oted for Hillary Clinton
+20. V oted for Donald T rump -
+21. V oted for Donald T rump -
+30. V oted for Gary Johnson -
+31. V oted for Gary Johnson -
+40. V oted for Jill Stein - not
+41. V oted for Jill Stein -
+50. V oted for other candidate
+51. V oted for other candidate","-2. Missing, no vote for Pres
 -8. Don’t know (FTF only)
 -9. Refused
-"
+-2. Missing, -8,-9 in V162035"
 V162063x,2016 PRE-POST VOTE SUMMAR Y: 2016 Pre intent vote for Pres - Post,"10. Dem Pres candidate:
 11. Rep Pres candidate:
 12. Oth Pres candidate:
@@ -4630,18 +4019,6 @@ V162065x,2016 PRE-POST REG/TURNOUT SUMMAR Y: 2016 registration - turnout,"0. Did
 ","-2. Inap
 "
 V162066x,2016 PRE-POST VOTE SUMMAR Y: 2016 Presidential vote w/strength,,
-V162062x,,"10. V oted for Hillary Clinton
-11. V oted for Hillary Clinton
-20. V oted for Donald T rump -
-21. V oted for Donald T rump -
-30. V oted for Gary Johnson -
-31. V oted for Gary Johnson -
-40. V oted for Jill Stein - not
-41. V oted for Jill Stein -
-50. V oted for other candidate
-51. V oted for other candidate
-","-2. Missing, -8,-9 in V162035
-"
 V162067x,2016 PRE-POST VOTE SUMMAR Y: party of 2016 U.S. House vote,"1. V oted for Democratic
 2. V oted for Republican
 3. V oted for other House
@@ -4846,13 +4223,16 @@ V162116a,POST: Mention 1 most important problems facing the country,,"-2. T ext 
 -6. No post-election interview
 -7. No post data, deleted due
 "
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 1",,
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 2",,
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 3",,
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 4",,
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 5",,
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 6",,
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 7","6. V eterans
+V162116a_,"POST: Most Important Problem - Mention 1, Idea 1
+POST: Most Important Problem - Mention 1, Idea 2
+POST: Most Important Problem - Mention 1, Idea 3
+POST: Most Important Problem - Mention 1, Idea 4
+POST: Most Important Problem - Mention 1, Idea 5
+POST: Most Important Problem - Mention 1, Idea 6
+POST: Most Important Problem - Mention 1, Idea 7
+POST: Most Important Problem - Mention 1, Idea 8
+POST: Most Important Problem - Mention 1, Idea 9
+POST: Most Important Problem - Mention 1, Idea 10","6. V eterans
 13. International affairs (all
 20. School funding
 24. Health (all other)
@@ -4865,12 +4245,7 @@ V162116a_,"POST: Most Important Problem - Mention 1, Idea 7","6. V eterans
 45. Government power
 51. Stock market
 80. Civility
-800. Other problem
-","-1. INAP (no further
--6. No post-election interview
--7. No post data, deleted due
-"
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 8","5. T errorism
+800. Other problem5. T errorism
 21. Education (all other)
 23. Medicare
 26. Poverty
@@ -4878,24 +4253,18 @@ V162116a_,"POST: Most Important Problem - Mention 1, Idea 8","5. T errorism
 34. Police problems
 37. Justice (all other)
 54. Inflation
-800. Other problem
-","-1. INAP (no further
--6. No post-election interview
--7. No post data, deleted due
-"
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 9","24. Health (all other)
+800. Other problem24. Health (all other)
 27. Employment
-79. Religion
-","-1. INAP (no further
+79. Religion48. Politicians
+800. Other problem","-1. INAP (no further
 -6. No post-election interview
--7. No post data, deleted due
-"
-V162116a_,"POST: Most Important Problem - Mention 1, Idea 10","48. Politicians
-800. Other problem
-","-1. INAP (no further
+-7. No post data, deleted due-1. INAP (no further
 -6. No post-election interview
--7. No post data, deleted due
-"
+-7. No post data, deleted due-1. INAP (no further
+-6. No post-election interview
+-7. No post data, deleted due-1. INAP (no further
+-6. No post-election interview
+-7. No post data, deleted due"
 V162117,POST: Party to deal with mention 1 MIP,"1. Democrats
 2. Republicans
 3. W ouldn’t be much
@@ -4909,11 +4278,15 @@ V162118a,POST: Mention 2 most important problems facing the country,,"-2. T ext 
 -6. No post-election interview
 -7. No post data, deleted due
 "
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 1",,
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 2",,
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 3",,
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 4",,
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 5","2. Middle East
+V162118a_,"POST: Most Important Problem - Mention 2, Idea 1
+POST: Most Important Problem - Mention 2, Idea 2
+POST: Most Important Problem - Mention 2, Idea 3
+POST: Most Important Problem - Mention 2, Idea 4
+POST: Most Important Problem - Mention 2, Idea 5
+POST: Most Important Problem - Mention 2, Idea 6
+POST: Most Important Problem - Mention 2, Idea 7
+POST: Most Important Problem - Mention 2, Idea 8
+POST: Most Important Problem - Mention 2, Idea 9","2. Middle East
 5. T errorism
 7. National defense (all other)
 21. Education (all other)
@@ -4928,13 +4301,7 @@ V162118a_,"POST: Most Important Problem - Mention 2, Idea 5","2. Middle East
 75. Sexism/Gender issues
 78. Elections
 79. Religion
-800. Other problem
-","-1. INAP (no further
--4. Respondent other (self
--6. No post-election interview
--7. No post data, deleted due
-"
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 6","17. Environment
+800. Other problem17. Environment
 21. Education (all other)
 24. Health (all other)
 29. Social security
@@ -4942,35 +4309,27 @@ V162118a_,"POST: Most Important Problem - Mention 2, Idea 6","17. Environment
 36. Corporate Corruption
 40. T axes
 41. Immigration
-62. Child care
-","-1. INAP (no further
--6. No post-election interview
--7. No post data, deleted due
-"
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 7","5. T errorism
+62. Child care5. T errorism
 14. Energy crisis
 31. Crime
 35. Guns
 40. T axes
-48. Politicians
-","-1. INAP (no further
--6. No post-election interview
--7. No post data, deleted due
-"
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 8","4. W ar
+48. Politicians4. W ar
 17. Environment
 36. Corporate Corruption
-41. Immigration
-","-1. INAP (no further
+41. Immigration13. International affairs (all
+14. Energy crisis","-1. INAP (no further
+-4. Respondent other (self
 -6. No post-election interview
--7. No post data, deleted due
-"
-V162118a_,"POST: Most Important Problem - Mention 2, Idea 9","13. International affairs (all
-14. Energy crisis
-","-1. INAP (no further
+-7. No post data, deleted due-1. INAP (no further
 -6. No post-election interview
--7. No post data, deleted due
-"
+-7. No post data, deleted due-1. INAP (no further
+-6. No post-election interview
+-7. No post data, deleted due-1. INAP (no further
+-6. No post-election interview
+-7. No post data, deleted due-1. INAP (no further
+-6. No post-election interview
+-7. No post data, deleted due"
 V162119,POST: Party to deal with mention 2 MIP,"1. Democrats
 2. Republicans
 3. W ouldn’t be much
@@ -4984,26 +4343,22 @@ V162120a,POST: Mention 3 most important problems facing the country,,"-2. T ext 
 -6. No post-election interview
 -7. No post data, deleted due
 "
-V162120a_,"POST: Most Important Problem - Mention 3, Idea 1",,
-V162120a_,"POST: Most Important Problem - Mention 3, Idea 2",,
-V162120a_,"POST: Most Important Problem - Mention 3, Idea 3",,
-V162120a_,"POST: Most Important Problem - Mention 3, Idea 4",,
-V162120a_,"POST: Most Important Problem - Mention 3, Idea 5","6. V eterans
+V162120a_,"POST: Most Important Problem - Mention 3, Idea 1
+POST: Most Important Problem - Mention 3, Idea 2
+POST: Most Important Problem - Mention 3, Idea 3
+POST: Most Important Problem - Mention 3, Idea 4
+POST: Most Important Problem - Mention 3, Idea 5
+POST: Most Important Problem - Mention 3, Idea 6","6. V eterans
 7. National defense (all other)
 24. Health (all other)
 28. Housing
 47. Partisan politics
-59. T ransportation
-","-1. INAP (no further
+59. T ransportation13. International affairs (all
+17. Environment","-1. INAP (no further
 -6. No post-election interview
--7. No post data, deleted due
-"
-V162120a_,"POST: Most Important Problem - Mention 3, Idea 6","13. International affairs (all
-17. Environment
-","-1. INAP (no further
+-7. No post data, deleted due-1. INAP (no further
 -6. No post-election interview
--7. No post data, deleted due
-"
+-7. No post data, deleted due"
 V162121,POST: Party to deal with mention 3 MIP,"1. Democrats
 2. Republicans
 3. W ouldn’t be much
@@ -5017,10 +4372,11 @@ V162122a,POST: Which among mentions is the most important problem,,"-2. T ext re
 -6. No post-election interview
 -7. No post data, deleted due
 "
-V162122a_,POST: Most Important Problem - Idea 1,,
-V162122a_,POST: Most Important Problem - Idea 2,,
-V162122a_,POST: Most Important Problem - Idea 3,,
-V162122a_,POST: Most Important Problem - Idea 4,"7. National defense (all other)
+V162122a_,"POST: Most Important Problem - Idea 1
+POST: Most Important Problem - Idea 2
+POST: Most Important Problem - Idea 3
+POST: Most Important Problem - Idea 4
+POST: Most Important Problem - Idea 5","7. National defense (all other)
 25. W elfare
 30. Income (all other)
 31. Crime
@@ -5032,17 +4388,12 @@ V162122a_,POST: Most Important Problem - Idea 4,"7. National defense (all other)
 75. Sexism/Gender issues
 79. Religion
 80. Civility
-800. Other problem
-","-1. INAP (no further
+800. Other problem24. Health (all other)
+800. Other problem","-1. INAP (no further
 -6. No post-election interview
--7. No post data, deleted due
-"
-V162122a_,POST: Most Important Problem - Idea 5,"24. Health (all other)
-800. Other problem
-","-1. INAP (no further
+-7. No post data, deleted due-1. INAP (no further
 -6. No post-election interview
--7. No post data, deleted due
-"
+-7. No post data, deleted due"
 V162123,POST: Better if rest of world more like America,"1. Agree strongly
 2. Agree somewhat
 3. Neither agree nor disagree
