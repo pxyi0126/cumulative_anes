@@ -1,17 +1,155 @@
 var_name,description,valid_labels,missing_labels
-caseid,ANES 2012TimeSeries Release Version,,
-weight_ftf,ANES 2012TimeSeries Case ID,,
-weight_web,ANES 2012TimeSeries Post-stratified weight forface-to-face cases,,
-weight_full,ANES 2012TimeSeries Post-stratified weight forweb cases,,
-psu_full,ANES 2012TimeSeries Post-stratified weight forfull sample,,
-psu_ftf,ANES 2012TimeSeries sample PSU forfull sample,,
-strata_full,ANES 2012TimeSeries sample PSU forFTF sample component,,
-strata_ftf,ANES 2012TimeSeries sample strata forfull sample,,
-ftf_oversample,ANES 2012TimeSeries sample strata forFTF sample component,,
-wave_completions,ANES 2012TimeSeries FTF Oversample Case,"0. No oversample
+version,ANES 2012TimeSeries Release Version,,
+caseid,ANES 2012TimeSeries Case ID,,
+weight_ftf,ANES 2012TimeSeries Post-stratified weight forface-to-face cases,,
+weight_web,ANES 2012TimeSeries Post-stratified weight forweb cases,,
+weight_full,ANES 2012TimeSeries Post-stratified weight forfull sample,,
+psu_full,ANES 2012TimeSeries sample PSU forfull sample,,
+psu_ftf,ANES 2012TimeSeries sample PSU forFTF sample component,,
+strata_full,ANES 2012TimeSeries sample strata forfull sample,,
+strata_ftf,ANES 2012TimeSeries sample strata forFTF sample component,,
+ftf_oversample,ANES 2012TimeSeries FTF Oversample Case,"0. No oversample
+1. Hispanicoversample
+2. AA oversample
+3. Both Hispanicand AA oversample
+0. No oversample
 1. Hispanicoversample
 2. AA oversample
 3. Both Hispanicand AA oversample
 ","-1. Inapplicable
+-1. Inapplicable
 "
-,,,
+wave_completions,ANES 2012TimeSeries number of wavescompleted,"1. Yes(pre-election and post-election interviews
+2. No, unit nonresponse (no post-electioninterview)
+3. No, post survey data deleteddue to partial
+1. Yes(pre-election and
+2. No, unitnonresponse (no
+3. No, post surveydata
+",
+mode,ANES 2012TimeSeries interview mode,"1. FTF (face-to-face) mode
+2. Internet mode
+1. FTF(face-to-face) mode
+2. Internet mode
+",
+gend_gendobs,PRE: FTFONLY:INTERVIEWER:IsR male or female (Observation),"1. Male
+2. Female
+1. Male
+2. Female
+","-1. Inapplicable
+-1. Inapplicable
+"
+gender_respondent_x,SUMMARY:Gender of Respondent for bothFTF and Webmodes,"1. Male
+2. Female
+1. Male
+2. Female
+",
+interest_attention,How oftendoes R pay attn to politicsand elections,"1. Always
+2. Mostof the time
+3. Abouthalf the time
+4. Some ofthe time
+5. Never
+1. Always
+2. Most ofthe time
+3. About halfthe time
+4. Some of thetime
+5. Never
+","-8. Don't know
+-9. Refused
+-8. Don'tknow
+-9. Refused
+"
+interest_following,Interested infollowing campaigns standard,"1. Verymuch interested
+2. Somewhat interested
+3. Notmuch interested
+1. Verymuch interested
+2. Somewhat interested
+3. Not muchinterested
+","-8. Don't know
+-9. Refused
+-8. Don't know
+-9. Refused
+"
+interest_wherevote,Does Rknow where to go to votein neighborhood,"1. Yes
+2. No
+3. Voteby mail only(VOL)
+1. Yes
+2. No
+3. Voteby mail only(VOL)
+","-8. Don't know
+-9. Refused
+-8. Don't know
+-9. Refused
+"
+interest_voted2008,Did Rvote for President in 2008,"1. Yes,voted
+2. No, didn't vote
+1. Yes,voted
+2. No, didn't vote
+","-8. Don't know
+-9. Refused
+-8. Don't know
+-9. Refused
+"
+interest_whovote2008,Recall oflast (2008) Presidential vote choice,"1. Barack obama
+2. Johnmccain
+5. Other (SPECIFY)
+1. Barack obama
+2. John mccain
+5. Other (SPECIFY)
+","-1. Inapplicable
+-8. Don't know
+-9. Refused
+-1. Inapplicable
+-8. Don't know
+-9. Refused
+"
+interest_whovote2008_oth,PRE: OtherSpecify- Recall of last (2008) Presidentialvote choice,,"-2. Textresponses available in separatefile
+-2. Textresponses available in separatefile
+"
+prmedia_useinet,HH Internetuse,"1. Yes
+2. No
+1. Yes
+2. No
+","-1. Inapplicable
+-8. Don't know
+-1. Inapplicable
+-8. Don't know
+"
+prmedia_wkinews,Days intypical week review news on internet,"0. None
+1. One day
+2. Twodays
+3. Three days
+4. Four days
+5. Five days
+6. Six days
+7. Sevendays
+","-1. Inapplicable
+-4. Error
+-8. Don'tknow
+-9. Refused
+"
+Percentages,,,
+prmedia_atinews,Attention tointernet news,"1. Agreat deal
+2. A lot
+3. A moderate amount
+4. Alittle
+5. None at all
+1. A greatdeal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all
+","-1. Inapplicable
+-1. Inapplicable
+"
+prmedia_wktvnws,Days intypical week watch news on TV,"0. None
+1. One day
+2. Twodays
+3. Three days
+4. Four days
+5. Five days
+6. Six days
+7. Seven days
+","-4. Error
+-8. Don't know
+-9. Refused
+"

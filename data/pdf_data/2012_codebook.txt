@@ -398,7 +398,7 @@ FTF Web Total
 -4. Error 2 0 2
 -8. Don'tknow 1 0 1
 -9. Refused 0 3 3
-ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page101
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 101
 Percentages
 FTF Web Total
 Raw Weights Raw Weights Raw Weights
@@ -414,7 +414,7 @@ Raw Weights Raw Weights Raw Weights
 -4. Error 0.1 0.1 0.0 0.0 0.0 0.0
 -8. Don't know 0.0 0.0 0.0 0.0 0.0 0.0
 -9. Refused 0.0 0.0 0.1 0.1 0.1 0.1
-ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page102
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 102
 prmedia_atinews
 Label: Attention tointernet news
 Position: Pre-election survey,section-item no. 20.8-15
@@ -444,7 +444,7 @@ Raw Weights Raw Weights Raw Weights
 4. A little 20.8 21.7 23.1 23.8 22.3 23.1
 5. None at all 5.9 5.7 7.3 8.5 6.8 7.5
 -1. Inapplicable 38.7 37.2 19.2 21.5 26.0 26.9
-ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page103
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 103
 prmedia_wktvnws
 Label: Days intypical week watch news on TV
 Position: Pre-election survey,section-item no. 20.8-16
@@ -465,7 +465,7 @@ FTF Web Total
 -4. Error 2 0 2
 -8. Don't know 1 0 1
 -9. Refused 0 3 3
-ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page104
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 104
 Percentages
 FTF Web Total
 Raw Weights Raw Weights Raw Weights
@@ -534,7 +534,6 @@ FTF Web Total
 -4. Error 4 0 4
 -8. Don't know 1 0 1
 -9. Refused 0 3 3
-ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page107
 Percentages
 FTF Web Total
 Raw Weights Raw Weights Raw Weights

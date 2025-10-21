@@ -156,3 +156,327 @@ Raw Weights Raw Weights Raw Weights
 -1. Inapplicable 0.0 0.0 100.0 100.0 65.3 65.3
 ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 89
 wave_completions
+Label: ANES 2012TimeSeries number of wavescompleted
+Unweighted Frequencies
+FTF Web Total
+1. Yes(pre-election and post-election interviews
+completed) 1929 3581 5510
+2. No, unit nonresponse (no post-electioninterview) 122 130 252
+3. No, post survey data deleteddue to partial
+(post-election) interview 3 149 152
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Yes(pre-election and
+post-electioninterviews
+completed) 93.9 94.3 92.8 92.4 93.2 93.1
+2. No, unitnonresponse (no
+post-electioninterview) 5.9 5.7 3.4 3.5 4.3 4.2
+3. No, post surveydata
+deleteddue to partial
+(post-election) interview 0.1 0.1 3.9 4.1 2.6 2.7
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 90
+mode
+Label: ANES 2012TimeSeries interview mode
+Unweighted Frequencies
+FTF Web Total
+1. FTF (face-to-face) mode 2054 0 2054
+2. Internet mode 0 3860 3860
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. FTF(face-to-face) mode 100.0 100.0 0.0 0.0 34.7 34.7
+2. Internet mode 0.0 0.0 100.0 100.0 65.3 65.3
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 91
+gend_gendobs
+Label: PRE: FTFONLY:INTERVIEWER:IsR male or female (Observation)
+Unweighted Frequencies
+FTF Web Total
+1. Male 886 0 886
+2. Female 1168 0 1168
+-1. Inapplicable 0 3860 3860
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Male 43.1 48.0 0.0 0.0 15.0 16.7
+2. Female 56.9 52.0 0.0 0.0 19.7 18.1
+-1. Inapplicable 0.0 0.0 100.0 100.0 65.3 65.3
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 92
+gender_respondent_x
+Label: SUMMARY:Gender of Respondent for bothFTF and Webmodes
+Unweighted Frequencies
+FTF Web Total
+1. Male 886 1959 2845
+2. Female 1168 1901 3069
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Male 43.1 48.0 50.8 47.9 48.1 47.9
+2. Female 56.9 52.0 49.2 52.1 51.9 52.1
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 93
+interest_attention
+Label: How oftendoes R pay attn to politicsand elections
+Position: Pre-election survey,section-item no. 20-1
+Description: Campaign interest and engagement
+Question: How often do you pay attention to what's going on in government and pol-
+itics? [ALWAYS, MOST OF THE TIME, ABOUT HALF THE TIME, SOME
+OF THE TIME, or NEVER / NEVER, SOME OF THE TIME, ABOUT HALF
+THE TIME,MOST OF THE TIME, or ALWAYS]?
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+1. Always 358 667 1025
+2. Mostof the time 583 1377 1960
+3. Abouthalf the time 386 861 1247
+4. Some ofthe time 660 867 1527
+5. Never 65 87 152
+-8. Don't know 2 0 2
+-9. Refused 0 1 1
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Always 17.4 19.7 17.3 14.8 17.3 16.5
+2. Most ofthe time 28.4 29.7 35.7 32.2 33.1 31.3
+3. About halfthe time 18.8 18.4 22.3 23.2 21.1 21.6
+4. Some of thetime 32.1 29.1 22.5 27.2 25.8 27.8
+5. Never 3.2 3.0 2.3 2.6 2.6 2.7
+-8. Don'tknow 0.1 0.1 0.0 0.0 0.0 0.0
+-9. Refused 0.0 0.0 0.0 0.1 0.0 0.0
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 94
+interest_following
+Label: Interested infollowing campaigns standard
+Position: Pre-election survey,section-item no. 20-2
+Description: Campaign interest and engagement
+Question: Some people don't pay much attention to political campaigns. How about
+you? Would you say that you have been [VERY MUCH interested, SOME-
+WHATinterestedorNOTMUCHinterested/NOTMUCHinterested,SOME-
+WHAT interested or VERY MUCH interested] in the political campaigns so
+far thisyear?
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+1. Verymuch interested 805 1749 2554
+2. Somewhat interested 866 1594 2460
+3. Notmuch interested 382 513 895
+-8. Don't know 1 0 1
+-9. Refused 0 4 4
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Verymuch interested 39.2 41.1 45.3 40.8 43.2 40.9
+2. Somewhat interested 42.2 39.6 41.3 43.9 41.6 42.4
+3. Not muchinterested 18.6 19.2 13.3 15.2 15.1 16.6
+-8. Don't know 0.0 0.0 0.0 0.0 0.0 0.0
+-9. Refused 0.0 0.0 0.1 0.1 0.1 0.0
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 95
+interest_wherevote
+Label: Does Rknow where to go to votein neighborhood
+Position: Pre-election survey,section-item no. 20-4
+Description: Campaign interest and engagement
+Question: Do you happen to know where people who live in your neighborhood go to
+vote?
+WebLogic: Online,do not display response option 3.
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+1. Yes 1258 3332 4590
+2. No 716 525 1241
+3. Voteby mail only(VOL) 44 0 44
+-8. Don't know 36 0 36
+-9. Refused 0 3 3
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Yes 61.2 66.1 86.3 81.3 77.6 76.1
+2. No 34.9 29.6 13.6 18.6 21.0 22.4
+3. Voteby mail only(VOL) 2.1 2.6 0.0 0.0 0.7 0.9
+-8. Don't know 1.8 1.6 0.0 0.0 0.6 0.6
+-9. Refused 0.0 0.0 0.1 0.1 0.1 0.0
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 96
+interest_voted2008
+Label: Did Rvote for President in 2008
+Position: Pre-election survey,section-item no. 20-8
+Description: Campaign interest and engagement
+Question: In 2008 Barack Obama ran on the Democratic ticket against John McCain
+fortheRepublicans. Doyourememberforsurewhetherornotyouvotedin
+that election?
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+1. Yes,voted 1371 3214 4585
+2. No, didn't vote 663 644 1307
+-8. Don't know 18 0 18
+-9. Refused 2 2 4
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Yes,voted 66.7 69.4 83.3 78.2 77.5 75.1
+2. No, didn't vote 32.3 29.5 16.7 21.8 22.1 24.5
+-8. Don't know 0.9 1.0 0.0 0.0 0.3 0.3
+-9. Refused 0.1 0.1 0.1 0.0 0.1 0.1
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 97
+interest_whovote2008
+Label: Recall oflast (2008) Presidential vote choice
+Position: Pre-election survey,section-item no. 20-9
+Description: Campaign interest and engagement
+Question: Which onedid you vote for?
+Universe: IF RSAYSVOTED FOR PRESIDENT IN2008:
+Logic: Ask ifCAMPINT_PRESVTLAST=1, else skip.
+WebLogic: Online,include a small text box foroption 5 in place of ￿SPECIFY.￿
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+1. Barack obama 923 1781 2704
+2. Johnmccain 380 1322 1702
+5. Other (SPECIFY) 17 97 114
+-1. Inapplicable 683 646 1329
+-8. Don't know 9 0 9
+-9. Refused 42 14 56
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Barack obama 44.9 36.0 46.1 42.4 45.7 40.2
+2. John mccain 18.5 30.0 34.2 33.1 28.8 32.0
+5. Other (SPECIFY) 0.8 0.8 2.5 2.3 1.9 1.8
+-1. Inapplicable 33.3 30.6 16.7 21.8 22.5 24.9
+-8. Don't know 0.4 0.4 0.0 0.0 0.2 0.1
+-9. Refused 2.0 2.2 0.4 0.4 0.9 1.0
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 98
+interest_whovote2008_oth
+Label: PRE: OtherSpecify- Recall of last (2008) Presidentialvote choice
+Unweighted Frequencies
+FTF Web Total
+-2. Textresponses available in separatefile 2054 3860 5914
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+-2. Textresponses available in separatefile 100.0 100.0 100.0 100.0 100.0 100.0
+ANES 2012 Codebook- Version20150528 - generatedat 10:56 May 28, 2015 -page 99
+prmedia_useinet
+Label: HH Internetuse
+Position: Pre-election survey,section-item no. 20.8-5
+Description: Pre media exposure and attention
+Question: Do youor anyone in this household usethe Internet at any location?
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+1. Yes 1760 0 1760
+2. No 291 0 291
+-1. Inapplicable 0 3860 3860
+-8. Don't know 3 0 3
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. Yes 85.7 89.1 0.0 0.0 29.8 30.9
+2. No 14.2 10.8 0.0 0.0 4.9 3.8
+-1. Inapplicable 0.0 0.0 100.0 100.0 65.3 65.3
+-8. Don't know 0.1 0.1 0.0 0.0 0.1 0.0
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page100
+prmedia_wkinews
+Label: Days intypical week review news on internet
+Position: Pre-election survey,section-item no. 20.8-8
+Description: Pre media exposure and attention
+Question: Duringatypicalweek,howmanydaysdoyouwatch,read,orlistentonews
+on theInternet, not including sports?
+Universe: IFANYONEINTHEHOUSEHOLDUSESTHEINTERNETATANYLOCA-
+TION.
+Logic: Ask ifPRMEDIA_USEINET=1, else skip
+WebLogic: Online, disregard the question logic/universe condition and ask this of ev-
+eryone.
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+0. None 497 738 1235
+1. One day 170 292 462
+2. Twodays 176 267 443
+3. Three days 154 352 506
+4. Four days 95 243 338
+5. Five days 174 497 671
+6. Six days 53 301 354
+7. Sevendays 438 1167 1605
+-1. Inapplicable 294 0 294
+-4. Error 2 0 2
+-8. Don'tknow 1 0 1
+-9. Refused 0 3 3
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 101
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+0. None 24.2 26.2 19.1 21.3 20.9 23.0
+1. One day 8.3 8.2 7.6 8.3 7.8 8.3
+2. Twodays 8.6 7.6 6.9 7.7 7.5 7.7
+3. Three days 7.5 6.8 9.1 9.9 8.6 8.9
+4. Four days 4.6 3.9 6.3 6.7 5.7 5.8
+5. Fivedays 8.5 8.6 12.9 12.5 11.3 11.1
+6. Six days 2.6 3.0 7.8 7.8 6.0 6.1
+7. Seven days 21.3 24.7 30.2 25.6 27.1 25.3
+-1. Inapplicable 14.3 10.9 0.0 0.0 5.0 3.8
+-4. Error 0.1 0.1 0.0 0.0 0.0 0.0
+-8. Don't know 0.0 0.0 0.0 0.0 0.0 0.0
+-9. Refused 0.0 0.0 0.1 0.1 0.1 0.1
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 102
+prmedia_atinews
+Label: Attention tointernet news
+Position: Pre-election survey,section-item no. 20.8-15
+Description: Pre media exposure and attention
+Question: How much attention do you pay to news about national politics on the In-
+ternet? [A GREAT DEAL, A LOT, A MODERATE AMOUNT, A LITTLE, or
+NONEATALL/NONEATALL,ALITTLE,AMODERATEAMOUNT,ALOT,
+or AGREATDEAL]?
+Universe: IFNUMBEROFDAYSATTENDINGNEWSONINTERNETISMORETHAN
+0:
+Logic: Ask ifPRMEDIA_WKINEWS > 0, else skip
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+1. Agreat deal 146 349 495
+2. A lot 177 559 736
+3. A moderate amount 388 1038 1426
+4. Alittle 427 890 1317
+5. None at all 122 283 405
+-1. Inapplicable 794 741 1535
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+1. A greatdeal 7.1 8.0 9.0 7.7 8.4 7.8
+2. A lot 8.6 8.8 14.5 12.8 12.4 11.4
+3. A moderate amount 18.9 18.6 26.9 25.7 24.1 23.2
+4. A little 20.8 21.7 23.1 23.8 22.3 23.1
+5. None at all 5.9 5.7 7.3 8.5 6.8 7.5
+-1. Inapplicable 38.7 37.2 19.2 21.5 26.0 26.9
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 103
+prmedia_wktvnws
+Label: Days intypical week watch news on TV
+Position: Pre-election survey,section-item no. 20.8-16
+Description: Pre media exposure and attention
+Question: During a typical week, how many days do you watch national news on TV,
+not includingsports?
+Source: Respondent
+Unweighted Frequencies
+FTF Web Total
+0. None 308 583 891
+1. One day 164 321 485
+2. Twodays 212 334 546
+3. Three days 195 342 537
+4. Four days 132 295 427
+5. Five days 289 566 855
+6. Six days 107 339 446
+7. Seven days 644 1077 1721
+-4. Error 2 0 2
+-8. Don't know 1 0 1
+-9. Refused 0 3 3
+ANES2012 Codebook - Version20150528 - generated at 10:56May 28, 2015 - page 104
+Percentages
+FTF Web Total
+Raw Weights Raw Weights Raw Weights
+0. None 15.0 16.6 15.1 17.6 15.1 17.2
+1. One day 8.0 8.6 8.3 9.1 8.2 9.0
+2. Twodays 10.3 9.7 8.7 9.8 9.2 9.8
+3. Threedays 9.5 7.4 8.9 9.6 9.1 8.8
+4. Four days 6.4 6.3 7.6 7.9 7.2 7.4
+5. Fivedays 14.1 12.5 14.7 13.7 14.5 13.3
+6. Six days 5.2 5.2 8.8 8.0 7.5 7.0
+7. Seven days 31.4 33.6 27.9 24.2 29.1 27.5
+-4. Error 0.1 0.1 0.0 0.0 0.0 0.0
+-8. Don't know 0.0 0.0 0.0 0.0 0.0 0.0
+-9. Refused 0.0 0.0 0.1 0.1 0.1 0.1
