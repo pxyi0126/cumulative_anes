@@ -1,0 +1,113 @@
+Variable,sum1,q_orig,q_1,Valid1,Missing1,Sources
+VCF9282,POST: DISCRIMINATION IN THE US AGAINST MEN,How much discrimination is there in the United States today against each of the following groups: Men,How much discrimination is there in the United States today against each of the following groups? Men,"1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242555
+2020:V202535
+"
+VCF9283,POST: DISCRIMINATION IN THE US AGAINST MUSLIMS,Muslims,How much discrimination is there in the United States today against each of the following groups? Muslims,"1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242556
+2020:V202531
+"
+VCF9284,POST: DISCRIMINATION IN THE US AGAINST CHRISTIANS,Christians,How much discrimination is there in the United States today against each of the following groups? Christians,"1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242557
+2020:V202532
+"
+VCF9285,POST: DISCRIMINATION IN THE US AGAINST TRANSGENDER PEOPLE,Transgender people,How much discrimination is there in the United States today against each of the following groups? Transgender people,"1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242558
+2020:V202536
+"
+VCF9286,"POST: SHOULD THE MINIMUM WAGE BE RAISED, KEPT THE SAME, OR LOWERED",Minimum wage should be increased/decreased,"Should the federal minimum wage be [raised, kept the same, lowered but not eliminated, or eliminated altogether / eliminated altogether, lowered but not eliminated, kept the same, or raised]? POST-ELECTION SURVEY VARIABLES 489","1. Raised
+2. Kept the same
+3. Lowered
+4. Eliminated","-9. Refused
+-8. Don’t know
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242350
+2020:V202377
+"
+VCF9287,POST: FAVOR OR OPPOSE REQUIRING VACCINES IN SCHOOLSPOST: FAVOR OR OPPOSE REQUIRING VACCINES IN SCHOOLS (STRENGTH),Favor/oppose requiring children vaccinated for public school,"Do you favor, oppose, or neither favor nor oppose requiring children to be vaccinated in order to attend public schools?Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Do you oppose that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? POST-ELECTION SURVEY VARIABLES 473","1. Favor
+2. Oppose
+3. Neither favor nor oppose1. A great deal
+2. A moderate amount
+3. A little","-9. Refused
+-8. Don’t know
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable-9. Refused
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242317;V242318
+2020:V202329;V202330
+"
+VCF9288,POST: DO HEALTH BENEFITS OF VACCINATIONS OUTWEIGH THE RISKSPOST: DO HEALTH BENEFITS OF VACCINATIONS OUTWEIGH THE RISKS (STRENGTH),Do health benefits of vaccinations outweigh risks,"Now for questions on diﬀerent topics. Do the health beneﬁts of vaccinations generally outweigh the risks, do the risks outweigh the beneﬁts, or is there no diﬀerence? POST-ELECTION SURVEY VARIABLES 491Are the health beneﬁts of vaccinations [much greater, moderately greater, or slightly greater / slightly greater, moderately greater, or much greater]? / Are the risks of vaccinations [much greater, moderately greater, or slightly greater / slightly greater, moderately greater, or much greater]?","1. Beneﬁts outweigh risks
+2. Risks outweigh beneﬁts
+3. No diﬀerence1. Much greater
+2. Moderately greater
+3. Slightly greater","-9. Refused
+-8. Don’t know
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable-9. Refused
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242354;V242355
+2020:V202381;V202382
+"
+VCF9289,POST: INCREASE/DECREASE GOVERNMENT SPENDING TO HELP PEOPLE PAY FOR HEALTH CAREPOST: HOW MUCH INCREASE/DECREASE IN GOVERNMENT HELP PAYING FOR HEALTH CARE,Govt should increase/decrease spending on health insurance,"Do you favor an increase, decrease, or no change in government spending to help people pay for health insurance when people can’t pay for it all themselves?Should it increase [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Should it decrease [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? 490 CODEBOOK: VARIABLES","1. Increase
+2. Decrease
+3. No change1. A great deal
+2. A moderate amount
+3. A little","-9. Refused
+-8. Don’t know
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable-9. Refused
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242351;V242352
+2020:V202378;V202379
+"
+VCF9290,POST: DOES R FAVOR OR OPPOSE AFFIRMATIVE ACTION IN UNIVERSITIES POST-ELECTION SURVEY VARIABLES 443,Does R favor or oppose allowing universities to increase the number of black students by considering race...; How much favor/oppose,"Do you favor, oppose, or neither favor nor oppose allowing universities to increase the number of black students studying at their schools by considering race along with other factors when choosing students?","1. Favor
+2. Oppose
+3. Neither favor nor oppose","-9. Refused
+-8. Don’t know
+-7. Insuﬃcient partial, interview deleted
+-6. No post interview
+-5. Suﬃcient partial, breakoﬀ
+-1. Inapplicable","2024:V242242
+"
