@@ -1,6 +1,8 @@
 # Last variable used: VCF9282
 # everything after should be VCF9282 + i
 import pandas as pd
+import re
+import string
 
 # read in the data and rename the column for 2024
 df_cum = pd.read_csv("/Users/yipho/anes/cumulative_anes/test/3x_test.csv")
@@ -10,6 +12,25 @@ df24 = pd.read_csv("/Users/yipho/anes/cumulative_anes/data/pdf_data/2024_pcodebo
 df20 = pd.read_csv("/Users/yipho/anes/cumulative_anes/data/pdf_data/2020_pcodebook.csv")
 df16 = pd.read_csv("/Users/yipho/anes/cumulative_anes/data/pdf_data/2016_pcodebook.csv")
 df12 = pd.read_csv("/Users/yipho/anes/cumulative_anes/data/pdf_data/2012_pcodebook.csv")
+
+
+def range_helper(var_string):
+    var_pattern = re.compile(r"(V\d+)(\w)\-(\w)")
+
+    var_str = var_string.strip()
+
+    base_var = var_pattern.match(var_string).group(1)
+    start_letter = var_pattern.match(var_string).group(2)
+    rng_end = var_pattern.match(var_string).group(3)
+
+    if start_letter and rng_end.isalpha():
+        start_idx = string.ascii_lowercase.index(start_letter.lower())
+        end_idx = string.ascii_lowercase.index(rng_end)
+        return [f"{base_var}{ch}" for ch in string.ascii_lowercase[start_idx:end_idx + 1]]
+    else:
+        return [var_str]
+
+range_helper("V202114a-k")
 
 print(df24.columns)
 print(df_cum.columns)
@@ -81,34 +102,47 @@ for index, row in df_cum.iterrows():
             var_2016_list = [var_2016.strip()]
         for v16 in var_2016_list:
             row16 = df16[df16['var_name'].str.strip() == v16]
-            if sum2.notna():
-                sum3 += row16['summary'].iloc[0]
-                q3 = q3.append(row16['question'].iloc[0])
-                Valid3 = Valid3.append(row16['valid_labels'].iloc[0])
-                Missing3 = Missing3.append(row16['missing_labels'].iloc[0])
+            if sum2:
+                sum3 += row16['description'].iloc[0] + '\n'
+                q_3 += row16['question'].iloc[0] + '\n'
+                Valid3 += row16['valid_labels'].iloc[0] + '\n'
+                Missing3 += row16['missing_labels'].iloc[0] + '\n'
             else:
-                sum2 = sum2.append(row16['summary'].iloc[0])
-                q2 = q2.append(row16['question'].iloc[0])
-                Valid2 = Valid2.append(row16['valid_labels'].iloc[0])
-                Missing2 = Missing2.append(row16['missing_labels'].iloc[0])
+                sum2 += row16['summary'].iloc[0] + '\n'
+                q_2 += row16['question'].iloc[0] + '\n'
+                Valid2 += row16['valid_labels'].iloc[0] + '\n'
+                Missing2 += row16['missing_labels'].iloc[0] + '\n'
+        Sources += f"2016:{var_2016}\n"
 
-    # if pd.notna(var_2012):
-    #     if ";" in var_2012:
-    #         var_2012_list = [v12.strip() for v12 in var_2012.split(";")]
-    #     else:
-    #         var_2012_list = [var_2012.strip()]
-    #     for v12 in var_2012_list:
-    #         row12 = df12[df12['var_name'].str.strip() == v12]
-    #         if sum2.notna():
-    #             sum3 = sum3.append(row12['summary'].iloc[0])
-    #             q3 = q3.append(row12['question'].iloc[0])
-    #             Valid3 = Valid3.append(row12['valid_labels'].iloc[0])
-    #             Missing3 = Missing3.append(row12['missing_labels'].iloc[0])
-    #         else:
-    #             sum2 = sum2.append(row12['summary'].iloc[0])
-    #             q2 = q2.append(row12['question'].iloc[0])
-    #             Valid2 = Valid2.append(row12['valid_labels'].iloc[0])
-    #             Missing2 = Missing2.append(row12['missing_labels'].iloc[0])
+    if pd.notna(var_2012):
+        if ";" in var_2012:
+            var_2012_list = [v12.strip() for v12 in var_2012.split(";")]
+        else:
+            var_2012_list = [var_2012.strip()]
+        for v12 in var_2012_list:
+            row12 = df12[df12['var_name'].str.strip() == v12]
+            if sum2:
+                sum3 += row12['summary'].iloc[0] + '\n'
+                q_3 += row12['question'].iloc[0] + '\n'
+                Valid3 += row12['valid_labels'].iloc[0] + '\n'
+                Missing3 += row12['missing_labels'].iloc[0] + '\n'
+            else:
+                sum2 += row12['summary'].iloc[0] + '\n'
+                q_2 += row12['question'].iloc[0] + '\n'
+                Valid2 += row12['valid_labels'].iloc[0] + '\n'
+                Missing2 += row12['missing_labels'].iloc[0] + '\n'
+        Sources += f"2012:{var_2012}\n"
+
+    if pd.notna(var_2008):
+        Sources += f"2008:{var_2008}\n"
+
+    if pd.notna(var_1992):
+        Sources += f"1992:{var_1992}\n"
+    if pd.notna(var_1984):
+        Sources += f"1984:{var_1984}\n"
+    if pd.notna(var_1968):
+        Sources += f"1968:{var_1968}\n"
+
 
 
 df_cdf = pd.DataFrame(columns=['Variable', 'sum1','sum2', 'sum3',

@@ -226,6 +226,7 @@ def parse_16(lines, start_idx, rows_dict):
     summary = ""
     valid_label = ""
     missing_label = ""
+    question = ""
     i = start_idx + 1
 
     while i < len(lines):
@@ -287,78 +288,6 @@ df_16 = pd.DataFrame(
 
 print(df_16.head())
 df_16.to_csv("2016_pcodebook.csv", index=False)
-
-# %%
-import re
-import pandas as pd
-import os
-
-os.chdir("/Users/yipho/anes/cumulative_anes/test")
-page_pattern = re.compile(r"^ANES.*?-?\s*page\s*\d+")
-val_pattern = re.compile(r"^(\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
-missing_pattern = re.compile(r"(\-\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
-#EDIT fix it so that the loop breaks when it sees "Percentages"
-def parse_12(lines, start_idx, rows):
-    line = lines[start_idx].strip()
-    print(f"Processing line {start_idx}: {line}")
-    varname = ""
-    summary = ""
-    valid_label = ""
-    missing_label = ""
-    i = start_idx + 1
-    while i < len(lines):
-        line = lines[i].strip()
-        if line.startswith("Label:"):
-            summary = line.replace("Label:", "").strip()
-        if page_pattern.match(line):
-            if i + 1 < len(lines):
-                if 'Percentages' in lines[i+1].strip():
-                    continue
-                else:
-                    varname = lines[i+1].strip()
-            else:
-                varname = ""
-            break
-        if "Percentages" in line:
-            i += 2
-            while i < len(lines):
-                block = re.sub(r"\s+", " ", lines[i]).strip()
-                if not block:
-                    i += 1
-                    continue
-
-                if block.startswith("Label:") or block.startswith("Item name:") \
-                    or page_pattern.match(block):
-                    break
-                if block.startswith("FTF") or block.startswith("No wgt"):
-                    i += 1
-                    continue
-
-                val_match = val_pattern.match(block)
-                missing_match = missing_pattern.match(block)
-
-                if val_match:
-                    valid_label += f"{val_match.group(1)}. {val_match.group(2).strip()}\n"
-                elif missing_match:
-                    missing_label += f"{missing_match.group(1)}. {missing_match.group(2).strip()}\n"
-                i += 1
-            continue
-        i += 1
-
-    rows.append((varname, summary, valid_label, missing_label))
-    return i, rows
-
-rows = []
-with open("2012small.txt", "r", encoding="utf-8") as f:
-    lines = f.readlines()
-i = 0
-while i < len(lines):
-    i, rows = parse_12(lines, i, rows)
-
-
-df_12 = pd.DataFrame(rows, columns=["var_name", "description", "valid_labels", "missing_labels"])
-print(df_12.head())
-df_12.to_csv("2012_pcodebook.csv", index=False)
 
 # %%
 import re
