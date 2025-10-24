@@ -233,6 +233,16 @@ def parse_16(lines, start_idx, rows_dict):
         line = lines[i].strip()
         if line.startswith("Label:"):
             summary = line.replace("Label:", "").strip()
+        if line.startswith("Question:"):
+            q_lines = []
+            while i < len(lines) and "Unweighted F requencies" not in lines[i]:
+                cleaned = lines[i].strip().replace("Question:", "").strip()
+                if cleaned:
+                    q_lines.append(cleaned)
+                i += 1
+            question = " ".join(q_lines).strip()
+            continue
+
         if var_pattern.match(line):
             break
         if "Percentages" in line:
@@ -262,13 +272,14 @@ def parse_16(lines, start_idx, rows_dict):
 
     # If variable already exists, append new info
     if varname in rows_dict:
-        prev_summary, prev_valid, prev_missing = rows_dict[varname]
+        prev_summary, prev_q, prev_valid, prev_missing = rows_dict[varname]
         summary = (prev_summary + "\n" + summary).strip()
+        question = (prev_q + "\n" + question).strip()
         valid_label = (prev_valid + valid_label).strip()
         missing_label = (prev_missing + missing_label).strip()
-        rows_dict[varname] = (summary, valid_label, missing_label)
+        rows_dict[varname] = (summary, question, valid_label, missing_label)
     else:
-        rows_dict[varname] = (summary, valid_label, missing_label)
+        rows_dict[varname] = (summary, question, valid_label, missing_label)
 
     return i, rows_dict
 
@@ -282,8 +293,8 @@ while i < len(lines):
 
 # Convert dict to DataFrame
 df_16 = pd.DataFrame(
-    [(k, v[0], v[1], v[2]) for k, v in rows_dict.items()],
-    columns=["var_name", "description", "valid_labels", "missing_labels"]
+    [(k, v[0], v[1], v[2], v[3]) for k, v in rows_dict.items()],
+    columns=["var_name", "summary", "question", "valid_labels", "missing_labels"]
 )
 
 df_16.to_csv("2016_pcodebook.csv", index=False)

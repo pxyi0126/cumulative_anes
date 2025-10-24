@@ -31,11 +31,8 @@ def range_helper(var_string):
 
 print(range_helper("V242100a-k"))
 
-# print(df24.columns)
-# print(df_cum.columns)
 rows = []
 for index, row in df_cum.iterrows():
-    # print(index)
     curr_var = f"VCF{9282+ index}"
     print(f"New CDF variable {curr_var}...")
     var_2024 = row['2024']
@@ -94,7 +91,7 @@ for index, row in df_cum.iterrows():
             if pd.notna(row24['valid_labels'].iloc[0]):
                 Valid1 += row24['valid_labels'].iloc[0] + '\n'
             else:
-                Valid1 += '\n'
+                Valid1 += v24 + '\n'
             if pd.notna(row24['missing_labels'].iloc[0]):
                 Missing1 += row24['missing_labels'].iloc[0] + '\n'
             else:
@@ -143,18 +140,18 @@ for index, row in df_cum.iterrows():
 
         var_2016_list = expanded_vars
 
-        # for v16 in var_2016_list:
-        #     row16 = df16[df16['var_name'].str.strip() == v16]
-        #     if sum2:
-        #         sum3 += row16['description'].iloc[0] + '\n'
-        #         q_3 += row16['question'].iloc[0] + '\n'
-        #         Valid3 += row16['valid_labels'].iloc[0] + '\n'
-        #         Missing3 += row16['missing_labels'].iloc[0] + '\n'
-        #     else:
-        #         sum2 += row16['summary'].iloc[0] + '\n'
-        #         q_2 += row16['question'].iloc[0] + '\n'
-        #         Valid2 += row16['valid_labels'].iloc[0] + '\n'
-        #         Missing2 += row16['missing_labels'].iloc[0] + '\n'
+        for v16 in var_2016_list:
+            row16 = df16[df16['var_name'].str.strip() == v16]
+            if sum2:
+                sum3 += row16['description'].iloc[0] + '\n'
+                # q_3 += row16['question'].iloc[0] + '\n'
+                Valid3 += row16['valid_labels'].iloc[0] + '\n'
+                Missing3 += row16['missing_labels'].iloc[0] + '\n'
+            else:
+                sum2 += row16['summary'].iloc[0] + '\n'
+                q_2 += row16['question'].iloc[0] + '\n'
+                Valid2 += row16['valid_labels'].iloc[0] + '\n'
+                Missing2 += row16['missing_labels'].iloc[0] + '\n'
         Sources += f"2016:{var_2016}\n"
 
     if pd.notna(var_2012):

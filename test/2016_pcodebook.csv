@@ -1,48 +1,40 @@
-var_name,description,valid_labels,missing_labels
-V160001,2016 Case ID,,
-V160001_orig,Original (6-digit) W estat Case ID,,
-V160101,Pre-election weight -full sample,,
-V160101f,Pre-election weight -FTF sample,,
-V160101w,Pre-election weight -W eb sample,,
-V160102,Post-election weight -full sample,,
-V160102f,Post-election weight -FTF sample,,
-V160102w,Post-election weight -W eb sample,,
-V160201,Stratum -full sample,,
-V160201f,Stratum -FTF sample,,
-V160201w,Stratum -W eb sample,,
-V160202,V ariance PSU -F ull sample,,
-V160202f,V ariance PSU -FTF sample,,
-V160202w,V ariance PSU -W eb sample,,
-V160501,Mode of interview,"1. FTF/CASI
+var_name,summary,question,valid_labels,missing_labels
+V160001,2016 Case ID,Not applicable Unique to each respondent. F rom: 1 T o: 5090 ANES 2016 Codebook - V ersion 20190904 - page 10 V160001_orig Label: Original (6-digit) W estat Case ID Item name: Not applicable; administrative or derived variable Not applicable Unique to each respondent. F rom: 300001 T o: 407800 ANES 2016 Codebook - V ersion 20190904 - page 11 V160101 Label: Pre-election weight -full sample Item name: Not applicable; administrative or derived variable Not applicable Unweighted Summary FTF W eb T otal Min. 0.0895 0.2464 0.0895 1st Qu. 0.4738 0.6151 0.5717 Median 0.7691 0.8407 0.8240 Mean 0.9323 1.0256 0.9998 3rd Qu. 1.1590 1.2769 1.2425 Max. 6.8139 6.0624 6.8139 Std Dev 0.6803 0.6638 0.6696 ANES 2016 Codebook - V ersion 20190904 - page 12 V160101f Label: Pre-election weight -FTF sample Item name: Not applicable; administrative or derived variable Not applicable Unweighted Summary FTF W eb T otal Min. 0.0962 0.0000 0.0000 1st Qu. 0.5081 0.0000 0.0000 Median 0.8252 0.0000 0.0000 Mean 0.9992 0.0000 0.2761 3rd Qu. 1.2441 0.0000 0.3340 Max. 7.3088 0.0000 7.3088 Std Dev 0.7283 0.0000 0.5884 ANES 2016 Codebook - V ersion 20190904 - page 13 V160101w Label: Pre-election weight -W eb sample Item name: Not applicable; administrative or derived variable Not applicable Unweighted Summary FTF W eb T otal Min. 0.0000 0.2407 0.0000 1st Qu. 0.0000 0.6012 0.0000 Median 0.0000 0.8214 0.6600 Mean 0.0000 1.0000 0.7237 3rd Qu. 0.0000 1.2464 0.9813 Max. 0.0000 5.9279 5.9279 Std Dev 0.0000 0.6472 0.7093 ANES 2016 Codebook - V ersion 20190904 - page 14 V160102 Label: Post-election weight -full sample Item name: Not applicable; administrative or derived variable Not applicable Unweighted Summary FTF W eb T otal Min. 0.0000 0.0000 0.0000 1st Qu. 0.3769 0.3989 0.3934 Median 0.7016 0.7540 0.7481 Mean 0.8481 0.8564 0.8541 3rd Qu. 1.1158 1.1343 1.1294 Max. 6.4445 6.1986 6.4445 Std Dev 0.7212 0.7184 0.7191 ANES 2016 Codebook - V ersion 20190904 - page 15 V160102f Label: Post-election weight -FTF sample Item name: Not applicable; administrative or derived variable Not applicable Unweighted Summary FTF W eb T otal Min. 0.0000 0.0000 0.0000 1st Qu. 0.4014 0.0000 0.0000 Median 0.7449 0.0000 0.0000 Mean 0.8958 0.0000 0.2476 3rd Qu. 1.1775 0.0000 0.0000 Max. 6.6748 0.0000 6.6748 Std Dev 0.7594 0.0000 0.5655 ANES 2016 Codebook - V ersion 20190904 - page 16 V160102w Label: Post-election weight -W eb sample Item name: Not applicable; administrative or derived variable Not applicable Unweighted Summary FTF W eb T otal Min. 0.0000 0.0000 0.0000 1st Qu. 0.0000 0.3903 0.0000 Median 0.0000 0.7357 0.4690 Mean 0.0000 0.8382 0.6066 3rd Qu. 0.0000 1.1254 0.8761 Max. 0.0000 6.1132 6.1132 Std Dev 0.0000 0.7043 0.7067 ANES 2016 Codebook - V ersion 20190904 - page 17 V160201 Label: Stratum -full sample Item name: Not applicable; administrative or derived variable Not applicable 132 unique outcomes. 20 most frequently appearing outcomes:,,
+V160201f,Stratum -FTF sample,Not applicable 33 unique outcomes. 20 most frequently appearing outcomes:,,
+V160201w,Stratum -W eb sample,Not applicable 101 unique outcomes. 20 most frequently appearing outcomes:,,
+V160202,V ariance PSU -F ull sample,Not applicable,,
+V160202f,V ariance PSU -FTF sample,Not applicable,,
+V160202w,V ariance PSU -W eb sample,Not applicable,,
+V160501,Mode of interview,Not applicable,"1. FTF/CASI
 2. W eb
 ",
-V160502,Completed Pre only or completed Pre and Post interviews,"0. Pre interview completed-
+V160502,Completed Pre only or completed Pre and Post interviews,Not applicable,"0. Pre interview completed-
 1. Pre and Post interviews
 ",
-V161001,PRE: FTF ONLY: Audio Consent,"1. Continue
+V161001,PRE: FTF ONLY: Audio Consent,"IF MODE OF IW IS F ACE-TO-F ACE: During this interview, we would like to make an audio recording of some of the questions and answers for training, and so my supervisors can make sure I do the interview correctly . The computer will do that. I’d like to continue now, unless you have any questions. Audio recording was shut off if respondent did not consent.","1. Continue
 7. Refuse to allow audio
 ","-1. Inap, W eb mode
 "
-V161002,PRE: FTF ONLY: INTERVIEWER : Is R male or female (Observation),"1. Male
+V161002,PRE: FTF ONLY: INTERVIEWER : Is R male or female (Observation),"IF MODE OF IW IS FACE-TO-FACE: IS THE RESPONDENT MALE OR FEMALE? IF UNSURE, CODE DK.","1. Male
 2. F emale
 ","-1. Inap, W eb mode
 "
-V161003,PRE: How often does R pay attn to politics and elections,"1. Always
+V161003,PRE: How often does R pay attn to politics and elections,"How often do you pay attention to what’s going on in government and pol- itics? [Always, most of the time, about half the time, some of the time, or never / Never, some of the time, about half the time, most of the time, or always]? F orward/reverse response option order","1. Always
 2. Most of the time
 3. About half the time
 4. Some of the time
 5. Never
 ",
-V161004,PRE: How interested in following campaigns,"1. V ery much interested
+V161004,PRE: How interested in following campaigns,"Some people don’t pay much attention to political campaigns. How about you? W ould you say that you have been [very much interested, somewhat interested or not much interested/ not much interested, somewhat interested or very much interested] in the political campaigns so far this year? F orward/reverse response option order","1. V ery much interested
 2. Somewhat interested
 3. Not much interested
 ",
-V161005,PRE: Did R vote for President in 2012,"1. Y es, voted
+V161005,PRE: Did R vote for President in 2012,In 2012 Barack Obama ran on the Democratic ticket against Mitt Romney for the Republicans. Do you remember for sure whether or not you voted in that election? DO NOT PROBE ‘DON’T KNOW’ RESPONSES,"1. Y es, voted
 2. No, didn’t vote
 ","-8. Don’t know (FTF only)
 -9. Refused
 "
-V161006,PRE: Recall of last (2012) Presidential vote choice,"1. Barack Obama
+V161006,PRE: Recall of last (2012) Presidential vote choice,IF R SA YS VOTED FOR PRESIDENT IN 2012: Which one did you vote for? DO NOT PROBE ‘DK’ RESPONSE,"1. Barack Obama
 2. Mitt Romney
 5. Other SPECIFY
 6. Other specify - specified
