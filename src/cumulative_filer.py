@@ -29,7 +29,7 @@ def range_helper(var_string):
     else:
         return [var_str]
 
-print(range_helper("V242100a-k"))
+
 
 rows = []
 for index, row in df_cum.iterrows():
@@ -143,8 +143,9 @@ for index, row in df_cum.iterrows():
         for v16 in var_2016_list:
             row16 = df16[df16['var_name'].str.strip() == v16]
             if sum2:
-                sum3 += row16['description'].iloc[0] + '\n'
-                # q_3 += row16['question'].iloc[0] + '\n'
+                sum3 += row16['summary'].iloc[0] + '\n'
+                q_3 += row16['question'].iloc[0] + '\n'
+                print(v16, row16['valid_labels'].iloc[0], type(row16['valid_labels'].iloc[0]))
                 Valid3 += row16['valid_labels'].iloc[0] + '\n'
                 Missing3 += row16['missing_labels'].iloc[0] + '\n'
             else:
