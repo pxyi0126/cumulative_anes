@@ -30,7 +30,7 @@ import re
 import pandas as pd
 import os
 os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
-var_pattern = re.compile(r"(V\d+[a-d,x,z,_orig]*)(.*)$")
+var_pattern = re.compile(r"(V\d+[a-k,x,z,_orig]*)(.*)$")
 rows = []
 
 def parse_24(lines, start_idx):
@@ -120,7 +120,7 @@ import re
 import pandas as pd
 import os
 os.chdir("/Users/yipho/anes/cumulative_anes/data/pdf_data")
-var_pattern = re.compile(r"(V\d+[a-d,x,z,_orig]*)(.*)$")
+var_pattern = re.compile(r"(V\d+[a-k,x,z,_orig]*)(.*)$")
 rows = []
 
 def parse_24(lines, start_idx):
@@ -286,7 +286,6 @@ df_16 = pd.DataFrame(
     columns=["var_name", "description", "valid_labels", "missing_labels"]
 )
 
-print(df_16.head())
 df_16.to_csv("2016_pcodebook.csv", index=False)
 
 # %%

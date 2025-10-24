@@ -2012,11 +2012,11 @@ V241443d,PRE: RELIGIOUS IDENTIFICATION - PROGRESSIVE,Which of the following term
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241443,ePRE: RELIGIOUS IDENTIFICATION - NON TRADITIONAL,Which of the following terms describe your religious beliefs? - Charismatic/Pentecostal - Traditional - Mainline - Progressive - Non-traditional believer - Secular - Spiritual but not religious - None of the above,"-9. Refused
+V241443e,PRE: RELIGIOUS IDENTIFICATION - NON TRADITIONAL,Which of the following terms describe your religious beliefs? - Charismatic/Pentecostal - Traditional - Mainline - Progressive - Non-traditional believer - Secular - Spiritual but not religious - None of the above,"-9. Refused
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241443,fPRE: RELIGIOUS IDENTIFICATION - SECULAR,Which of the following terms describe your religious beliefs? - Charismatic/Pentecostal - Traditional - Mainline - Progressive - Non-traditional believer - Secular - Spiritual but not religious - None of the above,"-9. Refused
+V241443f,PRE: RELIGIOUS IDENTIFICATION - SECULAR,Which of the following terms describe your religious beliefs? - Charismatic/Pentecostal - Traditional - Mainline - Progressive - Non-traditional believer - Secular - Spiritual but not religious - None of the above,"-9. Refused
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2024,7 +2024,7 @@ V241443g,PRE: RELIGIOUS IDENTIFICATION - SPIRITUAL PRE- ELECTION SURVEY VARIABLE
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241443,hPRE: RELIGIOUS IDENTIFICATION - NONE,Which of the following terms describe your religious beliefs? - Charismatic/Pentecostal - Traditional - Mainline - Progressive - Non-traditional believer - Secular - Spiritual but not religious - None of the above,"-9. Refused
+V241443h,PRE: RELIGIOUS IDENTIFICATION - NONE,Which of the following terms describe your religious beliefs? - Charismatic/Pentecostal - Traditional - Mainline - Progressive - Non-traditional believer - Secular - Spiritual but not religious - None of the above,"-9. Refused
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2199,7 +2199,7 @@ V241489d,PRE: R NON-WORKING STATUS - FULL TIME STUDENT [MENTION],"We’d like to
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241489,ePRE: R NON-WORKING STATUS - NONE OF THESE [MENTION],"We’d like to know if you now consider yourself a homemaker, retired, permanently disabled, or a full time student. You may choose more than one, or none.","-9. Refused
+V241489e,PRE: R NON-WORKING STATUS - NONE OF THESE [MENTION],"We’d like to know if you now consider yourself a homemaker, retired, permanently disabled, or a full time student. You may choose more than one, or none.","-9. Refused
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2246,11 +2246,11 @@ V241495d,PRE: SPOUSE PARTNER WORKING STATUS - RETIRED [MENTION],"We’d like to 
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241495,ePRE: SPOUSE PARTNER WORKING STATUS - DISABLED [MENTION],"We’d like to know about your [husband or wife / partner]. Is your [husband or wife / partner] working now, temporarily laid oﬀ, or is your [husband or wife /partner] unemployed, retired, permanently disabled, a homemaker, a student, or what?","-9. Refused
+V241495e,PRE: SPOUSE PARTNER WORKING STATUS - DISABLED [MENTION],"We’d like to know about your [husband or wife / partner]. Is your [husband or wife / partner] working now, temporarily laid oﬀ, or is your [husband or wife /partner] unemployed, retired, permanently disabled, a homemaker, a student, or what?","-9. Refused
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241495,fPRE: SPOUSE PARTNER WORKING STATUS - HOMEMAKER [MENTION],"We’d like to know about your [husband or wife / partner]. Is your [husband or wife / partner] working now, temporarily laid oﬀ, or is your [husband or wife /partner] unemployed, retired, permanently disabled, a homemaker, a student, or what? 210 CODEBOOK: VARIABLES","-9. Refused
+V241495f,PRE: SPOUSE PARTNER WORKING STATUS - HOMEMAKER [MENTION],"We’d like to know about your [husband or wife / partner]. Is your [husband or wife / partner] working now, temporarily laid oﬀ, or is your [husband or wife /partner] unemployed, retired, permanently disabled, a homemaker, a student, or what? 210 CODEBOOK: VARIABLES","-9. Refused
 -8. Don’t know
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2280,7 +2280,7 @@ V241500a,RESTRICTED: PRE: RACE OF R: WHITE [MENTION],"I am going to read you a l
 V241500b,RESTRICTED: PRE: RACE OF R: BLACK OR AFRICAN-AMERICAN [MENTION],"I am going to read you a list of ﬁve race categories. You may choose one or more races. For this survey, Hispanic origin is not a race. Are you White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander? PRE- ELECTION SURVEY VARIABLES 213",-3. RESTRICTED,
 V241500c,RESTRICTED: PRE: RACE OF R: ASIAN [MENTION],"I am going to read you a list of ﬁve race categories. You may choose one or more races. For this survey, Hispanic origin is not a race. Are you White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?",-3. RESTRICTED,
 V241500d,RESTRICTED: PRE: RACE OF R: NATIVE HAWAIIAN OR PACIFIC ISLANDER [MENTION],"I am going to read you a list of ﬁve race categories. You may choose one or more races. For this survey, Hispanic origin is not a race. Are you White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?",-3. RESTRICTED,
-V241500,eRESTRICTED: PRE: RACE OF R: NATIVE AMERICAN OR ALASKA NATIVE [MENTION],"I am going to read you a list of ﬁve race categories. You may choose one or more races. For this survey, Hispanic origin is not a race. Are you White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?",-3. RESTRICTED,
+V241500e,RESTRICTED: PRE: RACE OF R: NATIVE AMERICAN OR ALASKA NATIVE [MENTION],"I am going to read you a list of ﬁve race categories. You may choose one or more races. For this survey, Hispanic origin is not a race. Are you White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?",-3. RESTRICTED,
 V241501x,PRE: SUMMARY: R SELF-IDENTIFIED RACE/ETHNICITY,,"-9. Refused
 -8. Don’t know
 -4. Error","1. White, non-Hispanic
@@ -2348,7 +2348,7 @@ V241518a,PRE: R SPOUSE/PARTNER RACE: WHITE [MENTION],Is your [spouse / partner /
 V241518b,PRE: R SPOUSE/PARTNER RACE: BLACK OR AFRICAN-AMERICAN [MENTION],Is your [spouse / partner / most recent former spouse] White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?,-3. RESTRICTED,
 V241518c,PRE: R SPOUSE/PARTNER RACE: ASIAN [MENTION],Is your [spouse / partner / most recent former spouse] White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?,-3. RESTRICTED,
 V241518d,PRE: R SPOUSE/PARTNER RACE: NATIVE HAWAIIAN OR PACIFIC ISLANDER [MENTION],Is your [spouse / partner / most recent former spouse] White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?,-3. RESTRICTED,
-V241518,ePRE: R SPOUSE/PARTNER RACE: NATIVE AMERICAN OR ALASKA NATIVE [MENTION],Is your [spouse / partner / most recent former spouse] White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?,-3. RESTRICTED,
+V241518e,PRE: R SPOUSE/PARTNER RACE: NATIVE AMERICAN OR ALASKA NATIVE [MENTION],Is your [spouse / partner / most recent former spouse] White; Black or African American; American Indian or Alaska Native; Asian; or Native Hawaiian or Other Paciﬁc Islander?,-3. RESTRICTED,
 V241519x,PRE: SUMMARY: R SPOUSE OR PARTNER RACE/ETHNICITY,,"-9. Refused
 -1. Inapplicable","1. White, non-Hispanic
 2. Black, non-Hispanic
@@ -2384,7 +2384,7 @@ V241522c,PRE: CHILDREN’S SCHOOL ENROLLMENT: PRIVATE NON-RELIGIOUS SCHOOL,"[Are
 V241522d,PRE: CHILDREN’S SCHOOL ENROLLMENT: HOME SCHOOL,"[Are the children in your household/ Is the child in your household] enrolled in public school, private religious school, private non- religious school, or home school, or not in school?","-9. Refused
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241522,ePRE: CHILDREN’S SCHOOL ENROLLMENT: NOT ENROLLED IN SCHOOL,"[Are the children in your household/ Is the child in your household] enrolled in public school, private religious school, private non- religious school, or home school, or not in school?","-9. Refused
+V241522e,PRE: CHILDREN’S SCHOOL ENROLLMENT: NOT ENROLLED IN SCHOOL,"[Are the children in your household/ Is the child in your household] enrolled in public school, private religious school, private non- religious school, or home school, or not in school?","-9. Refused
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
 V241523,PRE: DOES R USE INTERNET AT HOME,"[Do you / Does anyone in this household, including you,] use the Internet at home? This includes accessing the Internet with a cell phone, computer, tablet, or other device.","-9. Refused
@@ -2572,11 +2572,11 @@ V241568d,PRE: HAS R DONE ANY OF THE FOLLOWING - DIPPED INTO SAVINGS,"In the past
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241568,ePRE: HAS R DONE ANY OF THE FOLLOWING - TOOK ON CREDIT CARD DEBT,"In the past year, have you done any of the following? Mark all that apply.","-9. Refused
+V241568e,PRE: HAS R DONE ANY OF THE FOLLOWING - TOOK ON CREDIT CARD DEBT,"In the past year, have you done any of the following? Mark all that apply.","-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241568,fPRE: HAS R DONE ANY OF THE FOLLOWING - NONE OF THESE PRE- ELECTION SURVEY VARIABLES 241,"In the past year, have you done any of the following? Mark all that apply.","-9. Refused
+V241568f,PRE: HAS R DONE ANY OF THE FOLLOWING - NONE OF THESE PRE- ELECTION SURVEY VARIABLES 241,"In the past year, have you done any of the following? Mark all that apply.","-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2624,11 +2624,11 @@ V241574d,PRE: DOES R HAVE ANY OF THESE CONDITIONS - AUTISM,Do you have any of th
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241574,ePRE: DOES R HAVE ANY OF THESE CONDITIONS - BLIND/VISUALLY IMPAIRED,Do you have any of the following disabilities or chronic conditions? Mark all that apply.,"-9. Refused
+V241574e,PRE: DOES R HAVE ANY OF THESE CONDITIONS - BLIND/VISUALLY IMPAIRED,Do you have any of the following disabilities or chronic conditions? Mark all that apply.,"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241574,fPRE: DOES R HAVE ANY OF THESE CONDITIONS - DEAF/HEARING IMPAIRED,Do you have any of the following disabilities or chronic conditions? Mark all that apply.,"-9. Refused
+V241574f,PRE: DOES R HAVE ANY OF THESE CONDITIONS - DEAF/HEARING IMPAIRED,Do you have any of the following disabilities or chronic conditions? Mark all that apply.,"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2636,7 +2636,7 @@ V241574g,PRE: DOES R HAVE ANY OF THESE CONDITIONS - MOBILITY RELATED DISABILITY,
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241574,hPRE: DOES R HAVE ANY OF THESE CONDITIONS - SPEECH RELATED DISABILITY,Do you have any of the following disabilities or chronic conditions? Mark all that apply.,"-9. Refused
+V241574h,PRE: DOES R HAVE ANY OF THESE CONDITIONS - SPEECH RELATED DISABILITY,Do you have any of the following disabilities or chronic conditions? Mark all that apply.,"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2644,7 +2644,7 @@ V241574i,PRE: DOES R HAVE ANY OF THESE CONDITIONS - OTHER,Do you have any of the
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241574,jPRE: DOES R HAVE ANY OF THESE CONDITIONS - NO DISABILITY/CHRONIC CONDITION,Do you have any of the following disabilities or chronic conditions? Mark all that apply. 246 CODEBOOK: VARIABLES,"-9. Refused
+V241574j,PRE: DOES R HAVE ANY OF THESE CONDITIONS - NO DISABILITY/CHRONIC CONDITION,Do you have any of the following disabilities or chronic conditions? Mark all that apply. 246 CODEBOOK: VARIABLES,"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2719,7 +2719,7 @@ V241600d,PRE: MEDIA R USED TO FOLLOW PRESIDENTIAL CAMPAIGN: RADIO NEWS [MENTION]
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241600,e PRE: MEDIA R USED TO FOLLOW PRESIDENTIAL CAMPAIGN: NONE OF THESE SOURCES [MENTION],From which of the following sources have you heard anything about the presidential campaign? (Mark all that apply),"-9. Refused
+V241600e,PRE: MEDIA R USED TO FOLLOW PRESIDENTIAL CAMPAIGN: NONE OF THESE SOURCES [MENTION],From which of the following sources have you heard anything about the presidential campaign? (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -2743,12 +2743,12 @@ V241601d,PRE: TV SHOWS R WATCHES REGULARLY - RACHEL MADDOW SHOW [MENTION] PRE- E
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241601,ePRE: TV SHOWS R WATCHES REGULARLY - THE LAST WORD LAWRENCE O’DONNELL [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241601e,PRE: TV SHOWS R WATCHES REGULARLY - THE LAST WORD LAWRENCE O’DONNELL [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241601,fPRE: TV SHOWS R WATCHES REGULARLY - THE FIVE [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241601f,PRE: TV SHOWS R WATCHES REGULARLY - THE FIVE [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2758,7 +2758,7 @@ V241601g,PRE: TV SHOWS R WATCHES REGULARLY - THE INGRAHAM ANGLE [MENTION],Which 
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241601,hPRE: TV SHOWS R WATCHES REGULARLY - GUTFELD! [MENTION] PRE- ELECTION SURVEY VARIABLES 255,Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241601h,PRE: TV SHOWS R WATCHES REGULARLY - GUTFELD! [MENTION] PRE- ELECTION SURVEY VARIABLES 255,Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2768,12 +2768,12 @@ V241601i,PRE: TV SHOWS R WATCHES REGULARLY - THE LEAD WITH JACK TAPPER [MENTION]
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241601,jPRE: TV SHOWS R WATCHES REGULARLY - SHARK TANK [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241601j,PRE: TV SHOWS R WATCHES REGULARLY - SHARK TANK [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241601,kPRE: TV SHOWS R WATCHES REGULARLY - SPECIAL REPORT WITH BRET BAIER [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241601k,PRE: TV SHOWS R WATCHES REGULARLY - SPECIAL REPORT WITH BRET BAIER [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2828,12 +2828,12 @@ V241602d,PRE: TV SHOWS R WATCHES REGULARLY - 20/20 [MENTION],Which of the follow
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241602,ePRE: TV SHOWS R WATCHES REGULARLY - DATELINE [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241602e,PRE: TV SHOWS R WATCHES REGULARLY - DATELINE [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241602,fPRE: TV SHOWS R WATCHES REGULARLY - FACE THE NATION [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241602f,PRE: TV SHOWS R WATCHES REGULARLY - FACE THE NATION [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2843,7 +2843,7 @@ V241602g,PRE: TV SHOWS R WATCHES REGULARLY - MEET THE PRESS [MENTION] PRE- ELECT
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241602,hPRE: TV SHOWS R WATCHES REGULARLY - THE PRICE IS RIGHT [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241602h,PRE: TV SHOWS R WATCHES REGULARLY - THE PRICE IS RIGHT [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2853,12 +2853,12 @@ V241602i,PRE: TV SHOWS R WATCHES REGULARLY - GOOD MORNING AMERICA [MENTION],Whic
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241602,jPRE: TV SHOWS R WATCHES REGULARLY - TODAY [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241602j,PRE: TV SHOWS R WATCHES REGULARLY - TODAY [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241602,kPRE: TV SHOWS R WATCHES REGULARLY - OUTNUMBERED [MENTION] PRE- ELECTION SURVEY VARIABLES 265,Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241602k,PRE: TV SHOWS R WATCHES REGULARLY - OUTNUMBERED [MENTION] PRE- ELECTION SURVEY VARIABLES 265,Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2908,12 +2908,12 @@ V241603d,PRE: TV SHOWS R WATCHES REGULARLY - AQUI Y AHORA [MENTION],Which of the
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241603,ePRE: TV SHOWS R WATCHES REGULARLY - CRONICAS [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241603e,PRE: TV SHOWS R WATCHES REGULARLY - CRONICAS [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241603,fPRE: TV SHOWS R WATCHES REGULARLY - DESPIERTA AMERICA [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241603f,PRE: TV SHOWS R WATCHES REGULARLY - DESPIERTA AMERICA [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2923,7 +2923,7 @@ V241603g,PRE: TV SHOWS R WATCHES REGULARLY - LA CASA DE LOS FAMOSOS [MENTION],Wh
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241603,hPRE: TV SHOWS R WATCHES REGULARLY - HOY [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241603h,PRE: TV SHOWS R WATCHES REGULARLY - HOY [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2933,12 +2933,12 @@ V241603i,PRE: TV SHOWS R WATCHES REGULARLY - EL SENOR DE LOS CIELOS [MENTION],Wh
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241603,jPRE: TV SHOWS R WATCHES REGULARLY - NOTICIERO ESTRELLA TV [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241603j,PRE: TV SHOWS R WATCHES REGULARLY - NOTICIERO ESTRELLA TV [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241603,kPRE: TV SHOWS R WATCHES REGULARLY - NOTICIERO TELEMUNDO [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
+V241603k,PRE: TV SHOWS R WATCHES REGULARLY - NOTICIERO TELEMUNDO [MENTION],Which of the following television programs do you watch regularly? Please check any that you watch at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -4. Error
 -1. Inapplicable","0. Not mentioned
@@ -2972,13 +2972,13 @@ V241604a,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE CLAY TRAVIS AND 
 V241604b,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE SEAN HANNITY SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
 V241604c,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - MARKETPLACE [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply) PRE- ELECTION SURVEY VARIABLES 277,-2. Due to a technical error variables from the RADPROGS,
 V241604d,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - ALL THINGS CONSIDERED [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
-V241604,ePRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE RAMSEY SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
-V241604,fPRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - MORNING EDITION [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
+V241604e,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE RAMSEY SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
+V241604f,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - MORNING EDITION [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
 V241604g,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE MARK LEVIN SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
-V241604,h PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE GLENN BECK PROGRAM [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply) PRE- ELECTION SURVEY VARIABLES 279,-2. Due to a technical error variables from the RADPROGS,
+V241604h,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE GLENN BECK PROGRAM [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply) PRE- ELECTION SURVEY VARIABLES 279,-2. Due to a technical error variables from the RADPROGS,
 V241604i,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE MIKE GALLAGHER SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
-V241604,j PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE HUGH HEWITT SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
-V241604,k PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE DAN BONGINO SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
+V241604j,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE HUGH HEWITT SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
+V241604k,PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE DAN BONGINO SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
 V241604,mPRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE DANA SHOW [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
 V241604,n PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - THE BEN SHAPIRO SHOW [MENTION] PRE- ELECTION SURVEY VARIABLES 281,Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
 V241604,p PRE: WHICH RADIO PROGRAMS R LISTENS TO REGULARLY - COAST TO COAST AM W/GEORGE NOORY [MENTION],Which of the following radio programs do you listen to regularly? Please check any that you listen to at least once a month. (Mark all that apply),-2. Due to a technical error variables from the RADPROGS,
@@ -2998,11 +2998,11 @@ V241605d,PRE: WHICH WEB SITES R VISITS REGULARLY - PEOPLE [MENTION],Which of the
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241605,ePRE: WHICH WEB SITES R VISITS REGULGARLY - BREITBART [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply) 284 CODEBOOK: VARIABLES,"-9. Refused
+V241605e,PRE: WHICH WEB SITES R VISITS REGULGARLY - BREITBART [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply) 284 CODEBOOK: VARIABLES,"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241605,fPRE: WHICH WEB SITES R VISITS REGULARLY - FOX NEWS [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply),"-9. Refused
+V241605f,PRE: WHICH WEB SITES R VISITS REGULARLY - FOX NEWS [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -3010,7 +3010,7 @@ V241605g,PRE: WHICH WEB SITES R VISITS REGULARLY - NEW YORK POST [MENTION],Which
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241605,hPRE: WHICH WEB SITES R VISITS REGULARLY - THE GUARDIAN [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply),"-9. Refused
+V241605h,PRE: WHICH WEB SITES R VISITS REGULARLY - THE GUARDIAN [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -3018,11 +3018,11 @@ V241605i,PRE: WHICH WEB SITES R VISITS REGULARLY - AP NEWS [MENTION],Which of th
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241605,jPRE: WHICH WEB SITES R VISITS REGULARLY - BBC NEWS [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply),"-9. Refused
+V241605j,PRE: WHICH WEB SITES R VISITS REGULARLY - BBC NEWS [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241605,kPRE: WHICH WEB SITES R VISITS REGULARLY - NPR NEWS [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply) PRE- ELECTION SURVEY VARIABLES 287,"-9. Refused
+V241605k,PRE: WHICH WEB SITES R VISITS REGULARLY - NPR NEWS [MENTION],Which of the following websites do you visit regularly? Please check any that you visit at least once a month. (Mark all that apply) PRE- ELECTION SURVEY VARIABLES 287,"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -3070,11 +3070,11 @@ V241606d,PRE: WHICH NEWSPAPERS R READS REGULARLY - WASHINGTON POST [MENTION],Whi
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241606,ePRE: WHICH NEWSPAPERS R READS REGULARLY - NEW YORK POST [MENTION],Which of the following newspapers do you read online or in print regularly? Please check any that you read at least once a month. (Mark all that apply),"-9. Refused
+V241606e,PRE: WHICH NEWSPAPERS R READS REGULARLY - NEW YORK POST [MENTION],Which of the following newspapers do you read online or in print regularly? Please check any that you read at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V241606,fPRE: WHICH NEWSPAPERS R READS REGULARLY - LOCAL NEWSPAPER [MENTION],Which of the following newspapers do you read online or in print regularly? Please check any that you read at least once a month. (Mark all that apply),"-9. Refused
+V241606f,PRE: WHICH NEWSPAPERS R READS REGULARLY - LOCAL NEWSPAPER [MENTION],Which of the following newspapers do you read online or in print regularly? Please check any that you read at least once a month. (Mark all that apply),"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
@@ -3184,9 +3184,9 @@ V241637b,PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - CHILD UNDER 6 
 V241637c,PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - CHILD BETWEEN 6 AND 17 YEARS OLD [MENTION],"Besides you and the respondent, who else was present during the interview?",-1. Inapplicable,
 V241637d,PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - R’S PARTNER OR SPOUSE [MENTION],"Besides you and the respondent, who else was present during the interview?",-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241637,e PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT RELATIVE [MENTION],"Besides you and the respondent, who else was present during the interview?",-1. Inapplicable,"0. Not mentioned
+V241637e,PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT RELATIVE [MENTION],"Besides you and the respondent, who else was present during the interview?",-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241637,f PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT NON-RELATIVE [MENTION],"Besides you and the respondent, who else was present during the interview?",-1. Inapplicable,"0. Not mentioned
+V241637f,PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT NON-RELATIVE [MENTION],"Besides you and the respondent, who else was present during the interview?",-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V241637g,PRE IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - UNKNOWN PERSONS [MENTION],"Besides you and the respondent, who else was present during the interview?",-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
@@ -3224,19 +3224,19 @@ V241644c,PRE: IWR OBS: R REACTION TO INTERVIEW - NEGATIVE (TOO COMPLICATED) [MEN
 1. Mentioned"
 V241644d,PRE: IWR OBS: R REACTION TO INTERVIEW - NEGATIVE (BORING/TEDIOUS/REPETITIOUS) [MENTION],R’s reaction to interview: PRE- ELECTION SURVEY VARIABLES 307,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241644,ePRE: IWR OBS: R REACTION TO INTERVIEW - R WANTED TO STOP INTERVIEW [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V241644e,PRE: IWR OBS: R REACTION TO INTERVIEW - R WANTED TO STOP INTERVIEW [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241644,f PRE: IWR OBS: R REACTION TO INTERVIEW - R WAS ILL/DEAF/TIRED/HAD BAD EYESIGHT [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V241644f,PRE: IWR OBS: R REACTION TO INTERVIEW - R WAS ILL/DEAF/TIRED/HAD BAD EYESIGHT [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V241644g,PRE: IWR OBS: R REACTION TO INTERVIEW - R EXPRESSED LACK OF KNOWLEDGE FOR INTERVIEW [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241644,h PRE: IWR OBS: R REACTION TO INTERVIEW - R STRESSED/AGITATED BY INTERVIEW PROCESS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V241644h,PRE: IWR OBS: R REACTION TO INTERVIEW - R STRESSED/AGITATED BY INTERVIEW PROCESS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V241644i,PRE: IWR OBS: R REACTION TO INTERVIEW - R BECAME ANGRY AT INTERVIEW CONTENT [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241644,j PRE: IWR OBS: R REACTION TO INTERVIEW - R CONCERNED WITH SAMPLING PURPOSE OR BIAS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V241644j,PRE: IWR OBS: R REACTION TO INTERVIEW - R CONCERNED WITH SAMPLING PURPOSE OR BIAS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241644,k PRE: IWR OBS: R REACTION TO INTERVIEW - R COULD NOT READ RESPONDENT BOOKLET [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V241644k,PRE: IWR OBS: R REACTION TO INTERVIEW - R COULD NOT READ RESPONDENT BOOKLET [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V241644,mPRE: IWR OBS: R REACTION TO INTERVIEW - R APPEARED TO ENJOY INTERVIEW [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
@@ -3516,17 +3516,17 @@ V241751c,SPS: DURING PAST 12 MONTHS HAS R: WORE CAMPAIGN BUTTON/PUT STICKER ON C
 1. Mentioned"
 V241751d,SPS: DURING PAST 12 MONTHS HAS R: DID ANY WORK FOR ONE OF THE CANDIDATES OR PARTIES,,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241751,"e SPS: DURING PAST 12 MONTHS HAS R: GAVE MONEY TO CANDIDATE, PARTY , OR GROUP THAT SUPPORTED/OPPOSED CANDIDATES",,-1. Inapplicable,"0. Not mentioned
+V241751e,"SPS: DURING PAST 12 MONTHS HAS R: GAVE MONEY TO CANDIDATE, PARTY , OR GROUP THAT SUPPORTED/OPPOSED CANDIDATES",,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241751,fSPS: DURING PAST 12 MONTHS HAS R: GOT INTO A POLITICAL ARGUMENT,,-1. Inapplicable,"0. Not mentioned
+V241751f,SPS: DURING PAST 12 MONTHS HAS R: GOT INTO A POLITICAL ARGUMENT,,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V241751g,SPS: DURING PAST 12 MONTHS HAS R: SIGNED PEITION ABOUT A POLITICAL OR SOCIAL ISSUE,,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241751,hSPS: DURING PAST 12 MONTHS HAS R: ATTENDED PUBIC MEETING TO DISCUSS LOCAL ISSUE POST-ELECTION SURVEY VARIABLES 327,,-1. Inapplicable,"0. Not mentioned
+V241751h,SPS: DURING PAST 12 MONTHS HAS R: ATTENDED PUBIC MEETING TO DISCUSS LOCAL ISSUE POST-ELECTION SURVEY VARIABLES 327,,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V241751i,SPS: DURING PAST 12 MONTHS HAS R: SPENT TIME VOLUNTEERING FOR ANY ORGANIZATION OR ASSOCIATION,,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V241751,j SPS: DURING PAST 12 MONTHS HAS R: POSTED A MESSAGE/COMMENT ONLINE ABOUT A POLITICAL ISSUE/CAMPAIGN,,-1. Inapplicable,"0. Not mentioned
+V241751j,SPS: DURING PAST 12 MONTHS HAS R: POSTED A MESSAGE/COMMENT ONLINE ABOUT A POLITICAL ISSUE/CAMPAIGN,,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V242002,POST: R SELECT LANGUAGE,Would you like to complete this survey in English or Spanish? ¿Quisiera completar esta encuesta en inglés o español?,-1. Inapplicable,"1. English / ingles
 2. Spanish / espanol"
@@ -4082,13 +4082,13 @@ V242100d,POST: REASON R IS NOT REGISTERED - REGISTRATION FORM WAS NOT PROCESSED 
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242100,ePOST: REASON R IS NOT REGISTERED - DID NOT HAVE REQUIRED IDENTIFICATION,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
+V242100e,POST: REASON R IS NOT REGISTERED - DID NOT HAVE REQUIRED IDENTIFICATION,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242100,fPOST: REASON R IS NOT REGISTERED - NOT INTERESTED IN THE ELECTION,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
+V242100f,POST: REASON R IS NOT REGISTERED - NOT INTERESTED IN THE ELECTION,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -4100,7 +4100,7 @@ V242100g,POST: REASON R IS NOT REGISTERED - MY VOTE WOULD NOT MAKE A DIFFERENCE,
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242100,hPOST: REASON R IS NOT REGISTERED - PERMANENT ILLNESS OR DISABILITY,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices. POST-ELECTION SURVEY VARIABLES 369,"-9. Refused
+V242100h,POST: REASON R IS NOT REGISTERED - PERMANENT ILLNESS OR DISABILITY,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices. POST-ELECTION SURVEY VARIABLES 369,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -4112,13 +4112,13 @@ V242100i,POST: REASON R IS NOT REGISTERED - DIFFICULTY WITH ENGLISH,What is the 
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242100,jPOST: REASON R IS NOT REGISTERED - NOT ELIGIBLE TO VOTE,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
+V242100j,POST: REASON R IS NOT REGISTERED - NOT ELIGIBLE TO VOTE,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242100,kPOST: REASON R IS NOT REGISTERED - OTHER,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
+V242100k,POST: REASON R IS NOT REGISTERED - OTHER,What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -4246,13 +4246,13 @@ V242114d,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - CONFUSION ABOUT BALLOT OR M
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242114,e POST: DID R ENCOUNTER ANY PROBLEMS VOTING - DIFFICULTY GETTING TO POLLING PLACE,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
+V242114e,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - DIFFICULTY GETTING TO POLLING PLACE,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242114,fPOST: DID R ENCOUNTER ANY PROBLEMS VOTING - LONG WAIT TIMES,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
+V242114f,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - LONG WAIT TIMES,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -4264,7 +4264,7 @@ V242114g,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - WORK SCHEDULE,Did you encou
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242114,hPOST: DID R ENCOUNTER ANY PROBLEMS VOTING - BAD WEATHER,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .) POST-ELECTION SURVEY VARIABLES 379,"-9. Refused
+V242114h,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - BAD WEATHER,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .) POST-ELECTION SURVEY VARIABLES 379,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -4276,13 +4276,13 @@ V242114i,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - ISSUE MAILING BALLOT,Did yo
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242114,jPOST: DID R ENCOUNTER ANY PROBLEMS VOTING - OTHER PROBLEM,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
+V242114j,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - OTHER PROBLEM,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242114,kPOST: DID R ENCOUNTER ANY PROBLEMS VOTING - NONE AT ALL,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
+V242114k,POST: DID R ENCOUNTER ANY PROBLEMS VOTING - NONE AT ALL,Did you encounter any of the following problems in trying to vote in this election? (MARK ALL THAT APPLY .),"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -6870,11 +6870,11 @@ V242509d,POST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - CO-WORKER [MENTIO
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ","0. Not mentioned
 1. Mentioned"
-V242509,ePOST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - CLOSE FRIEND [MENTION],What is your relationship to that person (or people)? (Mark any that apply),"-7. Insuﬃcient partial, interview deleted
+V242509e,POST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - CLOSE FRIEND [MENTION],What is your relationship to that person (or people)? (Mark any that apply),"-7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ","0. Not mentioned
 1. Mentioned"
-V242509,fPOST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - OTHER RELATIONSHIP [MENTION],What is your relationship to that person (or people)? (Mark any that apply) 538 CODEBOOK: VARIABLES,"-7. Insuﬃcient partial, interview deleted
+V242509f,POST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - OTHER RELATIONSHIP [MENTION],What is your relationship to that person (or people)? (Mark any that apply) 538 CODEBOOK: VARIABLES,"-7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ","0. Not mentioned
 1. Mentioned"
@@ -6900,11 +6900,11 @@ V242511d,POST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - CO-WORKER [MENTIO
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ","0. Not mentioned
 1. Mentioned"
-V242511,ePOST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - CLOSE FRIEND [MENTION],What is your relationship to that person (or people)? (Mark any that apply),"-7. Insuﬃcient partial, interview deleted
+V242511e,POST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - CLOSE FRIEND [MENTION],What is your relationship to that person (or people)? (Mark any that apply),"-7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ","0. Not mentioned
 1. Mentioned"
-V242511,fPOST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - OTHER RELATIONSHIP [MENTION],What is your relationship to that person (or people)? (Mark any that apply),"-7. Insuﬃcient partial, interview deleted
+V242511f,POST: R’S RELATIONSHIP TO THAT PERSON (OR PEOPLE) - OTHER RELATIONSHIP [MENTION],What is your relationship to that person (or people)? (Mark any that apply),"-7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ","0. Not mentioned
 1. Mentioned"
@@ -7374,13 +7374,13 @@ V242577d,POST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - REDDIT [MENTION],Which s
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242577,ePOST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - YOUTUBE [MENTION],Which social media apps or websites have you visited in the past year? Mark all that apply.,"-9. Refused
+V242577e,POST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - YOUTUBE [MENTION],Which social media apps or websites have you visited in the past year? Mark all that apply.,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242577,fPOST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - SNAPCHAT [MENTION],Which social media apps or websites have you visited in the past year? Mark all that apply.,"-9. Refused
+V242577f,POST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - SNAPCHAT [MENTION],Which social media apps or websites have you visited in the past year? Mark all that apply.,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -7392,7 +7392,7 @@ V242577g,POST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - TIKTOK [MENTION],Which s
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","0. Not mentioned
 1. Mentioned"
-V242577,hPOST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - OTHER [MENTION],Which social media apps or websites have you visited in the past year? Mark all that apply.,"-9. Refused
+V242577h,POST: WHICH SOCIAL MEDIA PLATFORMS R VISITED - OTHER [MENTION],Which social media apps or websites have you visited in the past year? Mark all that apply.,"-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -7609,9 +7609,9 @@ V242630c,POST: IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - CHILD BETWEE
 1. Mentioned"
 V242630d,POST: IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - R’S SPOUSE OR PARTNER [MENTION],Others present at time of interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V242630,e POST: IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT RELATIVE [MENTION],Others present at time of interview:,-1. Inapplicable,"0. Not mentioned
+V242630e,POST: IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT RELATIVE [MENTION],Others present at time of interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V242630,f POST: IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT NON- RELATIVE [MENTION],Others present at time of interview:,-1. Inapplicable,"0. Not mentioned
+V242630f,POST: IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - OTHER ADULT NON- RELATIVE [MENTION],Others present at time of interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V242630g,POST: IWR OBS: WHO ELSE WAS PRESENT DURING THE INTERVIEW - UNKNOWN PERSONS [MENTION],Others present at time of interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
@@ -7660,19 +7660,19 @@ V242639c,POST: IWR OBS: R’S REACTION TO INTERVIEW - NEGATIVE (TOO COMPLICATED)
 1. Mentioned"
 V242639d,POST: IWR OBS: R’S REACTION TO INTERVIEW - NEGATIVE (BORING/TEDIOUS/REPETITIOUS) [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V242639,e POST: IWR OBS: R’S REACTION TO INTERVIEW - R WANTED TO STOP BEFORE INTERVIEW COMPLETE [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V242639e,POST: IWR OBS: R’S REACTION TO INTERVIEW - R WANTED TO STOP BEFORE INTERVIEW COMPLETE [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V242639,f POST: IWR OBS: R’S REACTION TO INTERVIEW - R WAS ILL/DEAF/TIRED/HAD BAD EYESIGHT [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V242639f,POST: IWR OBS: R’S REACTION TO INTERVIEW - R WAS ILL/DEAF/TIRED/HAD BAD EYESIGHT [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V242639g,POST: IWR OBS: R’S REACTION TO INTERVIEW - R EXPRESSED LACK OF KNOWLEDGE FOR INTERVIEW [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V242639,h POST: IWR OBS: R’S REACTION TO INTERVIEW - R STRESSED/AGITATED BY INTERVIEW PROCESS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V242639h,POST: IWR OBS: R’S REACTION TO INTERVIEW - R STRESSED/AGITATED BY INTERVIEW PROCESS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V242639i,POST: IWR OBS: R’S REACTION TO INTERVIEW - R BECAME ANGRY AT INTERVIEW CONTENT [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V242639,j POST: IWR OBS: R’S REACTION TO INTERVIEW - R CONCERNED WITH SAMPLING PURPOSE OR BIAS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V242639j,POST: IWR OBS: R’S REACTION TO INTERVIEW - R CONCERNED WITH SAMPLING PURPOSE OR BIAS [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
-V242639,k POST: IWR OBS: R’S REACTION TO INTERVIEW - R COULD NOT READ RESPONDENT BOOKLET [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
+V242639k,POST: IWR OBS: R’S REACTION TO INTERVIEW - R COULD NOT READ RESPONDENT BOOKLET [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
 V242639,mPOST: IWR OBS: R’S REACTION TO INTERVIEW - R APPEARED TO ENJOY INTERVIEW [MENTION],R’s reaction to interview:,-1. Inapplicable,"0. Not mentioned
 1. Mentioned"
