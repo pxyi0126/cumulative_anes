@@ -1,0 +1,2549 @@
+var_name,summary,question,valid_labels,missing_labels
+V080001,ID.1. CASE ID,NOTES:,,
+V080101a,WT.1. PRE CROSS-SECTION SAMPLE WEIGHT - POST-STRATIFIED,NOTES:,,
+V081001,STUDY.1. Waves completed by respondent,Waves completed by respondent for the ANES 2008 Time Series Study,,
+V081101,HHList.1. Respondent: gender,"ZZ11. (Pre-election interviewer observation gender).
+
+NOTES:",,
+V081102,HHList.2. Respondent: race,"Y24a. - Y24e. (survey racial group[s]).
+Post: J9a. (Post-election race status)
+Post: K1a. (Black respondent -preload)
+
+NOTES:",,
+V081103,HHList.3. Respondent: Latino status,"Y24a. - Y24e. (survey racial group[s]).
+Y25. - Y26b,Y27. (survey ethnicity)
+Y28a. (survey Hispanic status)
+Post: B2_. (Post Hispanic preload)
+Post: K1b_. (HISPANIC -PRELOAD)
+Post: B2a. - B2b. (LATINO Rs: supporter contact)
+
+NOTES:",,
+V081103a,HHList.3a. Respondent: race and Latino status,"HHList.2. (race of selected respondent)
+HHList.3. (Latino status of selected respondent)
+
+NOTES:",,
+V081104,HHList.4. Respondent: age,"Y1x. (age built from survey date of birth).
+
+NOTES:",,
+V081105,HHList.5. RESTRICTED: Respondent: relationship to informant,"HHList.8. (total adults)
+HHList.9. (total children)
+
+NOTES:",,
+V081108,HHList.8. TOTAL IN HH: ADULTS (18 BY OCT30),"HHlist.8a. (total eligible adults)
+HHlist.8b. (total ineligible adults)
+
+NOTES:",,
+V081108a,HHList.8a. TOTAL IN HH: ELIGIBLE ADULTS,"HHList.9a. (total number children under 17 years old)
+HHList.9b. (toal number of children 17 years old [not 18 by Oct 30])
+Y31a. (children in HH age 10 and younger)
+Y31b. (children in HH age 11-17)
+
+NOTES:",,
+V081109a,HHList.9a. TOTAL IN HH: CHILDREN UNDER 17,"HHList.9b. (total number of children 17 yrs old [not 18 by Oct 30])
+HHList.9. (total number of children)
+
+NOTES:",,
+V081109b,"HHList.9b. TOTAL IN HH: CHLDREN 17 YRS OLD, NOT 18 BY OCT30","HHList.9a. (total number children under 17 years old)
+HHList.9. (total number of children)
+
+NOTES:",,
+V081110,HHList.10. HOUSEHOLD COMPOSITION,"HHList.11b. (race of eligible person #1)
+HHList.11c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081111e,HHList.11e. ELIGIBLE PERSON #1: age,"HHList.11g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081111f,"HHList.11f. ELIGIBLE PERSON #1: 18 by October 30, 2008","HHList.12b. (race of eligible person #1)
+HHList.12c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081112e,HHList.12e. ELIGIBLE PERSON #2: age,"HHList.12g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081112f,"HHList.12f. ELIGIBLE PERSON #2: 18 by October 30, 2008","HHList.13b. (race of eligible person #1)
+HHList.13c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081113e,HHList.13e. ELIGIBLE PERSON #3: age,"HHList.13g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081113f,"HHList.13f. ELIGIBLE PERSON #3: 18 by October 30, 2008","HHList.14b. (race of eligible person #1)
+HHList.14c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081114e,HHList.14e. ELIGIBLE PERSON #4: age,"HHList.14g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081114f,"HHList.14f. ELIGIBLE PERSON #4: 18 by October 30, 2008","HHList.15b. (race of eligible person #1)
+HHList.15c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081115e,HHList.15e. ELIGIBLE PERSON #5: age,"HHList.15g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081115f,"HHList.15f. ELIGIBLE PERSON #5: 18 by October 30, 2008","HHList.16b. (race of eligible person #1)
+HHList.16c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081116e,HHList.16e. ELIGIBLE PERSON #6: age,"HHList.16g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081116f,"HHList.16f. ELIGIBLE PERSON #6: 18 by October 30, 2008","HHList.17b. (race of eligible person #1)
+HHList.17c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081117e,HHList.17e. ELIGIBLE PERSON #7: age,"HHList.17g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081117f,"HHList.17f. ELIGIBLE PERSON #7: 18 by October 30, 2008","HHList.18b. (race of eligible person #1)
+HHList.18c. (Latino status of eligible person #1)
+
+NOTES:",,
+V081118e,HHList.18e. ELIGIBLE PERSON #8: age,"HHList.18g. (will 17-year-old be 18 by October 30, 2008)
+
+NOTES:",,
+V081118f,"HHList.18f. ELIGIBLE PERSON #8: 18 by October 30, 2008",NOTES:,,
+V081120,HHList.20. HOUSEHOLD LISTING COMPLETED: interviewer ID,NOTES:,,
+V081201b,Sample.1b. State FIPS code,"Sample.3a. (corrected state and Congressional district)
+Sample 3b. (corrected Congressional district)
+
+NOTES:",,
+V081203a,Sample.3a. Corrected state Postal abbr-Congr district number,"Sample.2a (Post preload state and Congressional District)
+Sample.2b (Post preload Congressional District)
+
+NOTES:",,
+V081203b,Sample.3b. Corrected Congressional district number,"Sample.2a (Post preload state and Congressional District)
+Sample.2b (Post preload Congressional District)
+
+NOTES:",,
+V081204,Sample.4. Census Region,NOTES:,,
+V081207a,Sample.7a. RESTRICTED: FIPS state-county name,NOTES:,,
+V081209,Sample.9. RESTRICTED: Census Tract 2000,NOTES:,,
+V081210a,Sample.10a. RESTRICTED: Census Place 2000 name,NOTES:,,
+V081211a,Sample.11a. RESTRICTED: MCD 2000 name,NOTES:,,
+V081212a,Sample.12a. RESTRICTED: MSA 1990 name,NOTES:,,
+V081213a,Sample.13a. RESTRICTED: NECMA 2000 name,NOTES:,,
+V081214b,Sample.14b. RESTRICTED: Longitude,NOTES:,,
+V082001a,PreAdmin.1a. Beginning Date of Pre-election IW: month,"PreAdmin.4. (number of sessions) .
+
+NOTES:",,
+V082001b,PreAdmin.1b. Beginning Date of Pre-election IW: day,"PreAdmin.4. (number of sessions)
+
+NOTES:",,
+V082001c,PreAdmin.1c. Beginning Date of Pre-election IW: date MMDD,"PreAdmin.4. (number of sessions)
+
+NOTES:",,
+V082002a,PreAdmin.2a. Ending Date of Pre-election IW: month,"PreAdmin.4. (number of sessions)
+
+NOTES:",,
+V082002b,PreAdmin.2b. Ending Date of Pre-election IW: day,"PreAdmin.4. (number of sessions)
+
+NOTES:",,
+V082002c,PreAdmin.2c. Ending Date of Pre-election IW: date MMDD,"PreAdmin.4. (number of sessions)
+
+NOTES:",,
+V082003a,PreAdmin.3a. No. days til election: Pre-election IW beg date,VALID CODES:,,
+V082007,PreAdmin.7. Total no. calls: Pre-election,"PreAdmin.12a. (verification of case).
+
+NOTES:",,
+V082013,PreAdmin.13. Sample release (Pre-election),VALID CODES:,,
+V082016,PreAdmin.16. Respondent payment mode: Pre-election IW,Payment mode: Pre-election IW,,
+V082017a,PreAdmin.17a. Refusal made: Pre-election IW,"PreAdmin.17a. (Refusal made: Pre-election IW)
+
+NOTES:",,
+V082018,PreAdmin.18. Respondent incentive: Pre-election IW,"PreAdmin.21a. (COMMENT:SUMMARY: positive comment)
+
+NOTES:",,
+V082022b,PreAdmin.22b. Comment: positive - enjoy surveys,"PreAdmin.21a. (COMMENT:SUMMARY: positive comment)
+
+NOTES:",,
+V082022c,PreAdmin.22c. Comment: other positive,"PreAdmin.21a. (COMMENT:SUMMARY: positive comment)
+
+NOTES:",,
+V082022d,PreAdmin.22d. Comment: time delay - too busy,"PreAdmin.21b. (COMMENT:SUMMARY: time-delay comment)
+
+NOTES:",,
+V082022e,PreAdmin.22e. Comment: time delay - bad time,"PreAdmin.21b. (COMMENT:SUMMARY: time-delay comment)
+
+NOTES:",,
+V082022f,PreAdmin.22f. Comment: time delay - think about it,"PreAdmin.21b. (COMMENT:SUMMARY: time-delay comment)
+
+NOTES:",,
+V082022g,PreAdmin.22g. Comment: other time delay,"PreAdmin.21b. (COMMENT:SUMMARY: time-delay comment)
+
+NOTES:",,
+V082022h,PreAdmin.22h. Comment: negative - waste of time,"PreAdmin.21c. (COMMENT:SUMMARY: negative comment)
+
+NOTES:",,
+V082022j,PreAdmin.22j. Comment: negative - don't trust surveys,"PreAdmin.21c. (COMMENT:SUMMARY: negative comment)
+
+NOTES:",,
+V082022k,PreAdmin.22k. Comment: negative - surveys waste money,"PreAdmin.21c. (COMMENT:SUMMARY: negative comment)
+
+NOTES:",,
+V082022m,PreAdmin.22m. Comment: negative - never do surveys,"PreAdmin.21c. (COMMENT:SUMMARY: negative comment)
+
+NOTES:",,
+V082022n,PreAdmin.22n. Comment: negative - not interested,"PreAdmin.21c. (COMMENT:SUMMARY: negative comment)
+
+NOTES:",,
+V082022p,PreAdmin.22p. Comment: other negative,"PreAdmin.21c. (COMMENT:SUMMARY: negative comment)
+
+NOTES:",,
+V082022q,PreAdmin.22q. Comment: eligibility - don't know about topic,"PreAdmin.21d. (COMMENT:SUMMARY: eligibility comment)
+
+NOTES:",,
+V082022r,PreAdmin.22r. Comment: eligibility - no spouse/parn/child,"PreAdmin.21d. (COMMENT:SUMMARY: eligibility comment)
+
+NOTES:",,
+V082022s,PreAdmin.22s. Comment: eligibility - too young/too old,"PreAdmin.21d. (COMMENT:SUMMARY: eligibility comment)
+
+NOTES:",,
+V082022t,PreAdmin.22t. Comment: eligibility - don't vote,"PreAdmin.21d. (COMMENT:SUMMARY: eligibility comment)
+
+NOTES:",,
+V082022u,PreAdmin.22u. Comment: other eligibility,"PreAdmin.21d. (COMMENT:SUMMARY: eligibility comment)
+
+NOTES:",,
+V082022v,PreAdmin.22v. Comment: privacy - personal questions,"PreAdmin.21e. (COMMENT:SUMMARY: privacy comment)
+
+NOTES:",,
+V082022w,PreAdmin.22w. Comment: privacy - govt knows everything,"PreAdmin.21e. (COMMENT:SUMMARY: privacy comment)
+
+NOTES:",,
+V082022y,PreAdmin.22y. Comment: other privacy,"PreAdmin.21e. (COMMENT:SUMMARY: privacy comment)
+
+NOTES:",,
+V082023,PreAdmin.23. DWELLING UNIT: type of structure: Pre-election,"Appendix A1. (Pre-election questions with forward/reverse response options)
+Appendix A2. (Post-election questions with forward/reverse response options)
+Post: PostRandom.1. (Post response option order)
+
+NOTES:",,
+V082402,PreRandom.2.  OLD or NEW selection of questions,"Appendix B1.(Pre-election questions with split administration)
+Appendix B2. (Post-election questions with split administration)
+Post: PostRandom.2. (Post OLD/NEW split administration)
+
+NOTES:",,
+V082403,PreRandom.3. VERSION A or B campaign interest,"A1a. (VERSION A campaign interest)
+A1b. (VERSION B campaign interest)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V082404,PreRandom.4. Order of Presidential candidate likes-dislikes,"A8a. - A8d. (Democratic Pres cand likes-dislikes)
+A9a. - A9d. (Republican Pres cand likes-dislikes)
+
+NOTES:",,
+V082405,PreRandom.5. Order Presidential candidate thermometers,"B1b1. (Democratic Pres cand thermometer)
+B1b2. (Republican Pres cand thermometer)
+
+NOTES:",,
+V082406a,PreRandom.6a.  Order Dem Vice Presidential  thermometer,"B1c1. (Democratic Vice Pres cand thermometer)
+B1c. (Names: Feeling Thermometer Vice Presidential cands)
+
+NOTES:",,
+V082406b,PreRandom.6b.  Order Rep Vice Presidential  thermometer,"B1c2. (Republican Vice Pres cand thermometer)
+B1c. (Names: Feeling Thermometer Vice Presidential cands)
+
+NOTES:",,
+V082406c,PreRandom.6c.  Order Hillary Clinton thermometer,"B1d. (Hillary Clinton thermometer)
+
+NOTES:",,
+V082406d,PreRandom.6d.  Order Bill Clinton thermometer,"B1e. (Bill Clinton thermometer)
+
+NOTES:",,
+V082406e,PreRandom.6e.  Order Condoleezza thermometer,"B1f. (Condoleezza Rice thermometer)
+
+NOTES:",,
+V082406f,PreRandom.6f.  Order Rush Limbaugh thermometer,"B1g. (Rush Limbaugh thermometer)
+
+NOTES:",,
+V082407,PreRandom.7.  Order Party thermometers,"B1h. (Democratic Party thermometer)
+B1j. (Republican Party thermometer)
+
+NOTES:",,
+V082408,PreRandom.6a.  Order Party Likes-Dislikes,"C1a. - C1d. (Democratic Party likes-dislikes)
+C2a. - C2d. (Republican Party likes-dislikes)
+
+NOTES:",,
+V082409,PreRandom.10.  Order Pres cands in affects,"D1a. - D1d1. (Democratic Pres cand affects)
+D2a. - D2d1. (Republican Pres cand affects)
+
+NOTES:",,
+V082410a,PreRandom.10a. Order of Pres cand/President affect ANGRY,"D1a, D1a1. (Democratic Pres cand affect ANGRY )
+D2a, D2a1. (Republican Pres cand affect ANGRY )
+R1a, R1a1. (President affect ANGRY )
+
+NOTES:",,
+V082410b,PreRandom.10b. Order of Pres cand/President affect HOPEFUL,"D1b, D1b1. (Democratic Pres cand affect ANGRY )
+D2b, D2b1. (Republican Pres cand affect ANGRY )
+R1b, R1b1. (President affect ANGRY )
+
+NOTES:",,
+V082410c,PreRandom.10c. Order of Pres cand/President affect AFRAID,"D1c, D1c1. (Democratic Pres cand affect ANGRY )
+D2c, D2c1. (Republican Pres cand affect ANGRY )
+R1c, R1c1. (President affect ANGRY )
+
+NOTES:",,
+V082410d,PreRandom.10d. Order of Pres cand/President affect PROUD,"D1d, D1d1. (Democratic Pres cand affect ANGRY )
+D2d, D2d1. (Republican Pres cand affect ANGRY )
+R1d, R1d1. (President affect ANGRY )
+
+NOTES:",,
+V082411,PreRandom.11. Order of Dem-Rep Pres cand libcon placements,"E2a. (Democratic Pres cand liberal-conservative placement)
+E2b. (Republican Pres cand liberal-conservative placement
+
+NOTES:",,
+V082412,PreRandom.12. Order of Dem-Rep party libcon placements,"E2a. (Democratic Party liberal-conservative placement)
+E2b. (Republican Party cand liberal-conservative placement
+
+NOTES:",,
+V082413,PreRandom.13. VERSION C or D efficacy items,"E9a. - E9d. (VERSION C efficacy)
+E10a. - E10d. (VERSION D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V082414,PreRandom.14. VERSION E or F economy items,"F2a. - F2a1. (VERSION E economy)
+F2b. - F2b2a. (VERSION F economy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V082415,PreRandom.15. Order Dem-Rep Pres cands- Version F econ items,"PreRandom14. (VERSION E/F economy)
+F2a1. - F2a1a. (VERSION F economy questions - Democratic candidate)
+F2b1. - F2b1a. (VERSION F economy questions - Republican candidate)
+
+NOTES:",,
+V082416,PreRandom.16. Order of unempl/inflation economy items,"F3. - F4. (unemployment questions)
+F5. - F6. (inflation questions)
+
+NOTES:",,
+V082417,PreRandom.17. VERSION G or H social trust items,"F8a. (VERSION G social trust)
+F8b. (VERSION H social trust)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V082418,PreRandom.18. Order of parties in text of party performance,"G1. (party performance on economy)
+G2a. (VERSION P party performance on war)
+G2b. (VERSION Q party performance on war)
+PreRandom.19. (VERSION P/Q party performance on war)
+
+NOTES:",,
+V082419,PreRandom.19. VERSION P or Q party war performance question,"G2a. (VERSION P party performance on war)
+G2b. (VERSION Q party performance on war)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V082420,PreRandom.20. Order of parties in text of party id question,"J1. (party identification)
+
+NOTES:",,
+V082421,PreRandom.21. VERSION J or K traits questions,"K1a1. - K1a7. (VERSION J Democratic Pres cand traits)
+K2a1. - K2a7. (VERSION J Republican Pres cand traits)
+R2a1. - R2a7. (VERSION J President traits)
+K1b1. - K1b7. (VERSION K Democratic Pres cand traits)
+K2b1. - K2b7. (VERSION K Republican Pres cand traits)
+R2b1. - R2b7. (VERSION K President traits)
+Appendix B1.(Pre-election questions with split administration)
+Appendix B2. (Post-election questions with split administration)
+
+NOTES:",,
+V082422,PreRandom.22.  Order of Dem and Rep Pres cands for traits,"PreRandom.21. (VERSION J/K traits)
+K1a1. - K1a7. (VERSION J Democratic Pres cand traits)
+K2a1. - K2a7. (VERSION J Republican Pres cand traits)
+K1b1. - K1b7. (VERSION K Democratic Pres cand traits)
+K2b1. - K2b7. (VERSION K Republican Pres cand traits)
+
+NOTES:",,
+V082423a,PreRandom.23a. Order of Pres cand/President trait MORAL,"PreRandom.21. (VERSION J/K traits)
+K1a1. (VERSION J Democratic Pres cand trait MORAL)
+K1b1. (VERSION K Democratic Pres cand trait MORAL)
+K2a1. (VERSION J Republican Pres cand trait MORAL)
+K2b1. (VERSION K Republican Pres cand trait MORAL)
+R2a1. (VERSION J President trait MORAL)
+R2b1. (VERSION K President trait MORAL)
+
+NOTES:",,
+V082423b,PreRandom.23b. Order of Pres cand/Pres trait STRONG LEADER,"PreRandom.21. (VERSION J/K traits)
+K1a2. (VERSION J Democratic Pres cand trait STRONG LEADER)
+K1b2. (VERSION K Democratic Pres cand trait STRONG LEADER)
+K2a2. (VERSION J Republican Pres cand trait STRONG LEADER)
+K2b2. (VERSION K Republican Pres cand trait STRONG LEADER)
+R2a2. (VERSION J President trait STRAONG LEADER)
+R2b2. (VERSION K President trait STRONG LEADER)
+
+NOTES:",,
+V082423c,PreRandom.23c. Order of Pres cand/Pres trait REALLY CARES,"PreRandom.21. (VERSION J/K traits)
+K1a3. (VERSION J Democratic Pres cand trait REALLY CARES)
+K1b3. (VERSION K Democratic Pres cand trait REALLY CARES)
+K2a3. (VERSION J Republican Pres cand trait REALLY CARES)
+K2b3. (VERSION K Republican Pres cand trait REALLY CARES)
+R2a3. (VERSION J President trait REALLY CARES)
+R2b3. (VERSION K President trait REALLY CARES)
+
+NOTES:",,
+V082423d,PreRandom.23d. Order of Pres cand/Pres trait KNOWLEDGEABLE,"PreRandom.21. (VERSION J/K traits)
+K1a4. (VERSION J Democratic Pres cand trait KNOWLEDGEABLE)
+K1b4. (VERSION K Democratic Pres cand trait KNOWLEDGEABLE)
+K2a4. (VERSION J Republican Pres cand trait KNOWLEDGEABLE)
+K2b4. (VERSION K Republican Pres cand trait KNOWLEDGEABLE)
+R2a4. (VERSION J President trait KNOWLEDGEABLE)
+R2b4. (VERSION K President trait KNOWLEDGEABLE)
+
+NOTES:",,
+V082423e,PreRandom.23e. Order of Pres cand/Pres trait INTELLIGENT,"PreRandom.21. (VERSION J/K traits)
+K1a5. (VERSION J Democratic Pres cand trait INTELLIGENT)
+K1b5. (VERSION K Democratic Pres cand trait INTELLIGENT)
+K2a5. (VERSION J Republican Pres cand trait INTELLIGENT)
+K2b5. (VERSION K Republican Pres cand trait INTELLIGENT)
+R2a5. (VERSION J President trait INTELLIGENT)
+R2b5. (VERSION K President trait INTELLIGENT)
+
+NOTES:",,
+V082423f,PreRandom.23f. Order of Pres cand/President trait HONEST,"PreRandom.21. (VERSION J/K traits)
+K1a6. (VERSION J Democratic Pres cand trait HONEST)
+K1b6. (VERSION K Democratic Pres cand trait HONEST)
+K2a6. (VERSION J Republican Pres cand trait HONEST)
+K2b6. (VERSION K Republican Pres cand trait HONEST)
+R2a6. (VERSION J President trait HONEST)
+R2b6. (VERSION K President trait HONEST)
+
+NOTES:",,
+V082423g,PreRandom.23g. Order of Pres cand/Pres trait OPTIMISTIC,"PreRandom.21. (VERSION J/K traits)
+K1a7. (VERSION J Democratic Pres cand trait OPTIMISTIC)
+K1b7. (VERSION K Democratic Pres cand trait OPTIMISTIC)
+K2a7. (VERSION J Republican Pres cand trait OPTIMISTIC)
+K2b7. (VERSION K Republican Pres cand trait OPTIMISTIC)
+R2a7. (VERSION J President trait OPTIMISTIC)
+R2b7. (VERSION K President trait OPTIMISTIC)
+
+NOTES:",,
+V082424,PreRandom.24. Order of Pres cands for OLD/NEW govt services,"N1c1. (VERSION OLD Democratic Pres cand spending-services)
+N1f1. - N1f1a. VERSION NEW Democratic Pres cand spending-services)
+N1c2. (VERSION OLD Republican Pres cand spending-services)
+N1f2. - N1f2a. VERSION NEW Republican Pres cand spending-services)
+PreRandom2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V082425,PreRandom.25. Order of Pres cands for OLD/NEW defense spendg,"N2c1. (VERSION OLD Democratic Pres cand defense spending)
+N2f1. - N2f1a. VERSION NEW Democratic Pres cand defense spending)
+N2c2. (VERSION OLD Republican Pres cand defense spending)
+N2f2. - N2f2a. VERSION NEW Republican Pres cand defense spending)
+PreRandom2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V082426,PreRandom.26. Order of Pres cands for OLD/NEW health insurnc,"N3c1. (VERSION OLD Democratic Pres cand health insurance)
+N3h1. - N3h1a. VERSION NEW Democratic Pres cand health insurance)
+N3c2. (VERSION OLD Republican Pres cand health insurance)
+N3h2. - N3h2a. VERSION NEW Republican Pres cand health insurance)
+PreRandom2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V082427,PreRandom.27. Order of Pres cands for OLD/NEW job security,"N4c1. (VERSION OLD Democratic Pres cand guaranteed jobs)
+N4h1. - N4h1a. VERSION NEW Democratic Pres cand guaranteed jobs)
+N4c2. (VERSION OLD Republican Pres cand guaranteed jobs)
+N4h2. - N4h2a. VERSION NEW Republican Pres guaranteed jobs)
+PreRandom2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V082428,PreRandom.28. Order of Pres cands for (OLD) aid to blacks,"N5c1. (VERSION OLD Democratic Pres cand aid to blacks)
+N5c2. (VERSION OLD Republican Pres cand aid to blacks)
+PreRandom2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V082429a,PreRandom.29a. Order of SOCIAL SECURITY federal spend item,"P1b. - P1b1a. (federal spending item SOCIAL SECURITY)
+
+NOTES:",,
+V082429b,PreRandom.29b. Order of PUBLIC SCHOOLS federal spending item,"P1c. - P1c1a. (federal spending item PUBLIC SCHOOLS)
+
+NOTES:",,
+V082429c,PreRandom.29c. Order of SCIENCE-TECHNGY federal spend item,"P1d. - P1d1a. (federal spending item SCIENCE AND TECHNOLOGY)
+
+NOTES:",,
+V082429d,PreRandom.29d. Order of CRIME federal spending item,"P1e. - P1e1a. (federal spending item CRIME)
+
+NOTES:",,
+V082429e,PreRandom.29e.  Order of WELFARE federal spending item,"P1f. - P1f1a. (federal spending item WELFARE)
+
+NOTES:",,
+V082429f,PreRandom.29f.  Order of CHILD CARE federal spending item,"P1g. - P1g1a. (federal spending item CHILD CARE)
+
+NOTES:",,
+V082429g,PreRandom.29g.  Order of FOREIGN AID federal spending item,"P1h. - P1h1a. (federal spending item FOREIGN AID)
+
+NOTES:",,
+V082429h,PreRandom.29h.  Order of AID TO POOR federal spending item,"P1j. - P1j1a. (federal spending item AID TO THE POOR)
+
+NOTES:",,
+V082429j,PreRandom.29j.  Order of BORDER SECURITY  federal spend item,"P1k. - P1k1a. (federal spending item TIGHTENING BORDERS)
+
+NOTES:",,
+V082429k,PreRandom.29k.  Order of WAR ON TERRORISM federal spend item,"P1m. - P1m1a. (federal spending item WAR ON TERRORISM)
+
+NOTES:",,
+V082429m,PreRandom.29m.  Order of ENVIRONMENT federal spend item,"P1n. - P1n1a. (federal spending item PROTECTING THE ENVIRONMENT)
+
+NOTES:",,
+V082430,PreRandom.30. Order of Pres cands for OLD/NEW envir protectn,"P4c1. (VERSION OLD Democratic Pres cand environment-jobs)
+P4f1. - P4f1a. (VERSION NEW Democratic Pres cand environment-jobs)
+P4c2. (VERSION OLD Republican Pres cand environment-jobs)
+P4f2. - P4f2a. (VERSION NEW Republican Pres cand environment-jobs)
+PreRandom2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V082431,PreRandom.31. Order of Dem-Rep Pres womens role placements,"P7c1. (VERSION OLD Democratic Pres cand women's role)
+P7c2. (VERSION OLD Republican Pres cand women's role)
+PreRandom2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V082432,PreRandom.32.  VERSION R or S election of black President,"Q1a1. - Q2a2. (VERSION R election of a black President)
+Q2b1. - Q2b2. (VERSION S election of a black President)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V082433a,PreRandom.33a. Order stereotype racial group BLACKS,"X10b. (stereotype ""hard-working"" - blacks)
+X11b. (stereotype ""intelligent"" - blacks)
+
+NOTES:",,
+V082433b,PreRandom.33b. Order stereotype racial group HISPANICS,"X10c. (stereotype ""hard-working"" - Hispanic-Americans)
+X11c. (stereotype ""intelligent"" - Hispanic-Americans)
+
+NOTES:",,
+V082433c,PreRandom.33c. Order stereotype racial group ASIANS,"X10d. (stereotype ""hard-working"" - Asian-Americans)
+X11d. (stereotype ""intelligent"" - Asian-Americans)
+
+NOTES:",,
+V082434,PreRandom.34.  VERSION M or N marital status question,"Y2a. (VERSION M marital status)
+Y2b. (VERSION N marital status)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083001a,A1a. [VERSION A] Interested in following campaigns,"PreRandom.3. (VERSION A/B campaign interest)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083001b,A1b. [VERSION B] Interested in following campaigns,"PreRandom.3. (VERSION A/B campaign interest)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083002,A2. How much has R thought about election for President,"How much have you thought about the upcoming elections for president?
+QUITE A LOT or ONLY A LITTLE?",,
+V083003,A3. Does R know where to go to vote in neighborhood,"Do you happen to know where people who live in your neighborhood go
+to vote?",,
+V083004,A4. Has R ever voted in precinct or election district,Have you ever voted in your precinct or election district?,,
+V083005,A5. How often does R vote,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083006,A6. How definite is R's intention to vote or not,"If ""1"" represents someone who will DEFINITELY NOT VOTE and ""10""
+represents someone who DEFINITELY WILL VOTE, where on this scale
+would you place yourself?",,
+V083007,A7. Did R vote for President in 2004,"Y1x. Age of Respondent
+
+NOTES:",,
+V083007a,A7a. Recall of last (2004) Presidential vote choice,"Y1x. Age of Respondent
+
+NOTES:",,
+V083008,A8a. Is there anything R likes about Democratic Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083009,A8b. What is it that R likes about Democratic Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083010,A8c. Is there anything R dislikes about Democratic Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083011,A8d. What is it that R dislikes about Democratic Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083012,A9a. Is there anything R likes about Republican Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083013,A9b. What is it that R likes about Republican Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083014,A9c. Is there anything R dislikes about Republican Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083015,A9d. What is it that R dislikes about Republican Pres cand,"PreRandom.4. (order of Pres cand likes-dislikes)
+
+NOTES:",,
+V083016,A10a. Will R feel happy or sad if Democratic Pres cand won,"If BARACK OBAMA wins the presidential election in November, will you
+feel HAPPY, SAD or NEITHER HAPPY NOR SAD?",,
+V083016a,A10a1. How happy/sad will R be if Democratic Pres cand won,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083016x,A10a1x. SUMMARY: R happy/sad if Democratic Pres cand won,"A10a. (happy/sad if Dem Pres cand won)
+A10a1.  (how happy/sad if Dem Pres cand won)
+
+NOTES:",,
+V083017,A10b. Will R feel happy or sad if Republican Pres cand won,"If JOHN MCCAIN wins the presidential election in November, will you
+feel HAPPY, SAD or NEITHER HAPPY NOR SAD?",,
+V083017a,A10b1a.  How happy/sad will R be if Republican Pres cand won,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083017x,A10b1x. SUMMARY: R happy/sad if Republican Pres cand won,"A10b. (happy/sad if Rep Pres cand won)
+A10b1.  (how happy/sad if Rep Pres cand won)
+
+NOTES:",,
+V083018,A11. Does R have access to the internet,Do you have access to the internet or the World Wide Web?,,
+V083019,A11b. [OLD] Days past week watched natl news on TV,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083019a,A11b1. [OLD] Attention to national (network) news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083020a,A11c1a. [OLD] Days past wk watched loc TV news aft/early eve,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083020b,A11c1b. [OLD] Days past wk watched local TV news late eve,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083020c,A11c2. [OLD] Attention to local news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083021a,A11d1a. [OLD] Days in past week read a daily newspaper,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083021b,A11d1b. [OLD] Days past week read a daily online newspaper,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083021c,A11d2. [OLD] Did R read about campaign in newspaper,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083021d,A11d2a. [OLD] Attention to newspaper articles,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083022,A11e. [OLD] Days in past week listen to radio news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083022a,A11e1. [OLD] Attention to radio news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083023,A12a1. [NEW] Days in typical week review news on internet,"PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083023a,A12a1a. [NEW] Time in typical day review news on internet,"PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083023b,A12a1a1. [NEW] Attention to internet news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083024,A12b. [NEW] Days in typical week watch news on TV,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083024a,A12b1. [NEW] Time in typical day watch news on TV,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083024b,A12b1a. [NEW] Attention to TV news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083025,A12c. [NEW] Days in typical wk read news in print newspaper,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083025a,A12c1. [NEW] Time in typical day read news in print newpaper,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083025b,A12c1a. [NEW] Attention to printed newspaper news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083026,A12d. [NEW] Days in typical week listen news on radio,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083026a,A12d1. [NEW] Time in typical day listen news on radio,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083026b,A12d1a. [NEW] Attention to radio news,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083027,A13. Are things in the country on right track,"Do you feel things in this country are generally going in the
+RIGHT DIRECTION, or do you feel things have pretty seriously
+gotten off on the WRONG TRACK?",,
+V083028,A14a. Approve/disapprove President handling job as Pres,"Do you APPROVE or DISAPPROVE of the way George W. Bush is handling
+his job as president?",,
+V083028a,A14a1. How much approve/disapp Pres handling job,"Do you approve STRONGLY or NOT STRONGLY? /
+Do you disapprove STRONGLY or NOT STRONGLY?",,
+V083028x,A14a1x. SUMMARY: R approve/disapp Pres handling job,"A14a. (approve/disapprove President handling job)
+A14a1. (how much approve/disapprove President handling job)
+
+NOTES:",,
+V083029,A14b. Approve/disapprove President handling economy,"Do you APPROVE or DISAPPROVE of the way George W. Bush is handling
+the economy?",,
+V083029a,A14b1. How much approve/disapprove Pres handling economy,"Do you approve STRONGLY or NOT STRONGLY? /
+Do you disapprove STRONGLY or NOT STRONGLY?",,
+V083029x,A14b1x. SUMMARY: R approve/disapp Pres handling economy,"A14b. (approve/disapprove President handling economy)
+A14b1. (how much approve/disapprove President handling economy)
+
+NOTES:",,
+V083030,A14c. Approve/disapprove President handling foreign relation,"Do you APPROVE or DISAPPROVE of the way George W. Bush is handling
+relations with foreign countries?",,
+V083030a,A14c1. How much approve/disapprove Pres handling foreign rel,"Do you approve STRONGLY or NOT STRONGLY? /
+Do you disapprove STRONGLY or NOT STRONGLY?",,
+V083030x,A14c1x. SUMMARY: R approve/disapp Pres handling foreign rel,"A14c. (approve/disapprove President handling foreign relations)
+A14c1. (how much approve/disapprove President handling foreign relations)
+
+NOTES:",,
+V083031,A14d. Approve/disapprove President handling the environment,"Do you APPROVE or DISAPPROVE of the way George W. Bush is handling
+the environment?",,
+V083031a,A14d1. How much approve/disapprove Pres handling environment,"Do you approve STRONGLY or NOT STRONGLY? /
+Do you disapprove STRONGLY or NOT STRONGLY?",,
+V083031x,A14d1x. SUMMARY: R approve/disapp Pres handling environment,"A14d. (approve/disapprove President handling the environment)
+A14d1. (how much approve/disapprove President handling the environment)
+
+NOTES:",,
+V083032,A14e. Approve/disapprove President handling health care,"Do you APPROVE or DISAPPROVE of the way George W. Bush is handling
+health care?",,
+V083032a,A14e1. How much approve/disapprove Pres handling health care,"Do you approve STRONGLY or NOT STRONGLY? /
+Do you disapprove STRONGLY or NOT STRONGLY?",,
+V083032x,A14e1x. SUMMARY: R approve/disapp Pres handling health care,"A14e. (approve/disapprove President handling health care)
+A14e1. (how much approve/disapprove President handling health care)
+
+NOTES:",,
+V083033,A14f. Approve/disapprove President handling war in Iraq,"Do you APPROVE or DISAPPROVE of the way George W. Bush is handling
+the war in Iraq?",,
+V083033a,A14f1. How much approve/disapprove Pres handling war in Iraq,"Do you approve STRONGLY or NOT STRONGLY? /
+Do you disapprove STRONGLY or NOT STRONGLY?",,
+V083033x,A14f1x. SUMMARY: R approve/disapp Pres handling war in Iraq,"A14f. (approve/disapprove President handling the war in Iraq)
+A14f1. (how much approve/disapprove President handling the war in Iraq)
+
+NOTES:",,
+V083034,A15. Care who wins House election,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083035,A16. Approval of Congress handling its job,"Do you APPROVE or DISAPPROVE of the way the U.S. Congress has
+been handling its job?",,
+V083035a,A16a. Strength appr/disapprove Congress handling its job,"Do you approve STRONGLY or NOT STRONGLY? /
+Do you disapprove STRONGLY or NOT STRONGLY?",,
+V083035x,A16ax. SUMMARY: R approve/disapp Congress handling job,"A16. (approve/Disapprove Congress handling its job)
+A16a. (how much approve/Disapprove Congress handling its job)
+
+NOTES:",,
+V083036,B1a. Feeling Thermometer: President,"PreRandom.5. (order of Pres cand thermometers)
+
+NOTES:",,
+V083037b,B1b2. Feeling Thermometer: Republican Presidential cand,"PreRandom.5. (order of Pres cand thermometers)
+
+NOTES:",,
+V083038,B1c. Names: Feeling Thermometer Vice Presidential cands,"B1c1. (Democratic Vice Pres cand thermometer)
+B1c2. (Republican Vice Pres cand thermometer)
+
+NOTES:",,
+V083039a,B1c1. Feeling Thermometer: Democratic Vice-Pres cand,"B1c. (names - Vice Pres candidate thermometers)
+PreRandom.6a. (order of Democratic Vice Pres cand thermometer)
+
+NOTES:",,
+V083039b,B1c2. Feeling Thermometer: Republican Vice-Pres cand,"B1c. (names - Vice Pres candidate thermometers)
+PreRandom.6b. (order of Republican Vice Pres cand thermometer)
+
+NOTES:",,
+V083040,B1d. Feeling Thermometer: Hillary Clinton,"PreRandom.6c. (order of Hillary Clinton thermometer)
+
+NOTES:",,
+V083041,B1e. Feeling Thermometer: Bill Clinton,"PreRandom.6d. (order of Bill Clinton thermometer)
+
+NOTES:",,
+V083042,B1f. Feeling Thermometer: Condoleezza Rice,"PreRandom.6e. (order of Condoleezza Rice thermometer)
+
+NOTES:",,
+V083043,B1g. Feeling Thermometer: Rush Limbaugh,"PreRandom.6f. (order of Rush Limbaugh thermometer)
+
+NOTES:",,
+V083044a,B1h. Feeling Thermometer: Democratic Party,"PreRandom.7. (order of party thermometers)
+
+NOTES:",,
+V083044b,B1j. Feeling Thermometer: Republican Party,"PreRandom.7. (order of party thermometers)
+
+NOTES:",,
+V083045,C1a. Is there anything R likes about Democratic Party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083046,C1b. What does R like about Democratic party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083047,C1c. Is there anything R dislikes about Democratic Party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083048,C1d. What does R dislike about the Democratic party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083049,C2a. Is there anything R likes about Republican Party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083050,C2b. What does R like about Republican party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083051,C2c. Is there anything R dislikes about Republican Party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083052,C2d. What does R dislike about the Republican party,"PreRandom.8. (order of party likes-dislikes)
+
+NOTES:",,
+V083053,C3. Is it better when one party controls presidency and Cong,"Do you think it is better when ONE PARTY CONTROLS both the
+presidency and Congress, better when CONTROL IS SPLIT between
+the Democrats and Republicans, or DOESN'T IT MATTER?",,
+V083054,C4a. How similar are Republicans to one another,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083055,C4b. How similar are Democrats to one another,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083056,C5_. R living with family members,"Now on another topic. Are you living at home with one or more
+persons who are family members?",,
+V083057,C5. R better/worse off than 1 year ago,"C5_. (R living with family members)
+
+NOTES:",,
+V083057a,C5a. R how much better/worse off than 1 year ago,"MUCH better or SOMEWHAT better? /
+MUCH worse or SOMEWHAT worse?",,
+V083057x,C5ax. SUMMARY: R better/worse off than 1 year ago,"C5. (better/worse off than 1 yr ago)
+C5a. (how much better/worse off than 1 yr ago)
+
+NOTES:",,
+V083058,C6. Will R be financially better/worse off one year from now,"Now looking ahead, do you think that a year from now [you / you and
+your family living here] will be BETTER OFF financially, WORSE
+OFF, or JUST ABOUT THE SAME as now?",,
+V083058a,C6a. R how much better/worse off 1 year from now,"MUCH better or SOMEWHAT better? /
+MUCH worse or SOMEWHAT worse?",,
+V083058x,C6x. SUMMARY: R better/worse off 1 year from now,"C6. (better/worse off than 1 yr from now)
+C6a. (how much better/worse off 1 yr from now)
+
+NOTES:",,
+V083059,C7. Does R or spouse have any money invested in stock market,"Do you personally, or jointly with a spouse, have any MONEY
+INVESTED IN THE STOCK MARKET right now -- either in an
+individual stock or in a mutual fund?",,
+V083060,C8. Does R have health insurance,Do you presently have any kind of health insurance?,,
+V083061,D1a. Affect for Democratic Pres cand: angry,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+
+NOTES:",,
+V083061a,D1a1. How often affect angry about Democratic Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083062,D1b. Affect for Democratic Pres cand: hopeful,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10b. (order of affect HOPEFUL)
+
+NOTES:",,
+V083062a,D1b1. How often affect hopeful about Democratic Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083063,D1c. Affect for Democratic Pres cand: afraid,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10c. (order of affect AFRAID)
+
+NOTES:",,
+V083063a,D1c1. How often affect afraid about Democratic Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083064,D1d. Affect for Democratic Pres cand: proud,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10d. (order of affect PROUD)
+
+NOTES:",,
+V083064a,D1d1. How often affect proud about Democratic Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083065,D2a. Affect for Republican Pres cand: angry,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+
+NOTES:",,
+V083065a,D2a1. How often affect angry about Republican Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083066,D2b. Affect for Republican Pres cand: hopeful,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10b. (order of affect HOPEFUL)
+
+NOTES:",,
+V083066a,D2b1. How often affect hopeful about Republican Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083067,D2c. Affect for Republican Pres cand: afraid,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10c. (order of affect AFRAID)
+
+NOTES:",,
+V083067a,D2c1. How often affect afraid about Republican Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083068,D2d. Affect for Republican Pres cand: proud,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10d. (order of affect PROUD)
+
+NOTES:",,
+V083068a,D2d1. How often affect proud about Republican Pres cand,"PreRandom.9. (order of Pres cands - affects questions)
+PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083069,E1a. Liberal/conservative self-placement -7-point scale,"Where would you place YOURSELF on this scale, or haven't you
+thought much about this?",,
+V083069a,E1b. If R had to choose liberal or conservative self-placemt,"If you had to choose, would you consider yourself a LIBERAL or a
+CONSERVATIVE?",,
+V083069x,E1x. SUMMARY: R self-placement 3pt liberal-conservative,"E1a. (Liberal/conservative self-placement -7-point scale)
+E1b. (If R had to choose liberal or conservative self-placemt)
+
+NOTES:",,
+V083070a,E2a. Liberal/conservative - Dem Pres cand,"PreRandom.11. (order of Pres cand liberal-conservative placements)
+
+NOTES:",,
+V083070b,E2b. Liberal/conservative - Rep Pres cand,"PreRandom.11. (order of Pres cand liberal-conservative placements)
+
+NOTES:",,
+V083071a,E3a. Liberal/conservative Dem party,"PreRandom.12. (order of party liberal-conservative placements)
+
+NOTES:",,
+V083071b,E3b. Liberal/conservative Rep party,"PreRandom.12. (order of party liberal-conservative placements)
+
+NOTES:",,
+V083072,E4. Care who wins Presidential Election,"Generally speaking, would you say that you personally CARE
+A GOOD DEAL who wins the presidential election this fall, or
+that you DON'T CARE VERY MUCH who wins?",,
+V083073,E5. Who does R think will be elected President,Who do you think will be elected President in November?,,
+V083074,E5a. Will Pres race be a close or will (winner) win by a lot,INTERVIEWER INSTRUCTION:,,
+V083076,E6a. Will Pres race be close in state,VALID CODES:,,
+V083077a,E7a. For which candidate did R vote in Presidential primary,For which presidential candidate did you cast a vote?,,
+V083078,E8. Does R believe in duty to vote in every natl election,"Generally speaking, do you believe that you HAVE A DUTY to vote
+in every national election, or do you believe that you DO NOT
+HAVE A DUTY to vote in every national election?",,
+V083079a,E9a. [VERSION C] Politics/govt too complicated to understand,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083079b,E9b. [VERSION C] Good understanding of political issues,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083079c,E9c. [VERSION C] Publ officials don't care what people think,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083079d,E9d. [VERSION C] Have no say about what govt does,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083080a,E10a. [VERSION D] Politics/govt too complicatd to understand,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083080b,E10b. [VERSION D] Good understanding of political issues,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083080c,E10c. [VERSION D] Publ officials don't care what peopl think,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083080d,E10d. [VERSION D] Have no say about what govt does,"PreRandom.14. (VERSION C/D efficacy)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083081,E11. Extent successfully defend opinion,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083082,E12. How often see both disagreeing parties as right,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083083,F1. National economy better/worse in last year,"Now thinking about the economy in the country as a whole, would
+you say that over the past year the nation's economy has gotten
+BETTER, stayed ABOUT THE SAME, or gotten WORSE?",,
+V083083a,F1a. How much economy better/worse in last year,"MUCH better or SOMEWHAT better? /
+MUCH worse or SOMEWHAT worse?",,
+V083083x,F1ax. SUMMARY: economy better worse in last year,"F1. (economy better/worse in last year)
+F1a. (how much economy better/worse in last year)
+
+NOTES:",,
+V083084,F2a. [VERSION E] Economy better or worse in next 12 months,"PreRandom.14. (VERSION E/F economy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083084a,F2a1. [VERSION E] How much econ better/worse next 12 months,"PreRandom.14. (VERSION E/F economy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083084x,F2a1x. [VERSION E] SUMMARY: economy better/worse next 12 mos,"F2a. (economy better/worse in next 12 months)
+F2a1. (how much economy better/worse in next 12 months)
+PreRandom.14. (VERSION E/F economy)
+
+NOTES:",,
+V083085,F2b1. [VERSION F] Economy better/worse if Dem Pres cand wins,"PreRandom.14. (VERSION E/F economy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083085a,F2b1a. [VERSION F] How much econ bett/worse if Dem Pres wins,"PreRandom.14. (VERSION E/F economy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083085x,F2b1ax. [VERSION F] SUMMARY: bett/wrse if Dem Pres cand win,"F2b1. (better/worse if Dem Pres cand won)
+F2b1a. (how much better/worse if Dem Pres cand won)
+PreRandom.14. (VERSION E/F economy)
+
+NOTES:",,
+V083086,F2b2. [VERSION F] Economy better/worse if Rep Pres cand wins,"PreRandom.14. (VERSION E/F economy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083086a,F2b2a.[VERSION F]  How much econ bett/worse if Rep Pres wins,"PreRandom.14. (VERSION E/F economy)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083086x,F2b2ax. [VERSION F] SUMMARY: bett/wrse if Rep Pres cand win,"F2b2. (better/worse if Rep Pres cand won)
+F2b2a. (how much better/worse if Rep Pres cand won)
+PreRandom.14. (VERSION E/F economy)
+
+NOTES:",,
+V083087,F3. Unemployment better or worse in last year,"PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083087a,F3a. How much unemployment better or worse in last year,"PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083087x,F3ax. SUMMARY: unemployment better/worse in last year,"F3. (unemployment better/worse in last year)
+F3a. (how much unemployment better/worse in last year)
+PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083088,F4. More or less unemployment in next year,"PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083089,F5. Inflation better or worse in last year,"PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083089a,F5a. How much inflation better or worse in last year,"PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083089x,F5ax. SUMMARY: inflation better/worse in last year,"F5. (inflation better/worse in last year)
+F5a. (how much inflation better/worse in last year)
+PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083090,F6. More or less inflation in next year,"PreRandom.16. (order of unemployment and inflation)
+
+NOTES:",,
+V083091,F7. Could R borrow money if R needed to,"If you really needed to borrow money, could you borrow money
+from a family member or a close friend, or is there no family
+member or close friend you could borrow money from?",,
+V083091a,F7a. How much money could R borrow if R needed to,"{IF NEEDED, PROBE: What would be your best guess? RECORD IN
+WHOLE U.S. DOLLARS}
+
+VALID CODES:",,
+V083092a,F8a. [VERSION G] Can people be trusted,"PreRandom.21. (VERSION G/H social trust)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083092b,F8b. [VERSION H] Can people be trusted,"PreRandom.21. (VERSION G/H social trust)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083093,G1. Which party better: handling nations economy,"PreRandom.18. (order of parties in text of party performance)
+
+NOTES:",,
+V083094a,G2a. [VERSION P] Which party better: keeping out of war,"PreRandom.18. (order of parties in text of party performance)
+PreRandom.19. (VERSION P/Q party war performance)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083094b,G2b. [VERSION Q] Which party: more likely to involve in war,"PreRandom.18. (order of parties in text of party performance)
+PreRandom.19. (VERSION P/Q party war performance)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083095,"H1. During last year, U.S. position in world weaker/stronger","Turning to some other types of issues facing the country.
+During the past year, would you say that the United States'
+position in the world has grown WEAKER, stayed ABOUT THE SAME,
+or has it grown STRONGER?",,
+V083096,H2. Country would be better off if we just stayed home,"Do you AGREE or DISAGREE with this statement:
+'This country would be better off if we just stayed home
+and did not concern ourselves with problems in other parts
+of the world.'",,
+V083097,"J1. Party ID: Does R think of self as Dem, Rep, Ind or what","PreRandom.20. (order of parties in text of party id)
+
+NOTES:",,
+V083098a,J1a. Party Identification strong - Democrat/Republican,"Would you call yourself a STRONG Democrat or a NOT VERY STRONG
+Democrat /
+Would you call yourself a STRONG Republican or a NOT VERY STRONG
+Republican?",,
+V083098b,J1b. No Party Identification - closer to Dems or Reps,"Do you think of yourself as CLOSER to the Republican Party or
+to the Democratic party?",,
+V083098x,J1x. SUMMARY: R Party Identification,"J1. (R think of self as Democrat, Republican or what)
+J1a. (is R strong or not strong Democrat/Republican)
+J1b. (is R closer to Republican party or Democratic party)
+
+NOTES:",,
+V083099a,K1a1. [VERSION J] Pres Dem cand trait moral,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23a. (order of trait MORAL)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083099b,K1a2. [VERSION J] Pres Dem cand trait strong leadership,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23b. (order of trait STRONG LEADERSHIP)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083099c,K1a3. [VERSION J] Pres Dem cand trait really cares,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23c. (order of trait REALLY CARES)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083099d,K1a4. [VERSION J] Pres Dem cand trait knowledgeable,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23d. (order of trait KNOWLEDGEABLE)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083099e,K1a5. [VERSION J] Pres Dem cand trait intelligent,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23e. (order of trait INTELLIGENT)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083099f,K1a6. [VERSION J] Pres Dem cand trait honest,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23f. (order of trait HONEST)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083099g,K1a7. [VERSION J] Pres Dem cand trait optimistic,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23g. (order of trait OPTIMISTIC)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083100a,K1b1. [VERSION K] Pres Dem cand trait moral,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23a. (order of trait MORAL)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083100b,K1b2. [VERSION K] Pres Dem cand trait strong leadership,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23b. (order of trait STRONG LEADERSHIP)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083100c,K1b3. [VERSION K] Pres Dem cand trait really cares,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23c. (order of trait REALLY CARES)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083100d,K1b4. [VERSION K] Pres Dem cand trait knowledgeable,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23d. (order of trait KNOWLEDGEABLE)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083100e,K1b5. [VERSION K] Pres Dem cand trait intelligent,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23e. (order of trait INTELLIGENT)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083100f,K1b6. [VERSION K] Pres Dem cand trait honest,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23f. (order of trait HONEST)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083100g,K1b7. [VERSION K] Pres Dem cand trait optimistic,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23g. (order of trait OPTIMISTIC)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083101a,K2a1. [VERSION J] Pres Rep cand trait moral,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23a. (order of trait MORAL)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083101b,K2a2. [VERSION J] Pres Rep cand trait strong leadership,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23b. (order of trait STRONG LEADERSHIP)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083101c,K2a3. [VERSION J] Pres Rep cand trait really cares,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23c. (order of trait REALLY CARES)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083101d,K2a4. [VERSION J] Pres Rep cand trait knowledgeable,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23d. (order of trait KNOWLEDGEABLE)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083101e,K2a5. [VERSION J] Pres Rep cand trait intelligent,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23e. (order of trait INTELLIGENT)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083101f,K2a6. [VERSION J] Pres Rep cand trait honest,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23f. (order of trait HONEST)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083101g,K2a7. [VERSION J] Pres Rep cand trait optimistic,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23g. (order of trait OPTIMISTIC)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083102a,K2b1. [VERSION K] Pres Rep cand trait moral,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23a. (order of trait MORAL)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083102b,K2b2. [VERSION K] Pres Rep cand trait strong leadership,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23b. (order of trait STRONG LEADERSHIP)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083102c,K2b3. [VERSION K] Pres Rep cand trait really cares,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23c. (order of trait REALLY CARES)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083102d,K2b4. [VERSION K] Pres Rep cand trait knowledgeable,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23d. (order of trait KNOWLEDGEABLE)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083102e,K2b5. [VERSION K] Pres Rep cand trait intelligent,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23e. (order of trait INTELLIGENT)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083102f,K2b6. [VERSION K] Pres Rep cand trait honest,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23f. (order of trait HONEST)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083102g,K2b7. [VERSION K] Pres Rep cand trait optimistic,"PreRandom.21. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.22. (order of Pres cands - traits)
+PreRandom.23g. (order of trait OPTIMISTIC)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083103,M1a. Was Iraq war worth the cost,"Taking everything into account, do you think the war in Iraq
+has been WORTH THE COST or NOT?",,
+V083104,M2. Iraq war increased or decreased threat of terrorism,"As a result of the United States military action in Iraq, do
+you think the threat of terrorism against the United States has
+INCREASED, DECREASED, or stayed ABOUT THE SAME?",,
+V083105,N1a. [OLD] Spending and Services - 7-point scale self,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083106,N1b. [OLD] Importance of spending-services issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083107a,N1c1. [OLD] Spending and Services: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.24. (order of Pres cands - spending-services)
+
+NOTES:",,
+V083107b,N1c2. [OLD] Spending and Services: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.24. (order of Pres cands - spending-services)
+
+NOTES:",,
+V083108,N1d. [NEW] Spending and Services - self,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083108a,N1d1. [NEW] Amount more/less spending and Services - self,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083108x,N1d1x. [NEW] SUMMARY: R position on services-spending,"N1d. (should government spend more, less or same on services)
+N1d1. (how much more/less should government spend on services)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083109,N1e. [NEW] Importance of spending-services issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083110,N1f1. [NEW] Spending and Services: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.24. (order of Pres cands - spending-services)
+
+NOTES:",,
+V083110a,N1f1a. [NEW] Amt more/less spending-services: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.24. (order of Pres cands - spending-services)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083110x,N1f1ax. [NEW] SUMMARY: Dem Pres cand position on serv-spend,"N1f1. (Dem Pres cand thinks government spend more, less or same on services)
+N1f1a. (Dem Pres cand thinks how much more/less spending on services)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083111,N1f2. [NEW] Spending and Services: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.24. (order of Pres cands - spending-services)
+
+NOTES:",,
+V083111a,N1f2a. [NEW] Amt more/less spending-services: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.24. (order of Pres cands - spending-services)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083111x,N1f2ax. [NEW] SUMMARY: Rep Pres cand position on serv-spend,"N1f2. (Rep Pres cand thinks government spend more, less or same on services)
+N1f2a. (Rep Pres cand thinks how much more/less spending on services)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083112,N2a. [OLD] Defense spending - 7-point scale self,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083113,N2b. [OLD] Importance of defense spending issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083114a,N2c1. [OLD] Defense spending scale: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.25. (order of Pres cands - defense spending)
+
+NOTES:",,
+V083114b,N2c2.[OLD]  Defense spending scale: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.25. (order of Pres cands - defense spending)
+
+NOTES:",,
+V083115,N2d. [NEW] Defense spending - self,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083115a,N2d1. [NEW] Amount more/less defense spending - self,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083115x,N2d1x. [NEW] SUMMARY: R position on def spend,"N2d. (should government spend more, less or same on defense)
+N2d1. (how much more/less should government spend on defense)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083116,N2e. [NEW] Importance of defense spend issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083117,N2f1. [NEW] Defense spending: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.25. (order of Pres cands - defense spending)
+
+NOTES:",,
+V083117a,N2f1a. [NEW] Amt more/less defense spend: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.25. (order of Pres cands - defense spending)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083117x,N2f1ax. [NEW] SUMMARY: Dem Pres cand position on def spend,"N2f1. (Dem Pres cand thinks government spend more, less or same on defense)
+N2f1a. (Dem Pres cand thinks how much more/less spending on defense)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083118,N2f2. [NEW] Defense spending: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.25. (order of Pres cands - defense spending)
+
+NOTES:",,
+V083118a,N2f2a. [NEW] Amt more/less defense spend: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.25. (order of Pres cands - defense spending)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083118x,N2f2ax. [NEW] SUMMARY: Rep Pres cand position on def spend,"N2f2. (Rep Pres cand thinks government spend more, less or same on defense)
+N2f2a. (Rep Pres cand thinks how much more/less spending on defense)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083119,N3a. [OLD] Govt/private medical insur scale: self-placement,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083120,N3b. [OLD] Importance of govt insurance issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083121a,N3c1. [OLD] Insurance scale: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.26. (order of Pres cands - health insurance)
+
+NOTES:",,
+V083121b,N3c2. [OLD] Insurance scale: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.26. (order of Pres cands - health insurance)
+
+NOTES:",,
+V083122,N3d. [NEW] Favor/opp prescription drug coverage for seniors,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083122a,N3d1. [NEW] How much favor/opp prescr drug cover for seniors,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083122x,N3d1x. [NEW] SUMMARY: R position on senior prescr drug cover,"N3d. (favor/oppose senior prescription drug coverage)
+N3d1. (how much favor/oppose senior prescription drug coverage)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083123,N3e. [NEW] Importance of prescript drug coverage for seniors,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083124,N3f. [NEW] Favor/oppose universal health coverage,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083124a,N3f1. [NEW] How much favor/oppose universal health coverage,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083124x,N3f1x. [NEW] SUMMARY: R position on universal health care,"N3f. (favor/oppose universal health care)
+N3f1. (how much favor/oppose universal health care)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083125,N3g. [NEW] Importance of universal health coverage,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083126,N3h1. [NEW] Dem pres cand favor/opp universal health cover,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.26. (order of Pres cands - health insurance)
+
+NOTES:",,
+V083126a,N3h1a. [NEW] How mch Dem Pres cand fav/opp univ health cover,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.26. (order of Pres cands - health insurance)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083126x,N3h1ax. [NEW] SUMMARY: Dem Pres cand posn on univ healthcare,"N3h1. (Dem Pres cand favor/oppose universal health care)
+N3h1a. (how much Dem Pres cand favor/oppose universal health care)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083127,N3h2. NEW] Rep pres cand favor/opp universal health cover,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.26. (order of Pres cands - health insurance)
+
+NOTES:",,
+V083127a,N3h2a. [NEW] How mch Rep Pres cand fav/opp univ health cover,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.26. (order of Pres cands - health insurance)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083127x,N3h2ax. [NEW] SUMMARY: Rep Pres cand posn on univ healthcare,"N3h2. (Rep Pres cand favor/oppose universal health care)
+N3h2a. (how much Rep Pres cand favor/oppose universal health care)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083128,N4a. [OLD] Guaranteed job-income scale: self-placement,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083129,N4b. [OLD] Importance of guaranteed job-income issue to,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083130a,N4c1. [OLD] Guar job scale: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.27. (order of Pres cands - guaranteed jobs)
+
+NOTES:",,
+V083130b,N4c2. [OLD] Guar job scale: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.27. (order of Pres cands - guaranteed jobs)
+
+NOTES:",,
+V083131,N4d. [NEW] Favor/oppose illegal immigrant work period,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083131a,N4d1. [NEW] How much favor/opp illegal immigrant work period,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083131x,N4d1x. [NEW] SUMMARY: R on illegal immigr work period,"N4d. (favor/oppose work period for illegal alients)
+N4d1. (how much favor/oppose work period for illegal alients)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083132,N4e. [NEW] Importance of illegal immigrant work period,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083133,N4f. [NEW] Favor/opp citizenshp process for illeg immigrants,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083133a,N4f1. [NEW] How much favor/oppose citizenship illegals,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083133x,N4f1x. [NEW] SUMMARY: R on illegal immigr citizenshp process,"N4f. (favor/oppose illegal immigrant process to become citizens)
+N4f1. (How much favor/oppose illegal immigrant process to become citizens)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083134,N4g. [NEW] Importance of citizenship illegals issue,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083135,N4h1. [NEW] Dem Pres cand favor/oppose citizenship illegals,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.27. (order of Pres cands - guaranteed jobs)
+
+NOTES:",,
+V083135a,N4h1a. [NEW] How mch Dem Pres cand fav/opp citznshp illegals,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.27. (order of Pres cands - guaranteed jobs)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083135x,N4h1ax. [NEW] SUMMARY: Dem Pres cand on illeg immgr citznshp,"N4h1. (Dem Pres cand favor/oppose illegal immigrant process to become citizens)
+N4h1a. (How mch Dem Pres cand fav/opp citznshp illegals)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083136,N4h2. [NEW] Rep pres cand favor/oppose citizenship illegals,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.27. (order of Pres cands - guaranteed jobs)
+
+NOTES:",,
+V083136a,N4h2a. [NEW] How mch Rep Pres cand fav/opp citznshp illegals,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.27. (order of Pres cands - guaranteed jobs)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083136x,N4h2ax. [NEW] SUMMARY: Rep Pres cand on illeg immgr citznshp,"N4h2. (Rep Pres cand favor/oppose illegal immigrant process to become citizens)
+N4h2a. (How much Rep Pres cand fav/opp citznshp illegals)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083137,N5a. Govt assistance to blacks scale: self-placement,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083138a,N5b1. [OLD] Importance of aid to blacks issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083138b,N5b2. [NEW] Importance of aid to blacks issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083139a,N5c1. Aid to blacks Placement: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083139b,N5c2. Aid to blacks Placement: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083140,P1a. Federal Budget Spending: building-repairing highways,"BUILDING AND REPAIRING HIGHWAYS
+If you had a say in making up the federal budget this year,
+should federal spending on building and repairing highways
+be INCREASED, DECREASED, or kept ABOUT THE SAME?",,
+V083140a,P1a1. How much increase or decrease spending on highways,"PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083140x,P1a1x. SUMMARY: increase or decrease spending on highways,"P1a. (increase or decrease spending on highways)
+P1a1. (how much increase or decrease spending on highways)
+
+NOTES:",,
+V083141,P1b. Federal Budget Spending: Social Security,"PreRandom.29a. (order of federal spending - SOCIAL SECURITY)
+
+NOTES:",,
+V083141a,P1b1. How much increase or decrease spend on Soc Security,"PreRandom.29a. (order of federal spending - SOCIAL SECURITY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083141x,P1b1x. SUMMARY: increase or decrease spend on Soc Security,"P1b. (increase or decrease spending on Social Security)
+P1b1. (how much increase or decrease spending on Social Security)
+
+NOTES:",,
+V083142,P1c. Federal Budget Spending: public schools,"PreRandom.29b. (order of federal spending - PUBLIC SCHOOLS)
+
+NOTES:",,
+V083142a,P1c1. How much increase or decrease spend on public schools,"PreRandom.29b. (order of federal spending - PUBLIC SCHOOLS)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083142x,P1c1x. SUMMARY: increase or decrease spend on public schools,"P1c. (increase or decrease spending on public schools)
+P1c1. (how much increase or decrease spending on public schools)
+
+NOTES:",,
+V083143,P1d. Federal Budget Spending: science and technology,"PreRandom.29c. (order of federal spending - SCIENCE AND TECHNOLOGY)
+
+NOTES:",,
+V083143a,P1d1. How much increase/decrease spend on science and techn,"PreRandom.29c. (order of federal spending - SCIENCE AND TECHNOLOGY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083143x,P1d1x. SUMMARY: increase/decrease spend on science and techn,"P1d. (increase or decrease spending on science and technology)
+P1d1. (how much increase or decrease spending on science and technology)
+
+NOTES:",,
+V083144,P1e. Federal Budget Spending: dealing with crime,"PreRandom.29d. (order of federal spending - CRIME)
+
+NOTES:",,
+V083144a,P1e1. How much increase or decrease spending on crime,"PreRandom.29d. (order of federal spending - CRIME)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083144x,P1e1x. SUMMARY: increase or decrease spending on crime,"P1e. (increase or decrease spending on crime)
+P1e1. (how much increase or decrease spending on crime)
+
+NOTES:",,
+V083145,P1f. Federal Budget Spending: welfare programs,"PreRandom.29e. (order of federal spending - WELFARE PROGRAMS)
+
+NOTES:",,
+V083145a,P1f1. How much increase or decrease spending on welfare,"PreRandom.29e. (order of federal spending - WELFARE PROGRAMS)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083145x,P1f1x. SUMMARY: increase or decrease spending on welfare,"P1f. (increase or decrease spending on welfare)
+P1f1. (how much increase or decrease spending on welfare)
+
+NOTES:",,
+V083146,P1g. Federal Budget Spending: child care,"PreRandom.29F. (order of federal spending - CHILD CARE)
+
+NOTES:",,
+V083146a,P1g1. How much increase or decrease spending on child care,"PreRandom.29F. (order of federal spending - CHILD CARE)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083146x,P1g1x. SUMMARY: increase or decrease spending on child care,"P1g. (increase or decrease spending on child care)
+P1g1. (how much increase or decrease spending on child care)
+
+NOTES:",,
+V083147,P1h. Federal Budget Spending: foreign aid,"PreRandom.29g. (order of federal spending - FOREIGN AID)
+
+NOTES:",,
+V083147a,P1h1. How much increase or decrease spending on foreign aid,"PreRandom.29g. (order of federal spending - FOREIGN AID)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083147x,P1h1x. SUMMARY: increase or decrease spending on foreign aid,"P1h. (increase or decrease spending on foreign aid)
+P1h1. (how much increase or decrease spending on foreign aid)
+
+NOTES:",,
+V083148,P1j. Federal Budget Spending: aid to the poor,"PreRandom.29H. (order of federal spending - AID TO THE POOR)
+
+NOTES:",,
+V083148a,P1j1. How much increase or decrease spending on aid to poor,"PreRandom.29H. (order of federal spending - AID TO THE POOR)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083148x,P1j1x. SUMMARY: increase or decrease spending on aid to poor,"P1j. (increase or decrease spending on aid to poor)
+P1j1. (how much increase or decrease spending on aid to poor)
+
+NOTES:",,
+V083149,P1k. Federal Budget Spending: border security,"PreRandom.29j. (order of federal spending - TIGHTENING BORDER)
+
+NOTES:",,
+V083149a,P1k1. How much increase or decrease spending on border,"PreRandom.29j. (order of federal spending - TIGHTENING BORDER)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083149x,P1k1x. SUMMARY: increase or decrease spending on border,"P1k. (increase or decrease spending on tightening border)
+P1k1. (how much increase or decrease spending on tightening border)
+
+NOTES:",,
+V083150,P1m. Federal Budget Spending: war on terrorism,"PreRandom.29k. (order of federal spending - WAR ON TERRORISM)
+
+NOTES:",,
+V083150a,P1m1. How much increase/decrease spendg on war on terrorism,"PreRandom.29k. (order of federal spending - WAR ON TERRORISM)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083150x,P1m1x. SUMMARY: increase/decrease spendg on war on terrorism,"P1m. (increase or decrease spending on war on terrorism)
+P1m1. (how much increase or decrease spending on war on terrorism)
+
+NOTES:",,
+V083151,P1n. Federal Budget Spending: protecting the environment,"PreRandom.29m. (order of federal spending - PROTECTING ENVIRONMENT)
+
+NOTES:",,
+V083151a,P1n1. How much increase or decrease spending on environment,"PreRandom.29m. (order of federal spending - PROTECTING ENVIRONMENT)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083151x,P1n1x. SUMMARY: increase or decrease spending on environment,"P1n. (increase or decrease spending on the environment)
+P1n1. (how much increase or decrease spending on the environment)
+
+NOTES:",,
+V083152,P2. Statement best agrees with R about graduated tax,"Please look at page 13 of the Respondent Booklet.
+Which one of the following opinions best agrees with your view?
+You can just tell me the number of the opinion you choose.
+One:
+People who make more money should pay a LARGER PERCENT of
+their income in taxes to the government than people who make
+less money.
+Two:
+people who make more money should pay a SMALLER PERCENT of
+their income in taxes to the government than people who make
+less money.
+Three:
+the amount of money people make SHOULD NOT DETERMINE what
+percent of their income they pay in taxes.",,
+V083153,P3. Big companies pay larger or smaller perc of profits,"Do you think that big companies should pay a LARGER percent
+of their profits in taxes than small businesses do, that big
+companies should pay a SMALLER percent of their profits in
+taxes than small businesses do, or that big companies and small
+businesses should pay the SAME percent of their profits in taxes?",,
+V083154,P4a. [OLD]Environment vs. jobs tradeoff scale - self-place,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083155,P4b. [OLD] Importance of environment/jobs issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083156a,P4c1. [OLD] Protect Environment/Jobs: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.30. (order of Pres cands - environment)
+
+NOTES:",,
+V083156b,P4c2. [OLD] Protect Environment/Jobs: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.30. (order of Pres cands - environment)
+
+NOTES:",,
+V083157,P4d. [NEW] Favor/oppose lower emission stds,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.30. (order of Pres cands - environment)
+
+NOTES:",,
+V083157a,P4d1. [NEW] How much favor/oppose lower emission stds,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083157x,P4d1x. [NEW] SUMMARY: favor/oppose lower emission stds,"P4d. (favor/oppose lower emission standards)
+P4d1. (how much favor/oppose lower emission standards)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083158,P4e. [NEW] Importance of emission std issue,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083159,P4f1. [NEW] Favor/oppose lower emission stds: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.30. (order of Pres cands - environment)
+
+NOTES:",,
+V083159a,P4f1a. [NEW] How much Dem Pres cand fav/opp lower emissions,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.30. (order of Pres cands - environment)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083159x,P4f1ax. [NEW] SUMMARY: Dem Pres cand fav/opp lower emissions,"P4f1. (Dem Pres cand favor/oppose lower emission standards)
+P4f1a.  (how much Dem Pres cand favor/oppose lower emission standards)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083160,P4f2. [NEW] Favor/oppose lower emission stds: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.30. (order of Pres cands - environment)
+
+NOTES:",,
+V083160a,P4f2a. [NEW] How much Rep Pres cand fav/opp lower emissions,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.30. (order of Pres cands - environment)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083160x,P4f2ax. [NEW] SUMMARY: Rep Pres cand fav/opp lower emissions,"P4f2. (Rep Pres cand favor/oppose lower emission standards)
+P4f2a. (how much Rep Pres cand favor/oppose lower emission standards)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083161,P4g. [NEW] Favor/oppose higher fuel standards,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083161a,P4g1. [NEW] How much favor/oppose higher fuel std,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083161x,P4g1x. [NEW] SUMMARY: favor/oppose higher fuel std,"P4g. (favor/oppose higher fuel standard)
+P4g1. (how much favor/oppose higher fuel standard)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083162,P4h. [NEW] Favor/oppose higher gas taxes,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083162a,P4h1. [NEW] How much favor/oppose higher gas taxes,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083162x,P4h1x. [NEW] SUMMARY: favor/oppose higher gas taxes,"P4h. (favor/oppose higher gas taxes)
+P4h1. (how much favor/oppose higher gas taxes)
+PreRandom.2. (VERSION OLD/NEW assignment)
+
+NOTES:",,
+V083163,P5. R favor/oppose death penalty,"(Not looking at the booklet now.)
+Do you FAVOR or OPPOSE the death penalty for persons convicted
+of murder?",,
+V083163a,P5a. Strength R favors/opposes death penalty,"(Do you favor the death penalty for persons convicted of murder)
+STRONGLY or NOT STRONGLY? /
+(Do you oppose the death penalty for persons convicted of murder)
+STRONGLY or NOT STRONGLY?",,
+V083163x,P5ax. SUMMARY: favor/oppose death penalty,"P5. (favor/oppose death penalty)
+P5a. (how much favor/oppose death penalty)
+
+NOTES:",,
+V083164,P6. Should fed govt make it more difficult to buy a gun,"Do you think the federal government should make it MORE DIFFICULT
+for people to buy a gun than it is now, make it EASIER for
+people to buy a gun, or keep these rules ABOUT THE SAME as
+they are now?",,
+V083164a,P6a1. [OLD] Importance of gun access issue to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083164b,P6a2. [NEW] Importance of gun access issue to R [NEW],"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083165,P6b. Does R have a gun in his or her home or garage,"Do you happen to have in your home or garage any guns or
+revolvers?",,
+V083166,P7a. [OLD] Womens role self-placement,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083167,P7b. [OLD] Importance of women's role  to R,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+
+NOTES:",,
+V083168a,P7c1. [OLD] Women's role scale: Dem Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.31. (order of Pres cands - women's role)
+
+NOTES:",,
+V083168b,P7c2. [OLD] Women's role scale: Rep Pres cand,"PreRandom.2. (VERSION OLD/NEW assignment)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.31. (order of Pres cands - women's role)
+
+NOTES:",,
+V083169,Q1. Does R think will vote this November,"(Not looking at the booklet now.)
+So far as you know now, do you expect to vote in the
+national elections this coming November or not? /
+So far as you know now, do you expect to vote in the
+national elections this coming November or not?",,
+V083169a,Q1a. Who does R think will/would vote for President,"{PROBE: Needless to say, the election for President
+of the United States is a long time away in November.
+But I�d like to ask you for your best guess about who
+you will vote for in the election for President in
+November.) /
+{PROBE: Needless to say, the election for President of
+the United States is a long time away in November.
+But I'd like to ask you for your best guess about who
+you would vote for in the election for President in
+November.}
+
+VALID CODES:",,
+V083169b,Q1a1. Strength of preference for Pres cand R will/would vote,"Would you say that your preference for [Barack Obama / John McCain /
+that candidate] is STRONG or NOT STRONG?",,
+V083170a,Q2a1a. [VERSION R] Black President make R uncomfortable,"PreRandom.32. (VERSION R/S questions on black President)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083170b,Q2a1b. [VERSION S] Black President make R uncomfortable,"PreRandom.32. (VERSION R/S questions on black President)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083170x,Q2a1x. 2-VERSION SUMMARY:Black President make R uncomfortble,"Q2a1a. (VERSION R uncomfortable at elected black President)
+Q2a1b. (VERSION S uncomfortable at elected black President)
+PreRandom.32. (VERSION R/S questions on black President)
+
+NOTES:",,
+V083171a,Q2a2a. [VERSION R] Black President make R pleased,"PreRandom.32. (VERSION R/S questions on black President)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083171b,Q2a2b. [VERSION S] Black President make R pleased,"PreRandom.32. (VERSION R/S questions on black President)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083171x,Q2a2x. 2-VERSION SUMMARY: Black President make R pleased,"Q2a2a. (VERSION R pleased if black president elected)
+Q2a2b. (VERSION S pleased if black president elected)
+PreRandom.32. (VERSION R/S questions on black President)
+
+NOTES:",,
+V083172,Q3. Hope that US has African-American President,"Generally speaking, do you personally hope that the United States
+has an African American president in your lifetime, or not?",,
+V083173,Q4. US ready for African-American President,"Do you think America is ready for an African American president,
+or not?",,
+V083174,R1a. Affect for GW Bush: angry,"PreRandom.10a. (order of affect ANGRY)
+
+NOTES:",,
+V083174a,R1a1. How often GW Bush affect angry,"PreRandom.10a. (order of affect ANGRY)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083175,R1b. Affect for GW Bush: hopeful,"PreRandom.10b. (order of affect HOPEFUL)
+
+NOTES:",,
+V083175a,R1b1. How often GW Bush affect hopeful,"PreRandom.10b. (order of affect HOPEFUL)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083176,R1c. Affect for GW Bush: afraid,"PreRandom.10c. (order of affect AFRAID)
+
+NOTES:",,
+V083176a,R1c1. How often GW Bush affect afraid,"PreRandom.10c. (order of affect AFRAID)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083177,R1d. Affect for GW Bush: proud,"PreRandom.10d. (order of affect PROUD)
+
+NOTES:",,
+V083177a,R1d1. How often GW Bush affect proud,"PreRandom.10d. (order of affect PROUD)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083178a,R2a1. [VERSION J] President trait: moral,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23a. (order of trait MORAL)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083178b,R2a2. [VERSION J] President trait: strong leadership,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23b. (order of trait STR0NG LEADERSHIP)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083178c,R2a3. [VERSION J] President trait: really cares,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23c. (order of trait REALLY CARES)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083178d,R2a4. [VERSION J] President trait: knowledgeable,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23d. (order of trait KNOWEDGEABLE)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083178e,R2a5. [VERSION J] President trait: intelligent,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23e. (order of trait INTELLIGENT)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083178f,R2a6. [VERSION J] President trait: honest,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23f. (order of trait HONEST)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083178g,R2a7. [VERSION J] President trait: optimistic,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23g. (order of trait OPTIMISTIC)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083179a,R2b1. [VERSION K] President trait: moral,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23a. (order of trait MORAL)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083179b,R2b2. [VERSION K] President trait: strong leadership,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23b. (order of trait STRONG LEADERSHIP)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083179c,R2b3. [VERSION K] President trait: really cares,"PreRandom.1. (forward/reverse response options)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23c. (order of trait REALLY CARES)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083179d,R2b4. [VERSION K] President trait: knowledgeable,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23d. (order of trait KNOWLEDGEABLE)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083179e,R2b5. [VERSION K] President trait: intelligent,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23e. (order of trait INTELLIGENT)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083179f,R2b6. [VERSION K] President trait: honest,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23f. (order of trait HONEST)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083179g,R2b7. [VERSION K] President trait: optimistic,"PreRandom.20. (VERSION J/K traits)
+Appendix B1. (Pre-election questions with split administration)
+PreRandom.23g. (order of trait OPTIMISTIC)
+PreRandom.1. (forward/reverse response options)
+
+NOTES:",,
+V083180,R3. U.S. more or less secure than when Pres took office,"Would you say that compared to 2000, the United States is
+more secure from its foreign enemies, less secure, or hasn't
+this changed very much?",,
+V083180a,R3a. How much U.S. more/less secure than when Pres took ofc,"(Would you say) MUCH more secure or SOMEWHAT more secure? /
+(Would you say) MUCH less secure or SOMEWHAT less secure?",,
+V083180x,R3ax. SUMMARY: U.S. more/less secure than when Pres took ofc,"R3. (U.S. more or less secure than when Pres took office)
+R3a. (How much U.S. more/less secure than when Pres took ofc)
+
+NOTES:",,
+V083181,W1. Is religion important part of R life,"Now on another topic....
+Do you consider religion to be an IMPORTANT part of your life,
+or NOT?",,
+V083182,W2. Religion provides some guidance in day-to-day living,"Would you say your religion provides SOME guidance in your
+day-to-day living, QUITE A BIT of guidance, or a GREAT DEAL of
+guidance in your day-to-day life?",,
+V083183,W3. How often does R pray,"Please look at page 16 of the booklet.
+People practice their religion in different ways.  Outside of
+attending religious services, do you pray SEVERAL TIMES A DAY,
+ONCE A DAY, A FEW TIMES A WEEK, ONCE A WEEK OR LESS, or NEVER?",,
+V083184,W4. Bible is word of God or men,"Please look at page 17 of the booklet.
+Which of these statements comes closest to describing your
+feelings about the Bible? You can just give me the number of
+your choice.
+1. The Bible is the actual word of God and is to be taken
+   literally, word for word.
+2. The Bible is the word of God but not everything in it
+   should be taken literally, word for word.
+3. The Bible is a book written by men and is not the word
+   of God",,
+V083185x,Xx1. SUMMARY: R religious identification (final),"Appendix C. (2008 Full Religion Master code)
+Xx1a. (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083185a,Xx1a. SUMMARY: R denomination,"Xx1. (SUMMARY: R full religious identification)
+
+NOTES:",,
+V083185b,Xx1b. SUMMARY: R major religion group,"Xx1a. (SUMMARY: R denomination)
+
+NOTES:",,
+V083186,X1. Ever attend church/religious services,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083186a,X1a. Attend religious services how often,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083186b,X1a1. Attend church more often than once a week,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083187,X3. Ever think of self as part of church or denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083188a,X3a. (Attends church) R major religious group,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083188b,X3b. (Nonattendance) R major religious group,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083188x,X3x. SUMMARY: X3a/X3b initial mention major religious group,"X3a. (Attends church R major religious group)
+X3b. (Nonattendance R major religious group)
+Xx1b. (SUMMARY: R major religion group)
+Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+
+NOTES:",,
+V083189,X4. Major relig denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083190,X4a. Specific Baptist denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083190a,X4a1. Specific indep. Baptist denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083191,X4b. Specific Lutheran denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083192,X4c. Specific Methodist denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083193,X4d. Specific Presbyterian denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083194,X4e. Specific Reformed denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083195,X4f. Specific Brethren denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083196,X4g. Specific Disciples denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083197,X4h. Specific Church of Christ denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083198,X4j. Specific Church of God denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083199,X4k. Specific Holiness/Pentacostal denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083200,X5a. Specific other denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083201,X5b. Specific other denomination Christian,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083202a,X6a. (Attends) Specific Jewish denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083202b,X6b. (Nonattendance) Specific Jewish denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083202x,X6bx. SUMMARY: X6a/X6b Specific Jewish denomination,"Xx1. (SUMMARY: R religious identification)
+Xx1a (SUMMARY: R denomination)
+Xx1b. (SUMMARY: R major religion group)
+
+NOTES:",,
+V083203,X7. R consider self born again,"Would you call yourself a born-again Christian, that is,
+have you personally had a conversion experience related to
+Jesus Christ?",,
+V083204,X8. R belief in transsubstantiation,"PreRandom.33a. (order stereotype racial group BLACKS)
+
+NOTES:",,
+V083207c,X10c. Stereotype: Hispanic-Americans hardworking,"PreRandom.33b. (order stereotype racial group HISPANICS)
+
+NOTES:",,
+V083207d,X10d. Stereotype: Asian-Americans hardworking,"PreRandom.33c. (order stereotype racial group ASIANS)
+
+NOTES:",,
+V083208a,X11a. Stereotype: whites intelligent,"PreRandom.33a. (order stereotype racial group BLACKS)
+
+NOTES:",,
+V083208c,X11c. Stereotype: Hispanic-Americans intelligent,"PreRandom.33b. (order stereotype racial group HISPANICS)
+
+NOTES:",,
+V083208d,X11d. Stereotype: Asian-Americans intelligent,"PreRandom.33c. (order stereotype racial group ASIANS)
+
+NOTES:",,
+V083209,X12. Sexual orientation of R,"X13. (favor/oppose laws to protect gays against job discrimination)
+X13a. (how much favor/oppose laws to protect gays against job discrimination)
+
+NOTES:",,
+V083212,X14. Should homosexuals serve in U.S. armed forces,"X14. (favor/oppose allowing gays to serve in the military)
+X14a. (how much favor/oppose allowing gays to serve in the military)
+
+NOTES:",,
+V083213,X15. Should homosexual couples be allowed to adopt,INTERVIEWER INSTRUCTION:,,
+V083215b,Y1b. Birthdate Month,"{ENTER in order month, day, year.
+ENTER HERE: month }
+
+VALID CODES:",,
+V083215c,Y1c. RESTRICTED: Birthdate Day,"{ENTER DAY 1-31}
+
+MISSING CODES:",,
+V083215x,Y1x. Age of Respondent,"Y1a. (birthdate year)
+HHList.4. (Respondent age)
+
+NOTES:",,
+V083216a,Y2a. [VERSION M] Marital status,"PreRandom.34.  (VERSION M or N marital status question)
+
+NOTES:",,
+V083216b,Y2b. [VERSION N] Marital status,"PreRandom.34.  (VERSION M or N marital status question)
+
+NOTES:",,
+V083216x,Y2x. SUMMARY: Marital status,"Y2a. (VERSION M marital status)
+Y2b. (VERSION N marital status)
+PreRandom.34.  VERSION M or N marital status question
+
+NOTES:",,
+V083217,Y3. Highest grade of school or year of college R completed,"{INTERVIEWER: 'YEAR' REFERS TO COMPLETED GRADE LEVEL, NOT CALENDAR YEAR
+ENTER number 0-17:
+00-12 grades
+13-16 grades
+17= 17+ grades}
+
+VALID CODES:",,
+V083218a,Y3a. Did R get high school diploma,"Did you get a high school diploma or pass a high school
+equivalency test?",,
+V083218b,Y3b. Highest degree R has earned,"{PROBE: IF VOCATIONAL OR TECHNICAL DEGREE OR DIPLOMA, ASK:
+""Is that an Associate's Degree?"" IF NOT AN ASSOCIATE'S DEGREE,
+CODE 'No degree earned'}
+
+VALID CODES:",,
+V083218x,Y3x. SUMMARY: R educational attainment,"Y3. (highest grade R completed)
+Y3a. (R get HS diploma)
+Y3b. (R highest degree)
+
+NOTES:",,
+V083219,Y4. Spouse: highest grade or year of college,"{INTERVIEWER: 'YEAR' REFERS TO COMPLETED GRADE LEVEL, NOT CALENDAR YEAR
+ENTER number 0-17:
+00-12 grades
+13-16  grades
+17= 17+ grades}
+
+VALID CODES:",,
+V083220a,Y4a. Did spouse get high school diploma,"Did (he/she) get a high school diploma or pass a high school
+equivalency test?",,
+V083220b,Y4b. Highest degree spouse has earned,"{PROBE: IF VOCATIONAL OR TECHNICAL DEGREE OR DIPLOMA, ASK:
+""Is that an Associate's Degree?"" IF NOT AN ASSOCIATE'S DEGREE,
+CODE 'No degree earned'}
+
+VALID CODES:",,
+V083220x,Y4x. SUMMARY: Spouse/partner educational attainment,"Y4. (highest grade spouse/partner completed)
+Y4a. (spouse/partner get HS diploma)
+Y4b. (spouse/partner highest degree)
+
+NOTES:",,
+V083221,Y5. Is R or has R ever been in the military,"Have you ever served or are you currently serving in the US
+military, the National Guard, or military reserves?",,
+V083222,Y6. Initial employment status,"Y6x1.  (SUMMARY: R employment status 2-digit)
+Y6x2. (SUMMARY: R employment status 1-digit)
+
+NOTES:",,
+V083222x,Y6x1. SUMMARY: R employment status 2-digit,"Y6x2. (SUMMARY: R employment status 1-digit)
+
+NOTES:",,
+V083222a,Y6x2. SUMMARY: R employment status 1-digit,"Y6x1.  (SUMMARY: R employment status 2-digit)
+
+NOTES:",,
+V083223,Y7a. Initial status Homemaker/student: working now,"Y6. (Initial employment status)
+
+NOTES:",,
+V083243b,Y16x2. SUMMARY: STACKED OCCUPATION PAST OR PRESENT,"Y10a. (Past occupation -R ret/dis/unemp/hmkr/stud)
+Y16a. (Working/TLO now - occupation)
+Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244b,Y16xx2. STACKED R EMPLOYMENT: OCCUPATION 2 DIGIT,"Y16xx1. (STACKED R EMPLOYMENT: OCCUPATION 3 DIGIT)
+Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244c,Y16xx3. STACKED R EMPLOYMENT: OCCUPATION 1 DIGIT,"Y16xx1. (STACKED R EMPLOYMENT: OCCUPATION 3 DIGIT)
+Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244d,Y16xx4. STACKED R EMPLOYMENT: OCCUP PRESTIGE SCORE,"Y16xx1. (STACKED R EMPLOYMENT: OCCUPATION 3 DIGIT)
+Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244e,Y16xx5. STACKED R EMPLOYMENT: OCCUP PRESTIGE SCORE COLLAPSED,"Y16xx4. STACKED R EMPLOYMENT: OCCUP PRESTIGE SCORE
+Y16xx1. (STACKED R EMPLOYMENT: OCCUPATION 3 DIGIT)
+Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244f,Y16xx6. STACKED R EMPLOYMENT: INDUSTRY OF OCCUPATION,"Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244g,Y16xx7. STACKED R EMPLOYMENT: WORKS/WORKED FOR SELF,"Y10d. (past self-empl status)
+Y16d. (current self-empl status)
+Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244h,Y16xx8. STACKED R EMPLOYMENT: WORKS/WORKED FOR GOVT,"Y10e. (past occupation: govt work)
+Y16e. (orking/TLO now - work for govt)
+Y16x1. (SUMMARY: R OCCUPATION IDENTIFIED - PAST/PRESENT)
+Y16x2. (SUMMARY: STACKED R OCCUPATION PAST OR PRESENT)
+
+NOTES:",,
+V083244j,Y16xx9. STACKED R EMPLOYMENT: HOURS WORKS/WORKED,"Y12. (recent occupation: how many hours worked avg week)
+Y16f. (working/TLO now - how many hours R works)
+
+NOTES:",,
+V083244k,Y16xx10. STACKED R EMPLOYMENT: HOW WORRIED LOSE/FIND JOB,"Y16h. (worry about losing job in near future)
+Y15. (worry find job)
+
+NOTES:",,
+V083244m,Y16xx11. STACKED R EMPLOYMENT: HAD JOB IN LAST 6 MOS.,"Y11a. (job in last 6 mos)
+Y7b. (homemaker/student job in last 6 months)
+
+NOTES:",,
+V083245,Y17. CHECKPOINT: R married/partnered,CHECKPOINT: IS R MARRIED/PARTNERED,,
+V083245a,Y18a. Spouse/partner working status mention 1,"{ENTER ALL THAT APPLY}
+
+VALID CODES:",,
+V083245b,Y18b. Spouse/partner working status mention 2,"{ENTER ALL THAT APPLY}
+
+VALID CODES:",,
+V083245c,Y18c. Spouse/partner working status mention 3,"{ENTER ALL THAT APPLY}
+
+VALID CODES:",,
+V083246,Y19. Anyone in HH belong to labor union,Do you or anyone else in this household belong to a labor union?,,
+V083246a,Y19a. Who in HH belongs to union,INTERVIEWER INSTRUCTION:,,
+V083248x,Y21ax. SUMMARY: FAMILY INCOME,"Y21a. (household income)
+Y21b. (R income)
+
+NOTES:",,
+V083249,Y21b. R income,"{IF R SAYS ""don�t know"", write it in the COMMENT box and probe
+with ""what would be your best estimate?""}
+
+VALID CODES:",,
+V083250,Y22. Think of self as belonging to class,"(Not using the booklet)
+There's been some talk these days about different social classes.
+Most people say they belong either to the middle class or the
+working class.  Do you ever think of yourself as belonging in
+one of these classes?",,
+V083250a,Y22a. Social Class: working or middle,Which one?,,
+V083250b,Y22b. Social Class: had to choose working/middle,"Well, if you had to make a choice, would you call yourself
+MIDDLE CLASS or WORKING CLASS?",,
+V083250c,Y23. Social class: average or upper working/middle class,"Would you say that you are about AVERAGE middle class or that
+you are in the UPPER PART of the middle class? /
+Would you say that you are about AVERAGE working class or that
+you are in the UPPER PART of the working class?",,
+V083250x,Y23x. SUMMARY: SOCIAL CLASS WORKING OR MIDDLE,"Y22a. (social class working or middle)
+Y22b. (had to choose working/middle)
+
+NOTES:",,
+V083251a,Y24a. Race of Respondent- Mention 1,"HHList.2. (Respondent: race)
+
+NOTES:",,
+V083251b,Y24b. Race of Respondent- Mention 2,"Appendix D. (2008 Ethnicity Master Code)
+
+NOTES:",,
+V083252b,Y25b. Main ethnic or nationality group MENTION 2,"Appendix D. (2008 Ethnicity Master Code)
+
+NOTES:",,
+V083252c,Y25c. Main ethnic or nationality group MENTION 3,"Appendix D. (2008 Ethnicity Master Code)
+
+NOTES:",,
+V083252d,Y25d. Main ethnic or nationality group MENTION 4,"Appendix D. (2008 Ethnicity Master Code)
+
+NOTES:",,
+V083252x,Y25x. SUMMARY: COUNT ETHNIC OR NATIONALITY GROUP,"Y25a. - Y25d.  (Main ethnic or nationality group)
+
+NOTES:",,
+V083253,Y26. IWR CHECKPOINT: number of ethnic mentions,"Appendix D. (2008 Ethnicity Master Code)
+
+NOTES:",,
+V083255,Y27. IWR CHECKPOINT: MENTION ETHNIC HISPANIC,"Y24a. - Y24e. (Race of Respondent)
+Y25a. - Y25d. ( Main ethnic or nationality group)
+
+NOTES:",,
+V083256,Y28a. No ethnic mention Hispanic: is R of Hispanic descent,VALID CODES:,,
+V083258,"Y29b. LATINO Rs: born U.S., Puerto Rico, or some other count","Y27. (IWR CHECKPOINT: MENTION ETHNIC HISPANIC)
+
+NOTES:",,
+V083259,Y29c. LATINO Rs: how many grandparents born outside the U.S.,"Y27. (IWR CHECKPOINT: MENTION ETHNIC HISPANIC)
+
+NOTES:",,
+V083260,Y29d. LATINO Rs: country of Latino heritage,"Y27. (IWR CHECKPOINT: MENTION ETHNIC HISPANIC)
+
+NOTES:",,
+V083261,Y29g. LATINO Rs: When did R arrive in U.S.,"Y27. (IWR CHECKPOINT: MENTION ETHNIC HISPANIC)
+
+NOTES:",,
+V083262,Y29h. LATINO Rs: In what year did R become a U.S. citizen,"Y27. (IWR CHECKPOINT: MENTION ETHNIC HISPANIC)
+
+NOTES:",,
+V083263,Y29j. LATINO Rs: language at home,"Y27. (IWR CHECKPOINT: MENTION ETHNIC HISPANIC)
+
+NOTES:",,
+V083264,Y30. Where R grew up,"Appendix E. (2008 State And Country Master Code)
+
+NOTES:",,
+V083265a,Y31a. How many children in HH age 10 and younger,"HHList.9. (total children under 18)
+
+NOTES:",,
+V083265b,Y31b. How many children in HH age 11-17,"HHList.9. (total children under 18)
+
+NOTES:",,
+V083266a,Y32a. How long lived in this community: years,"Appendix E. (2008 State And Country Master Code)
+
+NOTES:",,
+V083268,Y34. Distance where R used to live (miles),How far away is that?,,
+V083269a,Y35a. How long lived in this dwelling unit: years,INTERVIEWER INSTRUCTION:,,
+V083271a,Y36b1. Business use - multiple HH phones,"{IF R GIVES A SPOKEN DESCRIPTION, RECORD IN THE COMMENT FIELD.
+INTERVIEWER: CONFIRM THE RESPONSE NUMBER BY READING BACK TO R}
+
+VALID CODES:",,
+V083271b,Y36b2. Business use - 1 HH phone,"{IF R GIVES A SPOKEN DESCRIPTION, RECORD IN THE COMMENT FIELD.
+INTERVIEWER: CONFIRM THE RESPONSE BY READING BACK TO R}
+
+VALID CODES:",,
+V083272a,Y36c1. Computer or fax - multiple phones,INTERVIEWER INSTRUCTION:,,
+V083274b,Y36f2. Cell phone - 1 HH phone,"{""MOBILE"" PHONE COUNTS AS CELL PHONE.
+IF R GIVES A SPOKEN DESCRIPTION, RECORD IN THE COMMENT FIELD.
+INTERVIEWER: CONFIRM THE RESPONSE BY READING BACK TO R}
+
+VALID CODES:",,
+V083275a,Y36g1. Cell phone business use - multiple phones,"{IF R GIVES A SPOKEN DESCRIPTION, RECORD IN THE COMMENT FIELD.
+INTERVIEWER: CONFIRM THE RESPONSE NUMBER BY READING BACK TO R}
+
+VALID CODES:",,
+V083275b,Y36g2. Cell phone business use - 1 phone,"{IF R GIVES A SPOKEN DESCRIPTION, RECORD IN THE COMMENT FIELD.
+INTERVIEWER: CONFIRM THE RESPONSE BY READING BACK TO R}
+
+VALID CODES:",,
+V083276a,Y36h1. Non-business-only cell phones with use as modem/fax,INTERVIEWER INSTRUCTION:,,
+V083277b,Y36j2. Answered non-bus-only cell phone w/use as modem/fax,"{IF R GIVES A SPOKEN DESCRIPTION, RECORD IN THE COMMENT FIELD.
+INTERVIEWER: CONFIRM THE RESPONSE BY READING BACK TO R}
+
+VALID CODES:",,
+V083278,Y36k. Phone discrepancy,INTERVIEWER INSTRUCTION:,,
+V083280,Y36x.  Verification of landlines,"{INTERVIEWER: RECORD ANY COMMENTS ABOUT TELEPHONE NUMBERS.
+INTERVIEWER: CONFIRM THE RESPONSE NUMBER BY READING BACK TO R}
+
+MISSING CODES:",,
+V083281,Y37. Does R family own/rent home,"(Do you/Does your family) own your home, pay rent, or what?",,
+V083301a,ZZ1a. PRE IWR OBS: others present - mention 1,"Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num",,

@@ -1,4 +1,4 @@
-Variable,sum1,sum2,sum3,q_orig,q_1,q_2,q_3,Valid1,Valid2,Valid3,Missing1,Missing2,Missing3,Sources
+﻿Variable,sum1,sum2,sum3,q_orig,q_1,q_2,q_3,Valid1,Valid2,Valid3,Missing1,Missing2,Missing3,Sources
 VCF9282,"POST: REASON R IS NOT REGISTERED - DID NOT MEET REGISTRATION DEADLINES
 POST: REASON R IS NOT REGISTERED - DID NOT KNOW WHERE OR HOW TO REGISTER
 POST: REASON R IS NOT REGISTERED - DID NOT MEET RESIDENCY REQUIREMENTS
@@ -22,7 +22,17 @@ POST: REASON R IS NOT REGISTERED - DIFFICULTY WITH ENGLISH
 POST: REASON R IS NOT REGISTERED - NOT ELIGIBLE TO VOTE
 POST: REASON R IS NOT REGISTERED - OTHER
 POST: REASON R IS NOT REGISTERED - OTHER {SPECIFY}
-POST: MAIN REASON WHY R IS NOT REGISTERED (NO BOOKLET)",,Main reason R did not register to vote,"What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices. 366 CODEBOOK: VARIABLES
+POST: MAIN REASON WHY R IS NOT REGISTERED (NO BOOKLET)","POST: Reason R not registered to vote - didn’t meet registration deadline
+POST: Reason R not registered to vote - didn’t know where/how to register
+POST: Reason R not registered to vote - didn’t have required ID
+POST: Reason R not registered to vote - didn’t meet residency requirements
+POST: Reason R not registered to vote - permanent illness/disability
+POST: Reason R not registered to vote - difficulty w/English
+POST: Reason R not registered to vote - not interested in election/politics
+POST: Reason R not registered to vote - thought vote wouldn’t make a
+POST: Reason R not registered to vote - not eligible to vote
+POST: Reason R not registered to vote - other reasons
+POST: Other reason why R not registered",Main reason R did not register to vote,"What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices. 366 CODEBOOK: VARIABLES
 What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.
 What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.
 What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.
@@ -45,13 +55,91 @@ What is the main reason you are not registered to vote? You can just give me the
 What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.
 What is the main reason you are not registered to vote? You can just give me the number or numbers of your choices.
 You said there were other reasons you are not registered to vote. What are those reasons?
-What is the main reason you are not registered to vote?",,"0. Not mentioned
+What is the main reason you are not registered to vote?","What is the main reason you are not registered to vote? [Did not meet registration deadlines]
+What is the main reason you are not registered to vote? [Did not know where or how to register]
+What is the main reason you are not registered to vote? [Did not have required identification]
+What is the main reason you are not registered to vote? [Did not meet residency requirements/did not live here long enough]
+What is the main reason you are not registered to vote? [Permanent illness or disability]
+What is the main reason you are not registered to vote? [Difficulty with English]
+What is the main reason you are not registered to vote? [Not interested in the election or not involved in politics]
+What is the main reason you are not registered to vote? [My vote would not make a difference]
+What is the main reason you are not registered to vote? [Not eligible to vote]
+What is the main reason you are not registered to vote? [Other reasons]
+Y ou said there were other reasons you are not registered to vote. What are those reasons?","0. Not mentioned
 1. Mentioned
 0. Not mentioned
-",,"-9. Refused
--7. Insufficient partial, interview deleted
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+V242101","0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned
+0. Not mentioned
+1. Mentioned","0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned
+
+0. Not mentioned
+1. Mentioned","-9. Refused
+-7. Insuﬃcient partial, interview deleted
 -6. No post interview
--5. Sufficient partial, breakoﬀ
+-5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable
 -9. Refused
 -7. Insuﬃcient partial, interview deleted
@@ -148,10 +236,50 @@ What is the main reason you are not registered to vote?",,"0. Not mentioned
 -5. Interview breakoff (sufficient partial IW)
 -1. Inapplicable
 -2. Open-end responses available in separate file
--2. Open-end responses available in separate file",,"2024: V242100a-k;V242101
+-2. Open-end responses available in separate file","-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+
+-2. Redacted text of open end","2024: V242100a-k;V242101
 2020: V202114a-k;V202114z;V202115
-2016:V162070a-j;V162071"
-VCF9283,POST: DISCRIMINATION IN THE US AGAINST MEN,POST: DISCRIMINATION IN THE US AGAINST MEN,,How much discrimination is there in the United States today against each of the following groups: Men,How much discrimination is there in the United States today against each of the following groups? Men,Men,,"1. A great deal
+2016: V162070a-j;V162071"
+VCF9283,POST: DISCRIMINATION IN THE US AGAINST MEN,POST: DISCRIMINATION IN THE US AGAINST MEN,POST: FTF CASI/WEB: Discrimination in the U.S. against Men,How much discrimination is there in the United States today against each of the following groups: Men,How much discrimination is there in the United States today against each of the following groups? Men,Men,How much discrimination is there in the United States today against each of the following groups? Men RANDOMIZA TION: Order of discrimination social groups F orward/reverse response option order,"1. A great deal
 2. A lot
 3. A moderate amount
 4. A little
@@ -159,17 +287,24 @@ VCF9283,POST: DISCRIMINATION IN THE US AGAINST MEN,POST: DISCRIMINATION IN THE U
 2. A lot
 3. A moderate amount
 4. A little
-5. None at all",,"-9. Refused
+5. None at all","1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","-9. Refused
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242555
+-5. Interview breakoff (sufficient partial IW)","-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused","2024: V242555
 2020: V202535
-2016:V162363"
-VCF9284,POST: DISCRIMINATION IN THE US AGAINST MUSLIMS,POST: DISCRIMINATION IN THE US AGAINST MUSLIMS,,Muslims,How much discrimination is there in the United States today against each of the following groups? Muslims,Muslims,,"1. A great deal
+2016: V162363"
+VCF9284,POST: DISCRIMINATION IN THE US AGAINST MUSLIMS,POST: DISCRIMINATION IN THE US AGAINST MUSLIMS,POST: FTF CASI/WEB: Discrimination in the U.S. against Muslims,Muslims,How much discrimination is there in the United States today against each of the following groups? Muslims,Muslims,How much discrimination is there in the United States today against each of the following groups? Muslims RANDOMIZA TION: Order of discrimination social groups F orward/reverse response option order,"1. A great deal
 2. A lot
 3. A moderate amount
 4. A little
@@ -177,17 +312,24 @@ VCF9284,POST: DISCRIMINATION IN THE US AGAINST MUSLIMS,POST: DISCRIMINATION IN T
 2. A lot
 3. A moderate amount
 4. A little
-5. None at all",,"-9. Refused
+5. None at all","1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","-9. Refused
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242556
+-5. Interview breakoff (sufficient partial IW)","-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused","2024: V242556
 2020: V202531
-2016:V162364"
-VCF9285,POST: DISCRIMINATION IN THE US AGAINST CHRISTIANS,POST: DISCRIMINATION IN THE US AGAINST CHRISTIANS,,Christians,How much discrimination is there in the United States today against each of the following groups? Christians,Christians,,"1. A great deal
+2016: V162364"
+VCF9285,POST: DISCRIMINATION IN THE US AGAINST CHRISTIANS,POST: DISCRIMINATION IN THE US AGAINST CHRISTIANS,POST: FTF CASI/WEB: Discrimination in the U.S. against Christians,Christians,How much discrimination is there in the United States today against each of the following groups? Christians,Christians,How much discrimination is there in the United States today against each of the following groups? Christians RANDOMIZA TION: Order of discrimination social groups F orward/reverse response option order,"1. A great deal
 2. A lot
 3. A moderate amount
 4. A little
@@ -195,17 +337,24 @@ VCF9285,POST: DISCRIMINATION IN THE US AGAINST CHRISTIANS,POST: DISCRIMINATION I
 2. A lot
 3. A moderate amount
 4. A little
-5. None at all",,"-9. Refused
+5. None at all","1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","-9. Refused
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242557
+-5. Interview breakoff (sufficient partial IW)","-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused","2024: V242557
 2020: V202532
-2016:V162365"
-VCF9286,POST: DISCRIMINATION IN THE US AGAINST TRANSGENDER PEOPLE,POST: DISCRIMINATION IN THE US AGAINST TRANSGENDER PEOPLE,,Transgender people,How much discrimination is there in the United States today against each of the following groups? Transgender people,Transgender people,,"1. A great deal
+2016: V162365"
+VCF9286,POST: DISCRIMINATION IN THE US AGAINST TRANSGENDER PEOPLE,POST: DISCRIMINATION IN THE US AGAINST TRANSGENDER PEOPLE,POST: FTF CASI/WEB: Discrimination in the U.S. against T ransgender,Transgender people,How much discrimination is there in the United States today against each of the following groups? Transgender people,Transgender people,How much discrimination is there in the United States today against each of the following groups? T ransgender people RANDOMIZA TION: Order of discrimination social groups F orward/reverse response option order,"1. A great deal
 2. A lot
 3. A moderate amount
 4. A little
@@ -213,23 +362,33 @@ VCF9286,POST: DISCRIMINATION IN THE US AGAINST TRANSGENDER PEOPLE,POST: DISCRIMI
 2. A lot
 3. A moderate amount
 4. A little
-5. None at all",,"-9. Refused
+5. None at all","1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None at all","-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","-9. Refused
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242558
+-5. Interview breakoff (sufficient partial IW)","-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused","2024: V242558
 2020: V202536
-2016:V162366"
-VCF9287,"POST: SHOULD THE MINIMUM WAGE BE RAISED, KEPT THE SAME, OR LOWERED","POST: SHOULD THE MINIMUM WAGE BE RAISED, KEPT THE SAME, OR LOWERED",,Minimum wage should be increased/decreased,"Should the federal minimum wage be [raised, kept the same, lowered but not eliminated, or eliminated altogether / eliminated altogether, lowered but not eliminated, kept the same, or raised]? POST-ELECTION SURVEY VARIABLES 489","Should the federal minimum wage be raised, kept the same, lowered but not eliminated, or eliminated altogether?",,"1. Raised
+2016: V162366"
+VCF9287,"POST: SHOULD THE MINIMUM WAGE BE RAISED, KEPT THE SAME, OR LOWERED","POST: SHOULD THE MINIMUM WAGE BE RAISED, KEPT THE SAME, OR LOWERED",POST: Should the minimum wage be raised,Minimum wage should be increased/decreased,"Should the federal minimum wage be [raised, kept the same, lowered but not eliminated, or eliminated altogether / eliminated altogether, lowered but not eliminated, kept the same, or raised]? POST-ELECTION SURVEY VARIABLES 489","Should the federal minimum wage be raised, kept the same, lowered but not eliminated, or eliminated altogether?","Should the minimum wage be [raised, kept the same, lowered but not elim- inated, or eliminated altogether / eliminated altogether, lowered but not eliminated, kept the same, or raised]? F orward/reverse response option order","1. Raised
 2. Kept the same
 3. Lowered
 4. Eliminated","1. Raised
 2. Kept the same
 3. Lowered
-4. Eliminated",,"-9. Refused
+4. Eliminated","1. Raised
+2. Kept the same
+3. Lowered
+4. Eliminated","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -238,14 +397,19 @@ VCF9287,"POST: SHOULD THE MINIMUM WAGE BE RAISED, KEPT THE SAME, OR LOWERED","PO
 -8. Don’t know
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242350
+-5. Interview breakoff (sufficient partial IW)","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused","2024: V242350
 2020: V202377
-2016:V162192"
+2016: V162192"
 VCF9288,"POST: FAVOR OR OPPOSE REQUIRING VACCINES IN SCHOOLS
 POST: FAVOR OR OPPOSE REQUIRING VACCINES IN SCHOOLS (STRENGTH)","POST: FAVOR OR OPPOSE REQUIRING VACCINES IN SCHOOLS
-POST: FAVOR OR OPPOSE REQUIRING VACCINES IN SCHOOLS (STRENGTH)",,Favor/oppose requiring children vaccinated for public school,"Do you favor, oppose, or neither favor nor oppose requiring children to be vaccinated in order to attend public schools?
+POST: FAVOR OR OPPOSE REQUIRING VACCINES IN SCHOOLS (STRENGTH)","POST: Does R favor or oppose vaccines in schools
+POST: How much favor or oppose vaccines in schools",Favor/oppose requiring children vaccinated for public school,"Do you favor, oppose, or neither favor nor oppose requiring children to be vaccinated in order to attend public schools?
 Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Do you oppose that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? POST-ELECTION SURVEY VARIABLES 473","Do you favor, oppose, or neither favor nor oppose requiring children to be vaccinated in order to attend public schools?
-Do you [favor/oppose] that a great deal, a moderate amount, or a little? 510 CODEBOOK: VARIABLES",,"1. Favor
+Do you [favor/oppose] that a great deal, a moderate amount, or a little? 510 CODEBOOK: VARIABLES","Do you favor, oppose, or neither favor nor oppose requiring children to be vaccinated in order to attend public schools?
+IF R F A VORS REQUIRING V ACCINA TION IN ORDER FOR CHILDREN TO A TTEND SCHOOL / IF R OPPOSES REQUIRING V ACCINA TION IN ORDER FOR CHILDREN TO A TTEND SCHOOL: Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Do you oppose that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? F orward/reverse response option order","1. Favor
 2. Oppose
 3. Neither favor nor oppose
 1. A great deal
@@ -255,7 +419,13 @@ Do you [favor/oppose] that a great deal, a moderate amount, or a little? 510 COD
 3. Neither favor nor oppose
 1. A great deal
 2. A moderate amount
-3. A little",,"-9. Refused
+3. A little","1. F avor
+2. Oppose
+3. Neither favor nor oppose
+
+1. A great deal
+2. A moderate amount
+3. A little","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -274,14 +444,23 @@ Do you [favor/oppose] that a great deal, a moderate amount, or a little? 510 COD
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242317;V242318
+-1. Inapplicable","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due","2024: V242317;V242318
 2020: V202329;V202330
-2016:V162146;V162147"
+2016: V162146;V162147"
 VCF9289,"POST: DO HEALTH BENEFITS OF VACCINATIONS OUTWEIGH THE RISKS
 POST: DO HEALTH BENEFITS OF VACCINATIONS OUTWEIGH THE RISKS (STRENGTH)","POST: DO HEALTH BENEFITS OF VACCINATIONS OUTWEIGHT THE RISKS
-POST: DO HEALTH BENEFITS OF VACCINATIONS OUTWEIGHT THE RISKS (STRENGTH)",,Do health benefits of vaccinations outweigh risks,"Now for questions on diﬀerent topics. Do the health beneﬁts of vaccinations generally outweigh the risks, do the risks outweigh the beneﬁts, or is there no diﬀerence? POST-ELECTION SURVEY VARIABLES 491
+POST: DO HEALTH BENEFITS OF VACCINATIONS OUTWEIGHT THE RISKS (STRENGTH)","POST: Health benefits of vaccinations outweigh risks
+POST: V accinations benefit/risk strength",Do health benefits of vaccinations outweigh risks,"Now for questions on diﬀerent topics. Do the health beneﬁts of vaccinations generally outweigh the risks, do the risks outweigh the beneﬁts, or is there no diﬀerence? POST-ELECTION SURVEY VARIABLES 491
 Are the health beneﬁts of vaccinations [much greater, moderately greater, or slightly greater / slightly greater, moderately greater, or much greater]? / Are the risks of vaccinations [much greater, moderately greater, or slightly greater / slightly greater, moderately greater, or much greater]?","Now for questions on different topics. Do the health benefits of vaccinations generally outweigh the risks, do the risks outweigh the benefits, or is there no difference?
-Are the [health benefits/risks] of vaccinations much greater, moderately greater, or slightly greater? 536 CODEBOOK: VARIABLES",,"1. Beneﬁts outweigh risks
+Are the [health benefits/risks] of vaccinations much greater, moderately greater, or slightly greater? 536 CODEBOOK: VARIABLES","Now for questions on different topics. Do the health benefits of vaccinations generally outweigh the risks, do the risks outweigh the benefits, or is there no difference?
+IF R SA YS HEAL TH BENEFITS OF V ACCINES OUTWEIGH RISKS / IF R SA YS HEAL TH RISKS OF V ACCINES OUTWEIGHT BENEFITS: Are the health benefits [much greater, moderately greater, or slightly greater / slightly greater, moderately greater, or much greater]? / Are the risks [much greater, moderately greater, or slightly greater / slightly greater, moderately greater, or much greater]? F orward/reverse response option order","1. Beneﬁts outweigh risks
 2. Risks outweigh beneﬁts
 3. No diﬀerence
 1. Much greater
@@ -291,7 +470,13 @@ Are the [health benefits/risks] of vaccinations much greater, moderately greater
 3. No difference
 1. Much greater
 2. Moderately greater
-3. Slightly greater",,"-9. Refused
+3. Slightly greater","1. Benefits outweigh risks
+2. Risks outweigh benefits
+3. No difference
+
+1. Much greater
+2. Moderately greater
+3. Slightly greater","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -310,14 +495,25 @@ Are the [health benefits/risks] of vaccinations much greater, moderately greater
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242354;V242355
+-1. Inapplicable","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused","2024: V242354;V242355
 2020: V202381;V202382
-2016:V162161;V162162"
+2016: V162161;V162162"
 VCF9290,"POST: INCREASE/DECREASE GOVERNMENT SPENDING TO HELP PEOPLE PAY FOR HEALTH CARE
 POST: HOW MUCH INCREASE/DECREASE IN GOVERNMENT HELP PAYING FOR HEALTH CARE","POST: INCREASE/DECREASE GOVERNMENT SPENDING TO HELP PEOPLE PAY FOR HEALTH CARE
-POST: HOW MUCH INCREASE/DECREASE IN GOVERMENT HELP PAYING FOR HEALTH CARE",,Govt should increase/decrease spending on health insurance,"Do you favor an increase, decrease, or no change in government spending to help people pay for health insurance when people can’t pay for it all themselves?
+POST: HOW MUCH INCREASE/DECREASE IN GOVERMENT HELP PAYING FOR HEALTH CARE","POST: Increase or decrease gov spending to help people pay for health care
+POST: How much favor increase/decrease gov help paying for health care",Govt should increase/decrease spending on health insurance,"Do you favor an increase, decrease, or no change in government spending to help people pay for health insurance when people can’t pay for it all themselves?
 Should it increase [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Should it decrease [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? 490 CODEBOOK: VARIABLES","Do you favor an increase, decrease, or no change in government spending tohelp people pay for health insurance when they can’t pay for it all themselves? 534 CODEBOOK: VARIABLES
-Should it [increase/decrease] a great deal, a moderate amount, or a little?",,"1. Increase
+Should it [increase/decrease] a great deal, a moderate amount, or a little?","Do you favor an increase, decrease, or no change in government spending to help people pay for health insurance when they can’t pay for it all them- selves?
+IF R SA YS GOVT HELP FOR PEOPLE TO P A Y FOR HEAL TH CARE SHOULD INCREASE / IF R SA YS GOVT HELP FOR PEOPLE TO P A Y FOR HEAL TH CARE SHOULD DECREASE: Should it increase [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Should it decrease [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? F orward/reverse response option order","1. Increase
 2. Decrease
 3. No change
 1. A great deal
@@ -327,7 +523,13 @@ Should it [increase/decrease] a great deal, a moderate amount, or a little?",,"1
 3. No change
 1. A great deal
 2. A moderate amount
-3. A little",,"-9. Refused
+3. A little","1. Increase
+2. Decrease
+3. No change
+
+1. A great deal
+2. A moderate amount
+3. A little","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -347,24 +549,46 @@ Should it [increase/decrease] a great deal, a moderate amount, or a little?",,"1
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242351;V242352
+-1. Inapplicable","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused","2024: V242351;V242352
 2020: V202378;V202379
-2016:V162193;V192193a"
-VCF9291,POST: DOES R FAVOR OR OPPOSE AFFIRMATIVE ACTION IN UNIVERSITIES POST-ELECTION SURVEY VARIABLES 443,,,Does R favor or oppose allowing universities to increase the number of black students by considering race...; How much favor/oppose,"Do you favor, oppose, or neither favor nor oppose allowing universities to increase the number of black students studying at their schools by considering race along with other factors when choosing students?",,,"1. Favor
+2016: V162193;V162193a"
+VCF9291,POST: DOES R FAVOR OR OPPOSE AFFIRMATIVE ACTION IN UNIVERSITIES POST-ELECTION SURVEY VARIABLES 443,PRE: Does R favor or oppose affirmative action in universities,Does Rfavor or oppose affirmativeaction inuniversities,Does R favor or oppose allowing universities to increase the number of black students by considering race...; How much favor/oppose,"Do you favor, oppose, or neither favor nor oppose allowing universities to increase the number of black students studying at their schools by considering race along with other factors when choosing students?","Do you favor, oppose, or neither favor nor oppose allowing universities to in- crease the number of black students studying at their schools by considering race along with other factors when choosing students?",Does Rfavor or oppose affirmativeaction inuniversities,"1. Favor
 2. Oppose
-3. Neither favor nor oppose",,,"-9. Refused
+3. Neither favor nor oppose","1. F avor
+2. Oppose
+3. Neither favor nor oppose","1. Favor
+2. Oppose
+3. Neither favor nor oppose
+1. Favor
+2. Oppose
+3. Neitherfavor nor oppose","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
--1. Inapplicable",,,"2024: V242242
-2016:V161204
-2012:aa_uni"
+-1. Inapplicable","-8. Don’t know (FTF only)
+-9. Refused","-8. Don't know
+-9. Refused
+-8. Don't know
+-9. Refused","2024: V242242
+2016: V161204
+2012: aa_uni"
 VCF9292,"POST: DO POLICE TREAT BLACKS OR WHITES BETTER
 POST: HOW MUCH BETTER DO POLICE TREAT BLACKS OR WHITES POST-ELECTION SURVEY VARIABLES 549","POST: DO POLICE TREAT BLACKS OR WHITES BETTER
-POST: HOW MUCH BETTER DO POLICE TREAT BLACKS OR WHITES",,Do police treat whites or blacks better,"In general, do the police [treat whites better than blacks, treat them both same, or treat blacks better than whites / treat blacks better than whites, treat them both the same, or treat whites better than blacks]?
+POST: HOW MUCH BETTER DO POLICE TREAT BLACKS OR WHITES","POST: FTF CASI/WEB: Police treat blacks or whites better
+POST: FTF CASI/WEB: How much police treat blacks or whites better",Do police treat whites or blacks better,"In general, do the police [treat whites better than blacks, treat them both same, or treat blacks better than whites / treat blacks better than whites, treat them both the same, or treat whites better than blacks]?
 Do the police treat whites [much better, moderately better, or a little better / a little better, moderately better, or much better]? / Do the police treat blacks [much better, moderately better, or a little better / a little better, moderately better, or much better]?","In general, do the police treat whites better than blacks, treat them both thesame, or treat blacks better than whites? POST-ELECTION SURVEY VARIABLES 591
-Do the police treat [whites/blacks] much better, moderately better, or a little better?",,"1. Treat whites better
+Do the police treat [whites/blacks] much better, moderately better, or a little better?","In general, do the police [treat whites better than blacks, treat them both same, or treat blacks better than whites / treat blacks better than whites, treat them both the same, or treat whites better than blacks]? F orward/reverse response option order
+IF R SA YS POLICE TREA T WHITES BETTER THAN BLACKS / IF R SA YS POLICE TREA T BLACKS BETTER THAN WHITES: Do the police treat whites [much better, moderately better, or a little better / a little better, moderately better, or much better]? / Do the police treat blacks [much better, moderately better, or a little better / a little better, moderately better, or much better]? F orward/reverse response option order","1. Treat whites better
 2. Treat both the same
 3. Treat blacks better
 1. Much
@@ -374,7 +598,13 @@ Do the police treat [whites/blacks] much better, moderately better, or a little 
 3. Treat blacks better
 1. Much
 2. Moderately
-3. A little",,"-9. Refused
+3. A little","1. T reat whites better
+2. T reat both the same
+3. T reat blacks better
+
+1. Much
+2. Moderately
+3. A little","-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -391,14 +621,25 @@ Do the police treat [whites/blacks] much better, moderately better, or a little 
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242523; V242524
+-1. Inapplicable","-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused
+
+-1. Inap
+-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused","2024: V242523; V242524
 2020: V202491; V202492
-2016:V162320;V162321"
+2016: V162320;V162321"
 VCF9293,"POST: DOES FEDERAL GOVERNMENT TREAT BLACKS OR WHITES BETTER
 POST: HOW MUCH BETTER DOES FEDERAL GOVERNMENT TREAT BLACKS OR WHITES","POST: DOES FEDERAL GOVERNMENT TREAT BLACKS OR WHITES BETTER
-POST: HOW MUCH BETTER DOES FEDERAL GOVERNMENT TREAT BLACKS OR WHITES",,Does federal govt treat whites or better better (typo on website),"In general, does the federal government [treat whites better than blacks, treat them both same, or treat blacks better than whites / treat blacks better than whites, treat them both the same, or treat whites better than blacks]?
+POST: HOW MUCH BETTER DOES FEDERAL GOVERNMENT TREAT BLACKS OR WHITES","POST: FTF CASI/WEB: F ederal gov treats blacks or whites better
+POST: FTF CASI/WEB: How much federal gov treats blacks or whites",Does federal govt treat whites or better better (typo on website),"In general, does the federal government [treat whites better than blacks, treat them both same, or treat blacks better than whites / treat blacks better than whites, treat them both the same, or treat whites better than blacks]?
 Does the federal government treat whites [much better, moderately better, or a little better / a little better, moderately better, or much better]? / Does the federal government treat blacks [much better, moderately better, or a little better / a little better, moderately better, or much better]?","In general, does the federal government treat whites better than blacks, treat them both the same, or treat blacks better than whites?
-Does the federal government treat [whites/blacks] much better, moderately better, or a little better?",,"1. Treat whites better
+Does the federal government treat [whites/blacks] much better, moderately better, or a little better?","In general, does the federal government [treat whites better than blacks, treat them both same, or treat blacks better than whites / treat blacks better than whites, treat them both the same, or treat whites better than blacks]? F orward/reverse response option order
+IF R SA YS FEDERAL GOVT TREA TS WHITES BETTER THAN BLACKS / IF R SA YS FEDERAL GOVT TREA TS BLACKS BETTER THAN WHITES: Does the federal government treat whites [much better, moderately better, or a little better / a little better, moderately better, or much better]? / Does the federal government treat blacks [much better, moderately better, or a little better / a little better, moderately better, or much better]? F orward/reverse response option order","1. Treat whites better
 2. Treat both the same
 3. Treat blacks better
 1. Much
@@ -408,7 +649,13 @@ Does the federal government treat [whites/blacks] much better, moderately better
 3. Treat blacks better
 1. Much
 2. Moderately
-3. A little",,"-9. Refused
+3. A little","1. T reat whites better
+2. T reat both the same
+3. T reat blacks better
+
+1. Much
+2. Moderately
+3. A little","-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -425,10 +672,19 @@ Does the federal government treat [whites/blacks] much better, moderately better
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242520; V242521
+-1. Inapplicable","-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused
+
+-1. Inap
+-5. Breakoff, sufficient partial
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused","2024: V242520; V242521
 2020: V202488; V202489
-2016:V162318;V162319"
-VCF9294,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY THAN 1 YEAR AGO,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY THAN 1 YEAR AGO,,Much or somewhat better/worse off R financially than a year ago [5-pt scale],"We are interested in how people are getting along ﬁnancially these days. Would you say that [you /you and your family living here] are [much better oﬀ ﬁnancially, somewhat better oﬀ, about the same, somewhat worse oﬀ, or much worse oﬀ / much worse oﬀ ﬁnancially, somewhat worse oﬀ, about the same, somewhat better oﬀ, or much better oﬀ] than you were a year ago?","We are interested in how people are getting along financially thesedays. Would you say that [you / you and your family living here] are much better off financially, somewhat better off, about the same, somewhat worse off, or much worse off than you were a year ago? PRE- ELECTION SURVEY VARIABLES 201",,"1. Much better oﬀ
+2016: V162318;V162319"
+VCF9294,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY THAN 1 YEAR AGO,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY THAN 1 YEAR AGO,PRE: R how much better worse off than 1 year ago,Much or somewhat better/worse off R financially than a year ago [5-pt scale],"We are interested in how people are getting along ﬁnancially these days. Would you say that [you /you and your family living here] are [much better oﬀ ﬁnancially, somewhat better oﬀ, about the same, somewhat worse oﬀ, or much worse oﬀ / much worse oﬀ ﬁnancially, somewhat worse oﬀ, about the same, somewhat better oﬀ, or much better oﬀ] than you were a year ago?","We are interested in how people are getting along financially thesedays. Would you say that [you / you and your family living here] are much better off financially, somewhat better off, about the same, somewhat worse off, or much worse off than you were a year ago? PRE- ELECTION SURVEY VARIABLES 201","IF R IS NOT LIVING A T HOME WITH F AMIL Y MEMBERS / IF R IS LIVING A T HOME WITH 1 OR MORE F AMIL Y MEMBERS: W e are interested in how people are getting along financially these days. W ould you say that [you /you and your family living here] are [much better off financially , somewhat better off, about the same, somewhat worse off, or much worse off / much worse off financially , somewhat worse off, about the same, somewhat better off, or much better off] than you were a year ago? F orward/reverse response option order","1. Much better oﬀ
 2. Somewhat better oﬀ
 3. About the same
 4. Somewhat worse oﬀ
@@ -436,13 +692,18 @@ VCF9294,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY THAN 1 YEAR AGO,PRE: R H
 2. Somewhat better off
 3. About the same
 4. Somewhat worse off
-5. Much worse off",,"-9. Refused
+5. Much worse off","1. Much better off
+2. Somewhat better off
+3. About the same
+4. Somewhat worse off
+5. Much worse off","-9. Refused
 -8. Don’t know
 -1. Inapplicable","-9. Refused
--8. Don’t know",,"2024: V241451
+-8. Don’t know","-8. Don’t know (FTF only)
+-9. Refused","2024: V241451
 2020: V201502
-2016:V161110"
-VCF9295,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY NEXT YEAR,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY NEXT YEAR,,Much or somewhat better worse off R financially a year from now [5-pt scale],"Now looking ahead, do you think that a year from now [you /you and your family living here] will be [much better oﬀ ﬁnancially, somewhat better oﬀ, about the same, somewhat worse oﬀ, or much worse oﬀ / much worse oﬀ ﬁnancially, somewhat worse oﬀ, about the same, somewhat better oﬀ, or much better oﬀ] than now?","Now looking ahead, do you think that a year from now [you / you and your family living here] will be much better off financially, somewhat better off, about the same, somewhat worse off, or much worse off than now?",,"1. Much better oﬀ
+2016: V161110"
+VCF9295,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY NEXT YEAR,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY NEXT YEAR,PRE: R how much better worse off next year,Much or somewhat better worse off R financially a year from now [5-pt scale],"Now looking ahead, do you think that a year from now [you /you and your family living here] will be [much better oﬀ ﬁnancially, somewhat better oﬀ, about the same, somewhat worse oﬀ, or much worse oﬀ / much worse oﬀ ﬁnancially, somewhat worse oﬀ, about the same, somewhat better oﬀ, or much better oﬀ] than now?","Now looking ahead, do you think that a year from now [you / you and your family living here] will be much better off financially, somewhat better off, about the same, somewhat worse off, or much worse off than now?","IF R IS NOT LIVING A T HOME WITH F AMIL Y MEMBERS / IF R IS LIVING A T HOME WITH 1 OR MORE F AMIL Y MEMBERS: Now looking ahead, do you think that a year from now [you /you and your family living here] will be [much better off financially , somewhat better off, about the same, somewhat worse off, or much worse off / much worse off financially , somewhat worse off, about the same, somewhat better off, or much better off] than now? F orward/reverse response option order","1. Much better oﬀ
 2. Somewhat better oﬀ
 3. About the same
 4. Somewhat worse oﬀ
@@ -450,16 +711,23 @@ VCF9295,PRE: R HOW MUCH BETTER OR WORSE OFF FINANCIALLY NEXT YEAR,PRE: R HOW MUC
 2. Somewhat better off
 3. About the same,
 4. Somewhat worse off
-5. Much worse off",,"-9. Refused
+5. Much worse off","1. Much better off
+2. Somewhat better off
+3. About the same
+4. Somewhat worse off
+5. Much worse off","-9. Refused
 -8. Don’t know
 -1. Inapplicable","-9. Refused
--8. Don’t know",,"2024: V241452
+-8. Don’t know","-8. Don’t know (FTF only)
+-9. Refused","2024: V241452
 2020: V201503
-2016:V161111"
+2016: V161111"
 VCF9296,V241586ddoes not exist in 2024 codebook,,,Did R dip into savings to make ends meet in the past year,V241586ddoes not exist in 2024 codebook,,,V241586ddoes not exist in 2024 codebook,,,V241586ddoes not exist in 2024 codebook,,,"2024: V241586d
 1992:V923436
 1984:V840161"
-VCF9297,POST: CSES6-Q11: STATE OF ECONOMY BETTER OR WORSE OVER PAST 12 MONTHS,POST: CSES5-Q11: STATE OF ECONOMY BETTER OR WORSE OVER PAST 12 MONTHS,,"CSES: Over the past twelve months has the state of the economy gotten better, stayed the same, or gotten worse","Would you say that over the past twelve months, the state of the economy in the United States has [gotten much better, gotten somewhat better, stayed about the same, gotten somewhat worse, or gotten much worse / gotten much worse, gotten somewhat worse, stayed about the same, gotten somewhat better, or gotten much better]?","Would you say that over the past twelve months, the state of the economy in the United States has gotten much better, gotten somewhat better, stayed about the same, gotten somewhat worse, or gotten much worse? POST-ELECTION SURVEY VARIABLES 559",,"1. Gotten much better
+VCF9297,POST: CSES6-Q11: STATE OF ECONOMY BETTER OR WORSE OVER PAST 12 MONTHS,POST: CSES5-Q11: STATE OF ECONOMY BETTER OR WORSE OVER PAST 12 MONTHS,"POST: CSES: State of economy
+CSES: Stateof economy","CSES: Over the past twelve months has the state of the economy gotten better, stayed the same, or gotten worse","Would you say that over the past twelve months, the state of the economy in the United States has [gotten much better, gotten somewhat better, stayed about the same, gotten somewhat worse, or gotten much worse / gotten much worse, gotten somewhat worse, stayed about the same, gotten somewhat better, or gotten much better]?","Would you say that over the past twelve months, the state of the economy in the United States has gotten much better, gotten somewhat better, stayed about the same, gotten somewhat worse, or gotten much worse? POST-ELECTION SURVEY VARIABLES 559","W ould you say that over the past twelve months, the state of the economy in the United States has [gotten much better, gotten somewhat better, stayed about the same, gotten somewhat worse, or gotten much worse / gotten much worse, gotten somewhat worse, stayed about the same, gotten somewhat better, or gotten much better]? DO NOT PROBE DON’T KNOW F orward/reverse response option order
+CSES: Stateof economy","1. Gotten much better
 2. Gotten somewhat better
 3. Stayed about the same
 4. Gotten somewhat worse
@@ -467,7 +735,18 @@ VCF9297,POST: CSES6-Q11: STATE OF ECONOMY BETTER OR WORSE OVER PAST 12 MONTHS,PO
 2. Gotten somewhat better
 3. Stayed about the same
 4. Gotten somewhat worse
-5. Gotten much worse",,"-9. Refused
+5. Gotten much worse","1. Gotten much better
+2. Gotten somewhat better
+3. Stayed about the same
+4. Gotten somewhat worse
+5. Gotten much worse
+
+1. Gotten better
+2. Stayed the same
+3. Gotten worse
+1. Gottenbetter
+2. Stayed the same
+3. Gotten worse","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -476,11 +755,23 @@ VCF9297,POST: CSES6-Q11: STATE OF ECONOMY BETTER OR WORSE OVER PAST 12 MONTHS,PO
 -8. Don’t know
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242426
+-5. Interview breakoff (sufficient partial IW)","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-6. Notasked, unit nonresponse (no post-election
+-7. Deleted due to partial (post-election) interview
+-8. Don't know
+-9. Refused
+-6. Not asked, unit
+-7. Deleted due to partial
+-8. Don't know
+-9. Refused","2024: V242426
 2020: V202430
-2016:V162280
-2012:cses_econ"
-VCF9298,POST: HOW MUCH OPPORTUNITY IN AMERICA FOR AVERAGE PERSON TO GET AHEAD,POST: HOW MUCH OPPORTUNITY IN AMERICA FOR AVERAGE PERSON TO GET AHEAD,,How much opportunity for the average person to get ahead?,"How much opportunity is there in America today for the average person to get ahead? [A great deal, a lot, a moderate amount, a little, or none / None, a little, a moderate amount, a lot, or a great deal]? POST-ELECTION SURVEY VARIABLES 469",How much opportunity is there in America today for the average person to get ahead?,,"1. A great deal
+2016: V162280
+2012: cses_econ"
+VCF9298,POST: HOW MUCH OPPORTUNITY IN AMERICA FOR AVERAGE PERSON TO GET AHEAD,POST: HOW MUCH OPPORTUNITY IN AMERICA FOR AVERAGE PERSON TO GET AHEAD,POST: How much opportunity in America to get ahead,How much opportunity for the average person to get ahead?,"How much opportunity is there in America today for the average person to get ahead? [A great deal, a lot, a moderate amount, a little, or none / None, a little, a moderate amount, a lot, or a great deal]? POST-ELECTION SURVEY VARIABLES 469",How much opportunity is there in America today for the average person to get ahead?,"How much opportunity is there in America today for the average person to get ahead? [ A great deal, a lot, a moderate amount, a little, or none / None, a little, a moderate amount, a lot, or a great deal ]? F orward/reverse response option order","1. A great deal
 2. A lot
 3. A moderate amount
 4. A little
@@ -488,7 +779,11 @@ VCF9298,POST: HOW MUCH OPPORTUNITY IN AMERICA FOR AVERAGE PERSON TO GET AHEAD,PO
 2. A lot
 3. A moderate amount
 4. A little
-5. None",,"-9. Refused
+5. None","1. A great deal
+2. A lot
+3. A moderate amount
+4. A little
+5. None","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -497,14 +792,19 @@ VCF9298,POST: HOW MUCH OPPORTUNITY IN AMERICA FOR AVERAGE PERSON TO GET AHEAD,PO
 -8. Don’t know
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242311
+-5. Interview breakoff (sufficient partial IW)","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused","2024: V242311
 2020: V202317
-2016:V162134"
+2016: V162134"
 VCF9299,"POST: ECONOMIC MOBILITY COMPARED TO 20 YEARS AGO
 POST: HOW MUCH EASIER OR HARDER IS ECONOMIC MOBILITY COMPARED TO 20 YEARS AGO","POST: ECONOMIC MOBILITY COMPARED TO 20 YEARS AGO
-POST: HOW MUCH EASIER OR HARDER IS ECONOMIC MOBILITY COMPARED TO 20 YEARS AGO",,Ability to improve financial well-being compared to 20 years ago,"When it comes to people trying to improve their ﬁnancial well-being, do you think it is now easier, harder, or the same as it was 20 years ago?
+POST: HOW MUCH EASIER OR HARDER IS ECONOMIC MOBILITY COMPARED TO 20 YEARS AGO","POST: Economic mobility compared to 20 yrs ago
+POST: How much easier/harder is econ mobility compared to 20 yrs ago",Ability to improve financial well-being compared to 20 years ago,"When it comes to people trying to improve their ﬁnancial well-being, do you think it is now easier, harder, or the same as it was 20 years ago?
 How much [easier/harder]? [A great deal, a moderate amount, or a little / A little, a moderate amount, or a great deal]? 470 CODEBOOK: VARIABLES","When it comes to people trying to improve their financial well- being, do you think it is now easier, harder, or the same as it was 20 years ago? 504 CODEBOOK: VARIABLES
-How much [easier/harder]?",,"1. Easier
+How much [easier/harder]?","When it comes to people trying to improve their financial well-being, do you think it is now easier, harder, or the same as it was 20 years ago?
+IF R SA YS ECONOMIC MOBILITY IN U.S. IS EASIER THAN 20 YEARS AGO / IF R SA YS ECONOMIC MOBILITY IN U.S. IS HARDER THAN 20 YEARS AGO: How much [easier/harder]? [A great deal, a moderate amount, or a little / A little, a moderate amount, or a great deal]? F orward/reverse response option order","1. Easier
 2. Harder
 3. The same
 1. A great deal
@@ -514,7 +814,13 @@ How much [easier/harder]?",,"1. Easier
 3. The same
 1. A great deal
 2. A moderate amount
-3. A little",,"-9. Refused
+3. A little","1. Easier
+2. Harder
+3. The same
+
+1. A great deal
+2. A moderate amount
+3. A little","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -534,14 +840,33 @@ How much [easier/harder]?",,"1. Easier
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242312; V242313
+-1. Inapplicable","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+-9. Refused","2024: V242312; V242313
 2020: V202318;V202319
-2016:V162135;V162136"
-VCF9300,POST: FAVOR OR OPPOSE TAX ON MILLIONAIRES,POST: FAVOR OR OPPOSE TAX ON MILLIONAIRES,,Does R favor or oppose increasing income taxes on people making over one million dollars per year,"Do you favor, oppose, or neither favor nor oppose increasing income taxes on people making over one million dollars per year?","Do you favor, oppose, or neither favor nor oppose increasing incometaxes on people making over one million dollars per year?",,"1. Favor
+2016: V162135;V162136"
+VCF9300,POST: FAVOR OR OPPOSE TAX ON MILLIONAIRES,POST: FAVOR OR OPPOSE TAX ON MILLIONAIRES,"POST: Does R favor or oppose tax on millionaires
+Favor oroppose tax on millionaires",Does R favor or oppose increasing income taxes on people making over one million dollars per year,"Do you favor, oppose, or neither favor nor oppose increasing income taxes on people making over one million dollars per year?","Do you favor, oppose, or neither favor nor oppose increasing incometaxes on people making over one million dollars per year?","Now looking at the booklet now. Do you favor, oppose, or neither favor nor oppose increasing income taxes on people making over one million dollars per year? F or W eb administration, reference to the respondent booklet was omitted.
+Favor oroppose tax on millionaires","1. Favor
 2. Oppose
 3. Neither favor nor oppose","1. Favor
 2. Oppose
-3. Neither favor nor oppose",,"-9. Refused
+3. Neither favor nor oppose","1. F avor
+2. Oppose
+3. Neither favor nor oppose
+
+1. Favor
+2. Oppose
+3. Neither favor nor oppose
+1. Favor
+2. Oppose
+3. Neither favor nor oppose","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -550,15 +875,29 @@ VCF9300,POST: FAVOR OR OPPOSE TAX ON MILLIONAIRES,POST: FAVOR OR OPPOSE TAX ON M
 -8. Don’t know
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242316a
+-5. Interview breakoff (sufficient partial IW)","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-6. Notasked, unit nonresponse (no post-election
+-7. Deleteddue to partial (post-election) interview
+-8. Don't know
+-9. Refused
+-6. Not asked, unit
+-7. Deleted due to partial
+-8. Don't know
+-9. Refused","2024: V242316a
 2020: V202325
-2016:V162140
-2012:milln_milltax"
+2016: V162140
+2012: milln_milltax"
 VCF9301,"POST: FAVOR OR OPPOSE FREE TRADE AGREEMENTS WITH OTHER COUNTRIES
 POST: FAVOR OR OPPOSE FREE TRADE AGREEMENTS WITH OTHER COUNTRIES (STRENGTH)","POST: FAVOR OR OPPOSE FREE TRADE AGREEMENTS WITH OTHER COUNTRIES
-POST: FAVOR OR OPPOSE FREE TRADE AGREEMENTS WITH OTHER COUNTRIES (STRENGTH)",,Favor/oppose U.S. making free trade agreements with other countries,"Do you favor, oppose, or neither favor nor oppose the U.S. making free trade agreements with other countries?
+POST: FAVOR OR OPPOSE FREE TRADE AGREEMENTS WITH OTHER COUNTRIES (STRENGTH)","POST: Does R favor or oppose free trade agreements w/other countries
+POST: How strongly favor/oppose free trade agreements w/other countries",Favor/oppose U.S. making free trade agreements with other countries,"Do you favor, oppose, or neither favor nor oppose the U.S. making free trade agreements with other countries?
 How strongly do you [favor / oppose] it? [A great deal, moderately, or a little / A little, moderately, or a great deal]?","Do you favor, oppose, or neither favor nor oppose the U.S. making free tradeagreements with other countries? POST-ELECTION SURVEY VARIABLES 525
-How strongly do you [favor/oppose] it?",,"1. Favor
+How strongly do you [favor/oppose] it?","Do you favor, oppose, or neither favor nor oppose the U.S. making free trade agreements with other countries?
+IF R F A VORS U.S FREE TRADE AGREEMENTS WITH OTHER COUN- TRIES/ IF R OPPOSES U.S. FREE TRADE AGREEMENTS WITH OTHER COUNTRIES: How strongly do you [favor/oppose] it?","1. Favor
 2. Oppose
 3. Neither favor nor oppose
 1. A great deal
@@ -568,7 +907,13 @@ How strongly do you [favor/oppose] it?",,"1. Favor
 3. Neither favor nor oppose
 1. A great deal
 2. Moderately
-3. A little",,"-9. Refused
+3. A little","1. F avor
+2. Oppose
+3. Neither favor nor oppose
+
+1. A great deal
+2. Moderately
+3. A little","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -586,10 +931,20 @@ How strongly do you [favor/oppose] it?",,"1. Favor
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242344; V242345
+-1. Inapplicable","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-1. Inap
+-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know","2024: V242344; V242345
 2020: V202359;V202360
-2016:V162176;V162176a"
-VCF9302,POST: IMPORTANCE OF REDUCING DEFICIT,POST: IMPORTANCE OF REDUCING DEFICIT,,Importance of reducing the federal budget deficit,"When the U.S. federal government spends more money than it collects, the diﬀerence is called the federal budget deﬁcit. The federal government currently has a deﬁcit. How important is it to reduce the deﬁcit? [Extremely important, very important, moderately important, a little important, or not at all important / Not at all important, a little important, moderately important, very important, or extremely important]? POST-ELECTION SURVEY VARIABLES 471","When the U.S. federal government spends more money than it collects, the difference is called the federal budget deficit. The federal government currently has a deficit. How important is it to reduce the deficit?",,"1. Extremely important
+2016: V162176;V162176a"
+VCF9302,POST: IMPORTANCE OF REDUCING DEFICIT,POST: IMPORTANCE OF REDUCING DEFICIT,"POST: Importance of reducing deficit
+Importance ofreducing deficit",Importance of reducing the federal budget deficit,"When the U.S. federal government spends more money than it collects, the diﬀerence is called the federal budget deﬁcit. The federal government currently has a deﬁcit. How important is it to reduce the deﬁcit? [Extremely important, very important, moderately important, a little important, or not at all important / Not at all important, a little important, moderately important, very important, or extremely important]? POST-ELECTION SURVEY VARIABLES 471","When the U.S. federal government spends more money than it collects, the difference is called the federal budget deficit. The federal government currently has a deficit. How important is it to reduce the deficit?","Please turn to page [PRELOAD: page] of the booklet. When the U.S. federal government spends more money than it collects, the difference is called the federal budget deficit. The federal government currently has a deficit. How important is it to reduce the deficit? [Extremely important, very important, moderately important, a little important, or not at all important? / Not at all important, a little important, moderately important, very important, or extremely important?] F or W eb administration, reference to the respondent booklet was omitted. F orward/reverse response option order
+Importance ofreducing deficit","1. Extremely important
 2. Very important
 3. Moderately important
 4. A little important
@@ -597,7 +952,17 @@ VCF9302,POST: IMPORTANCE OF REDUCING DEFICIT,POST: IMPORTANCE OF REDUCING DEFICI
 2. Very important
 3. Moderately important
 4. A little important
-5. Not at all important",,"-9. Refused
+5. Not at all important","1. Extremely important
+2. V ery important
+3. Moderately important
+4. A little important
+5. Not at all important
+
+1. Extremely important
+2. Veryimportant
+3. Moderately important
+4. Alittle important
+5. Not at all important","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -606,11 +971,19 @@ VCF9302,POST: IMPORTANCE OF REDUCING DEFICIT,POST: IMPORTANCE OF REDUCING DEFICI
 -8. Don’t know
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242315
+-5. Interview breakoff (sufficient partial IW)","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused
+
+-6. Notasked, unit nonresponse (no post-election
+-7. Deleted due to partial (post-election)interview
+-8. Don't know
+-9. Refused","2024: V242315
 2020: V202321
-2016:V162139
-2012:budget_defimp"
-VCF9303,PRE: FORCE TO SOLVE INTERNATIONAL PROBLEMS,PRE: FORCE TO SOLVE INTERNATIONAL PROBLEMS,,How willing should the U.S. be in using military force to solve international problems,"How willing should the United States be to use military force to solve international problems? [Extremely willing, very willing, moderately willing, a little willing, or not at all willing / Not at all willing, a little willing, moderately willing, very willing, or extremely willing]?",How willing should the United States be to use military force to solve international problems?,,"1. Extremely willing
+2016: V162139
+2012: budget_defimp"
+VCF9303,PRE: FORCE TO SOLVE INTERNATIONAL PROBLEMS,PRE: FORCE TO SOLVE INTERNATIONAL PROBLEMS,PRE: F orce to solve international problems,How willing should the U.S. be in using military force to solve international problems,"How willing should the United States be to use military force to solve international problems? [Extremely willing, very willing, moderately willing, a little willing, or not at all willing / Not at all willing, a little willing, moderately willing, very willing, or extremely willing]?",How willing should the United States be to use military force to solve international problems?,"How willing should the United States be to use military force to solve in- ternational problems? [Extremely willing, very willing, moderately willing, a little willing, or not at all willing / Not at all willing, a little willing, moderately willing, very willing, or extremely willing]? F orward/reverse response option order","1. Extremely willing
 2. Very willing
 3. Moderately willing
 4. A little willing
@@ -618,13 +991,18 @@ VCF9303,PRE: FORCE TO SOLVE INTERNATIONAL PROBLEMS,PRE: FORCE TO SOLVE INTERNATI
 2. Very willing
 3. Moderately willing
 4. A little willing
-5. Not at all willing",,"-9. Refused
+5. Not at all willing","1. Extremely willing
+2. V ery willing
+3. Moderately willing
+4. A little willing
+5. Not at all willing","-9. Refused
 -8. Don’t know
 -1. Inapplicable","-9. Refused
--8. Don’t know",,"2024: V241313
+-8. Don’t know","-8. Don’t know (FTF only)
+-9. Refused","2024: V241313
 2020: V201350
-2016:V161154"
-VCF9304,POST: DHS: HOW WORRIED ABOUT TERRORIST ATTACK IN NEAR FUTURE,POST: DHS: HOW WORRIED ABOUT TERRORIST ATTACK IN NEAR FUTURE,,How worried is R that U.S will experience terrorist attack,"Now for some other questions. How worried are you that the United States will experience a terrorist attack in the near future? [Extremely worried, very worried, moderately worried, slightly worried, or not at all worried / Not at all worried, slightly worried, moderately worried, very worried, or extremely worried]?",Now for some other questions. How worried are you that the United States will experience a terroristattack in the near future?,,"1. Extremely worried
+2016: V161154"
+VCF9304,POST: DHS: HOW WORRIED ABOUT TERRORIST ATTACK IN NEAR FUTURE,POST: DHS: HOW WORRIED ABOUT TERRORIST ATTACK IN NEAR FUTURE,POST: How worried about terrorist attack next 12 months,How worried is R that U.S will experience terrorist attack,"Now for some other questions. How worried are you that the United States will experience a terrorist attack in the near future? [Extremely worried, very worried, moderately worried, slightly worried, or not at all worried / Not at all worried, slightly worried, moderately worried, very worried, or extremely worried]?",Now for some other questions. How worried are you that the United States will experience a terroristattack in the near future?,"How worried are you that the United States will experience a terrorist attack in the near future? [Extremely worried, very worried, moderately worried, slightly worried, or not at all worried / Not at all worried, slightly worried, moderately worried, very worried, or extremely worried]? F orward/reverse response option order","1. Extremely worried
 2. Very worried
 3. Moderately worried
 4. Slightly worried
@@ -632,7 +1010,11 @@ VCF9304,POST: DHS: HOW WORRIED ABOUT TERRORIST ATTACK IN NEAR FUTURE,POST: DHS: 
 2. Very worried
 3. Moderately worried
 4. Slightly worried
-5. Not at all worried",,"-9. Refused
+5. Not at all worried","1. Extremely worried
+2. V ery worried
+3. Moderately worried
+4. Slightly worried
+5. Not at all worried","-9. Refused
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
@@ -640,10 +1022,15 @@ VCF9304,POST: DHS: HOW WORRIED ABOUT TERRORIST ATTACK IN NEAR FUTURE,POST: DHS: 
 -8. Don’t know
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
--5. Interview breakoff (sufficient partial IW)",,"2024: V242343
+-5. Interview breakoff (sufficient partial IW)","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused","2024: V242343
 2020: V202358
-2016:V162160"
-VCF9305,POST: HOW IMPORTANT IS BEING A FEMINIST,POST: HOW IMPORTANT IS BEING A FEMINIST,,(How well does the term 'feminist' describe R?) How important is being feminist?,How important is it to you to be a feminist?,How important is it to you to be a feminist?,,"1. Extremely important
+2016: V162160"
+VCF9305,POST: HOW IMPORTANT IS BEING A FEMINIST,POST: HOW IMPORTANT IS BEING A FEMINIST,"PRE FTF CASI/WEB: How well does feminist describe you
+PRE FTF CASI/WEB: How important is being a feminist",(How well does the term 'feminist' describe R?) How important is being feminist?,How important is it to you to be a feminist?,How important is it to you to be a feminist?,"How well does the term feminist’ describe you? F orward/reverse response option order
+IF HOW WELL TERM FEMINIST APPLIES TO R IS MORE THAN ‘NOT A T ALL’: How important is it to you to be a feminist? [Extremely important, very important, somewhat important, a little important, or not at all important / not at all important, a little important, somewhat important, very important or extremely important]? F orward/reverse response option order","1. Extremely important
 2. Very important
 3. Somewhat important
 4. A little important
@@ -651,16 +1038,31 @@ VCF9305,POST: HOW IMPORTANT IS BEING A FEMINIST,POST: HOW IMPORTANT IS BEING A F
 2. Very important
 3. Somewhat important
 4. A little important
-5. Not at all important",,"-7. Insuﬃcient partial, interview deleted
+5. Not at all important","1. Extremely well
+2. V ery well
+3. Somewhat well
+4. Not very well
+5. Not at all
+
+1. Extremely important
+2. V ery important
+3. Somewhat important
+4. A little important
+5. Not at all important","-7. Insuﬃcient partial, interview deleted
 -6. No post interview
 -5. Suﬃcient partial, breakoﬀ
 -1. Inapplicable","-7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242513
+-1. Inapplicable","-5. Interview breakoff
+-9. Refused
+
+-1. INAP ,
+-5. Interview breakoff
+-9. Refused","2024: V242513
 2020: V202476
-2016:V161346; V161347"
-VCF9306,POST: HOW IMPORTANT THAT MORE WOMEN GET ELECTED TO POLITICAL OFFICE,POST: HOW IMPORTANT THAT MORE WOMEN GET ELECTED TO POLITICAL OFFICE,,How important is it that more women be elected to political office,"How important is it that more women be elected to political oﬃce? [Extremely important, very important, moderately important, a little important, or not at all important / Not at all important, a little important, moderately important, very important, or extremely important]?",How important is it that more women be elected to political office?,,"1. Extremely important
+2016: V161346; V161347"
+VCF9306,POST: HOW IMPORTANT THAT MORE WOMEN GET ELECTED TO POLITICAL OFFICE,POST: HOW IMPORTANT THAT MORE WOMEN GET ELECTED TO POLITICAL OFFICE,POST: How important that more women get elected,How important is it that more women be elected to political office,"How important is it that more women be elected to political oﬃce? [Extremely important, very important, moderately important, a little important, or not at all important / Not at all important, a little important, moderately important, very important, or extremely important]?",How important is it that more women be elected to political office?,"Please turn to page [PRELOAD: page] of the booklet. How important is it that more women be elected to political office? [Extremely important, very important, moderately important, a little important, or not important at all / Not important at all, a little important, moderately important, very important, or extremely important]? F or W eb administration, reference to the respondent booklet was omitted. F orward/reverse response option order","1. Extremely important
 2. Very important
 3. Moderately important
 4. A little important
@@ -668,7 +1070,11 @@ VCF9306,POST: HOW IMPORTANT THAT MORE WOMEN GET ELECTED TO POLITICAL OFFICE,POST
 2. Very important
 3. Moderately important
 4. A little important
-5. Not at all important",,"-9. Refused
+5. Not at all important","1. Extremely important
+2. V ery important
+3. Moderately important
+4. A little important
+5. Not at all important","-9. Refused
 -8. Don’t know
 -7. Insuﬃcient partial, interview deleted
 -6. No post interview
@@ -678,10 +1084,13 @@ VCF9306,POST: HOW IMPORTANT THAT MORE WOMEN GET ELECTED TO POLITICAL OFFICE,POST
 -7. No post-election data, deleted due to incomplete interview
 -6. No post-election interview
 -5. Interview breakoff (sufficient partial IW)
--1. Inapplicable",,"2024: V242212
+-1. Inapplicable","-6. No post-election interview
+-7. No post data, deleted due
+-8. Don’t know
+-9. Refused","2024: V242212
 2020: V202224
-2016:V162227"
-VCF9307,PRE: AGREE/DISAGREE - WOMEN INTERPRET INNOCENT REMARKS AS SEXIST,PRE: WOMEN INTERPRET INNOCENT REMARKS AS SEXIST,,Women interpret innocent remarks as sexist,"‘Many women interpret innocent remarks or acts as being sexist.’ Do you [agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly / disagree strongly, disagree somewhat, neither agree nor disagree, agree somewhat, or agree strongly] with this statement?","‘Many women interpret innocent remarks or acts as being sexist.’ Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with this statement? PRE- ELECTION SURVEY VARIABLES 311",,"1. Agree strongly
+2016: V162227"
+VCF9307,PRE: AGREE/DISAGREE - WOMEN INTERPRET INNOCENT REMARKS AS SEXIST,PRE: WOMEN INTERPRET INNOCENT REMARKS AS SEXIST,PRE FTF CASI / WEB: Innocent remarks as sexist,Women interpret innocent remarks as sexist,"‘Many women interpret innocent remarks or acts as being sexist.’ Do you [agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly / disagree strongly, disagree somewhat, neither agree nor disagree, agree somewhat, or agree strongly] with this statement?","‘Many women interpret innocent remarks or acts as being sexist.’ Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with this statement? PRE- ELECTION SURVEY VARIABLES 311","’Many women interpret innocent remarks or acts as being sexist. ’ Do you agree strongly , agree somewhat, neither agree nor disagree, disagree some- what, or disagree strongly with this statement?","1. Agree strongly
 2. Agree somewhat
 3. Neither agree nor disagree
 4. Disagree somewhat
@@ -689,13 +1098,18 @@ VCF9307,PRE: AGREE/DISAGREE - WOMEN INTERPRET INNOCENT REMARKS AS SEXIST,PRE: WO
 2. Agree somewhat
 3. Neither agree nor disagree
 4. Disagree somewhat
-5. Disagree strongly",,"-9. Refused
+5. Disagree strongly","1. Agree strongly
+2. Agree somewhat
+3. Neither agree nor disagree
+4. Disagree somewhat
+5. Disagree strongly","-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","-9. Refused
--5. Interview breakoff (sufficient partial IW)",,"2024: V241607
+-5. Interview breakoff (sufficient partial IW)","-5. Interview breakoff
+-9. Refused","2024: V241607
 2020: V201639
-2016:V161507"
-VCF9308,PRE: WOMEN SEEK TO GAIN POWER BY GETTING CONTROL OVER MEN,PRE: WOMEN SEEK TO GAIN POWER BY GETTING CONTROL OVER MEN,,Women gain power by getting control over men,"‘Women seek to gain power by getting control over men.’ Do you [agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly / disagree strongly, disagree somewhat, neither agree nor disagree, agree somewhat, or agree strongly] with this statement?","‘Women seek to gain power by getting control over men.’ Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with this statement?",,"1. Agree strongly
+2016: V161507"
+VCF9308,PRE: WOMEN SEEK TO GAIN POWER BY GETTING CONTROL OVER MEN,PRE: WOMEN SEEK TO GAIN POWER BY GETTING CONTROL OVER MEN,PRE FTF CASI / WEB: W omen seek to gain power by getting control over,Women gain power by getting control over men,"‘Women seek to gain power by getting control over men.’ Do you [agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly / disagree strongly, disagree somewhat, neither agree nor disagree, agree somewhat, or agree strongly] with this statement?","‘Women seek to gain power by getting control over men.’ Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with this statement?","’W omen seek to gain power by getting control over men. ’ (Do you agree strongly , agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with this statement?)","1. Agree strongly
 2. Agree somewhat
 3. Neither agree nor disagree
 4. Disagree somewhat
@@ -703,23 +1117,30 @@ VCF9308,PRE: WOMEN SEEK TO GAIN POWER BY GETTING CONTROL OVER MEN,PRE: WOMEN SEE
 2. Agree somewhat
 3. Neither agree nor disagree
 4. Disagree somewhat
-5. Disagree strongly",,"-9. Refused
+5. Disagree strongly","1. Agree strongly
+2. Agree somewhat
+3. Neither agree nor disagree
+4. Disagree somewhat
+5. Disagree strongly","-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","-9. Refused
--5. Interview breakoff (sufficient partial IW)",,"2024: V241608
+-5. Interview breakoff (sufficient partial IW)","-5. Interview breakoff
+-9. Refused","2024: V241608
 2020: V201640
-2016:V161509"
-VCF9309,PRE: HOW MANY GUNS IN HOUSEHOLD,PRE: HOW MANY GUNS OWNED,,How many guns does R own?,How many guns do you or anyone else living here own? Type the number.,How many guns do you or anyone else living here own? Type the number.,,,,,"-9. Refused
+2016: V161509"
+VCF9309,PRE: HOW MANY GUNS IN HOUSEHOLD,PRE: HOW MANY GUNS OWNED,PRE FTF CASI / WEB: How many Guns owned,How many guns does R own?,How many guns do you or anyone else living here own? Type the number.,How many guns do you or anyone else living here own? Type the number.,How many guns do you or anyone else living here own? TYPE THE NUM- BER. 37 unique outcomes. 20 most frequently appearing outcomes:,V241583,,,"-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","-9. Refused
 -5. Interview breakoff (sufficient partial IW)",,"2024: V241583
 2020: V201628
-2016:V161496"
+2016: V161496"
 VCF9310,"PRE: APPROVE/DISAPPROVE TRANSGENDER PEOPLE USE BATHROOM THAT MATCHES GENDER IDENTITY
 PRE: HOW STRONGLY APPROVE/DISAPPROVE TRANSGENDER PEOPLE USE BATHROOM THAT MATCHES GENDER IDENTITY","PRE: TRANSGENDER POLICY
-PRE: TRANSGENDER POLICY (STRENGTH)",,Which bathroom should transgender people use,"Do you favor, oppose, or neither favor nor oppose allowing transgender people to use public bathrooms that match the gender they identify with?
+PRE: TRANSGENDER POLICY (STRENGTH)","PRE: T ransgender bathroom policy
+PRE: T ransgender policy strength",Which bathroom should transgender people use,"Do you favor, oppose, or neither favor nor oppose allowing transgender people to use public bathrooms that match the gender they identify with?
 Do you [favor / oppose] that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? 156 CODEBOOK: VARIABLES","Should transgender people - that is, people who identify themselves as the sex or gender different from the one they were born as - have to use the bathrooms of the gender they were born as, or should they be allowed to use the bathrooms of their identified gender? PRE- ELECTION SURVEY VARIABLES 175
-How strongly do you feel that way?",,"1. Favor
+How strongly do you feel that way?","Should transgender people – that is, people who identify themselves as the sex or gender different from the one they were born as – have to use the bathrooms of the gender they were born as, or should they be allowed to use the bathrooms of their identified gender?
+IF R OPINION ON TRANSGENDER USE OF RESTROOMS OF IDEN- TIFIED GENDER IS NOT DK/RF: How strongly do you feel about that? [V ery strongly , moderately strongly , or slightly strongly / Slightly strongly , moderately strongly or very strongly]? F orward/reverse response option order","1. Favor
 2. Oppose
 3. Neither favor nor oppose
 1. A great deal
@@ -728,7 +1149,17 @@ How strongly do you feel that way?",,"1. Favor
 2. Be allowed to use the bathrooms of their identified gender
 1. Very strongly
 2. Moderately
-3. A little",,"-9. Refused
+3. A little","1. Have to use the bathrooms
+2. Be allowed to use the
+
+1. V ery strongly
+2. Moderately
+3. Slightly1. F eel very strongly-
+2. F eel moderately strongly-
+3. F eel a little strongly-
+4. F eel a little strongly -
+5. F eel moderately strongly -
+6. F eel very strongly -","-9. Refused
 -8. Don’t know
 -1. Inapplicable
 -9. Refused
@@ -736,14 +1167,22 @@ How strongly do you feel that way?",,"1. Favor
 -8. Don’t know
 -9. Refused
 -8. Don’t know
--1. Inapplicable",,"2024: V241370;V241371
+-1. Inapplicable","-8. Don’t know (FTF only)
+-9. Refused
+
+-1. INAP , -8,-9 in V161228
+-8. Don’t know (FTF only)
+-9. Refused-8. DK (-8) in V161228 or
+-9. RF (-9) in V161228 or","2024: V241370;V241371
 2020: V201409;V201410
-2016:V161228;V161228a"
+2016: V161228;V161228a"
 VCF9311,"PRE: FAVOR OR OPPOSE ENDING BIRTHRIGHT CITIZENSHIP
 PRE: FAVOR OR OPPOSE ENDING BIRTHRIGHT CITIZENSHIP (STRENGTH)","PRE: FAVOR OR OPPOSE ENDING BIRTHRIGHT CITIZENSHIP
-PRE: FAVOR OR OPPOSE ENDING BIRTHRIGHT CITIZENSHIP (STRENGTH)",,Favor/oppose changing constitution so that children of unauthorized immigrants do not automatically get citizenship if born in U.S.,"Some people have proposed that the U.S. Constitution should be changed so that the children of unauthorized immigrants do not automatically get citizenship if they are born in this country. Do you favor, oppose, or neither favor nor oppose this proposal?
+PRE: FAVOR OR OPPOSE ENDING BIRTHRIGHT CITIZENSHIP (STRENGTH)","PRE: F avor or oppose ending birthright citizenship
+PRE: Strength R favors or opposes ending birthright citizenship",Favor/oppose changing constitution so that children of unauthorized immigrants do not automatically get citizenship if born in U.S.,"Some people have proposed that the U.S. Constitution should be changed so that the children of unauthorized immigrants do not automatically get citizenship if they are born in this country. Do you favor, oppose, or neither favor nor oppose this proposal?
 Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Do you oppose that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? PRE- ELECTION SURVEY VARIABLES 163","Some people have proposed that the U.S. Constitution should be changed so that the children of unauthorized immigrants do not automatically get citizenship if they are born in this country. Do you favor, oppose, or neither favor nor oppose this proposal?
-Do you [favor / oppose] that a great deal, a moderate amount, or a little?",,"1. Favor
+Do you [favor / oppose] that a great deal, a moderate amount, or a little?","Some people have proposed that the U.S. Constitution should be changed so that the children of unauthorized immigrants do not automatically get citizenship if they are born in this country . Do you favor, oppose, or neither favor nor oppose this proposal?
+IF R F A VORS CHANGING CONSTITUTION - US-BORN CHILDREN OF ILLEGAL IMMIGRANTS / IF R F A VORS CHANGING CONSTITUTION - US-BORN CHILDREN OF ILLEGAL IMMIGRANTS: Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Do you oppose that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? F orward/reverse response option order","1. Favor
 2. Oppose
 3. Neither favor nor oppose
 1. A great deal
@@ -753,21 +1192,47 @@ Do you [favor / oppose] that a great deal, a moderate amount, or a little?",,"1.
 3. Neither favor nor oppose
 1. A great deal
 2. A moderate amount
-3. A little",,"-9. Refused
+3. A little","1. F avor
+2. Oppose
+3. Neither favor nor oppose
+
+1. A great deal
+2. A moderate amount
+3. A little1. F avor a great deal
+2. F avor a moderate amount
+3. F avor a little
+4. Neither favor nor oppose
+5. Oppose a little
+6. Oppose a moderate
+7. Oppose a great deal1. Should send back - favor a
+2. Should send back - favor a
+3. Should send back - favor a
+4. Should allow to stay -
+5. Should allow to stay -
+6. Should allow to stay -","-9. Refused
 -8. Don’t know
 -1. Inapplicable
 -9. Refused
 -1. Inapplicable","-9. Refused
 -8. Don’t know
 -9. Refused
--1. Inapplicable",,"2024: V241387;V241388
+-1. Inapplicable","-8. Don’t know (FTF only)
+-9. Refused
+
+-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-8. DK (-8) in V161193 or
+-9. RF (-9) in V161193 or-8. DK (-8) in V161193 or
+-9. RF (-9) in V161193 or","2024: V241387;V241388
 2020: V201418;V201419
-2016:V161193;V161193a"
+2016: V161193;V161193a"
 VCF9312,"PRE: SHOULD CHILDREN BROUGHT ILLEGALLY BE SENT BACK OR ALLOWED TO STAY
 PRE: SHOULD CHILDREN BROUGHT ILLEGALLY BE SENT BACK/ALLOWED TO STAY (STRENGTH)","PRE: SHOULD CHILDREN BROUGHT ILLEGALLY BE SENT BACK OR ALLOWED TO STAY
-PRE: SHOULD CHILDREN BROUGHT ILLEGALLY BE SENT BACK/ALLOWED TO STAY (STRENGTH)",,What should happen to immigrants brought to the U.S. illegally as children?,"What should happen to immigrants who were brought to the U.S. illegally as children and have lived here for at least 10 years and graduated high school here? Should they be sent back where they came from, or should they be allowed to live and work in the United States?
+PRE: SHOULD CHILDREN BROUGHT ILLEGALLY BE SENT BACK/ALLOWED TO STAY (STRENGTH)","PRE: Children brought illegally sent back
+PRE: Children brought illegally strength follow-up",What should happen to immigrants brought to the U.S. illegally as children?,"What should happen to immigrants who were brought to the U.S. illegally as children and have lived here for at least 10 years and graduated high school here? Should they be sent back where they came from, or should they be allowed to live and work in the United States?
 Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, a great deal]?","What should happen to immigrants who were brought to the U.S. illegally as children and have lived here for at least 10 years and graduated high school here? Should they be sent back where they came from, or should they be allowed to live and work in the United States?
-Do you favor that a great deal, a moderate amount, or a little?",,"1. Should be sent back where they came from
+Do you favor that a great deal, a moderate amount, or a little?","What should happen to immigrants who were brought to the U.S. illegally as children and have lived here for at least 10 years and graduated high school here? Should they be sent back where they came from, or should they be allowed to live and work in the United States?
+IF R OPINION ON ILLEGAL IMMIGRANT CHILDREN RAISED IN U.S. IS NOT DK/RF: Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, a great deal]? F orward/reverse response option order","1. Should be sent back where they came from
 2. Should be allowed to live and work in the US
 1. A great deal
 2. A moderate amount
@@ -775,7 +1240,12 @@ Do you favor that a great deal, a moderate amount, or a little?",,"1. Should be 
 2. Should be allowed to live and work in the US
 1. A great deal
 2. A moderate amount
-3. A little",,"-9. Refused
+3. A little","1. Should be sent back where
+2. Should be allowed to live
+
+1. A great deal
+2. A moderate amount
+3. A little","-9. Refused
 -8. Don’t know
 -1. Inapplicable
 -9. Refused
@@ -783,14 +1253,21 @@ Do you favor that a great deal, a moderate amount, or a little?",,"1. Should be 
 -8. Don’t know
 -9. Refused
 -8. Don’t know
--1. Inapplicable",,"2024: V241390;V241391
+-1. Inapplicable","-8. Don’t know (FTF only)
+-9. Refused
+
+-1. INAP , -8,-9 in V161195
+-8. Don’t know (FTF only)
+-9. Refused","2024: V241390;V241391
 2020: V201421;V201422
-2016:V161195;V161195a"
+2016: V161195;V161195a"
 VCF9313,"PRE: FAVOR OR OPPOSE BUILDING A WALL ON BORDER WITH MEXICO
 PRE: FAVOR OR OPPOSE BUILDING A WALL ON BORDER WITH MEXICO (STRENGTH)","PRE: FAVOR OR OPPOSE BUILDING A WALL ON BORDER WITH MEXICO
-PRE: FAVOR OR OPPOSE BUILDING A WALL ON BORDER WITH MEXICO (STRENGTH)",,Favor/oppose building a wall on the U.S. border with Mexico,"Do you favor, oppose, or neither favor nor oppose building a wall on the U.S. border with Mexico?
+PRE: FAVOR OR OPPOSE BUILDING A WALL ON BORDER WITH MEXICO (STRENGTH)","PRE: Build a wall with Mexico
+PRE: Build a wall with Mexico strength follow-up",Favor/oppose building a wall on the U.S. border with Mexico,"Do you favor, oppose, or neither favor nor oppose building a wall on the U.S. border with Mexico?
 Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Do you oppose that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]?","Do you favor, oppose, or neither favor nor oppose building a wall on the U.S. border with Mexico? PRE- ELECTION SURVEY VARIABLES 181
-Do you [favor / oppose] that a great deal, a moderate amount, or a little?",,"1. Favor
+Do you [favor / oppose] that a great deal, a moderate amount, or a little?","Do you favor, oppose, or neither favor nor oppose building a wall on the U.S. border with Mexico?
+IF R F A VORS BUILDING A W ALL ON THE U.S. BORDER WITH MEX- ICO / IF R OPPOSES BUILDING A W ALL ON THE U.S. BORDER WITH MEXICO: Do you favor that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? / Do you oppose that [a great deal, a moderate amount, or a little / a little, a moderate amount, or a great deal]? F orward/reverse response option order","1. Favor
 2. Oppose
 3. Neither favor nor oppose
 1. A great deal
@@ -800,21 +1277,41 @@ Do you [favor / oppose] that a great deal, a moderate amount, or a little?",,"1.
 3. Neither favor nor oppose
 1. A great deal
 2. A moderate amount
-3. A little",,"-9. Refused
+3. A little","1. F avor
+2. Oppose
+3. Neither favor nor oppose
+
+1. A great deal
+2. A moderate amount
+3. A little1. F avor a great deal
+2. F avor a moderate amount
+3. F avor a little
+4. Neither favor nor oppose
+5. Oppose a little
+6. Oppose a moderate
+7. Oppose a great deal","-9. Refused
 -8. Don’t know
 -1. Inapplicable
 -9. Refused
 -1. Inapplicable","-9. Refused
 -8. Don’t know
 -9. Refused
--1. Inapplicable",,"2024: V241393;V241394
+-1. Inapplicable","-8. Don’t know (FTF only)
+-9. Refused
+
+-1. INAP ,
+-8. Don’t know (FTF only)
+-9. Refused-8. DK (-8) in V161196 or
+-9. RF (-9) in V161196 or","2024: V241393;V241394
 2020: V201424;V201425
-2016:V161196;V161196a"
+2016: V161196;V161196a"
 VCF9314,"PRE: GOVERNMENT ACTION ABOUT RISING TEMPERATURES
 PRE: GOVERNMENT ACTION ABOUT RISING TEMPERATURES (STRENGTH)","PRE: GOVERNMENT ACTION ABOUT RISING TEMPERATURES
-PRE: GOVERNMENT ACTION ABOUT RISING TEMPERATURES (STRENGTH)",,Should federal government be doing more about rising temperatures?,"Do you think the federal government should be doing more about rising temperatures, should be doing less, or is it currently doing the right amount?
+PRE: GOVERNMENT ACTION ABOUT RISING TEMPERATURES (STRENGTH)","PRE: Govt action about rising temperatures
+PRE: Strength of position on govt action about rising temperatures",Should federal government be doing more about rising temperatures?,"Do you think the federal government should be doing more about rising temperatures, should be doing less, or is it currently doing the right amount?
 Should it be doing a great deal [more/less], a moderate amount [more/less], or a little [more/less]? / Should it be doing a little [more/less], a moderate amount [more/less], or a great deal [more/less]?","Do you think the federal government should be doing more about rising temperatures, should be doing less, or is it currently doing the right amount?
-Should it be doing a great deal [more/less], a moderate amount [more/less], or a little [more/less]?",,"1. Should be doing more
+Should it be doing a great deal [more/less], a moderate amount [more/less], or a little [more/less]?","Do you think the federal government should be doing more about rising temperatures, should be doing less, or is it currently doing the right amount?
+IF R SA YS GOVERNMENT SHOULD DO MORE ABOUT RISING TEM- PERA TURES / IF R SA YS GOVERNMENT SHOULD DO LESS ABOUT RISING TEMPERA TURES: Should it be doing a great deal [more/less], a moderate amount [more/less], or a little [more/less]? / Should it be doing a little [more/less], a moderate amount [more/less], or a great deal [more/less]? F orward/reverse response option order","1. Should be doing more
 2. Should be doing less
 3. Is currently doing the right amount
 1. A great deal
@@ -824,16 +1321,33 @@ Should it be doing a great deal [more/less], a moderate amount [more/less], or a
 3. Is currently doing the right amount
 1. A great deal
 2. A moderate amount
-3. A little",,"-9. Refused
+3. A little","1. Should be doing more
+2. Should be doing less
+3. Is currently doing the right
+
+1. Great deal
+2. A moderate amount
+3. A little1. Should be doing a great
+2. Should be doing a
+3. Should be doing a little
+4. Currently doing the right
+5. Should be doing a little less
+6. Should be doing a
+7. Should be doing a great","-9. Refused
 -8. Don’t know
 -1. Inapplicable
 -9. Refused
 -1. Inapplicable","-9. Refused
 -8. Don’t know
 -9. Refused
--1. Inapplicable",,"2024: V241364;V241365
+-1. Inapplicable","-8. Don’t know (FTF only)
+-9. Refused
+
+-1. INAP ,
+-9. Refused-8. DK (-8) in V161224 or
+-9. RF (-9) in V161224 or","2024: V241364;V241365
 2020: V201401;V201402
-2016:V161224;V161224a"
+2016: V161224;V161224a"
 VCF9315,PRE: FEDERAL BUDGET SPENDING: SOCIAL SECURITY (STRENGTH),PRE: FEDERAL BUDGET SPENDING: SOCIAL SECURITY (STRENGTH),,How much should spending on Social Security be increased/decreased,Should it be [increased / decreased] a lot or a little? PRE- ELECTION SURVEY VARIABLES 117,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -841,7 +1355,7 @@ VCF9315,PRE: FEDERAL BUDGET SPENDING: SOCIAL SECURITY (STRENGTH),PRE: FEDERAL BU
 -8. Don’t know
 -1. Inapplicable",,"2024: V241262
 2020: V201301
-2008:V083141a"
+2008: V083141a"
 VCF9316,PRE: FEDERAL BUDGET SPENDING: PUBLIC SCHOOLS (STRENGTH),PRE: FEDERAL BUDGET SPENDING: PUBLIC SCHOOLS (STRENGTH),,How much should spending on public schools be increased/decreased,Should it be [increased / decreased] a lot or a little?,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -850,7 +1364,7 @@ VCF9316,PRE: FEDERAL BUDGET SPENDING: PUBLIC SCHOOLS (STRENGTH),PRE: FEDERAL BUD
 -8. Don’t know
 -1. Inapplicable",,"2024: V241265
 2020: V201304
-2008:V083142a"
+2008: V083142a"
 VCF9317,PRE: FEDERAL BUDGET SPENDING: DEALING WITH CRIME (STRENGTH),PRE: FEDERAL BUDGET SPENDING: DEALING WITH CRIME (STRENGTH),,How much should spending on crime be increased/decreased,Should it be [increased / decreased] a lot or a little?,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -858,7 +1372,7 @@ VCF9317,PRE: FEDERAL BUDGET SPENDING: DEALING WITH CRIME (STRENGTH),PRE: FEDERAL
 -1. Inapplicable","-9. Refused
 -1. Inapplicable",,"2024: V241271
 2020: V201310
-2008:V083144a"
+2008: V083144a"
 VCF9318,PRE: FEDERAL BUDGET SPENDING: WELFARE PROGRAMS (STRENGTH),PRE: FEDERAL BUDGET SPENDING: WELFARE PROGRAMS (STRENGTH),,How much should spending on welfare be increased/decreased,Should it be [increased / decreased] a lot or a little?,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -866,7 +1380,7 @@ VCF9318,PRE: FEDERAL BUDGET SPENDING: WELFARE PROGRAMS (STRENGTH),PRE: FEDERAL B
 -1. Inapplicable","-9. Refused
 -1. Inapplicable",,"2024: V241274
 2020: V201313
-2008:V083145a"
+2008: V083145a"
 VCF9319,PRE: FEDERAL BUDGET SPENDING: TIGHTENING BORDER SECURITY (STRENGTH),PRE: FEDERAL BUDGET SPENDING: TIGHTENING BORDER SECURITY (STRENGTH),,How much should spending on border security be increased/decreased,Should it be [increased / decreased] a lot or a little?,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -875,7 +1389,7 @@ VCF9319,PRE: FEDERAL BUDGET SPENDING: TIGHTENING BORDER SECURITY (STRENGTH),PRE:
 -8. Don’t know
 -1. Inapplicable",,"2024: V241268
 2020: V201307
-2008:V083149a"
+2008: V083149a"
 VCF9320,PRE: FEDERAL BUDGET SPENDING: BUILDING AND REPAIRING HIGHWAYS (STRENGTH),PRE: FEDERAL BUDGET SPENDING: BUILDING AND REPAIRING HIGHWAYS (STRENGTH),,How much should spending on highways be increased/decreased,Should it be [increased / decreased] a lot or a little?,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -883,7 +1397,7 @@ VCF9320,PRE: FEDERAL BUDGET SPENDING: BUILDING AND REPAIRING HIGHWAYS (STRENGTH)
 -1. Inapplicable","-9. Refused
 -1. Inapplicable",,"2024: V241277
 2020: V201316
-2008:V083140a"
+2008: V083140a"
 VCF9321,PRE: FEDERAL BUDGET SPENDING: PROTECTING THE ENVIRONMENT (STRENGTH),PRE: FEDERAL BUDGET SPENDING: PROTECTING THE ENVIRONMENT (STRENGTH),,How much should spending on the environment be increased/decreased,Should it be [increased / decreased] a lot or a little?,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -892,7 +1406,7 @@ VCF9321,PRE: FEDERAL BUDGET SPENDING: PROTECTING THE ENVIRONMENT (STRENGTH),PRE:
 -8. Don’t know
 -1. Inapplicable",,"2024: V241283
 2020: V201322
-2008:V083151a"
+2008: V083151a"
 VCF9322,PRE: FEDERAL BUDGET SPENDING: AID TO THE POOR (STRENGTH),PRE: FEDERAL BUDGET SPENDING: AID TO THE POOR (STRENGTH),,How much should spending on aid to the poor be increased/decreased,Should it be [increased / decreased] a lot or a little?,Should it be [increased / decreased] a lot or a little?,,"1. A lot
 2. A little","1. A lot
 2. A little",,"-9. Refused
@@ -900,16 +1414,20 @@ VCF9322,PRE: FEDERAL BUDGET SPENDING: AID TO THE POOR (STRENGTH),PRE: FEDERAL BU
 -8. Don’t know
 -1. Inapplicable",,"2024: V241280
 2020: V201319
-2008:V083148a"
-VCF9323,PRE: NEED TO BE MORE SENSITIVE TALKING OR PEOPLE TOO EASILY OFFENDED PRE- ELECTION SURVEY VARIABLES 247,PRE: NEED TO BE MORE SENSITIVE TALKING OR PEOPLE TOO EASILY OFFENDED,,People too easily offended vs change the way we talk to the be more sensitive (typo on website),Some people think that the way people talk needs to change with the times to be more sensitive to people from diﬀerent backgrounds. Others think that this has already gone too far and many people are just too easily oﬀended. Which is closer to your opinion?,Some people think that the way people talk needs to change with the times to be more sensitive to people from different backgrounds. Others think that this has already gone too far and many people are just too easily offended. Which is closer to your opinion?,,"1. The way people talk needs to change a lot
+2008: V083148a"
+VCF9323,PRE: NEED TO BE MORE SENSITIVE TALKING OR PEOPLE TOO EASILY OFFENDED PRE- ELECTION SURVEY VARIABLES 247,PRE: NEED TO BE MORE SENSITIVE TALKING OR PEOPLE TOO EASILY OFFENDED,PRE FTF CASI/WEB: Need to be more sensitive talking or people too,People too easily offended vs change the way we talk to the be more sensitive (typo on website),Some people think that the way people talk needs to change with the times to be more sensitive to people from diﬀerent backgrounds. Others think that this has already gone too far and many people are just too easily oﬀended. Which is closer to your opinion?,Some people think that the way people talk needs to change with the times to be more sensitive to people from different backgrounds. Others think that this has already gone too far and many people are just too easily offended. Which is closer to your opinion?,Some people think that the way people talk needs to change with the times to be more sensitive to people from different backgrounds. Others think that this has already gone too far and many people are just too easily offended. Which is closer to your opinion?,"1. The way people talk needs to change a lot
 2. The way people talk needs to change a little
 3. People are a little too easily oﬀended
 4. People are much too easily oﬀended","1. The way people talk needs to change a lot
 2. The way people talk needs to change a little
 3. People are a little too easily offended
-4. People are much too easily offended",,"-9. Refused
+4. People are much too easily offended","1. The way people talk needs
+2. The way people talk needs
+3. People are a little too
+4. People are much too easily","-9. Refused
 -5. Break oﬀ, suﬃcient partial
 -1. Inapplicable","-9. Refused
--5. Interview breakoff (sufficient partial IW)",,"2024: V241577
+-5. Interview breakoff (sufficient partial IW)","-5. Interview breakoff
+-9. Refused","2024: V241577
 2020: V201626
-2016:V161362"
+2016: V161362"
