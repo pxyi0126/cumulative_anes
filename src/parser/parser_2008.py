@@ -59,7 +59,7 @@ def parse_08(lines, start_idx):
         if "VALID CODES" in line.upper():
             print(f"Found VALID CODES for {varname}")
             i += 2
-            while i < len(lines) and :
+            while i < len(lines): 
                 val_line = lines[i].strip()
             val_line = val_pattern.match(lines[i].strip())
 
