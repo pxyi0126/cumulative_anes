@@ -1,0 +1,689 @@
+THIS FILE IS:  anes_timeseries_2008_codebook_pre.txt  (pre-election variable
+documentation file)
+RELEASE VERSION:  20150519
+
+=============================================================================
+V080001    ID.1. CASE ID
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CASE ID
+-----------------------------------------------------------------
+
+VALID CODES:
+-----------
+Range: 0001-261,263-2323
+
+NOTES:
+-----
+Case 0262 was dropped from the dataset as an incomplete.
+
+TYPE:
+----
+Numeric
+
+=============================================================================
+V080101    WT.1. PRE CROSS-SECTION SAMPLE WEIGHT - POST-STRAT, centered
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION WAVE, POST-STRATIFIED:
+centered at mean 1.0
+-----------------------------------------------------------------
+
+NOTES:
+-----
+Use of sample weighting is necessary for a representative
+cross-section. For the Pre-election and Post-election waves
+of the ANES 2008 Time Series Study, either WT.1 and WT.2
+may be used (weights centered at a mean of 1.0), or else
+WT.1a and WT.2a (not centered).
+Using V080101, the integer [rounded] value of the sum of
+cases equals the pre-election unweighted number of cases,
+2,322.
+
+TYPE:
+----
+Numeric   4
+
+=============================================================================
+V080101a    WT.1. PRE CROSS-SECTION SAMPLE WEIGHT - POST-STRATIFIED
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION WAVE, POST-STRATIFIED
+-----------------------------------------------------------------
+
+NOTES:
+-----
+Use of sample weighting is necessary for a representative
+cross-section. For the Pre-election and Post-election waves
+of the ANES 2008 Time Series Study, either WT.1 and WT.2
+may be used (weights centered at a mean of 1.0), or else
+WT.1a and WT.2a (not centered).
+
+TYPE:
+----
+Numeric   4
+
+=============================================================================
+V080102    WT.2. POST CROSS-SECTION SAMPLE WEIGHT -POST-STRAT, centered
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CROSS-SECTION SAMPLE WEIGHT - POST-ELECTION WAVE, POST-STRATIFIED:
+centered at mean 1.0
+-----------------------------------------------------------------
+
+MISSING CODES:
+-------------
+0. No Post-election interview
+
+NOTES:
+-----
+Use of sample weighting is necessary for a representative
+cross-section. For the Pre-election and Post-election waves
+of the ANES 2008 Time Series Study, either WT.1 and WT.2
+may be used (weights centered at a mean of 1.0), or else
+WT.1a and WT.2a (not centered).
+Using V080102, the integer [rounded] value of the sum of
+cases equals the post-election unweighted number of cases,
+2,102.
+
+TYPE:
+----
+Numeric   4
+
+=============================================================================
+V080102a    WT.2a. POST CROSS-SECTION SAMPLE WEIGHT -POST-STRATIFIED
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+CROSS-SECTION SAMPLE WEIGHT - POST-ELECTION WAVE, POST-STRATIFIED
+-----------------------------------------------------------------
+
+MISSING CODES:
+-------------
+0. No Post-election interview
+
+NOTES:
+-----
+Use of sample weighting is necessary for a representative
+cross-section. For the Pre-election and Post-election waves
+of the ANES 2008 Time Series Study, either WT.1 and WT.2
+may be used (weights centered at a mean of 1.0), or else
+WT.1a and WT.2a (not centered).
+
+TYPE:
+----
+Numeric   4
+
+=============================================================================
+V080103    WT.3. HOUSEHOLD WEIGHT: Household post-stratified
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+HOUSEHOLD WEIGHT: post-stratified
+-----------------------------------------------------------------
+
+NOTES:
+-----
+This is the household-level post-stratified weight
+used in construction of sample weights WT.1, WT.1a,
+WT.2, WT.2a.
+
+TYPE:
+----
+Numeric   4
+
+=============================================================================
+V081001    STUDY.1. Waves completed by respondent
+=============================================================================
+
+STUDY DESCRIPTIVE
+
+-----------------------------------------------------------------
+Waves completed by respondent for the ANES 2008 Time Series Study
+-----------------------------------------------------------------
+
+VALID CODES:
+-----------
+0. Pre-election only
+1. Pre-election and Post-election
+
+TYPE:
+----
+Numeric
+
+=============================================================================
+V081101    HHList.1. Respondent: gender
+=============================================================================
+
+HOUSEHOLD LISTING (SCREENER)
+
+-----------------------------------------------------------------
+Selected Respondent: gender
+-----------------------------------------------------------------
+
+VALID CODES:
+-----------
+1. Male respondent selected
+2. Female respondent selected
+
+REFERENCE:
+---------
+ZZ11. (Pre-election interviewer observation gender).
+
+NOTES:
+-----
+This represents information given in the household listing
+(screener).
+Before an interview could be conducted, the screener was
+completed by an adult household member (called 'the
+informant'), who listed all adult (17 years old or older)
+household members. The informant also provided age, race,
+gender, Latino status, citizenship status, and relationship
+to the informant for each listed member.
+The random selection of Respondent was made among the
+screener's eligible household members (citizens age 18 or
+older by October 30, 2008).
+
+TYPE:
+----
+Numeric
+=============================================================================
+V083313a    ZZ13a. PRE IWR OBS: R reactions to IW - Mention 1
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview:
+Mention 1
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+13. Neutral or no feedback (1st mention only)
+
+MISSING CODES:
+-------------
+-4. NA (missing for ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Numeric
+
+=============================================================================
+V083313b    ZZ13b. PRE IWR OBS: R reactions to IW - Mention 2
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 2
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313c    ZZ13c. PRE IWR OBS: R reactions to IW - Mention 3
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 3
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313d    ZZ13d. PRE IWR OBS: R reactions to IW - Mention 4
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 4
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313e    ZZ13e. PRE IWR OBS: R reactions to IW - Mention 5
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 5
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313f    ZZ13f. PRE IWR OBS: R reactions to IW - Mention 6
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 6
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313g    ZZ13g. PRE IWR OBS: R reactions to IW - Mention 7
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 7
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313h    ZZ13h. PRE IWR OBS: R reactions to IW - Mention 8
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 8
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313j    ZZ13j. PRE IWR OBS: R reactions to IW - Mention 9
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 9
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313k    ZZ13k. PRE IWR OBS: R reactions to IW - Mention 10
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 10
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num
+
+=============================================================================
+V083313m    ZZ13m. PRE IWR OBS: R reactions to IW - Mention 11
+=============================================================================
+
+INTERVIEWER OBSERVATION
+
+-----------------------------------------------------------------
+PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 11
+-----------------------------------------------------------------
+
+INTERVIEWER INSTRUCTION:
+-----------------------
+{CHECK ALL THAT APPLY}
+
+VALID CODES:
+-----------
+01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+
+MISSING CODES:
+-------------
+-1. INAP, 13 in ZZ13a; no further mention
+-4. NA (missing in ZZ13a-ZZ13m)
+
+NOTES:
+-----
+Coded by the interviewer after completion of the Pre-election
+survey interview.
+
+TYPE:
+----
+Num

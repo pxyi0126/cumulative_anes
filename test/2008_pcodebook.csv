@@ -1,0 +1,168 @@
+var_name,summary,question,valid_labels,missing_labels
+V080001,ID.1. CASE ID,CASE ID,,
+V080101,"WT.1. PRE CROSS-SECTION SAMPLE WEIGHT - POST-STRAT, centered","CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION WAVE, POST-STRATIFIED:
+centered at mean 1.0",,
+V080101a,WT.1. PRE CROSS-SECTION SAMPLE WEIGHT - POST-STRATIFIED,"CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION WAVE, POST-STRATIFIED",,
+V080102,"WT.2. POST CROSS-SECTION SAMPLE WEIGHT -POST-STRAT, centered","CROSS-SECTION SAMPLE WEIGHT - POST-ELECTION WAVE, POST-STRATIFIED:
+centered at mean 1.0",,
+V080102a,WT.2a. POST CROSS-SECTION SAMPLE WEIGHT -POST-STRATIFIED,"CROSS-SECTION SAMPLE WEIGHT - POST-ELECTION WAVE, POST-STRATIFIED",,
+V080103,WT.3. HOUSEHOLD WEIGHT: Household post-stratified,HOUSEHOLD WEIGHT: post-stratified,,
+V081001,STUDY.1. Waves completed by respondent,Waves completed by respondent for the ANES 2008 Time Series Study,"0. Pre-election only
+1. Pre-election and Post-election",
+V081101,HHList.1. Respondent: gender,Selected Respondent: gender,"1. Male respondent selected
+2. Female respondent selected",
+V083313a,ZZ13a. PRE IWR OBS: R reactions to IW - Mention 1,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview:
+Mention 1","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview
+13. Neutral or no feedback (1st mention only)",-4. NA (missing for ZZ13a-ZZ13m)
+V083313b,ZZ13b. PRE IWR OBS: R reactions to IW - Mention 2,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 2","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313c,ZZ13c. PRE IWR OBS: R reactions to IW - Mention 3,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 3","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313d,ZZ13d. PRE IWR OBS: R reactions to IW - Mention 4,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 4","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313e,ZZ13e. PRE IWR OBS: R reactions to IW - Mention 5,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 5","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313f,ZZ13f. PRE IWR OBS: R reactions to IW - Mention 6,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 6","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313g,ZZ13g. PRE IWR OBS: R reactions to IW - Mention 7,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 7","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313h,ZZ13h. PRE IWR OBS: R reactions to IW - Mention 8,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 8","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313j,ZZ13j. PRE IWR OBS: R reactions to IW - Mention 9,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 9","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313k,ZZ13k. PRE IWR OBS: R reactions to IW - Mention 10,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 10","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
+V083313m,ZZ13m. PRE IWR OBS: R reactions to IW - Mention 11,"PRE-ELECTION INTERVIEWER:
+R's reaction to interview: Mention 11","01. Negative - general
+02. Negative - too long
+03. Negative - too complicated
+04. Negative - boring/tedious/repetitious
+05. R wanted to stop before interview complete
+06. R was ill/deaf/tired/had bad eyesight
+07. R expressed lack of knowledge for interview
+08. R stressed/agitated by interview PROCESS
+09. R became angry at interview CONTENT
+10. R concered with sampling purpose or bias
+11. R could not read Repondent Booklet
+12. R appeared to enjoy interview","-1. INAP,
+-4. NA (missing in ZZ13a-ZZ13m)"
