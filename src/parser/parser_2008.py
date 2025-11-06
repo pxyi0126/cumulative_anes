@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import os
 # import shutil
-os.chdir("/Users/yipho/anes/cumulative_anes/test")
+os.chdir("/Users/yipho/anes/cumulative_anes/data/raw/txt")
 
 var_pattern = re.compile(r"(V\d+[a-z,_orig]*)(.*)$")
 val_pattern = re.compile(r"^(\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
@@ -85,7 +85,7 @@ def parse_08(lines, start_idx):
     rows.append((varname, summary, question, valid_label.strip(), missing_label.strip()))
     return i, rows
 
-with open("2008test.txt", "r", errors='replace') as f:
+with open("2008_pre.txt", "r", errors='replace') as f:
     lines = f.readlines()
 i = 0
 while i < len(lines):

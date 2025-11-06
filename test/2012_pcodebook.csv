@@ -1,14 +1,14 @@
-var_name,description,valid_labels,missing_labels
-version,ANES 2012TimeSeries Release Version,,
-caseid,ANES 2012TimeSeries Case ID,,
-weight_ftf,ANES 2012TimeSeries Post-stratified weight forface-to-face cases,,
-weight_web,ANES 2012TimeSeries Post-stratified weight forweb cases,,
-weight_full,ANES 2012TimeSeries Post-stratified weight forfull sample,,
-psu_full,ANES 2012TimeSeries sample PSU forfull sample,,
-psu_ftf,ANES 2012TimeSeries sample PSU forFTF sample component,,
-strata_full,ANES 2012TimeSeries sample strata forfull sample,,
-strata_ftf,ANES 2012TimeSeries sample strata forFTF sample component,,
-ftf_oversample,ANES 2012TimeSeries FTF Oversample Case,"0. No oversample
+var_name,description,question,valid_labels,missing_labels
+version,ANES 2012TimeSeries Release Version,,,
+caseid,ANES 2012TimeSeries Case ID,,,
+weight_ftf,ANES 2012TimeSeries Post-stratified weight forface-to-face cases,,,
+weight_web,ANES 2012TimeSeries Post-stratified weight forweb cases,,,
+weight_full,ANES 2012TimeSeries Post-stratified weight forfull sample,,,
+psu_full,ANES 2012TimeSeries sample PSU forfull sample,,,
+psu_ftf,ANES 2012TimeSeries sample PSU forFTF sample component,,,
+strata_full,ANES 2012TimeSeries sample strata forfull sample,,,
+strata_ftf,ANES 2012TimeSeries sample strata forFTF sample component,,,
+ftf_oversample,ANES 2012TimeSeries FTF Oversample Case,,"0. No oversample
 1. Hispanicoversample
 2. AA oversample
 3. Both Hispanicand AA oversample
@@ -19,31 +19,31 @@ ftf_oversample,ANES 2012TimeSeries FTF Oversample Case,"0. No oversample
 ","-1. Inapplicable
 -1. Inapplicable
 "
-wave_completions,ANES 2012TimeSeries number of wavescompleted,"1. Yes(pre-election and post-election interviews
+wave_completions,ANES 2012TimeSeries number of wavescompleted,,"1. Yes(pre-election and post-election interviews
 2. No, unit nonresponse (no post-electioninterview)
 3. No, post survey data deleteddue to partial
 1. Yes(pre-election and
 2. No, unitnonresponse (no
 3. No, post surveydata
 ",
-mode,ANES 2012TimeSeries interview mode,"1. FTF (face-to-face) mode
+mode,ANES 2012TimeSeries interview mode,,"1. FTF (face-to-face) mode
 2. Internet mode
 1. FTF(face-to-face) mode
 2. Internet mode
 ",
-gend_gendobs,PRE: FTFONLY:INTERVIEWER:IsR male or female (Observation),"1. Male
+gend_gendobs,PRE: FTFONLY:INTERVIEWER:IsR male or female (Observation),,"1. Male
 2. Female
 1. Male
 2. Female
 ","-1. Inapplicable
 -1. Inapplicable
 "
-gender_respondent_x,SUMMARY:Gender of Respondent for bothFTF and Webmodes,"1. Male
+gender_respondent_x,SUMMARY:Gender of Respondent for bothFTF and Webmodes,,"1. Male
 2. Female
 1. Male
 2. Female
 ",
-interest_attention,How oftendoes R pay attn to politicsand elections,"1. Always
+interest_attention,How oftendoes R pay attn to politicsand elections,"How often do you pay attention to what's going on in government and pol- itics? [ALWAYS, MOST OF THE TIME, ABOUT HALF THE TIME, SOME OF THE TIME, or NEVER / NEVER, SOME OF THE TIME, ABOUT HALF THE TIME,MOST OF THE TIME, or ALWAYS]?","1. Always
 2. Mostof the time
 3. Abouthalf the time
 4. Some ofthe time
@@ -58,7 +58,7 @@ interest_attention,How oftendoes R pay attn to politicsand elections,"1. Always
 -8. Don'tknow
 -9. Refused
 "
-interest_following,Interested infollowing campaigns standard,"1. Verymuch interested
+interest_following,Interested infollowing campaigns standard,"Some people don't pay much attention to political campaigns. How about you? Would you say that you have been [VERY MUCH interested, SOME- WHATinterestedorNOTMUCHinterested/NOTMUCHinterested,SOME- WHAT interested or VERY MUCH interested] in the political campaigns so far thisyear?","1. Verymuch interested
 2. Somewhat interested
 3. Notmuch interested
 1. Verymuch interested
@@ -69,7 +69,7 @@ interest_following,Interested infollowing campaigns standard,"1. Verymuch intere
 -8. Don't know
 -9. Refused
 "
-interest_wherevote,Does Rknow where to go to votein neighborhood,"1. Yes
+interest_wherevote,Does Rknow where to go to votein neighborhood,"Do you happen to know where people who live in your neighborhood go to vote? WebLogic: Online,do not display response option 3.","1. Yes
 2. No
 3. Voteby mail only(VOL)
 1. Yes
@@ -80,7 +80,7 @@ interest_wherevote,Does Rknow where to go to votein neighborhood,"1. Yes
 -8. Don't know
 -9. Refused
 "
-interest_voted2008,Did Rvote for President in 2008,"1. Yes,voted
+interest_voted2008,Did Rvote for President in 2008,In 2008 Barack Obama ran on the Democratic ticket against John McCain fortheRepublicans. Doyourememberforsurewhetherornotyouvotedin that election?,"1. Yes,voted
 2. No, didn't vote
 1. Yes,voted
 2. No, didn't vote
@@ -89,7 +89,7 @@ interest_voted2008,Did Rvote for President in 2008,"1. Yes,voted
 -8. Don't know
 -9. Refused
 "
-interest_whovote2008,Recall oflast (2008) Presidential vote choice,"1. Barack obama
+interest_whovote2008,Recall oflast (2008) Presidential vote choice,Which onedid you vote for?,"1. Barack obama
 2. Johnmccain
 5. Other (SPECIFY)
 1. Barack obama
@@ -102,10 +102,10 @@ interest_whovote2008,Recall oflast (2008) Presidential vote choice,"1. Barack ob
 -8. Don't know
 -9. Refused
 "
-interest_whovote2008_oth,PRE: OtherSpecify- Recall of last (2008) Presidentialvote choice,,"-2. Textresponses available in separatefile
+interest_whovote2008_oth,PRE: OtherSpecify- Recall of last (2008) Presidentialvote choice,,,"-2. Textresponses available in separatefile
 -2. Textresponses available in separatefile
 "
-prmedia_useinet,HH Internetuse,"1. Yes
+prmedia_useinet,HH Internetuse,Do youor anyone in this household usethe Internet at any location?,"1. Yes
 2. No
 1. Yes
 2. No
@@ -114,7 +114,7 @@ prmedia_useinet,HH Internetuse,"1. Yes
 -1. Inapplicable
 -8. Don't know
 "
-prmedia_wkinews,Days intypical week review news on internet,"0. None
+prmedia_wkinews,Days intypical week review news on internet,"Duringatypicalweek,howmanydaysdoyouwatch,read,orlistentonews on theInternet, not including sports?","0. None
 1. One day
 2. Twodays
 3. Three days
@@ -127,8 +127,8 @@ prmedia_wkinews,Days intypical week review news on internet,"0. None
 -8. Don'tknow
 -9. Refused
 "
-Percentages,,,
-prmedia_atinews,Attention tointernet news,"1. Agreat deal
+Percentages,,,,
+prmedia_atinews,Attention tointernet news,"How much attention do you pay to news about national politics on the In- ternet? [A GREAT DEAL, A LOT, A MODERATE AMOUNT, A LITTLE, or NONEATALL/NONEATALL,ALITTLE,AMODERATEAMOUNT,ALOT, or AGREATDEAL]?","1. Agreat deal
 2. A lot
 3. A moderate amount
 4. Alittle
@@ -141,7 +141,7 @@ prmedia_atinews,Attention tointernet news,"1. Agreat deal
 ","-1. Inapplicable
 -1. Inapplicable
 "
-prmedia_wktvnws,Days intypical week watch news on TV,"0. None
+prmedia_wktvnws,Days intypical week watch news on TV,"During a typical week, how many days do you watch national news on TV, not includingsports?","0. None
 1. One day
 2. Twodays
 3. Three days
