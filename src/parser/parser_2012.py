@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import os
 
-os.chdir("/Users/yipho/anes/cumulative_anes/test")
+os.chdir("/Users/yipho/anes/cumulative_anes/data/raw/txt")
 page_pattern = re.compile(r"^ANES.*?-?\s*page\s*\d+")
 val_pattern = re.compile(r"^(\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
 missing_pattern = re.compile(r"(\-\d+)\.\s*([A-Za-z].*?)(?=\s+\d|\s*$)")
@@ -70,7 +70,7 @@ def parse_12(lines, start_idx, rows_dict):
 
 rows_dict = {}
 
-with open("2012small.txt", "r", encoding="utf-8") as f:
+with open("2012_codebook.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 i = 0
 while i < len(lines):
