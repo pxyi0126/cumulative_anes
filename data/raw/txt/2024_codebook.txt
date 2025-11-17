@@ -8170,13 +8170,10 @@ CANCEL/POSTPONE MAJOR PURCHASE
 Question In the past year, have you done any of the following? Mark all that
 apply.
 Value Labels
--9. Refused
--5. Break oﬀ, suﬃcient partial
--1. Inapplicable
 0. Not mentioned
 1. Mentioned
 Survey Question(s)FINANCE_INFLBEHAV
-V241568dPRE: HAS R DONE ANY OF THE FOLLOWING -
+V241568d PRE: HAS R DONE ANY OF THE FOLLOWING -
 DIPPED INTO SAVINGS
 Question In the past year, have you done any of the following? Mark all that
 apply.
