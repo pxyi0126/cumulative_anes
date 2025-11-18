@@ -244,7 +244,7 @@ for index, row in df_cum.iterrows():
                 Missing2 += str(row08['missing_labels'].iloc[0]) + '\n'
             else:
                 Missing2 += '\n'
-            Sources += f"2008: {var_2008}\n"
+        Sources += f"2008: {var_2008}\n"
     if pd.notna(var_1992):
         Sources += f"1992: {var_1992}\n"
     if pd.notna(var_1984):

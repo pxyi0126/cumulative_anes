@@ -1185,7 +1185,7 @@ How strongly do you feel this way? [Very strongly, moderately strongly, or sligh
 -8. Don’t know
 -1. Inapplicable","-9. Refused
 -8. Don’t know","-8. Don’t know (FTF only)
--9. Refused",,"2024: V241336
+-9. Refused",,"2024: V241336;V241337
 2020: V201379
 2016: V161171"
 VCF9324,POST: CSES6-Q03: AGREE/DISAGREE: R UNDERSTANDS MOST IMPORTANT POLITICAL ISSUES,POST: CSES5-Q03: AGREE/DISAGREE: R UNDERSTANDS MOST IMPORTANT POLITICAL ISSUES,POST: R understands most important political issues,,CSES: How much does R agree or disagree that R feel that R understand the most important political issues in of this country.,"Please tell me whether you [strongly agree, somewhat agree, neither agree nor disagree, somewhat disagree, or strongly disagree strongly / strongly disagree, somewhat disagree, neither agree nor disagree, somewhat agree, or strongly agree] with each of the following statements: You feel you understand the most important political issues of this country. (Do you [strongly agree, somewhat agree, neither agree nor disagree, somewhat disagree, or strongly disagree strongly / strongly disagree, somewhat disagree, neither agree nor disagree, somewhat agree, or strongly agree]?)","Please tell me whether you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with each of the following statements: You feel you understand the most important political issues of this country. Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly? POST-ELECTION SURVEY VARIABLES 545","T urning again to page [PRELOAD: page] of the booklet. Please tell me whether you [agree strongly , agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly / disagree strongly , disagree some- what, neither agree nor disagree, agree somewhat, or agree strongly] with each of the following statements: Y ou feel you understand the most impor- tant political issues of this country . DO NOT PROBE DON’T KNOW F or W eb administration, reference to the respondent booklet was omitted. F orward/reverse response option order",,"1. Strongly agree
@@ -1256,7 +1256,7 @@ VCF9326,PRE: IS IT JUSTIFIED FOR PEOPLE TO USE VIOLENCE TO PURSUE POLITICAL GOAL
 -9. Refused",,"2024: V241579
 2020: V201602
 2016: V161344"
-VCF9327,PRE: BEST WAY TO DEAL WITH URBAN UNREST,PRE: BEST WAY TO DEAL WITH URBAN UNREST ,Q. 66E.  RESPONDENT - R'S RATING OF HIMSELF ON URBAN UNREST SCALE      ,,What is the best way to deal with urban unrest and rioting?,"What is the best way to deal with the problem of urban unrest and rioting? Some say it is more important to use all available force to maintain law and order, no matter what results. Others say it is more important to correct the problems of racism and police violence that give rise to the disturbances. And, of course, other people have opinions in between. On this scale from 1 to 7, where 1 means solve problems of racism and police violence, and 7 means use all available force to maintain law and order, where would you place yourself on this scale, or haven’t you thought much about this?","What is the best way to deal with the problem of urban unrest and rioting? Some say it is more important to use all available force to maintain law and order, no matter what results. Others say it is more important to correct the problems of racism and police violence that give rise to the disturbances. And, of course, other people have opinions in between. On this scale from 1 to 7, where 1 means solve problems of racism and police violence, and 7 means use all available force to maintain law and order, where would you place yourself on this scale, or haven’t you thought much about this?","THERE IS MUCH DISCUSSION ABOUT THE BEST WAY TO DEAL  WITH THE PROBLEM OF URBAN UNREST AND RIOTING.  SOME SAY IT IS MORE IMPORTANT TO USE ALL AVAILABLE FORCE TO MAINTAIN LAW  AND ORDER -- NO MATTER WHAT RESULTS.  OTHERS SAY IT IS MORE  IMPORTANT TO CORRECT THE PROBLEMS OF POVERTY AND UNEMPLOYMENT THAT GIVE RISE TO THE DISTURBANCES.  AND, OF COURSE, OTHER PEOPLE HAVE OPINIONS IN BETWEEN.  SUPPOSE THE PEOPLE WHO STRESS THE USE OF FORCE ARE AT ONE END OF THIS SCALE -- AT POINT NUMBER 7 (SHOW CARD #3 TO R).  AND SUPPOSE THE PEOPLE WHO STRESS DOING MORE ABOUT THE PROBLEMS OF POVERTY AND UNEMPLOYMENT ARE AT THE OTHER END -- AT POINT NUMBER 1.  WHERE  WOULD YOU PLACE -------- ON THIS SCALE?  WHICH DOES HE STRESS MORE?       ",,"1. Solve problems of racism and police violence
+VCF9327,PRE: BEST WAY TO DEAL WITH URBAN UNREST,PRE: BEST WAY TO DEAL WITH URBAN UNREST PRE- ELECTION SURVEY VARIABLES 183,,,What is the best way to deal with urban unrest and rioting?,"What is the best way to deal with the problem of urban unrest and rioting? Some say it is more important to use all available force to maintain law and order, no matter what results. Others say it is more important to correct the problems of racism and police violence that give rise to the disturbances. And, of course, other people have opinions in between. On this scale from 1 to 7, where 1 means solve problems of racism and police violence, and 7 means use all available force to maintain law and order, where would you place yourself on this scale, or haven’t you thought much about this?","What is the best way to deal with the problem of urban unrest and rioting? Some say it is more important to use all available force to maintain law and order, no matter what results. Others say it is more important to correct the problems of racism and police violence that give rise to the disturbances. And, of course, other people have opinions in between. On this scale from 1 to 7, where 1 means solve problems of racism and police violence, and 7 means use all available force to maintain law and order, where would you place yourself on this scale, or haven’t you thought much about this?",,,"1. Solve problems of racism and police violence
 7. Use all available force to maintain law and order
 99. Haven’t thought much about this","1. Solve problems of racism and police violence
 2.
@@ -1265,17 +1265,10 @@ VCF9327,PRE: BEST WAY TO DEAL WITH URBAN UNREST,PRE: BEST WAY TO DEAL WITH URBAN
 5.
 6.
 7. Use all available force to maintain law and order
-99. Haven’t thought much about this","1. SOLVE PROBLEMS OF POVERTY AND UNEMPLOYMENT
-2.
-3.
-4.
-5.
-6.
-7. USE ALL AVAILABLE FORCE",,"-9. Refused
+99. Haven’t thought much about this",,,"-9. Refused
 -8. Don’t know
 -1. Inapplicable","-9. Refused
--8. Don’t know","8.  DK                                                   
-9.  NA; NO POST-ELECTION INTERVIEW ",,"2024: V241397
+-8. Don’t know",,,"2024: V241397
 2020: V201429
 1968: V680464"
 VCF9328,PRE: HOW MUCH R CARES WHO WINS PRESIDENTIAL ELECTION [REVISED],PRE: HOW MUCH R CARES WHO WINS PRESIDENTIAL ELECTION [REVISED],PRE: Care who wins Presidential Election revised version,,Does R personally care a good deal or not care very much who wins the Presidential election this fall [5 pt scale],"How much do you care who wins the presidential election this fall? [A great deal, a lot, a moderate amount, a little, or not at all / Not at all, a little, a moderate amount, a lot, or a great deal]?",How much do you care who wins the presidential election this fall? 108 CODEBOOK: VARIABLES,"How much do you care who wins the presidential election this fall? [A great deal, a lot, a moderate amount, a little, or not at all / Not at all, a little, a moderate amount, a lot, or a great deal]? F orward/reverse response option order",,"1. A great deal
