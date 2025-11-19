@@ -1,0 +1,146 @@
+010. Protestant, NFS, other, unknown, inter-, or non-denominational
+099. Christian, NFS, unknown, inter-, or non-denominational
+100. 7th Day Adventist
+101. Sabbatarian
+109. Adventist (NFS)
+110. Episcopalian; Anglican
+120. American Baptist Association
+121. American Baptist Churches USA (wrongly aka 'Northern Baptist')
+122. Baptist Bible Fellowship
+123. Baptist General Conference
+124. Missionary Baptist; Baptist Missionary Association of America
+125. Conservative Baptist Association of America
+126. General Association of Regular Baptist Churches; GARB
+127. National Association of Free Will Baptists; United Free Will Baptist
+Church
+128. Primitive Baptist
+129. National Baptist Convention in the USA
+130. National Baptist Convention of America
+131. National Primitive Baptist Convention of the USA
+132. Progressive National Baptist Convention
+133. National Baptist Convention NFS
+134. Reformed Baptist (Calvinist)
+135. Southern Baptist Convention
+136. Full Gospel Baptist Church Fellowship
+149. Baptist (NFS or other Baptist group not in codes 120-135)
+150. United Church of Christ; UCC; Congregational; Congregationalist;
+Evangelical and Reformed Church
+155. Congregational Christian
+160. Church of the Brethren
+161. Brethren (NFS)
+162. Mennonite Church
+163. Moravian Church
+164. Old Order Amish
+165. Quakers; Friends
+166. Evangelical Covenant Church (not Anabaptist in tradition)
+167. Evangelical Free Church, EFC, or EFCA (not Anabaptist in tradition)
+168. Brethren in Christ
+169. Apostolic Christian Church of America
+170. Mennonite Brethren
+171. Apostolic Christian Church Nazarene
+180. Christian and Missionary Alliance; CMA; Alliance
+181. Church of God (Anderson, IN)
+182. Church of the Nazarene
+183. Free Methodist Church
+184. Salvation Army
+185. Wesleyan Church
+186. Church of God of Findlay, OH
+199. Pentecostal (NFS); Church of God (NFS); Holiness (NFS); not ascertained
+whether R Pentecostal or Charismatic (Holin
+200. Plymouth Brethren
+201. Independent Fundamental Churches of America; IFCA
+219. Independent-Fundamentalist (NFS)
+220. Evangelical Lutheran Church in America (formerly Lutheran Church in
+America and The American Lutheran Church); ELCA
+221. Lutheran Church, Missouri Synod; LC-MS
+222. Wisconsin Evangelical Lutheran Synod; WELS
+224. Lutheran Free Church, Association of Free Lutheran Churches, AFLC
+225. Church of the Lutheran Brethren
+229. Lutheran (other or NFS)
+230. United Methodist Church; Evangelical United Brethren
+231. African Methodist Episcopal Church; AME
+232. African Methodist Episcopal Zion Church
+233. Christian Methodist Episcopal Church
+234. Primitive Methodist
+235. Congregational Methodist (fundamentalist)
+240. Fire-Baptized Holiness
+242. Assemblies of the Lord Jesus Christ; AJLC
+243. Church of Our Lord Jesus Christ of the Apostolic Faith; COOLJC
+244. Church of the Lord Jesus Christ of the Apostolic Faith; CLJC
+245. Bible Way Church of Our Lord Jesus Christ
+246. International Bible Way Church of Our Lord Jesus Christ
+249. Methodist (other or NFS)
+250. Assemblies of God; Assembly of God
+251. Church of God (Cleveland, TN)
+252. Church of God (Huntsville, AL)
+253. International Church of the Four Square Gospel
+254. Pentecostal Church of God
+255. Pentecostal Holiness Church
+256. United Pentecostal Church International
+257. Church of God in Christ (incl. not ascertained whether 258)
+258. Church of God in Christ International
+260. Church of God of the Apostolic Faith
+261. Church of God of Prophecy
+262. Vineyard Fellowship
+263. Open Bible Standard Churches
+264. Full Gospel
+267. Apostolic Pentecostal
+270. Presbyterian Church in the U.S.A.
+271. Cumberland Presbyterian Church
+272. Presbyterian Church in America; PCA
+275. Evangelical Presbyterian
+276. Reformed Presbyterian
+279. Presbyterian (other or NFS)
+280. Christian Reformed Church (inaccurately known as 'Dutch Reformed')
+281. Reformed Church in America
+289. Reformed (other or NFS)
+290. Christian Church; Disciples of Christ
+291. Christian Churches and Churches of Christ
+292. Churches of Christ; Church of Christ (NFS)
+293. Christian Congregation
+300. Christian Scientists
+301. Mormons; Latter Day Saints; Community of Christ
+303. Unitarian; Universalist
+304. Jehovah's Witnesses
+305. Unity; Unity Church; Christ Church Unity
+306. Fundamentalist Adventist; Worldwide Church of God; United Church of God
+400. Roman Catholic
+501. Orthodox
+502. Conservative
+503. Reform
+524. Jewish, other, no preference, or NFS
+600. Catholic and  Protestant
+650. Messianic Judaism; Jews for Jesus
+695. More than 1 major religion (e.g., Christian, Jewish, Muslim, etc.)
+700. Greek Rite Catholic
+701. Greek Orthodox
+702. Russian Orthodox
+703. Rumanian Orthodox
+704. Serbian Orthodox
+705. Syrian Orthodox
+706. Armenian Orthodox
+707. Georgian Orthodox
+708. Ukrainian Orthodox
+719. Eastern Orthodox (NFS or other specific Orthodox church)
+720. Muslim; Islam
+721. Buddhist
+722. Hindu
+723. Baha'i; Bahai
+724. American Indian religions; Native American religions
+725. New Age
+726. Wicca; Wiccan
+727. Pagan
+730. Sikh
+732. Konko Church
+735. Spiritualists (not 'spiritual; must refer specifically to
+'Spiritualism' or 'Spiritualists')
+736. Religious Science; Science of Mind (not Scientology; not Christian
+Scientists); Centers for Spiritual Living
+740. Other non-Christian /non-Jewish
+750. Scientology
+790. Religious /ethical cults
+870. Other tradition not codeable to 010-790
+879. R indicates having an affiliation but does not specify one
+880. None
+888. DK whether considers self as part of a particular religion
+889. RF to say if considers self as part of a particular religion
