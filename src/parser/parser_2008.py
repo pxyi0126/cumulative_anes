@@ -2,7 +2,7 @@
 import re
 import pandas as pd
 import os
-# import shutil
+import shutil
 os.chdir("/Users/yipho/anes/cumulative_anes/data/raw/txt")
 
 var_pattern = re.compile(r"(V\d+[a-z,_orig]*)(.*)$")
@@ -15,10 +15,10 @@ rows = []
 
 # No need to merge the files, everything is in the pre.txt file
 # perhaps for future reference:
-# with open('merged_08', 'wb'):
-#     for filename in ['2008_post.txt', '2008_pre.txt']:
-#         with open(filename, 'rb') as f:
-#             shutil.copyfileobj(f, 'merged_08')
+with open('merged_08', 'wb'):
+    for filename in ['2008_post.txt', '2008_pre.txt']:
+        with open(filename, 'rb') as f:
+            shutil.copyfileobj(f, 'merged_08')
 
 def parse_08(lines, start_idx):
     print(f"Parsing starting at line {start_idx}")
@@ -85,7 +85,7 @@ def parse_08(lines, start_idx):
     rows.append((varname, summary, question, valid_label.strip(), missing_label.strip()))
     return i, rows
 
-with open("2008_pre.txt", "r", errors='replace') as f:
+with open("merged_08.txt", "r", errors='replace') as f:
     lines = f.readlines()
 i = 0
 while i < len(lines):
