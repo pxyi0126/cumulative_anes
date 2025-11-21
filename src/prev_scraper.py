@@ -16,8 +16,11 @@ def scrape_year(url):
     soup2 = BeautifulSoup(html2, "html.parser")
     cb_link = soup2.find("h3", string=lambda s: s and "CODEBOOK" in s.upper())
     table = cb_link.find_next("table")
-    link = table.select("tr")[1].find_all("td")[1]
-    print(link)
+    checker = table.find("a", string=lambda s: s and "Variables" in s)
+    if checker is not None:
+        table = cb_link.find_next("table")
+        link = table.select("tr")[1].find_all("td")
+        print(link)
 
 
 
