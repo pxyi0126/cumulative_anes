@@ -19,8 +19,11 @@ def scrape_year(url):
     checker = table.find("a", string=lambda s: s and "Variables" in s)
     if checker is not None:
         table = cb_link.find_next("table")
-        link = table.select("tr")[1].find_all("td")
-        print(link)
+        txt = table.select("tr")[1].find_all("td")[2]
+        if txt.find("a") is not None:
+            link = txt.find("a")["href"]
+            full_txt_url = urljoin(BASE, link)
+            print(full_txt_url)
 
 
 
