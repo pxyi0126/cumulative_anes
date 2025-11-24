@@ -7,10 +7,10 @@ import cloudscraper
 from urllib.parse import urljoin
 import os
 
-OUT_DIR = "/Users/yipho/anes/cumulative_anes/data/raw/txt/prev_years/"
+OUT_DIR = "/Users/yipho/anes/cumulative_anes/data/raw/txt/"
 BASE = "https://electionstudies.org/"
 
-def scrape_year(url):
+def scrape_year(url, OUT_DIR=OUT_DIR):
     scraper2 = cloudscraper.create_scraper()
     html2 = scraper2.get(url).text
     soup2 = BeautifulSoup(html2, "html.parser")
@@ -22,9 +22,15 @@ def scrape_year(url):
         txt = table.select("tr")[1].find_all("td")[2]
         if txt.find("a") is not None:
             link = txt.find("a")["href"]
+            filename_split = link.split("/")[-1].split("_")[2:]
+            filename = filename_split[0] + "_" + filename_split[-1]
+            print(filename)
             full_txt_url = urljoin(BASE, link)
             print(full_txt_url)
-
+            # filename = link.split("/")[-1]
+            with open(os.path.join(OUT_DIR, filename), "wb") as f_out:
+                resp = scraper2.get(full_txt_url)
+                f_out.write(resp.content)
 
 
 scraper = cloudscraper.create_scraper()
