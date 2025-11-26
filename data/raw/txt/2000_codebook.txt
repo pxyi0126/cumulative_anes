@@ -1,9 +1,3 @@
-Version 2005-Oct-06 Codebook 
-----------------------------
-VARIABLE DESCRIPTION FILE
-2000 PRE-POST STUDY
-(2000.T)
-
 ==============================
 VERSION   Process.1. ANES VERSION NUMBER OF DATA
           Numeric
@@ -764,16 +758,16 @@ V000020    Pre.Admin.17. Verification
 
        Approximately 15 percent of interviews (completed or partially
        completed) were randomly selected and verified by field supervisors
-       for new interviewers, and 6 percent were randomly selected and verified 
+       for new interviewers, and 6 percent were randomly selected and verified
        for SRC-experienced interviewers.
 
-       Verification was attempted by phone (phone interviews) or by letter 
+       Verification was attempted by phone (phone interviews) or by letter
        (FTF interviews) within 3 days of interview date.  If no contact/
        response with the respondent was made after 3 attempts, a replacement
        line was selected.  The respondent was asked whether they were
        interviewed by the interviewer of record, the approximate length of the
-       interview and whether or not the interview was interesting; in 
-       addition , 3 questions were asked about content of the interview. 
+       interview and whether or not the interview was interesting; in
+       addition , 3 questions were asked about content of the interview.
        NOTE: for verification codes, a "don't remember" response is considered
        a non-match.
 
@@ -2541,7 +2535,7 @@ V000087a   Pre.Sample.9a. County (alpha)
        variable for face-to-face interviews meets normal standards for
        accuracy, the V000087a Post preload data for RDD cases were created by
        imputing area code, central office codes and similar listed numbers.
-       
+
 ==============================
 V000088    Pre.Sample.10. Primary area name
            Character
@@ -2653,7 +2647,7 @@ V000091    Pre.Sample.14. Number of HH units
 
        9. NA
        0. Phone IW
-       
+
                       0        1        2        3        5        9
                    -----    -----    -----    -----    -----    -----
           Count     801      983        2        3        1       17
@@ -2675,11 +2669,11 @@ V000092    Pre.Sample.15. Census region
           OK, SC, TN, TX, VA, WV)
        4. West (AK, AZ, CA, CO, HI, ID, MT, NM, NV, OR, UT, WA,
           WY)
-          
+
                       1        2        3        4
                    -----    -----    -----    -----
           Count     316      450      657      384
-          
+
 
 ==============================
 V000093    Pre.Sample.16. Belt code
@@ -2722,7 +2716,7 @@ V000093    Pre.Sample.16. Belt code
           central city
 
        0. Telephone sample (RDD)
-       
+
                       0        1        2        3
                    -----    -----    -----    -----
           Count     801       99      185      168
@@ -2730,7 +2724,7 @@ V000093    Pre.Sample.16. Belt code
                       4        5        6
                    -----    -----    -----
           Count     241      264       49
-       
+
 
 ==============================
 V000094    Pre.Sample.17. Population in 1000s
@@ -3031,7 +3025,7 @@ V000101    Pre.Sample.24. 2000 Census Tract 2
        ---------------------------------------------------------------------
 
        NOTE: No 2000 cases corresponded to more than one Census tract.
-       
+
 ==============================
 V000102    Pre.Sample.25. 2000 Block 1
            MD1: EQ 99,  MD2: GE 96
@@ -11929,9 +11923,9 @@ V000446    G6x1. Summary self plcmnt lib-con scale/brnch
 
        Note:  when using combined-mode summaries (combining face-to-
        face 7-point scales with telephone branching summaries), users
-       must be fully aware of the differences in the questions, 
-       administration, and summary construction by mode; it is up to 
-       the individual user to evaluate the importance of those 
+       must be fully aware of the differences in the questions,
+       administration, and summary construction by mode; it is up to
+       the individual user to evaluate the importance of those
        differences for his individual purposes.
 
        1. SCALE: 1 / BRANCHING: strong liberal
@@ -12388,11 +12382,11 @@ V000454    G7x2. Comb.7pt/br summ Clinton lib-con
 
        Built from G2x and G7x1.E
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -12811,11 +12805,11 @@ V000463    G8x2. Comb.7pt/br summ Gore lib-con
 
        Built from G3x and G8x1.E
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -13294,11 +13288,11 @@ V000473    G9x2. Comb.7pt/br summ Bush lib-con
 
        Built from G4x and G9x1.E
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -13775,11 +13769,11 @@ V000483    G10x2. Comb.7pt/br summ Buchan lib-con
 
        Built from G5x and G10x1.E
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -16331,11 +16325,11 @@ V000550    L1ax2. Comb.7pt/br summ of self on serv/spend
 
        Built from L1a and L1ax1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -16549,11 +16543,11 @@ V000556    L1bx2. Comb.7pt/br summ Clinton srv/spnd
 
        Built from L1b and L1bx1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -16781,11 +16775,11 @@ V000562    L1cx2. Comb.7pt/br summ Gore serv/spend
 
        Built from L1c and L1cx1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -17013,11 +17007,11 @@ V000568    L1dx2. Comb.7pt/br summ Bush serv/spend
 
        Built from L1d and L1dx1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -17247,11 +17241,11 @@ V000574    L1ex2. Comb.7pt/br summ Dem Party srv/sp
 
        Built from L1e and L1ex1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -17481,11 +17475,11 @@ V000580    L1fx2. Comb.7pt/br summ Rep Party srv/sp
 
        Built from L1f and L1fx1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -17739,11 +17733,11 @@ V000587    L2ax2. Comb.7pt/br summ defense spending
 
        Built from L2a and from L2a.T/L2a1.T/L2a1a.T/L2a1b.T.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -17939,11 +17933,11 @@ V000592    L2bx2. Comb.7pt/br summ Gore def spend
 
        Built from L2b and L2bx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -18141,11 +18135,11 @@ V000597    L2cx2. Comb.7pt/br summ Bush def spend
 
        Built from L2c and L2cx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -18345,11 +18339,11 @@ V000602    L2dx2. Comb.7pt/br summ Dem Party def sp
 
        Built from L2d and L2dx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -18549,11 +18543,11 @@ V000607    L2ex2. Comb.7pt/br summ Rep Party def sp
 
        Built from L2e and L2ex1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -18960,11 +18954,11 @@ V000614    L3x2. Comb.7pt/br summ of R on pri/govt insurance
 
        Built from L3ax and L3ax.T
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -19194,11 +19188,11 @@ V000620    L4x2. Comb.7pt/br summ guaranteed jobs
 
        Built from L4a and L4x1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -19413,11 +19407,11 @@ V000625    L4bx2. Comb.7pt/br summ Gore guar job
 
        Built from L4b and L4bx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -19628,11 +19622,11 @@ V000630    L4cx2. Comb.7pt/br summ Bush guar job
 
        Built from L4c and L4cx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -19848,11 +19842,11 @@ V000635    L4dx2. Comb.7pt/br summ Dem Party gua jb
 
        Built from L4d and L4dx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -20064,11 +20058,11 @@ V000640    L4ex2. Comb.7pt/br summ Rep Party guar job
 
        Built from L4e and L4ex1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -20270,11 +20264,11 @@ V000645    L5ax2. Comb.7pt/br summ R aid to blacks
 
        Built from L5a and L5ax1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -20471,11 +20465,11 @@ V000650    L5bx2. Comb.7pt/br summ Clinton aid to blacks
 
        Built from L5b and L5bx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -20686,11 +20680,11 @@ V000655    L5cx2. Comb.7pt/br summ Gore aid to blks
 
        Built from L5c and L5cx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -20904,11 +20898,11 @@ V000660    L5dx2. Comb.7pt/br summ Bush aid to blks
 
        Built from L5d and L5dx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -21122,11 +21116,11 @@ V000665    L5ex2. Comb.7pt/br summ Dem Party aid blks
 
        Built from L5e and L5ex1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -21339,11 +21333,11 @@ V000670    L5fx2. Comb.7pt/br summ Rep Party aid blks
 
        Built from L5f and L5fx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -21535,7 +21529,7 @@ V000674    L6x. Summary affirmative action
 
 
 ==============================
-V000674a   L6x1. Summary - Strength of feeling     
+V000674a   L6x1. Summary - Strength of feeling
            MD1:  EQ 0,  MD2:  GE 7
            Numeric
 
@@ -22641,8 +22635,8 @@ V000705    M3x. Summary partial-birth abortion ban
 
        FTF STANDARD AND EXPERIMENTAL VERSION:
        Please look at page 12 of the booklet
-       Some people think it is important to protect the environment 
-       even if it costs some jobs or otherwise reduces our standard 
+       Some people think it is important to protect the environment
+       even if it costs some jobs or otherwise reduces our standard
        of living.  (Suppose these people are at one end of the
        scale, at point number 1)  Other people  think that
        protecting the environment is not as important as
@@ -23019,11 +23013,11 @@ V000713    M4a1x2. Comb.7pt/br summ jobs/envir
 
        Built from M4a and M4a1x1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -23235,11 +23229,11 @@ V000718    M4bx2. Comb.7pt/br summ Gore jobs/envir
        SUMMARY: 5PT ENV/JOBS GORE PLACEMENT FROM 7PT SCALE/BRANCHING
        ---------------------------------------------------------------------
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -23453,11 +23447,11 @@ V000723    M4cx2. Comb.7pt/br summ Bush jobs/envir
 
        Built from M4c and M4cx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -24740,11 +24734,11 @@ V000760    P1a1x2. Comb.7pt/br summ R equal role
 
        Built from P1ax and P1a1x1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -24940,11 +24934,11 @@ V000765    P1bx2. Comb.7pt/br summ Gore equal role
 
        Built from P1b and P1bx1
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -25141,11 +25135,11 @@ V000770    P1cx2. Comb.7pt/br summ Bush equal role
 
        Built from P1c and P1cx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -25372,11 +25366,11 @@ V000776    P2ax2. Comb.7pt/br summ R envir regul
 
        Built from P2a and P2ax1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -25644,11 +25638,11 @@ V000783    P2bx2. Comb.7pt/br summ Gore envir regul
 
        Built from P2b and P2bx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -25910,11 +25904,11 @@ V000790    P2cx2. Comb.7pt/br summ Bush envir regul
 
        Built from P2c and P2cx1.
 
-       Note:  when using 5-point combined-mode summaries (combining 
+       Note:  when using 5-point combined-mode summaries (combining
        collapsed face-to-face 7-point scales with 5-point telephone
-       branching summaries), users must be fully aware of the 
+       branching summaries), users must be fully aware of the
        differences in the questions, administration, and summary
-       construction by mode; it is up to the individual user to 
+       construction by mode; it is up to the individual user to
        evaluate the importance of those differences for his individual
        purposes.
 
@@ -33427,7 +33421,7 @@ V001000    Y29b. If had to choose class
        7. OTHER (SPECIFY)      --> SKIP TO Y30
 
        8. DK                   --> SKIP TO Y30
-       9. RF 
+       9. RF
        0. NA; INAP, 0 in Y29; 1,5 or NA in Y29a
 
              0        1       3        5        6        7        8        9
@@ -44750,9 +44744,9 @@ V001390a   G11ax. Summary R serv/spend scale
 
        Note:  when using combined-mode summaries (combining face-to-
        face 7-point scales with telephone branching summaries), users
-       must be fully aware of the differences in the questions, 
-       administration, and summary construction by mode; it is up to 
-       the individual user to evaluate the importance of those 
+       must be fully aware of the differences in the questions,
+       administration, and summary construction by mode; it is up to
+       the individual user to evaluate the importance of those
        differences for his individual purposes.
 
        1. SCALE: 1/ BRANCHING: REDUCE A GREAT DEAL
@@ -45261,9 +45255,9 @@ V001396a   G11bx2. PH Dem cand serv/spend summary
 
        Note:  when using combined-mode summaries (combining face-to-
        face 7-point scales with telephone branching summaries), users
-       must be fully aware of the differences in the questions, 
-       administration, and summary construction by mode; it is up to 
-       the individual user to evaluate the importance of those 
+       must be fully aware of the differences in the questions,
+       administration, and summary construction by mode; it is up to
+       the individual user to evaluate the importance of those
        differences for his individual purposes.
 
        1. SCALE: 1/ BRANCHING: REDUCE A GREAT DEAL
@@ -45710,9 +45704,9 @@ V001402a   G11cx2. Summary Rep cand services/spending
 
        Note:  when using combined-mode summaries (combining face-to-
        face 7-point scales with telephone branching summaries), users
-       must be fully aware of the differences in the questions, 
-       administration, and summary construction by mode; it is up to 
-       the individual user to evaluate the importance of those 
+       must be fully aware of the differences in the questions,
+       administration, and summary construction by mode; it is up to
+       the individual user to evaluate the importance of those
        differences for his individual purposes.
 
        1. SCALE: 1/ BRANCHING: REDUCE A GREAT DEAL
@@ -49103,9 +49097,9 @@ V001486a   K12ax2. Summary- R placement on ways to reduce crime
 
        Note:  when using combined-mode summaries (combining face-to-
        face 7-point scales with telephone branching summaries), users
-       must be fully aware of the differences in the questions, 
-       administration, and summary construction by mode; it is up to 
-       the individual user to evaluate the importance of those 
+       must be fully aware of the differences in the questions,
+       administration, and summary construction by mode; it is up to
+       the individual user to evaluate the importance of those
        differences for his individual purposes.
 
        1. SCALE: 1/ BRANCHING: MUCH BETTER TO ADDRESS SOCIAL PROBLEMS
@@ -58570,7 +58564,7 @@ V001743b   ZZ1(2). Others present for interview
 
                       1        2        3        4        5        7        9
                    -----    -----    -----    -----    -----    -----    -----
-          Count       8       15       28       14       10      857      875 
+          Count       8       15       28       14       10      857      875
 
 
 ==============================
@@ -58596,7 +58590,7 @@ V001743c   ZZ1(3). Others present for interview
 
                       2        3        4        5        7        9
                    -----    -----    -----    -----    -----    -----
-          Count       3        6        3        6      857      932 
+          Count       3        6        3        6      857      932
 
 
 ==============================

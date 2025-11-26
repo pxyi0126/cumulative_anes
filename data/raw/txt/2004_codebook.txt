@@ -1,43 +1,3 @@
-FILE nes04var.txt
------------------
-2004 American National Election Study (2004.T)
-Codebook variable documentation file
-VERSION 20050816 (Aug 16, 2005)
-
-
-=============================================================================
-        DESCRIPTION OF CODEBOOK DOCUMENTATION
-=============================================================================
-
-Codebook variables are grouped as listed below
-(list includes beginning value of variable group
-numbering sequence).
-.........................................................
-
-STUDY DESCRIPTIVE
-  V040001  Study IDs
-  V040101  Study weights and sampling error code
-  V041001  Study-level descriptive
-  V041101  Household listing
-  V041201  Sampling/geocodes
-PRE-ELECTION ADMINISTRATIVE
-  V042001  Pre Field and Administration
-  V042101  Pre Interviewer Description
-  V042201  Pre Error flags
-  V042401  Pre Randomization
-PRE-ELECTION SURVEY
-  V043001  Pre Survey
-  V043401  Pre Survey Interviewer Observation
-POST-ELECTION ADMINISTRATIVE
-  V044001  Post Field and administration
-  V044101  Post Interviewer Description
-  V044201  Post Error flags
-  V044401  Post Randomization
-  V044501  Post Candidate
-POST-ELECTION SURVEY
-  V045001  Post Survey
-  V045300a Post Survey Interviewer Observation
-
 =============================================================================
 VERSION     Study.1. Dataset version
 =============================================================================
@@ -113,13 +73,13 @@ NOTES:
 ------
 This is a 6-digit variable with coded decimal point and
 4 actual decimal places.
-The 2004 NES weights are post-stratified to 2004 CPS March 
-Supplement proportions for six (6) ages by four (4) education 
+The 2004 NES weights are post-stratified to 2004 CPS March
+Supplement proportions for six (6) ages by four (4) education
 categories.  The post-stratification adjustment is computed by
 dividing the CPS weighted total by the 2004 NES total weighted
 by the nonresponse adjusted selection weight. .
-The final analysis weight is the product of the household 
-level non-response adjustment factor, the number of eligible 
+The final analysis weight is the product of the household
+level non-response adjustment factor, the number of eligible
 persons, and a person-level post-stratification factor.
 
 TYPE:
@@ -138,15 +98,15 @@ NOTES:
 ------
 This is a 6-digit variable with coded decimal point and
 4 actual decimal places.
-The 1,066 Post-Election cases were post-stratified to 2004 CPS 
-March Supplement proportions for six (6) ages by four (4) 
-education categories.  The post-stratification compensates for 
-differential non-response by age group and education level.  
-The panel attrition weight for the Post-Election Study is the 
+The 1,066 Post-Election cases were post-stratified to 2004 CPS
+March Supplement proportions for six (6) ages by four (4)
+education categories.  The post-stratification compensates for
+differential non-response by age group and education level.
+The panel attrition weight for the Post-Election Study is the
 product of the Pre-Election final weight and the post-
-stratification factor formed by dividing the CPS proportion by 
-the weighted NES proportion for each of the 24 age by 
-education cells.  The weight is scaled to sum to the number of 
+stratification factor formed by dividing the CPS proportion by
+the weighted NES proportion for each of the 24 age by
+education cells.  The weight is scaled to sum to the number of
 cases, 1066.
 
 TYPE:
@@ -5185,7 +5145,7 @@ MISSING CODES:
 NOTES:
 ------
 As a result of confidentiality review, the categories
-for this variable have been revised for 2004.  
+for this variable have been revised for 2004.
 
 TYPE:
 -----
@@ -5213,7 +5173,7 @@ MISSING CODES:
 NOTES:
 ------
 As a result of confidentiality review, the categories
-for this variable have been revised for 2004.  
+for this variable have been revised for 2004.
 
 TYPE:
 -----
@@ -5269,7 +5229,7 @@ MISSING CODES:
 NOTES:
 ------
 As a result of confidentiality review, the categories
-for this variable have been revised for 2004. 
+for this variable have been revised for 2004.
 
 TYPE:
 -----
@@ -5298,7 +5258,7 @@ MISSING CODES:
 NOTES:
 ------
 As a result of confidentiality review, the categories
-for this variable have been revised for 2004. 
+for this variable have been revised for 2004.
 
 TYPE:
 -----
@@ -5328,7 +5288,7 @@ MISSING CODES:
 NOTES:
 ------
 As a result of confidentiality review, the categories
-for this variable have been revised for 2004. 
+for this variable have been revised for 2004.
 
 TYPE:
 -----
@@ -6643,7 +6603,7 @@ VALID CODES:
 NOTES:
 ------
 The order of major party spending-services placements
-N1d-N1e was randomized after self-placement and 
+N1d-N1e was randomized after self-placement and
 placements of Presidential candidates (N1a-c).
 This variable identifies whether the spending-services
 placement for the Democratic party (N1d) or the Republican
@@ -7282,7 +7242,7 @@ VALID CODES:
 NOTES:
 ------
 The order of major party women's role placements
-P6d-P6e was randomized after self-placement and placements 
+P6d-P6e was randomized after self-placement and placements
 of Presidential candidates.
 This variable identifies whether the women's role
 placement for the Democratic party (P6d) or the
@@ -17501,7 +17461,7 @@ Numeric  Dec 0
 9           1
 
 =============================================================================
-            Q2a1. INTRO PATRIOTISM AGREE/DISAGREE SERIES  
+            Q2a1. INTRO PATRIOTISM AGREE/DISAGREE SERIES
 =============================================================================
 
 IF R IS SELECTED FOR PRE-ELECTION ADMINISTRATION OF PATRIOTISM ITEMS:
@@ -20209,8 +20169,8 @@ NOTES:
 ------
 Collapsed from Y6x4; coding approximates as closely as possible
 equal size groupings of respondents by ranked scores, i.e.,
-code 1 corresponds (approximately) to the bottom 16.67% of scored 
-cases and code 6 corresponds (approximately) to the top 16.67% 
+code 1 corresponds (approximately) to the bottom 16.67% of scored
+cases and code 6 corresponds (approximately) to the top 16.67%
 of scored cases.
 
 TYPE:
@@ -20527,7 +20487,7 @@ VALID CODES:
 MISSING CODES:
 --------------
 999. DK; NA; Don't know; Not ascertained
-INAP. 9 in Y6c; 4 or 6 in Y6c and 5,8,9 in Y9; 7,8 in 
+INAP. 9 in Y6c; 4 or 6 in Y6c and 5,8,9 in Y9; 7,8 in
 Y6c and 5,8,9 in Y7a
 
 NOTES:
@@ -20569,14 +20529,14 @@ VALID CODES:
 MISSING CODES:
 --------------
 99. DK; NA; Don't know; Not ascertained
-INAP. 9 in Y6c; 4 or 6 in Y6c and 5,8,9 in Y9; 7,8 in 
+INAP. 9 in Y6c; 4 or 6 in Y6c and 5,8,9 in Y9; 7,8 in
 Y6c and 5,8,9 in Y7a
 
 NOTES:
 ------
 Collapsed from Y6x11.
 This collapses the 1990 Census occupation categories in
-Y6x11 to the 71-category collapsed version of 1990 Census 
+Y6x11 to the 71-category collapsed version of 1990 Census
 occupation codes which has been available in previous studies.
 
 TYPE:
@@ -20619,14 +20579,14 @@ VALID CODES:
 MISSING CODES:
 --------------
 99. DK; NA; Don't know; Not ascertained
-INAP. 9 in Y6c; 4 or 6 in Y6c and 5,8,9 in Y9; 7,8 in 
+INAP. 9 in Y6c; 4 or 6 in Y6c and 5,8,9 in Y9; 7,8 in
 Y6c and 5,8,9 in Y7a
 
 NOTES:
 ------
 Collapsed from Y6x11.
 This collapses the 1990 Census occupation categories in
-Y6x11 to the 14-category collapsed version of 1990 Census 
+Y6x11 to the 14-category collapsed version of 1990 Census
 occupation codes which has been available in previous studies.
 
 TYPE:
@@ -20950,7 +20910,7 @@ QUESTION:
 What kind of work did you do on your last regular job? (What
 was your occupation)? What were your most important activities
 or duties?)
-          
+
 VALID CODES:
 ------------
 1. Lowest prestige
@@ -20968,8 +20928,8 @@ NOTES:
 ------
 Collapsed from Y10b3; coding approximates as closely as possible
 equal size groupings of respondents by ranked scores, i.e.,
-code 1 corresponds (approximately) to the bottom 16.67% of scored 
-cases and code 6 corresponds (approximately) to the top 16.67% 
+code 1 corresponds (approximately) to the bottom 16.67% of scored
+cases and code 6 corresponds (approximately) to the top 16.67%
 of scored cases.
 
 TYPE:
@@ -21068,7 +21028,7 @@ QUESTION:
 ---------
 What kind of work did you do on your last regular job? (What
 was your occupation)? What were your most important activities
-or duties?) 
+or duties?)
 
 VALID CODES:
 ------------
@@ -21083,7 +21043,7 @@ NOTES:
 ------
 Collapsed from Y10b4.
 This collapses the 1990 Census occupation categories in
-Y10b4 to the 71-category collapsed version of 1990 Census 
+Y10b4 to the 71-category collapsed version of 1990 Census
 occupation codes which has been available in previous studies.
 
 TYPE:
@@ -21132,7 +21092,7 @@ NOTES:
 ------
 Collapsed from Y10b4.
 This collapses the 1990 Census occupation categories in
-Y10b4 to the 14-category collapsed version of 1990 Census 
+Y10b4 to the 14-category collapsed version of 1990 Census
 occupation codes which has been available in previous studies.
 
 TYPE:
@@ -21593,7 +21553,7 @@ QUESTION:
 ---------
 What is your main occupation? What kind of work do you do?
 (What are your most important activities or duties?)
-          
+
 VALID CODES:
 ------------
 1. Lowest prestige
@@ -21613,8 +21573,8 @@ NOTES:
 ------
 Collapsed from Y16b3; coding approximates as closely as possible
 equal size groupings of respondents by ranked scores, i.e.,
-code 1 corresponds (approximately) to the bottom 16.67% of scored 
-cases and code 6 corresponds (approximately) to the top 16.67% 
+code 1 corresponds (approximately) to the bottom 16.67% of scored
+cases and code 6 corresponds (approximately) to the top 16.67%
 of scored cases.
 
 TYPE:
@@ -21675,7 +21635,7 @@ What is your main occupation? What kind of work do you do?
 
 VALID CODES:
 ------------
-001-905 
+001-905
 
 MISSING CODES:
 --------------
@@ -21725,7 +21685,7 @@ NOTES:
 ------
 Collapsed from Y16b4.
 This collapses the 1990 Census occupation categories in
-Y16b4 to the 71-category collapsed version of 1990 Census 
+Y16b4 to the 71-category collapsed version of 1990 Census
 occupation codes which has been available in previous studies.
 
 TYPE:
@@ -21772,7 +21732,7 @@ NOTES:
 ------
 Collapsed from Y16b4.
 This collapses the 1990 Census occupation categories in
-Y16b4 to the 14-category collapsed version of 1990 Census 
+Y16b4 to the 14-category collapsed version of 1990 Census
 occupation codes which has been available in previous studies.
 
 TYPE:
@@ -22912,7 +22872,7 @@ Numeric  Dec 0
 89           4
 
 =============================================================================
-V043299a     Y24a. SUMMARY: Mention 1 Race of Respondent 
+V043299a     Y24a. SUMMARY: Mention 1 Race of Respondent
 =============================================================================
 
 PRE-ELECTION SURVEY:
@@ -37984,7 +37944,7 @@ QUESTION:
 ---------
 Please tell me whether you agree or disagree with this
 statement:
-'There are some things about America today that make me feel ashamed 
+'There are some things about America today that make me feel ashamed
 of America'
 (Do you AGREE, NEITHER AGREE NOR DISAGREE, or DISAGREE?)
 
@@ -38027,7 +37987,7 @@ QUESTION:
 ---------
 Please tell me whether you agree or disagree with this
 statement:
-'There are some things about America today that make me feel ashamed 
+'There are some things about America today that make me feel ashamed
  of America'
 (Do you AGREE, NEITHER AGREE NOR DISAGREE, or DISAGREE?)
 
@@ -39996,7 +39956,7 @@ Please turn to page 10 of the booklet.
 I'm going to read several statements. After each one, I would
 like you to tell me how strongly you agree or disagree.  The
 first statement is:
-'When women demand equality these days, they are actually seeking 
+'When women demand equality these days, they are actually seeking
 special favors'.
 (Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR
 DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with
@@ -40229,7 +40189,7 @@ POST-ELECTION SURVEY:
 QUESTION:
 ---------
 (Looking at page 10 in the booklet)
-'The world is always changing and we should adjust our view of moral 
+'The world is always changing and we should adjust our view of moral
 behavior to those changes.'
 (Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR
 DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with
@@ -40352,7 +40312,7 @@ POST-ELECTION SURVEY:
 QUESTION:
 ---------
 (Still looking at page 10 in the booklet)
-'This country would have many fewer problems if there were more emphasis on 
+'This country would have many fewer problems if there were more emphasis on
 traditional family ties.'
 (Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR
 DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with
@@ -41212,7 +41172,7 @@ POST-ELECTION SURVEY:
 QUESTION:
 ---------
 (Looking at page 10 in the booklet)
-'Our society should do whatever is necessary to make sure that everyone has 
+'Our society should do whatever is necessary to make sure that everyone has
 an equal opportunity to succeed.'
 (Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR
 DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with
@@ -41335,7 +41295,7 @@ POST-ELECTION SURVEY:
 QUESTION:
 ---------
 (Still looking at page 10 in the booklet)
-'This country would be better off if we worried less about how equal 
+'This country would be better off if we worried less about how equal
 people are.'
 (Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR
 DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with
@@ -41376,7 +41336,7 @@ POST-ELECTION SURVEY:
 QUESTION:
 ---------
 (Still looking at page 10 in the booklet)
-'It is not really that big a problem if some people have more of a chance 
+'It is not really that big a problem if some people have more of a chance
 in life than others.'
 (Do you AGREE STRONGLY, AGREE SOMEWHAT, NEITHER AGREE NOR
 DISAGREE, DISAGREE SOMEWHAT, or DISAGREE STRONGLY with
@@ -44205,14 +44165,14 @@ Numeric  Dec 0
 89          8
 
 =============================================================================
-V045300a    Z1a. Flag Terminology Left-Right 
+V045300a    Z1a. Flag Terminology Left-Right
 =============================================================================
 
 POST-ELECTION SURVEY:
 
 QUESTION:
 ---------
-Respondent indicated that he/she did not know the meaning of, 
+Respondent indicated that he/she did not know the meaning of,
 or confused the terms, "left" and "right"
 
 VALID CODES:
@@ -44228,8 +44188,8 @@ NOTES:
 ------
 Coded after interview completion.
 This flag is coded 1 if the interviewer indicated in
-the 'problem' thumbnail that the respondent said or 
-clearly indicated unfamiliarity with, or essential 
+the 'problem' thumbnail that the respondent said or
+clearly indicated unfamiliarity with, or essential
 confusion about, the political  terms "left" and "right".
 
 TYPE:
@@ -44237,14 +44197,14 @@ TYPE:
 Numeric  Dec 0
 
 =============================================================================
-V045300b    Z1b. Flag Terminology Liberal-Conservative 
+V045300b    Z1b. Flag Terminology Liberal-Conservative
 =============================================================================
 
 POST-ELECTION SURVEY:
 
 QUESTION:
 ---------
-Respondent indicated that he/she did not know the meaning of, 
+Respondent indicated that he/she did not know the meaning of,
 or confused the terms, "liberal" and "conservative"
 
 VALID CODES:
@@ -44260,9 +44220,9 @@ NOTES:
 ------
 Coded after interview completion.
 This flag is coded 1 if the interviewer indicated in
-the 'problem' thumbnail that the respondent said or 
-clearly indicated unfamiliarity with, or essential 
-confusion about, the political  terms "liberal" and 
+the 'problem' thumbnail that the respondent said or
+clearly indicated unfamiliarity with, or essential
+confusion about, the political  terms "liberal" and
 "conservative".
 
 TYPE:
