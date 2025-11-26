@@ -283,4 +283,3 @@ df_cdf = pd.DataFrame(rows)
 
 df_cdf.to_csv("/Users/yipho/anes/cumulative_anes/data/processed/cdf.csv", index=False, encoding = "utf-8-sig")
 
-# %%

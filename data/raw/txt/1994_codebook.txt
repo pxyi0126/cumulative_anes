@@ -2,8 +2,6 @@
 VAR VERSION   NAME-NES VERSION NUMBER
               COLUMNS 1    - 2
               NUMERIC
-Page 1 of 881
-10/22/2009http://www.electionstudies.org/studypages/1994post/nes1994.txt
               NO MISSING DATA CODES
 
                  NES VERSION NUMBER
@@ -64,8 +62,6 @@ VAR 940002    94PO: 94PANEL/CROSS INDICATOR
               -----------------------------------
 
             759   1.  PANEL IN 1994 (Tan Coversheet)
-Page 2 of 881
-10/22/2009http://www.electionstudies.org/studypages/1994post/nes1994.txt
            1036   2.  CROSS-SECTION IN 1994 (Lilac Coversheet)
 
 ==============================

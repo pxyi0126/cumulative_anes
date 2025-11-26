@@ -1,8 +1,6 @@
 ==============================
 VAR VERSION   NAME-NES VERSION NUMBER
               COLUMNS 1    - 2
-Page 1
-nes1952.txt
               NUMERIC
               NO MISSING DATA CODES
 
